@@ -1,4 +1,0 @@
-Warning: Unicode equivalent not found, font OAMathSymbols10, glyph shortleftarrow
-Warning: Unicode equivalent not found, font OAMathSymbols10, glyph shortrightarrow
-Warning: Unicode equivalent not found, font OAMathSymbols10, glyph shortuparrow
-Warning: Unicode equivalent not found, font OAMathSymbols10, glyph shortdownarrow

@@ -6,6 +6,7 @@ PYTHON = python3 $(script_dir)#
 # The project root: the directory holding this Makefile.  Derived, so the
 # project works wherever it is checked out.
 export project_dir := $(patsubst %/,%,$(dir $(abspath $(lastword $(MAKEFILE_LIST)))))
+export UNICODE_DIR := $(project_dir)
 
 # The TeX Live tree is located through kpathsea, i.e. whichever TeX Live the
 # `kpsewhich' on your PATH belongs to.  Override on the command line to work
@@ -41,7 +42,7 @@ UnicodeData.pkl: unicode-data/UnicodeData.txt
 
 # Present unicode data dictionary in readable/editable json format.
 UnicodeData.json: UnicodeData.pkl
-	$(PYTHON)/dict-to-json.py
+	$(PYTHON)/unicode-dict-to-json.py
 
 # Renew the psfonts.map data dictionary in case the file is chnaged
 psfonts-map.pkl: $(psfonts_map)
@@ -72,6 +73,14 @@ builtin-roots.json: builtin-glyph-map.json $(script_dir)/build-roots.py
 # Save lua table to dictionary for checking
 %-lua.json: %.lua
 	$(PYTHON)/lua-table-to-dict.py $< $@
+
+# The readable rendering of the Private Use Area replacement map.  The JSON
+# is what the scripts read; this Lua table is the same data with the Unicode
+# names spelled out, so a change to the JSON can be reviewed in terms of the
+# characters it affects.  The dependency keeps the two from drifting apart.
+adobe-private/adobe-private.lua: adobe-private-lua.json \
+ $(script_dir)/dict-to-lua-table.py UnicodeData.pkl
+	$(PYTHON)/dict-to-lua-table.py $< $@
 
 # Scanning the production files for information about used tfm files.
 # At first, find list of .fls files
@@ -212,63 +221,7 @@ dataset-math-otf:
 	    fi; \
 	done
 
-## tex4ht: extract Unicode maps from tex4ht .htf files into tex4ht-data/.
-## The extractor scans, in priority order (last wins):
-##   $(TEXMFDIST)/tex4ht/ht-fonts/alias, then
-##   $(TEXMFDIST)/tex4ht/ht-fonts/unicode.
-## The tree is resolved through kpathsea by the script itself.  Add further
-## roots (a local or personal texmf tree, say) with one or more --root flags
-## to the script directly; later roots override earlier ones.
-
-# Real-file driver: the extractor's index.  The other rules depend on this
-# (not on the phony `tex4ht-extract` alias), so downstream targets only
-# rebuild when the extractor script or its output actually changes.
-tex4ht-data/index.json: $(script_dir)/tex4ht-extract.py
-	$(PYTHON)/tex4ht-extract.py
-
-# Phony convenience alias to force an extractor re-run (use when source
-# .htf files changed underneath us — TL release bump, etc.).
-tex4ht-extract: $(script_dir)/tex4ht-extract.py .FORCE
-	$(PYTHON)/tex4ht-extract.py
-
-# TFM -> HTF resolution map (faithful tex4ht-style lookup) plus inverse htf-enc map.
-# Caches parsed .enc files in tex4ht-data/enc-cache/ as a side effect.
-tex4ht-data/tfm-htf-map.json: $(script_dir)/tex4ht-tfm-map.py \
- tex4ht-data/index.json pfb-tfm-map.json
-	$(PYTHON)/tex4ht-tfm-map.py
-
-tex4ht-data/htf-enc-map.json: tex4ht-data/tfm-htf-map.json
-
-# Per-PFB glyph->codepoint maps (the deliverable).  Real-file stamp drives the
-# chain — `tex4ht-pfb-maps` (phony, below) is just a human-facing alias.
-# The orchestrator writes/refreshes pfb-maps/<pfb>.json files; touching the
-# stamp at the end lets downstream targets compare mtimes deterministically.
-tex4ht-data/pfb-maps/.stamp: $(script_dir)/tex4ht-pfb-maps.py \
- $(script_dir)/pfb-info-batch.py \
- tex4ht-data/tfm-htf-map.json
-	$(PYTHON)/tex4ht-pfb-maps.py
-	@mkdir -p $(dir $@) && touch $@
-
-tex4ht-pfb-maps: tex4ht-data/pfb-maps/.stamp
-
-# Roll-up target: rebuild every tex4ht-data artifact in dependency order.
-# Phony but with real-file prereqs, so it does no work when everything is fresh.
-tex4ht-data: tex4ht-data/index.json tex4ht-data/tfm-htf-map.json \
- tex4ht-data/pfb-maps/.stamp
-
-# Coverage inventory: project fonts vs tex4ht pfb-maps.
-tex4ht-inventory.json: $(script_dir)/tex4ht-inventory.py config-list.json \
- tex4ht-data/pfb-maps/.stamp
-	$(PYTHON)/tex4ht-inventory.py
-
-# Group tex4ht-covered PFBs by font-dir, excluding project-covered dirs.
-# Lists candidate dirs to consider for new working dirs.
-tex4ht-theirs-only-dirs.json: $(script_dir)/tex4ht-theirs-only-dirs.py \
- tex4ht-inventory.json
-	$(PYTHON)/tex4ht-theirs-only-dirs.py
-
 .PHONY: print-%-dir dataset dataset-all dataset-otf dataset-math-otf \
-        inspect-math-otf index list-fonts clean-pua \
-        tex4ht-extract tex4ht-pfb-maps tex4ht-data
+        inspect-math-otf index list-fonts clean-pua
 
 .FORCE:

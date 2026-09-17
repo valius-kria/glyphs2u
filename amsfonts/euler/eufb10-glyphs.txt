@@ -1,9 +1,0 @@
-Warning: Unicode equivalent not found, font EUFB10, glyph dalt
-Warning: Unicode equivalent not found, font EUFB10, glyph fnos
-Warning: Unicode equivalent not found, font EUFB10, glyph falt
-Warning: Unicode equivalent not found, font EUFB10, glyph galt
-Warning: Unicode equivalent not found, font EUFB10, glyph kalt
-Warning: Unicode equivalent not found, font EUFB10, glyph talt
-Warning: Unicode equivalent not found, font EUFB10, glyph Yalt
-Warning: Unicode equivalent not found, font EUFB10, glyph Zalt
-Warning: Unicode equivalent not found, font EUFB10, glyph onealt

@@ -20,14 +20,6 @@ PYTHON = python3 $(script_dir)# Or just python, or /usr/bin/python3, etc.
 fonttable_dir := $(project_dir)/fonttable
 export UNICODE_DIR := $(project_dir)
 
-# Generate lua table from the missing glyphs list, saved manually in
-# <font>-glyps.txt from the output of xdvipsk, applied to fontable. <font> is
-# the name of the font mentioned in lines of file <font>-glyps.txt.  If this
-# name differ from the pfb font name, then the lua table file should be
-# renamed after generation.
-%.lua:: %-glyphs.txt
-	$(PYTHON)/lua-table-from-misglyphs.py $(basename $@) $<
-
 # Sometimes we need to obtain lua table from g2u table
 %.lua:: %.g2u
 	$(PYTHON)/g2u-to-lua.py $*.g2u
@@ -271,14 +263,6 @@ edit-%.lua: %.lua config.py $(project_dir)/glyphs-dataset/knn-index.joblib \
  $(script_dir)/edit_knn.py
 	@test -n $* || { echo "Usage: make edit-FONT.lua [TEXT_SIZE=<n>]" >&2; exit 1; }
 	$(PYTHON)/edit_knn.py $(if $(TEXT_SIZE),--text-size $(TEXT_SIZE)) $(if $(ALL),--all-glyphs) $*
-
-## tex4ht: compare this font's lua table to tex4ht's per-PFB glyph -> codepoint
-## map (precomputed in $(project_dir)/tex4ht-data/pfb-maps/<font>.json).
-## Run `make -C $(project_dir) tex4ht-pfb-maps` first to (re)build the maps.
-%-tex4ht.diff: %.lua \
- $(project_dir)/builtin-glyph-map.json \
- $(script_dir)/tex4ht-compare.py
-	$(PYTHON)/tex4ht-compare.py $*
 
 .PRECIOUS: %-glyphs.json %.tex %.dvi %.pdf
 .PRECIOUS: %-unneeded.json %-duplicates.json

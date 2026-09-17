@@ -1,6 +1,12 @@
-TEXLIVE  ?= 2026
-TLROOT    = /usr/local/texlive/$(TEXLIVE)/texmf-dist
-SRCDIR    = sources/$(TEXLIVE)
+# The TeX Live tree is located through kpathsea, so that the sources are
+# taken from whichever installation kpsewhich belongs to.  Select another
+# one with KPSEWHICH=/path/to/kpsewhich, or set TLROOT directly.
+KPSEWHICH ?= kpsewhich
+TLROOT    ?= $(shell $(KPSEWHICH) -var-value=TEXMFDIST)
+# Sources are kept per release, so that regenerating against a newer tree can
+# be compared with what an older one produced.
+TEXLIVE   ?= $(notdir $(patsubst %/,%,$(dir $(TLROOT))))
+SRCDIR     = sources/$(TEXLIVE)
 SCRIPTS   = ../pyscripts
 PYTHON    = python3
 

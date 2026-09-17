@@ -39,12 +39,6 @@ prod-tfm-list.json
 prod-pfb-dict.json
 prod-pfb-dirs.json
 
-## tex4ht comparison data, extracted from your TeX installation
-tex4ht-data/
-tex4ht-inventory.json
-tex4ht-theirs-only-dirs.json
-*-tex4ht.diff
-
 ## Glyph-image dataset and k-NN index for the visual classifier
 glyphs-dataset/
 

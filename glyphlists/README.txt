@@ -33,10 +33,12 @@ Note: before TL2026 the glyphtounicode-* files were named glyphstounicode-*
 WORKFLOW
 --------
 
-All steps are driven from this directory by the Makefile.  Set TEXLIVE if
-needed (default: 2026):
+All steps are driven from this directory by the Makefile.  The TeX Live tree
+is located through kpathsea; select another installation with
+KPSEWHICH=/path/to/kpsewhich, or set TLROOT directly.  Sources are kept per
+release, in sources/<release>/:
 
-  make TEXLIVE=2026 load-sources   -- copy source files into sources/2026/
+  make load-sources                -- copy source files into sources/<release>/
   make parse                       -- parse sources → individual .lua tables
   make build                       -- apply unification algorithm →
                                         glyphlist_table-generated.lua
