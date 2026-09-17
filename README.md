@@ -54,6 +54,13 @@ tables collapsed to a single representative and the other font names recorded
 as aliases.  It is committed here because it is the deliverable, and it is
 rebuilt with `make font_glyph_maps.lua`.
 
+It covers freely licensed fonts only, and must keep doing so: `xdvipsk` reads
+it wherever it runs.  That holds here without any filtering, because the join
+takes every working directory in the project and all of them are public.  If a
+directory for a commercial font is ever added, the public subset has to be
+listed separately again and joined instead, or its tables would enter this
+file unnoticed.
+
 Per-font tables are additional and optional.  They only have to be somewhere
 `kpathsea` will find them — a system-wide tree, your personal tree, or even
 the directory holding the manuscript being typeset.  That is why the
@@ -326,6 +333,26 @@ project root:
 ```sh
 make font_glyph_maps.lua
 ```
+
+## When you do not have the fonts
+
+Most of what the project does needs the tables, not the font files: joining
+them, deploying them, checking them against the built-in table.  The fonts are
+read only to extract a font's glyph names and to render glyph images.
+
+So a working directory loads whether or not its fonts are installed, and the
+steps that do need them say what they are skipping instead of failing:
+
+```
+fonts not located for public/bbm: the font directory is not set.  The tables
+are usable without them; only rendering and glyph-name extraction need the
+font files.
+```
+
+`pyscripts/texmf_paths.py` provides `fonts_available()` for callers that have
+to make that check.  This matters for the fonts that are not in TeX Live, and
+for anyone rebuilding the glyph image dataset, who will be missing whatever
+they do not have licences for.
 
 ## The glyph image dataset
 

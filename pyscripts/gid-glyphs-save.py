@@ -1,5 +1,6 @@
 # Script callable from fontforge
 from config import font_dir
+from texmf_paths import fonts_available, missing_fonts_note
 import fontforge
 import os
 import json
@@ -102,6 +103,9 @@ def extract_glyphs_and_unicodes(font_path):
 if __name__ == "__main__":
     # Change this to the path of your TTF file
     arg = os.sys.argv[1] # will be font name without extension
+    if not fonts_available(font_dir):
+        print(missing_fonts_note(font_dir))
+        sys.exit(0)
     font_files = { os.path.splitext(fname)[0]: os.path.join(font_dir, fname)
                    for fname in os.listdir(font_dir)
                    if fname.endswith(('.ttf', '.otf')) }

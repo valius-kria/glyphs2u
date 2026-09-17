@@ -1,5 +1,6 @@
 # Script callable from fontforge
 from config import font_dir
+from texmf_paths import fonts_available, missing_fonts_note
 import sys
 import os
 import json
@@ -29,6 +30,10 @@ def font_glyphs(font_fname: str) -> list[str]:
         # Catch any other unexpected Python errors
         print(f"An unexpected error occurred: {e}")
         sys.exit(1)
+
+if not fonts_available(font_dir):
+    print(missing_fonts_note(font_dir))
+    sys.exit(0)
 
 pfb_files = [os.path.join(font_dir, fname) for fname in os.listdir(font_dir)
              if fname.endswith('.pfb')]

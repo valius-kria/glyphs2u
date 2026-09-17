@@ -53,17 +53,24 @@ def texmf_var(name):
     return out or None
 
 
+# Nothing here raises when fonts turn out to be absent.  A working directory
+# must load whether or not its fonts are installed, because most of what the
+# project does -- joining the tables, deploying them, checking them against
+# the built-in table -- needs the tables only.  The fonts are needed just for
+# rendering glyph images and for reading a font's glyph names, and those
+# callers ask `fonts_available' first and skip what they cannot do.
+
+
 def texmf_font_dir(subpath):
     """Directory of fonts shipped with TeX Live: <texmf-dist>/fonts/<subpath>.
 
     `subpath` is as it appears in the distribution, e.g. "type1/public/lm"
-    or "type1/hoekwater/manfnt-font".
+    or "type1/hoekwater/manfnt-font".  Returns "" if no TeX Live tree can be
+    found at all.
     """
     dist = texmf_var("TEXMFDIST")
     if not dist:
-        raise RuntimeError(
-            f"cannot locate TEXMFDIST with {KPSEWHICH!r}; is TeX Live on your "
-            "PATH?  Set the KPSEWHICH environment variable to select a tree.")
+        return ""
     return os.path.join(dist, "fonts", subpath)
 
 
@@ -72,14 +79,27 @@ def font_dir_from_env(varname, default=None):
 
     Not every freely available font family is part of TeX Live; such a family
     is installed wherever its user put it, so the path is taken from the
-    environment variable `varname`.
+    environment variable `varname`.  Returns "" when the variable is unset,
+    which is the ordinary case for someone who does not have these fonts.
     """
-    path = os.environ.get(varname) or default
-    if not path:
-        raise RuntimeError(
-            f"{varname} is not set: these fonts are not part of TeX Live, so "
-            f"set {varname} to the directory holding them.")
-    return path
+    return os.environ.get(varname) or default or ""
+
+
+def fonts_available(font_dir):
+    """True if the font files are actually there to be read."""
+    return bool(font_dir) and os.path.isdir(font_dir)
+
+
+def missing_fonts_note(font_dir, working_dir=None):
+    """A line explaining that a step was skipped for want of the fonts."""
+    where = f" for {working_dir}" if working_dir else ""
+    if not font_dir:
+        return (f"fonts not located{where}: the font directory is not set. "
+                "The tables are usable without them; only rendering and "
+                "glyph-name extraction need the font files.")
+    return (f"fonts not found{where}: {font_dir} does not exist. "
+            "The tables are usable without them; only rendering and "
+            "glyph-name extraction need the font files.")
 
 
 def xdvipsk_cmap_dir(subpath, tree=None):

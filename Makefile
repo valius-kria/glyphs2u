@@ -110,7 +110,13 @@ prod-pfb-dirs.json: prod-pfb-dict.json
 config-list.json: $(script_dir)/list-config-files.py
 	$(PYTHON)/list-config-files.py
 
-# Join lua tables from config files; also outputs 'lua_tables_aliases_dict.json'
+# Join lua tables from config files; also outputs 'lua_tables_aliases_dict.json'.
+# NOTE. font_glyph_maps.lua is read by xdvipsk everywhere and is meant for
+# freely licensed fonts only.  It stays that way here because config-list.json
+# is every working directory in the project and every one of them is public.
+# Should a directory for a commercial font ever be added, the two must be
+# separated again -- a list of the public subset, joined instead of this one --
+# or those tables would enter the convoluted table unnoticed.
 font_glyph_maps.json: config-list.json
 font_glyph_maps.json: $(script_dir)/join-lua-tables.py
 	$(PYTHON)/join-lua-tables.py
