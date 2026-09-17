@@ -1,0 +1,304 @@
+Character	Unicode	Official	Unicode Name	Notes
+# SUPERSCRIPTS
+# digits
+⁰	U+2070	Superscript Zero
+¹	U+00B9	Superscript One
+²	U+00B2	Superscript Two
+³	U+00B3	Superscript Three
+⁴	U+2074	Superscript Four
+⁵	U+2075	Superscript Five
+⁶	U+2076	Superscript Six
+⁷	U+2077	Superscript Seven
+⁸	U+2078	Superscript Eight
+⁹	U+2079	Superscript Nine
+# latin
+ᴬ	U+1D2C	Modifier Letter Capital A	From Phonetic Extensions block.
+ª	U+00AA	Feminine Ordinal Indicator	For Spanish/Portuguese (e.g., 1ª).
+ᵃ	U+1D43	Modifier Letter Small A
+ᵄ	U+1D44	Modifier Letter Small Turned A
+𐞀	U+10780	Modifier Letter Small Capital Aa
+ᴭ	U+1D2D	Modifier Letter Capital Ae
+𐞃	U+10783	Modifier Letter Small Ae
+ᵆ	U+1D46	Modifier Letter Small Turned Ae
+ᴮ	U+1D2E	Modifier Letter Capital B
+ᴯ	U+1D2F	Modifier Letter Capital Barred B
+𐞄	U+10784	Modifier Letter Small Capital B
+ᵇ	U+1D47	Modifier Letter Small B
+𐞅	U+10785	Modifier Letter Small B With Hook
+ᶜ	U+1D9C	Modifier Letter Small C
+ᶝ	U+1D9D	Modifier Letter Small C with Curl
+ᴰ	U+1D30	Modifier Letter Capital D
+ᵈ	U+1D48	Modifier Letter Small D
+𐞋	U+1078B	Modifier Letter Small D With Tail
+𐞌	U+1078C	Modifier Letter Small D With Hook
+𐞍	U+1078D	Modifier Letter Small D With Hook And Tail
+𐞇	U+10787	Modifier Letter Small Dz Digraph
+𐞈	U+10788	Modifier Letter Small Dz Digraph With Retroflex Hook
+𐞉	U+10789	Modifier Letter Small Dz Digraph With Curl
+𐞊	U+1078A	Modifier Letter Small Dezh Digraph
+ᴱ	U+1D31	Modifier Letter Capital E
+ᴲ	U+1D32	Modifier Letter Capital Reversed E
+𐞎	U+1078E	Modifier Letter Small Reversed E
+ᶟ	U+1D9F	Modifier Letter Small Reversed Open E
+𐞏	U+1078F	Modifier Letter Small Closed Reversed Open E
+ᵉ	U+1D49	Modifier Letter Small E
+ᵋ	U+1D4B	Modifier Letter Small Open E
+ᵌ	U+1D4C	Modifier Letter Small Turned Open E
+ᵊ	U+1D4A	Modifier Letter Small Schwa
+ᶞ	U+1D9E	Modifier Letter Small Eth
+ᶠ	U+1DA0	Modifier Letter Small F
+𐞐	U+10790	Modifier Letter Small Feng Digraph
+ᴳ	U+1D33	Modifier Letter Capital G
+𐞒	U+10792	Modifier Letter Small Capital G
+𐞔	U+10794	Modifier Letter Small Capital G With Hook
+ᵍ	U+1D4D	Modifier Letter Small G
+𐞓	U+10793	Modifier Letter Small G With Hook
+ᶢ	U+1DA2	Modifier Letter Small Script G
+ᴴ	U+1D34	Modifier Letter Capital H
+ꟸ	U+A7F8	Modifier Letter Capital H with Stroke
+𐞖	U+10796	Modifier Letter Small Capital H
+ʰ	U+02B0	Modifier Letter Small H	Phonetics: aspiration (pʰ).
+𐞕	U+10795	Modifier Letter Small H With Stroke
+ʱ	U+02B1	Modifier Letter Small H with Hook
+ᶣ	U+1DA3	Modifier Letter Small Turned H
+𐞗	U+10797	Modifier Letter Small Heng With Hook
+ᴵ	U+1D35	Modifier Letter Capital I
+ᶦ	U+1DA6	Modifier Letter Small Capital I
+ᶧ	U+1DA7	Modifier Letter Small Capital I with Stroke
+ⁱ	U+2071	Superscript Latin Small Letter I
+ᵎ	U+1D4E	Modifier Letter Small Turned I
+ᶤ	U+1DA4	Modifier Letter Small I with Stroke
+ᴶ	U+1D36	Modifier Letter Capital J
+ʲ	U+02B2	Modifier Letter Small J	Phonetics: palatalization (tʲ).
+ᶨ	U+1DA8	Modifier Letter Small J with Crossed-Tail
+ᶡ	U+1DA1	Modifier Letter Small Dotless J with Stroke
+𐞘	U+10798	Modifier Letter Small Dotless J With Stroke And Hook
+ᴷ	U+1D37	Modifier Letter Capital K
+ᵏ	U+1D4F	Modifier Letter Small K
+ᴸ	U+1D38	Modifier Letter Capital L
+ᶫ	U+1DAB	Modifier Letter Small Capital L
+𐞜	U+1079C	Modifier Letter Small Capital L With Belt
+ˡ	U+02E1	Modifier Letter Small L	Phonetics: lateral release (tˡ).
+ᶩ	U+1DA9	Modifier Letter Small L with Retroflex Hook
+𐞝	U+1079D	Modifier Letter Small L With Retroflex Hook And Belt
+ᶪ	U+1DAA	Modifier Letter Small L with Palatal Hook
+ꭝ	U+AB5D	Modifier Letter Small L with Inverted Lazy S
+ꭞ	U+AB5E	Modifier Letter Small L with Middle Tilde
+𐞛	U+1079B	Modifier Letter Small L With Belt
+𐞙	U+10799	Modifier Letter Small Ls Digraph
+𐞚	U+1079A	Modifier Letter Small Lz Digraph
+𐞞	U+1079E	Modifier Letter Small Lezh
+𐞟	U+1079F	Modifier Letter Small Lezh With Retroflex Hook
+ᴹ	U+1D39	Modifier Letter Capital M
+ᵐ	U+1D50	Modifier Letter Small M
+ᶬ	U+1DAC	Modifier Letter Small M with Hook
+ᵚ	U+1D5A	Modifier Letter Small Turned M
+ᶭ	U+1DAD	Modifier Letter Small Turned M with Long Leg
+ᴺ	U+1D3A	Modifier Letter Capital N
+ᴻ	U+1D3B	Modifier Letter Capital Reversed N
+ᶰ	U+1DB0	Modifier Letter Small Capital N
+ⁿ	U+207F	Superscript Latin Small Letter N
+ᶮ	U+1DAE	Modifier Letter Small N with Left Hook
+ᶯ	U+1DAF	Modifier Letter Small N with Retroflex Hook
+ᵑ	U+1D51	Modifier Letter Small Eng
+ᴼ	U+1D3C	Modifier Letter Capital O
+º	U+00BA	Masculine Ordinal Indicator	For Spanish/Portuguese (e.g., 1º).
+ᵒ	U+1D52	Modifier Letter Small O
+ᶱ	U+1DB1	Modifier Letter Small Barred O
+ᵓ	U+1D53	Modifier Letter Small Open O
+𐞢	U+107A2	Modifier Letter Small O With Stroke
+𐞣	U+107A3	Modifier Letter Small Capital Oe
+ꟹ	U+A7F9	Modifier Letter Small Ligature Oe
+ᴽ	U+1D3D	Modifier Letter Capital Ou
+ᴾ	U+1D3E	Modifier Letter Capital P
+ᵖ	U+1D56	Modifier Letter Small P
+𐞥	U+107A5	Modifier Letter Small Q
+ᴿ	U+1D3F	Modifier Letter Capital R
+𐞪	U+107AA	Modifier Letter Small Capital R
+ʶ	U+02B6	Modifier Letter Small Capital Inverted R
+ʳ	U+02B3	Modifier Letter Small R	Phonetics: r-coloring.
+𐞨	U+107A8	Modifier Letter Small R With Tail
+𐞩	U+107A9	Modifier Letter Small R With Fishhook
+ʴ	U+02B4	Modifier Letter Small Turned R
+ʵ	U+02B5	Modifier Letter Small Turned R with Hook
+𐞦	U+107A6	Modifier Letter Small Turned R With Long Leg
+𐞧	U+107A7	Modifier Letter Small Turned R With Long Leg And Retroflex Hook
+ˢ	U+02E2	Modifier Letter Small S	Phonetics: sibilant release (tˢ).
+𐞺	U+107BA	Modifier Letter Small S With Curl
+ᶳ	U+1DB3	Modifier Letter Small S with Hook
+ᶴ	U+1DB4	Modifier Letter Small Esh
+ᵀ	U+1D40	Modifier Letter Capital T
+ᵗ	U+1D57	Modifier Letter Small T
+ᶵ	U+1DB5	Modifier Letter Small T with Palatal Hook
+𐞯	U+107AF	Modifier Letter Small T With Retroflex Hook
+𐞫	U+107AB	Modifier Letter Small Tc Digraph With Curl
+𐞬	U+107AC	Modifier Letter Small Ts Digraph
+𐞭	U+107AD	Modifier Letter Small Ts Digraph With Retroflex Hook
+𐞮	U+107AE	Modifier Letter Small Tesh Digraph
+ᵁ	U+1D41	Modifier Letter Capital U
+ᶸ	U+1DB8	Modifier Letter Small Capital U
+ᵘ	U+1D58	Modifier Letter Small U
+ᶶ	U+1DB6	Modifier Letter Small U Bar
+ꭟ	U+AB5F	Modifier Letter Small U with Left Hook
+ᵙ	U+1D59	Modifier Letter Small Sideways U
+ⱽ	U+2C7D	Modifier Letter Capital V
+ᵛ	U+1D5B	Modifier Letter Small V
+ᶹ	U+1DB9	Modifier Letter Small V with Hook
+𐞰	U+107B0	Modifier Letter Small V With Right Hook
+ᶺ	U+1DBA	Modifier Letter Small Turned V
+ᵂ	U+1D42	Modifier Letter Capital W
+ʷ	U+02B7	Modifier Letter Small W	Phonetics: labialization (kʷ).
+ꭩ	U+AB69	Modifier Letter Small Turned W
+ˣ	U+02E3	Modifier Letter Small X	Phonetics: velar fricative release.
+𐞲	U+107B2	Modifier Letter Small Capital Y
+ʸ	U+02B8	Modifier Letter Small Y	Phonetics: palatal release.
+𐞠	U+107A0	Modifier Letter Small Turned Y
+𐞡	U+107A1	Modifier Letter Small Turned Y With Belt
+ᶻ	U+1DBB	Modifier Letter Small Z
+ᶼ	U+1DBC	Modifier Letter Small Z with Retroflex Hook
+ᶽ	U+1DBD	Modifier Letter Small Z with Curl
+ᶾ	U+1DBE	Modifier Letter Small Ezh
+# symbols
+ᵔ	U+1D54	Modifier Letter Small Top Half O
+ᵕ	U+1D55	Modifier Letter Small Bottom Half O
+⁺	U+207A	Superscript Plus Sign
+⁻	U+207B	Superscript Minus
+⁼	U+207C	Superscript Equals Sign
+⁽	U+207D	Superscript Left Parenthesis
+⁾	U+207E	Superscript Right Parenthesis
+ꜛ	U+A71B	Modifier Letter Raised Up Arrow
+ꜜ	U+A71C	Modifier Letter Raised Down Arrow
+ꜝ	U+A71D	Modifier Letter Raised Exclamation Mark
+ꜞ	U+A71E	Modifier Letter Raised Inverted Exclamation Mark
+ꜟ	U+A71F	Modifier Letter Low Inverted Exclamation Mark
+# greek
+ᵅ	U+1D45	Modifier Letter Small Alpha
+ᶛ	U+1D9B	Modifier Letter Small Turned Alpha
+ᵝ	U+1D5D	Modifier Letter Small Beta
+ˠ	U+02E0	Modifier Letter Small Gamma
+ᵞ	U+1D5E	Modifier Letter Small Greek Gamma
+ᵟ	U+1D5F	Modifier Letter Small Delta
+ᶥ	U+1DA5	Modifier Letter Small Iota
+ᶲ	U+1DB2	Modifier Letter Small Phi
+ᶷ	U+1DB7	Modifier Letter Small Upsilon
+ᶿ	U+1DBF	Modifier Letter Small Theta
+ᵠ	U+1D60	Modifier Letter Small Greek Phi
+ᵡ	U+1D61	Modifier Letter Small Chi
+𐞤	U+107A4	Modifier Letter Small Closed Omega
+# cyrillic
+𞀰	U+1E030	Modifier Letter Cyrillic Small A
+𞀱	U+1E031	Modifier Letter Cyrillic Small Be
+𞀲	U+1E032	Modifier Letter Cyrillic Small Ve
+𞀳	U+1E033	Modifier Letter Cyrillic Small Ghe
+𞀴	U+1E034	Modifier Letter Cyrillic Small De
+𞀵	U+1E035	Modifier Letter Cyrillic Small Ie
+𞀶	U+1E036	Modifier Letter Cyrillic Small Zhe
+𞀷	U+1E037	Modifier Letter Cyrillic Small Ze
+𞀸	U+1E038	Modifier Letter Cyrillic Small I
+𞁐	U+1E050	Modifier Letter Cyrillic Small Palochka
+𞀹	U+1E039	Modifier Letter Cyrillic Small Ka
+𞀺	U+1E03A	Modifier Letter Cyrillic Small El
+𞀻	U+1E03B	Modifier Letter Cyrillic Small Em
+ᵸ	U+1D78	Modifier Letter Cyrillic Small En
+𞀼	U+1E03C	Modifier Letter Cyrillic Small O
+𞁎	U+1E04E	Modifier Letter Cyrillic Small Barred O
+𞀽	U+1E03D	Modifier Letter Cyrillic Small Pe
+𞀾	U+1E03E	Modifier Letter Cyrillic Small Er
+𞀿	U+1E03F	Modifier Letter Cyrillic Small Es
+𞁫	U+1E06B	Modifier Letter Cyrillic Small Es With Descender
+𞁀	U+1E040	Modifier Letter Cyrillic Small Te
+𞁁	U+1E041	Modifier Letter Cyrillic Small U
+𞁏	U+1E04F	Modifier Letter Cyrillic Small Straight U
+𞁭	U+1E06D	Modifier Letter Cyrillic Small Straight U With Stroke
+𞁂	U+1E042	Modifier Letter Cyrillic Small Ef
+𞁃	U+1E043	Modifier Letter Cyrillic Small Ha
+𞁄	U+1E044	Modifier Letter Cyrillic Small Tse
+𞁅	U+1E045	Modifier Letter Cyrillic Small Che
+𞁆	U+1E046	Modifier Letter Cyrillic Small Sha
+𞁇	U+1E047	Modifier Letter Cyrillic Small Yeru
+𞁬	U+1E06C	Modifier Letter Cyrillic Small Yeru With Back Yer
+𞁈	U+1E048	Modifier Letter Cyrillic Small E
+𞁉	U+1E049	Modifier Letter Cyrillic Small Yu
+𞁊	U+1E04A	Modifier Letter Cyrillic Small Dzze
+𞁋	U+1E04B	Modifier Letter Cyrillic Small Schwa
+𞁌	U+1E04C	Modifier Letter Cyrillic Small Byelorussian-Ukrainian I
+𞁍	U+1E04D	Modifier Letter Cyrillic Small Je
+ꚝ	U+A69D	Modifier Letter Cyrillic Soft Sign
+ꚜ	U+A69C	Modifier Letter Cyrillic Hard Sign
+# other
+𐞳	U+107B3	Modifier Letter Glottal Stop With Stroke
+𐞴	U+107B4	Modifier Letter Reversed Glottal Stop With Stroke
+𐞑	U+10791	Modifier Letter Small Rams Horn
+ᵜ	U+1D5C	Modifier Letter Small Ain
+# SUBSCRIPTS
+# digits
+₀	U+2080	Subscript Zero
+₁	U+2081	Subscript One
+₂	U+2082	Subscript Two
+₃	U+2083	Subscript Three
+₄	U+2084	Subscript Four
+₅	U+2085	Subscript Five
+₆	U+2086	Subscript Six
+₇	U+2087	Subscript Seven
+₈	U+2088	Subscript Eight
+₉	U+2089	Subscript Nine
+# latin
+ₐ	U+2090	Latin Subscript Small Letter A
+ₑ	U+2091	Latin Subscript Small Letter E
+ₔ	U+2094	Latin Subscript Small Letter Schwa
+ₕ	U+2095	Latin Subscript Small Letter H
+ᵢ	U+1D62	Latin Subscript Small Letter I
+ⱼ	U+2C7C	Latin Subscript Small Letter J
+ₖ	U+2096	Latin Subscript Small Letter K
+ₗ	U+2097	Latin Subscript Small Letter L
+ₘ	U+2098	Latin Subscript Small Letter M
+ₙ	U+2099	Latin Subscript Small Letter N
+ₒ	U+2092	Latin Subscript Small Letter O
+ₚ	U+209A	Latin Subscript Small Letter P
+ᵣ	U+1D63	Latin Subscript Small Letter R
+ₛ	U+209B	Latin Subscript Small Letter S
+ₜ	U+209C	Latin Subscript Small Letter T
+ᵤ	U+1D64	Latin Subscript Small Letter U
+ᵥ	U+1D65	Latin Subscript Small Letter V
+ₓ	U+2093	Latin Subscript Small Letter X
+# symbols
+₊	U+208A	Subscript Plus Sign
+₋	U+208B	Subscript Minus
+₌	U+208C	Subscript Equals Sign
+₍	U+208D	Subscript Left Parenthesis
+₎	U+208E	Subscript Right Parenthesis
+⨧	U+2A27	Plus Sign with Subscript Two
+# greek
+ᵦ	U+1D66	Greek Subscript Small Letter Beta
+ᵧ	U+1D67	Greek Subscript Small Letter Gamma
+ᵨ	U+1D68	Greek Subscript Small Letter Rho
+ᵩ	U+1D69	Greek Subscript Small Letter Phi
+ᵪ	U+1D6A	Greek Subscript Small Letter Chi
+% cyrillic
+𞁑	U+1E051	Cyrillic Subscript Small Letter A
+𞁒	U+1E052	Cyrillic Subscript Small Letter Be
+𞁓	U+1E053	Cyrillic Subscript Small Letter Ve
+𞁔	U+1E054	Cyrillic Subscript Small Letter Ghe
+𞁕	U+1E055	Cyrillic Subscript Small Letter De
+𞁖	U+1E056	Cyrillic Subscript Small Letter Ie
+𞁗	U+1E057	Cyrillic Subscript Small Letter Zhe
+𞁘	U+1E058	Cyrillic Subscript Small Letter Ze
+𞁙	U+1E059	Cyrillic Subscript Small Letter I
+𞁚	U+1E05A	Cyrillic Subscript Small Letter Ka
+𞁛	U+1E05B	Cyrillic Subscript Small Letter El
+𞁜	U+1E05C	Cyrillic Subscript Small Letter O
+𞁝	U+1E05D	Cyrillic Subscript Small Letter Pe
+𞁞	U+1E05E	Cyrillic Subscript Small Letter Es
+𞁟	U+1E05F	Cyrillic Subscript Small Letter U
+𞁠	U+1E060	Cyrillic Subscript Small Letter Ef
+𞁡	U+1E061	Cyrillic Subscript Small Letter Ha
+𞁢	U+1E062	Cyrillic Subscript Small Letter Tse
+𞁣	U+1E063	Cyrillic Subscript Small Letter Che
+𞁤	U+1E064	Cyrillic Subscript Small Letter Sha
+𞁥	U+1E065	Cyrillic Subscript Small Letter Hard Sign
+𞁦	U+1E066	Cyrillic Subscript Small Letter Yeru
+𞁧	U+1E067	Cyrillic Subscript Small Letter Ghe With Upturn
+𞁨	U+1E068	Cyrillic Subscript Small Letter Byelorussian-Ukrainian I
+𞁩	U+1E069	Cyrillic Subscript Small Letter Dze
+𞁪	U+1E06A	Cyrillic Subscript Small Letter Dzhe
+

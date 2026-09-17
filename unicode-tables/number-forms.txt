@@ -1,0 +1,60 @@
+↉	U+2189	Vulgar Fraction Zero Thirds
+⅐	U+2150	Vulgar Fraction One Seventh
+⅑	U+2151	Vulgar Fraction One Ninth
+⅒	U+2152	Vulgar Fraction One Tenth
+⅓	U+2153	Vulgar Fraction One Third
+⅔	U+2154	Vulgar Fraction Two Thirds
+⅕	U+2155	Vulgar Fraction One Fifth
+⅖	U+2156	Vulgar Fraction Two Fifths
+⅗	U+2157	Vulgar Fraction Three Fifths
+⅘	U+2158	Vulgar Fraction Four Fifths
+⅙	U+2159	Vulgar Fraction One Sixth
+⅚	U+215A	Vulgar Fraction Five Sixths
+⅛	U+215B	Vulgar Fraction One Eighth
+⅜	U+215C	Vulgar Fraction Three Eighths
+⅝	U+215D	Vulgar Fraction Five Eighths
+⅞	U+215E	Vulgar Fraction Seven Eighths
+⅟	U+215F	Fraction Numerator One
+Ⅰ	U+2160	Roman Numeral One
+Ⅱ	U+2161	Roman Numeral Two
+Ⅲ	U+2162	Roman Numeral Three
+Ⅳ	U+2163	Roman Numeral Four
+Ⅴ	U+2164	Roman Numeral Five
+Ⅵ	U+2165	Roman Numeral Six
+Ⅶ	U+2166	Roman Numeral Seven
+Ⅷ	U+2167	Roman Numeral Eight
+Ⅸ	U+2168	Roman Numeral Nine
+Ⅹ	U+2169	Roman Numeral Ten
+Ⅺ	U+216A	Roman Numeral Eleven
+Ⅻ	U+216B	Roman Numeral Twelve
+Ⅼ	U+216C	Roman Numeral Fifty
+Ⅽ	U+216D	Roman Numeral One Hundred
+Ⅾ	U+216E	Roman Numeral Five Hundred
+Ⅿ	U+216F	Roman Numeral One Thousand
+ⅰ	U+2170	Small Roman Numeral One
+ⅱ	U+2171	Small Roman Numeral Two
+ⅲ	U+2172	Small Roman Numeral Three
+ⅳ	U+2173	Small Roman Numeral Four
+ⅴ	U+2174	Small Roman Numeral Five
+ⅵ	U+2175	Small Roman Numeral Six
+ⅶ	U+2176	Small Roman Numeral Seven
+ⅷ	U+2177	Small Roman Numeral Eight
+ⅸ	U+2178	Small Roman Numeral Nine
+ⅹ	U+2179	Small Roman Numeral Ten
+ⅺ	U+217A	Small Roman Numeral Eleven
+ⅻ	U+217B	Small Roman Numeral Twelve
+ⅼ	U+217C	Small Roman Numeral Fifty
+ⅽ	U+217D	Small Roman Numeral One Hundred
+ⅾ	U+217E	Small Roman Numeral Five Hundred
+ⅿ	U+217F	Small Roman Numeral One Thousand
+ↀ	U+2180	Roman Numeral One Thousand C D
+ↁ	U+2181	Roman Numeral Five Thousand
+ↂ	U+2182	Roman Numeral Ten Thousand
+Ↄ	U+2183	Roman Numeral Reversed One Hundred
+ↄ	U+2184	Latin Small Letter Reversed C
+ↅ	U+2185	Roman Numeral Six Late Form
+ↆ	U+2186	Roman Numeral Fifty Early Form
+ↇ	U+2187	Roman Numeral Fifty Thousand
+ↈ	U+2188	Roman Numeral One Hundred Thousand
+↊	U+218A	Turned Digit Two
+↋	U+218B	Turned Digit Three

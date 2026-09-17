@@ -103,6 +103,7 @@ Shared material in the project root:
 | `Makefile` | project-wide targets |
 | `glyphlists/` | sources of the table built into xdvipsk |
 | `unicode-data/` | Unicode Character Database files |
+| `unicode-tables/` | Unicode values collected by class of letter or symbol |
 | `adobe-private/` | non-PUA values for AGL names mapped into a PUA |
 | `builtin-glyph-map.json` | the built-in table as a dictionary |
 | `tex-specific.lua` | TeX conventions that override the built-in table |
@@ -132,6 +133,39 @@ names that appeared or disappeared, and values that changed.  A small set of
 deliberate manual corrections is expected to differ.  See
 [glyphlists/README.txt](glyphlists/README.txt) for the algorithm, the
 per-source entry counts, and the reasoning behind each correction.
+
+### unicode-tables/
+
+Values collected from the Unicode Standard by class of letter or symbol —
+Greek, Fraktur, blackboard bold, script, monospace, small capitals, superior
+and inferior figures, big operators, number forms, small forms.  Within a
+class the members mostly share their font properties, which is what makes
+them worth having together: when a math font needs values for a whole
+alphabet or a run of operators, the class is already worked out.
+
+These files are **not complete Lua tables**.  They hold the entry lines only,
+without the surrounding `return { ... }`, so they cannot be loaded as they
+stand; they are material to draw on when writing a font's table, and to check
+an existing one against.  Nothing in the build reads them.
+
+```lua
+  ['Alpha'] = { 0x0391 }, --Α Greek Capital Letter Alpha
+  ['zero.inferior'] = { 0x2080, 'zerosubscript' },-- SUBSCRIPT ZERO
+```
+
+The second entry shows the two-element form used throughout the tables: the
+value, then the name the glyph should be renamed to.  Renaming is what makes
+a value stick when the original name would otherwise be resolved through the
+Adobe Glyph List — see above.
+
+The `.txt` files are the same information in other shapes: `small-caps.txt`
+is a further set of entry lines, while `number-forms.txt`, `small-forms.txt`
+and `sup-sub-unicodes.txt` are plain tables of character, codepoint and name,
+kept as they were read out of the standard.
+
+These are also where the exact-value convention is most visible: small
+capitals are given as the small-capital letters (U+1D00 and neighbours), not
+as the ordinary lowercase ones.
 
 ### adobe-private/
 
