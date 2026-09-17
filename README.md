@@ -171,6 +171,33 @@ read out of the standard, before being reshaped into entry lines:
 
 Where a `.txt` was fully absorbed into its `.lua` form it has been dropped.
 
+#### A caveat on the superscript and subscript tables
+
+These were collected before the point below was understood, and should be
+read with it in mind.
+
+Not everything that looks like a superscript or a subscript is one by
+semantics.  Work on the `htf-fonts` project brought a closer reading of the
+MathML documentation, which is explicit that such characters are not to be
+used for mathematics: a superscript in a formula is a structural relation
+between a base and an exponent, not a character that happens to sit high on
+the line.  The precomposed characters are compatibility characters, present
+so that older encodings round-trip.
+
+`sup-sub-unicodes.txt` shows the clearest cases, and they are exactly the
+codepoints `superior.lua` and `inferior.lua` leave out — the ordinal
+indicators U+00AA and U+00BA, which are Spanish and Portuguese orthography
+(`1ª`), and a set of modifier letters such as U+1DA2 modifier letter small
+script g, which belong to phonetic notation.  Neither group means
+exponentiation.
+
+For this project's purpose the precomposed values are still the useful ones:
+a glyph named `two.superior` is drawn as a raised two, and mapping it to
+U+00B2 makes the extracted text read as a reader expects.  What they are not
+is a guide to mathematical structure — that belongs to the markup, and is
+worked out in `htf-fonts` rather than here.  `adobe-private.lua`'s
+`asuperior` = U+00AA is the same trade-off in the same direction.
+
 These are also where the exact-value convention is most visible: small
 capitals are given as the small-capital letters (U+1D00 and neighbours), not
 as the ordinary lowercase ones.
