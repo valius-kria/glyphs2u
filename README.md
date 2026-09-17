@@ -145,8 +145,9 @@ alphabet or a run of operators, the class is already worked out.
 
 These files are **not complete Lua tables**.  They hold the entry lines only,
 without the surrounding `return { ... }`, so they cannot be loaded as they
-stand; they are material to draw on when writing a font's table, and to check
-an existing one against.  Nothing in the build reads them.
+stand.  They are worked by hand: lines are copied out of them into a font's
+table, with the glyph name — or whatever else needs it — changed to suit that
+font.  Nothing in the build reads them.
 
 ```lua
   ['Alpha'] = { 0x0391 }, --Α Greek Capital Letter Alpha
@@ -158,10 +159,17 @@ value, then the name the glyph should be renamed to.  Renaming is what makes
 a value stick when the original name would otherwise be resolved through the
 Adobe Glyph List — see above.
 
-The `.txt` files are the same information in other shapes: `small-caps.txt`
-is a further set of entry lines, while `number-forms.txt`, `small-forms.txt`
-and `sup-sub-unicodes.txt` are plain tables of character, codepoint and name,
-kept as they were read out of the standard.
+Two `.txt` files remain, holding character, codepoint and name as they were
+read out of the standard, before being reshaped into entry lines:
+
+- `number-forms.txt` — vulgar fractions and other number forms, which have no
+  `.lua` counterpart yet.
+- `sup-sub-unicodes.txt` — superscripts and subscripts, arranged by digits,
+  latin, symbols, greek, cyrillic, with notes.  `superior.lua` and
+  `inferior.lua` cover most of it, but not the modifier letters and ordinal
+  indicators, so it is kept as the fuller reference.
+
+Where a `.txt` was fully absorbed into its `.lua` form it has been dropped.
 
 These are also where the exact-value convention is most visible: small
 capitals are given as the small-capital letters (U+1D00 and neighbours), not
