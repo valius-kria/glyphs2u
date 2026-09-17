@@ -360,7 +360,16 @@ included.
 
 Since the dataset is built locally and never distributed, fonts whose tables
 cannot be published here can still be used as training material on your own
-machine.
+machine.  It has to stay that way round, because the dataset contains the
+tables: for a Type 1 font the glyph name is the image filename and the
+codepoints are in `labels.json`, so any font's table can be read straight back
+out of it — together with the built-in entries that applied, which are merged
+in when the images are rendered.  A dataset built from fonts whose tables are
+not public is therefore not publishable either.
+
+The same property makes the dataset a usable copy of the tables, should one
+ever be wanted.  It does not hold for the OpenType samples, which are keyed by
+glyph index rather than name.
 
 ### Known state, for whenever it is next touched
 
