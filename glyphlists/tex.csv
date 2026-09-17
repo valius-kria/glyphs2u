@@ -1,0 +1,327 @@
+# Format: two comma-delimited fields:
+#   (1) glyph name--upper/lowercase letters and digits
+#   (2) Unicode scalar values, space-separated if more than one
+Dbar,0110
+Delta,0394
+Delta,2206
+Digamma,03DD
+Digamma,1D7CB
+FFIsmall,0066 0066 0069
+FFIsmall,F766 F766 F769
+FFLsmall,0066 0066 006C
+FFLsmall,F766 F766 F76C
+FFsmall,0066 0066
+FFsmall,F766 F766
+FIsmall,0066 0069
+FIsmall,F766 F769
+FLsmall,0066 006C
+FLsmall,F766 F76C
+Finv,2132
+Germandbls,0053 0053
+Germandblssmall,0073 0073
+Germandblssmall,F773 F773
+Gmir,2141
+Ifractur,2111
+Ng,014A
+Omega,03A9
+Omega,2126
+Omegainv,2127
+Rfractur,211C
+SS,0053 0053
+SSsmall,0073 0073
+SSsmall,F773 F773
+Yen,00A5
+altselector,D802
+angbracketleft,2329
+angbracketleft,27E8
+angbracketright,232A
+angbracketright,27E9
+anticlockwise,21BA
+anticlockwise,27F2
+approxorequal,224A
+archleftdown,21B6
+archrightdown,21B7
+arrowbothv,2195
+arrowdblbothv,21D5
+arrowleftbothalf,21BD
+arrowlefttophalf,21BC
+arrownortheast,2197
+arrownorthwest,2196
+arrowparrleftright,21C6
+arrowparrrightleft,21C4
+arrowrightbothalf,21C1
+arrowrighttophalf,21C0
+arrowsoutheast,2198
+arrowsouthwest,2199
+arrowtailleft,21A2
+arrowtailright,21A3
+arrowtripleleft,21DA
+arrowtripleright,21DB
+ascendercompwordmark,D80A
+asteriskcentered,2217
+bardbl,2225
+beth,2136
+between,226C
+capitalcompwordmark,D809
+ceilingleft,2308
+ceilingright,2309
+check,2713
+circleR,00AE
+circleS,24C8
+circleasterisk,229B
+circlecopyrt,25CB
+circlecopyrt,20DD
+circledivide,2298
+circledot,2299
+circleequal,229C
+circleminus,2296
+circlering,229A
+clockwise,21BB
+clockwise,27F3
+complement,2201
+compwordmark,200C
+coproduct,2A3F
+ct,0063 0074
+curlyleft,21AB
+curlyright,21AC
+cwm,200C
+daleth,2138
+dbar,0111
+dblarrowdwn,21CA
+dblarrowheadleft,219E
+dblarrowheadright,21A0
+dblarrowup,21C8
+dblbracketleft,27E6
+dblbracketright,27E7
+defines,225C
+diamond,2666
+diamond,25CA
+diamond,2662
+diamondmath,22C4
+diamondsolid,29EB
+diamondsolid,2666
+difference,224F
+dividemultiply,22C7
+dotlessj,1D6A5
+dotlessj,F6BE
+dotlessj,0237
+dotplus,2214
+downfall,22CE
+downslope,29F9
+emptyset,F638
+emptyset,2205
+emptyslot,D801
+epsilon1,03F5
+epsiloninv,03F6
+equaldotleftright,2252
+equaldotrightleft,2253
+equalorfollows,22DF
+equalorgreater,2A96
+equalorless,2A95
+equalorprecedes,22DE
+equalorsimilar,2242
+equalsdots,2251
+equivasymptotic,224D
+flat,266D
+floorleft,230A
+floorright,230B
+follownotdbleqv,2ABA
+follownotslnteql,2AB6
+followornoteqvlnt,22E9
+follows,227B
+followsequal,2AB0
+followsorcurly,227D
+followsorequal,227F
+forces,22A9
+forcesbar,22AA
+fork,22D4
+frown,2322
+geomequivalent,224E
+greaterdbleqlless,2A8C
+greaterdblequal,2267
+greaterdot,22D7
+greaterlessequal,22DB
+greatermuch,226B
+greaternotdblequal,2A8A
+greaternotequal,2A88
+greaterorapproxeql,2A86
+greaterorequalslant,2A7E
+greaterornotdbleql,2269
+greaterornotequal,2269
+greaterorsimilar,2273
+harpoondownleft,21C3
+harpoondownright,21C2
+harpoonleftright,21CC
+harpoonrightleft,21CB
+harpoonupleft,21BF
+harpoonupright,21BE
+heart,2665
+heart,2661
+hyphenchar,002D
+integerdivide,2216
+intercal,22BA
+interrobang,203D
+interrobangdown,2E18
+intersectiondbl,22D2
+intersectionsq,2293
+latticetop,22A4
+lessdbleqlgreater,2A8B
+lessdblequal,2266
+lessdot,22D6
+lessequalgreater,22DA
+lessmuch,226A
+lessnotdblequal,2A89
+lessnotequal,2A87
+lessorapproxeql,2A85
+lessorequalslant,2A7D
+lessornotdbleql,2268
+lessornotequal,2268
+lessorsimilar,2272
+longdbls,017F 017F
+longsh,017F 0068
+longsi,017F 0069
+longsl,017F 006C
+longst,017F 0074
+longst,FB05
+lscript,2113
+maltesecross,2720
+measuredangle,2221
+multicloseleft,22C9
+multicloseright,22CA
+multimap,22B8
+multiopenleft,22CB
+multiopenright,22CC
+nand,22BC
+natural,266E
+negationslash,0338
+ng,014B
+notapproxequal,2247
+notarrowboth,21AE
+notarrowleft,219A
+notarrowright,219B
+notbar,2224
+notdblarrowboth,21CE
+notdblarrowleft,21CD
+notdblarrowright,21CF
+notexistential,2204
+notfollows,2281
+notfollowsoreql,22E1
+notfollowsoreql,2AB0 0338
+notforces,22AE
+notforcesextra,22AF
+notgreaterdblequal,2267 0338
+notgreaterequal,2271
+notgreaterorslnteql,2A7E 0338
+notlessdblequal,2266 0338
+notlessequal,2270
+notlessorslnteql,2A7D 0338
+notprecedesoreql,22E0
+notprecedesoreql,2AAF 0338
+notsatisfies,22AD
+notsimilar,2241
+notsubseteql,2288
+notsubsetordbleql,2AC5 0338
+notsubsetoreql,228A
+notsuperseteql,2289
+notsupersetordbleql,2AC6 0338
+notsupersetoreql,228B
+nottriangeqlleft,25C1 0332 0338
+nottriangeqlleft,22EC
+nottriangeqlright,25B7 0332 0338
+nottriangeqlright,22ED
+nottriangleleft,25C1 0338
+nottriangleleft,22EA
+nottriangleright,25B7 0338
+nottriangleright,22EB
+notturnstile,22AC
+orunderscore,22BB
+owner,220B
+perpcorrespond,2306
+perpcorrespond,2A5E
+pertenthousand,2031
+phi,03C6
+phi,03D5
+phi1,03C6
+pi1,03D6
+planckover2pi,210F
+planckover2pi1,210F
+precedenotdbleqv,2AB9
+precedenotslnteql,2AB5
+precedeornoteqvlnt,22E8
+precedesequal,2AAF
+precedesorcurly,227C
+precedesorequal,227E
+prime,02B9
+prime,2032
+primereverse,2035
+punctdash,2014
+rangedash,2013
+revasymptequal,22CD
+revsimilar,223D
+rho1,03F1
+rightanglene,2E23
+rightanglene,231D
+rightanglenw,2E22
+rightanglenw,231C
+rightanglese,2E25
+rightanglese,231F
+rightanglesw,2E24
+rightanglesw,231E
+ringfitted,D80D
+ringinequal,2256
+satisfies,22A8
+sharp,266F
+shiftleft,21B0
+shiftright,21B1
+similarequal,2243
+slurabove,2322
+slurbelow,2323
+smile,2323
+sphericalangle,2222
+square,25A1
+squaredot,22A1
+squareimage,228F
+squareminus,229F
+squaremultiply,22A0
+squareoriginal,2290
+squareplus,229E
+squaresolid,25A0
+squiggleleftright,21AD
+squiggleright,21DD
+st,0073 0074
+st,FB06
+star,22C6
+subsetdbl,22D0
+subsetdblequal,2AC5
+subsetnoteql,228A
+subsetornotdbleql,2ACB
+subsetsqequal,2291
+supersetdbl,22D1
+supersetdblequal,2AC6
+supersetnoteql,228B
+supersetornotdbleql,2ACC
+supersetsqequal,2292
+triangle,25B3
+triangledownsld,25BC
+triangleinv,25BD
+triangleleft,25C1
+triangleleftequal,25C1 0332
+triangleleftequal,22B4
+triangleleftsld,25C0
+triangleright,25B7
+trianglerightequal,25B7 0332
+trianglerightequal,22B5
+trianglerightsld,25B6
+trianglesolid,25B2
+turnstileleft,22A2
+turnstileright,22A3
+twelveudash,D80C
+uniondbl,22D3
+unionmulti,228E
+unionsq,2294
+uprise,22CF
+upslope,29F8
+vector,20D7
+visiblespace,2423
+visualspace,2423
+wreathproduct,2240

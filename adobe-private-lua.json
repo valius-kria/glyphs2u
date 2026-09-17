@@ -1,0 +1,539 @@
+{
+    "Aacutesmall": [
+        "0x00E1"
+    ],
+    "Acircumflexsmall": [
+        "0x00E2"
+    ],
+    "Acute": [
+        "0x00B4"
+    ],
+    "Acutesmall": [
+        "0x00B4"
+    ],
+    "Adieresissmall": [
+        "0x00E4"
+    ],
+    "AEsmall": [
+        "0x00E6"
+    ],
+    "afii10063": [
+        "0x0433"
+    ],
+    "afii10064": [
+        "0x0431"
+    ],
+    "afii10192": [
+        "0x0434"
+    ],
+    "afii10831": [
+        "0x043F"
+    ],
+    "afii10832": [
+        "0x0442"
+    ],
+    "Agravesmall": [
+        "0x00E0"
+    ],
+    "ampersandsmall": [
+        "0x0026"
+    ],
+    "Aringsmall": [
+        "0x00E5"
+    ],
+    "arrowhorizex": [
+        "0x23AF"
+    ],
+    "arrowvertex": [
+        "0x23D0"
+    ],
+    "Asmall": [
+        "0x0061"
+    ],
+    "asuperior": [
+        "0x0061"
+    ],
+    "Atildesmall": [
+        "0x00E3"
+    ],
+    "braceex": [
+        "0x23AA"
+    ],
+    "braceleftbt": [
+        "0x23A9"
+    ],
+    "braceleftmid": [
+        "0x23A8"
+    ],
+    "bracelefttp": [
+        "0x23A7"
+    ],
+    "bracerightbt": [
+        "0x23AD"
+    ],
+    "bracerightmid": [
+        "0x23AC"
+    ],
+    "bracerighttp": [
+        "0x23AB"
+    ],
+    "bracketleftbt": [
+        "0x23A3"
+    ],
+    "bracketleftex": [
+        "0x23A2"
+    ],
+    "bracketlefttp": [
+        "0x23A1"
+    ],
+    "bracketrightbt": [
+        "0x23A6"
+    ],
+    "bracketrightex": [
+        "0x23A5"
+    ],
+    "bracketrighttp": [
+        "0x23A4"
+    ],
+    "Brevesmall": [
+        "0x02D8"
+    ],
+    "Bsmall": [
+        "0x0062"
+    ],
+    "bsuperior": [
+        "0x0062"
+    ],
+    "Caron": [
+        "0x02C7"
+    ],
+    "Caronsmall": [
+        "0x02C7"
+    ],
+    "Ccedillasmall": [
+        "0x00E7"
+    ],
+    "Cedillasmall": [
+        "0x00B8"
+    ],
+    "centinferior": [
+        "0x00A2"
+    ],
+    "centoldstyle": [
+        "0x00A2"
+    ],
+    "centsuperior": [
+        "0x00A2"
+    ],
+    "Circumflexsmall": [
+        "0x02C6"
+    ],
+    "commaaccent": [
+        "0x0326"
+    ],
+    "commainferior": [
+        "0x002C"
+    ],
+    "commasuperior": [
+        "0x002C"
+    ],
+    "copyrightsans": [
+        "0x00A9"
+    ],
+    "copyrightserif": [
+        "0x00A9"
+    ],
+    "Csmall": [
+        "0x0063"
+    ],
+    "cyrBreve": [
+        "0x02D8"
+    ],
+    "cyrbreve": [
+        "0x02D8"
+    ],
+    "cyrFlex": [
+        "0x0311"
+    ],
+    "cyrflex": [
+        "0x0311"
+    ],
+    "dblGrave": [
+        "0x030F"
+    ],
+    "dblgrave": [
+        "0x030F"
+    ],
+    "Dieresis": [
+        "0x00A8"
+    ],
+    "dieresisacute": [
+        "0x0308",
+        "0x0301"
+    ],
+    "DieresisAcute": [
+        "0x1DC1"
+    ],
+    "dieresisgrave": [
+        "0x0308",
+        "0x0300"
+    ],
+    "DieresisGrave": [
+        "0x1DC0"
+    ],
+    "Dieresissmall": [
+        "0x00A8"
+    ],
+    "dollarinferior": [
+        "0x0024"
+    ],
+    "dollaroldstyle": [
+        "0x0024"
+    ],
+    "dollarsuperior": [
+        "0x0024"
+    ],
+    "Dotaccentsmall": [
+        "0x02D9"
+    ],
+    "dotlessj": [
+        "0x0237"
+    ],
+    "Dsmall": [
+        "0x0064"
+    ],
+    "dsuperior": [
+        "0x0064"
+    ],
+    "Eacutesmall": [
+        "0x00E9"
+    ],
+    "Ecircumflexsmall": [
+        "0x00EA"
+    ],
+    "Edieresissmall": [
+        "0x00EB"
+    ],
+    "Egravesmall": [
+        "0x00E8"
+    ],
+    "eightoldstyle": [
+        "0x0038"
+    ],
+    "Esmall": [
+        "0x0065"
+    ],
+    "esuperior": [
+        "0x0065"
+    ],
+    "Ethsmall": [
+        "0x00F0"
+    ],
+    "exclamdownsmall": [
+        "0x00A1"
+    ],
+    "exclamsmall": [
+        "0x0021"
+    ],
+    "fiveoldstyle": [
+        "0x0035"
+    ],
+    "fouroldstyle": [
+        "0x0034"
+    ],
+    "Fsmall": [
+        "0x0066"
+    ],
+    "Grave": [
+        "0x0060"
+    ],
+    "Gravesmall": [
+        "0x0060"
+    ],
+    "Gsmall": [
+        "0x0067"
+    ],
+    "Hsmall": [
+        "0x0068"
+    ],
+    "Hungarumlaut": [
+        "0x02DD"
+    ],
+    "Hungarumlautsmall": [
+        "0x02DD"
+    ],
+    "hypheninferior": [
+        "0x002D"
+    ],
+    "hyphensuperior": [
+        "0x002D"
+    ],
+    "Iacutesmall": [
+        "0x00ED"
+    ],
+    "Icircumflexsmall": [
+        "0x00EE"
+    ],
+    "Idieresissmall": [
+        "0x00EF"
+    ],
+    "Igravesmall": [
+        "0x00EC"
+    ],
+    "integralex": [
+        "0x23AE"
+    ],
+    "Ismall": [
+        "0x0069"
+    ],
+    "isuperior": [
+        "0x0069"
+    ],
+    "Jsmall": [
+        "0x006A"
+    ],
+    "Ksmall": [
+        "0x006B"
+    ],
+    "lamedholamdagesh": [
+        "0x05DC",
+        "0x05B9",
+        "0x05BC"
+    ],
+    "lamedholamdageshhebrew": [
+        "0x05DC",
+        "0x05B9",
+        "0x05BC"
+    ],
+    "lammeemjeeminitialarabic": [
+        "0xFEDF",
+        "0xFEE4",
+        "0xFEA0"
+    ],
+    "lammeemkhahinitialarabic": [
+        "0xFEDF",
+        "0xFEE4",
+        "0xFEA8"
+    ],
+    "LL": [
+        "0x004C",
+        "0x004C"
+    ],
+    "ll": [
+        "0x006C",
+        "0x006C"
+    ],
+    "Lslashsmall": [
+        "0x0142"
+    ],
+    "Lsmall": [
+        "0x006C"
+    ],
+    "lsuperior": [
+        "0x006C"
+    ],
+    "Macron": [
+        "0x00AF"
+    ],
+    "Macronsmall": [
+        "0x00AF"
+    ],
+    "Msmall": [
+        "0x006D"
+    ],
+    "msuperior": [
+        "0x006D"
+    ],
+    "nineoldstyle": [
+        "0x0039"
+    ],
+    "Nsmall": [
+        "0x006E"
+    ],
+    "Ntildesmall": [
+        "0x00F1"
+    ],
+    "Oacutesmall": [
+        "0x00F3"
+    ],
+    "Ocircumflexsmall": [
+        "0x00F4"
+    ],
+    "Odieresissmall": [
+        "0x00F6"
+    ],
+    "OEsmall": [
+        "0x0153"
+    ],
+    "Ogoneksmall": [
+        "0x02DB"
+    ],
+    "Ogravesmall": [
+        "0x00F2"
+    ],
+    "onefitted": [
+        "0x0031"
+    ],
+    "oneoldstyle": [
+        "0x0031"
+    ],
+    "Oslashsmall": [
+        "0x00F8"
+    ],
+    "Osmall": [
+        "0x006F"
+    ],
+    "osuperior": [
+        "0x006F"
+    ],
+    "Otildesmall": [
+        "0x00F5"
+    ],
+    "parenleftbt": [
+        "0x239D"
+    ],
+    "parenleftex": [
+        "0x239C"
+    ],
+    "parenlefttp": [
+        "0x239B"
+    ],
+    "parenrightbt": [
+        "0x23A0"
+    ],
+    "parenrightex": [
+        "0x239F"
+    ],
+    "parenrighttp": [
+        "0x239E"
+    ],
+    "periodinferior": [
+        "0x002E"
+    ],
+    "periodsuperior": [
+        "0x002E"
+    ],
+    "Psmall": [
+        "0x0070"
+    ],
+    "Qsmall": [
+        "0x0071"
+    ],
+    "questiondownsmall": [
+        "0x00BF"
+    ],
+    "questionsmall": [
+        "0x003F"
+    ],
+    "radicalex": [
+        "0x23D0"
+    ],
+    "registersans": [
+        "0x00AE"
+    ],
+    "registerserif": [
+        "0x00AE"
+    ],
+    "rehyehaleflamarabic": [
+        "0x0631",
+        "0xFEF3",
+        "0xFE8E",
+        "0x0644"
+    ],
+    "Ringsmall": [
+        "0x02DA"
+    ],
+    "Rsmall": [
+        "0x0072"
+    ],
+    "rsuperior": [
+        "0x0072"
+    ],
+    "rupiah": [
+        "0x20A8"
+    ],
+    "Scaronsmall": [
+        "0x0161"
+    ],
+    "sevenoldstyle": [
+        "0x0037"
+    ],
+    "sixoldstyle": [
+        "0x0036"
+    ],
+    "Ssmall": [
+        "0x0073"
+    ],
+    "ssuperior": [
+        "0x0073"
+    ],
+    "Thornsmall": [
+        "0x00FE"
+    ],
+    "threeoldstyle": [
+        "0x0033"
+    ],
+    "threequartersemdash": [
+        "0x2014"
+    ],
+    "Tildesmall": [
+        "0x02DC"
+    ],
+    "trademarksans": [
+        "0x2122"
+    ],
+    "trademarkserif": [
+        "0x2122"
+    ],
+    "Tsmall": [
+        "0x0074"
+    ],
+    "tsuperior": [
+        "0x0074"
+    ],
+    "twooldstyle": [
+        "0x0032"
+    ],
+    "Uacutesmall": [
+        "0x00FA"
+    ],
+    "Ucircumflexsmall": [
+        "0x00FB"
+    ],
+    "Udieresissmall": [
+        "0x00FC"
+    ],
+    "Ugravesmall": [
+        "0x00F9"
+    ],
+    "Usmall": [
+        "0x0075"
+    ],
+    "Vsmall": [
+        "0x0076"
+    ],
+    "Wsmall": [
+        "0x0077"
+    ],
+    "Xsmall": [
+        "0x0078"
+    ],
+    "Yacutesmall": [
+        "0x00FD"
+    ],
+    "Ydieresissmall": [
+        "0x00FF"
+    ],
+    "Ysmall": [
+        "0x0079"
+    ],
+    "Zcaronsmall": [
+        "0x017E"
+    ],
+    "zerooldstyle": [
+        "0x0030"
+    ],
+    "Zsmall": [
+        "0x007A"
+    ]
+}

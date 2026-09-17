@@ -1,0 +1,2 @@
+# Makefile
+include ../../common.Makefile

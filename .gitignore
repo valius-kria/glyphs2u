@@ -1,0 +1,96 @@
+# Byte-compiled Python
+__pycache__/
+*.py[cod]
+
+# Editor backups
+*~
+.dir-locals.el
+.aider*
+
+## Generated in the project root by `make'.
+# List of working directories, rebuilt by scanning the tree; holds absolute
+# paths, so it belongs to a checkout rather than to the repository.
+config-list.json
+# Intermediate steps on the way to font_glyph_maps.lua.  The table itself is
+# committed, since it is the deliverable that xdvipsk reads.
+font_glyph_maps.json
+font_glyph_dict.json
+lua_tables_aliases_dict.json
+lua-table-glyph-values.json
+lua-tables-partition-map.json
+lua-tables-rels.txt
+glyph-uni-tree.json
+font_glyph_maps_sorted.lua
+# Parsed Unicode and psfonts.map data, rebuilt from unicode-data/ and from
+# the psfonts.map of your TeX installation.
+UnicodeData.pkl
+UnicodeData.json
+psfonts-map.pkl
+psfonts-map.json
+pfb-tfm-map.json
+tfm-enc-map.json
+enc-pfb-map.json
+
+## Production-file scanning (local to whoever runs it)
+fls-files/
+fls-files.copied
+fls-files-list.json
+prod-tfm-list.json
+prod-pfb-dict.json
+prod-pfb-dirs.json
+
+## tex4ht comparison data, extracted from your TeX installation
+tex4ht-data/
+tex4ht-inventory.json
+tex4ht-theirs-only-dirs.json
+*-tex4ht.diff
+
+## Glyph-image dataset and k-NN index for the visual classifier
+glyphs-dataset/
+
+## Generated inside working directories
+deploy
+fonts-glyphs-dict.json
+*-glyphs.json
+*-unicodes.json
+*.html
+*.check
+*.cleaned
+*-undef.json
+*-unneeded.json
+*-duplicates.json
+*-unimis.txt
+Glyph-sets.txt
+Glyph-sets-nobuilt.txt
+font-glyph-set-rels.txt
+font-gs-rels-nobuilt.txt
+font-gsets-nobuilt.json
+config-missing-fonts.json
+common-encodings.json
+dupl-encodings.json
+
+## TeX output from fonttable/
+fonttable/*.tex
+fonttable/*.dvi
+fonttable/*.ps
+fonttable/*.pdf
+fonttable/*.aux
+fonttable/*.log
+fonttable/*.fls
+fonttable/*.synctex.gz
+fonttable/*.runtime.yaml
+
+## Generated in glyphlists/ by its Makefile
+glyphlists/sources/
+glyphlists/agl.lua
+glyphlists/pdftex.lua
+glyphlists/luaotf.lua
+glyphlists/ntx.lua
+glyphlists/pdf.lua
+glyphlists/tex.lua
+glyphlists/cmr.lua
+glyphlists/cmex.lua
+glyphlists/cs.lua
+glyphlists/glyphlist_table-generated.lua
+glyphlists/*-not-main.*
+glyphlists/main-not-*

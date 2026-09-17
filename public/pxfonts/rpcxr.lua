@@ -1,0 +1,32 @@
+return {
+  ['tieaccentlowercase'] = { 0x2040 },-- CHARACTER TIE
+  ['tieaccentcapital'] = { 0x2040 },-- CHARACTER TIE
+  ['newtieaccentlowercase'] = { 0x2040 },-- CHARACTER TIE
+  ['newtieaccentcapital'] = { 0x2040 },-- CHARACTER TIE
+  ['blank'] = { 0x2422 },-- BLANK SYMBOL
+  ['hyphendbl'] = { 0x2E40 },-- DOUBLE HYPHEN
+  ['bigcircle'] = { 0x25EF },-- LARGE CIRCLE
+  ['openbracketleft'] = { 0x27E6 },-- MATHEMATICAL LEFT WHITE SQUARE BRACKET
+  ['openbracketright'] = { 0x27E7 },-- MATHEMATICAL RIGHT WHITE SQUARE BRACKET
+  ['born'] = { 0x1F7C9 },-- LIGHT FIVE POINTED BLACK STAR
+  ['divorced'] = { 0x26AE },-- DIVORCE SYMBOL
+  ['died'] = { 0x271D },-- LATIN CROSS
+  ['leaf'] = { 0x1F342 },-- FALLEN LEAF
+  ['married'] = { 0x26AD },-- MARRIAGE SYMBOL
+  ['tildelow'] = { 0x007E },-- TILDE
+  ['hyphendblchar'] = { 0x2E40 },-- DOUBLE HYPHEN
+  ['dollaroldstyle'] = { 0x0024 },-- DOLLAR SIGN
+  ['naira'] = { 0x20A6 },-- NAIRA SIGN
+  ['guarani'] = { 0x20B2 },-- GUARANI SIGN
+  ['peso'] = { 0xA750 },-- LATIN CAPITAL LETTER P WITH STROKE THROUGH DESCENDER
+  ['recipe'] = { 0xA776 },-- LATIN LETTER SMALL CAPITAL RUM
+  ['pilcrow'] = { 0x00B6 },-- PILCROW SIGN
+  ['baht'] = { 0x0E3F },-- THAI CURRENCY SYMBOL BAHT
+  ['discount'] = { 0x2052 },-- COMMERCIAL MINUS SIGN
+  ['servicemark'] = { 0x2120 },-- SERVICE MARK
+  ['guillbracketleft'] = { 0x2045 },-- LEFT SQUARE BRACKET WITH QUILL
+  ['guillbracketright'] = { 0x2046 },-- RIGHT SQUARE BRACKET WITH QUILL
+  ['copyleft'] = { 0x1F12F },-- COPYLEFT SYMBOL
+  ['circledP'] = { 0x24C5 },-- CIRCLED LATIN CAPITAL LETTER P
+  ['.notdef'] = { 0x0020 },-- SPACE
+}

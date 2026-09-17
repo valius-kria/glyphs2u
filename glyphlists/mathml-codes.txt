@@ -1,0 +1,2342 @@
+U00009, CHARACTER TABULATION                   , Tab
+U0000A, LINE FEED (LF)                         , NewLine
+U00021, EXCLAMATION MARK                       , excl
+U00022, QUOTATION MARK                         , quot
+U00023, NUMBER SIGN                            , num
+U00024, DOLLAR SIGN                            , dollar
+U00025, PERCENT SIGN                           , percnt
+U00026, AMPERSAND                              , amp
+U00027, APOSTROPHE                             , apos
+U00028, LEFT PARENTHESIS                       , lpar
+U00029, RIGHT PARENTHESIS                      , rpar
+U0002A, ASTERISK                               , ast, midast
+U0002B, PLUS SIGN                              , plus
+U0002C, COMMA                                  , comma
+U0002E, FULL STOP                              , period
+U0002F, SOLIDUS                                , sol
+U0003A, COLON                                  , colon
+U0003B, SEMICOLON                              , semi
+U0003C, LESS-THAN SIGN                         , lt
+U0003D, EQUALS SIGN                            , equals
+U0003D-020E5, EQUALS SIGN with reverse slash   , bne
+U0003E, GREATER-THAN SIGN                      , gt
+U0003F, QUESTION MARK                          , quest
+U00040, COMMERCIAL AT                          , commat
+U0005B, LEFT SQUARE BRACKET                    , lsqb, lbrack
+U0005C, REVERSE SOLIDUS                        , bsol
+U0005C-02282, REVERSE SOLIDUS, SUBSET          , bsolhsub
+U0005D, RIGHT SQUARE BRACKET                   , rsqb, rbrack
+U0005E, CIRCUMFLEX ACCENT                      , Hat
+U0005F, LOW LINE                               , lowbar
+U00060, GRAVE ACCENT                           , grave, DiacriticalGrave
+U0006A, LATIN SMALL LETTER J                   , jmath
+U0007B, LEFT CURLY BRACKET                     , lcub, lbrace
+U0007C, VERTICAL LINE                          , verbar, vert, VerticalLine
+U0007D, RIGHT CURLY BRACKET                    , rcub, rbrace
+U000A0, NO-BREAK SPACE                         , nbsp, NonBreakingSpace
+U000A1, INVERTED EXCLAMATION MARK              , iexcl
+U000A2, CENT SIGN                              , cent
+U000A3, POUND SIGN                             , pound
+U000A4, CURRENCY SIGN                          , curren
+U000A5, YEN SIGN                               , yen
+U000A6, BROKEN BAR                             , brvbar
+U000A7, SECTION SIGN                           , sect
+U000A8, DIAERESIS                              , Dot, die, DoubleDot, uml
+U000A9, COPYRIGHT SIGN                         , copy
+U000AA, FEMININE ORDINAL INDICATOR             , ordf
+U000AB, LEFT-POINTING DOUBLE ANGLE QUOTATION MARK, laquo
+U000AC, NOT SIGN                               , not
+U000AD, SOFT HYPHEN                            , shy
+U000AE, REGISTERED SIGN                        , reg, circledR
+U000AF, MACRON                                 , macr, OverBar
+U000B0, DEGREE SIGN                            , deg
+U000B1, PLUS-MINUS SIGN                        , plusmn, pm, PlusMinus
+U000B2, SUPERSCRIPT TWO                        , sup2
+U000B3, SUPERSCRIPT THREE                      , sup3
+U000B4, ACUTE ACCENT                           , acute, DiacriticalAcute
+U000B5, MICRO SIGN                             , micro
+U000B6, PILCROW SIGN                           , para
+U000B7, MIDDLE DOT                             , middot, centerdot, CenterDot
+U000B8, CEDILLA                                , cedil, Cedilla
+U000B9, SUPERSCRIPT ONE                        , sup1
+U000BA, MASCULINE ORDINAL INDICATOR            , ordm
+U000BB, RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK, raquo
+U000BC, VULGAR FRACTION ONE QUARTER            , frac14
+U000BD, VULGAR FRACTION ONE HALF               , frac12, half
+U000BE, VULGAR FRACTION THREE QUARTERS         , frac34
+U000BF, INVERTED QUESTION MARK                 , iquest
+U000C0, LATIN CAPITAL LETTER A WITH GRAVE      , Agrave
+U000C1, LATIN CAPITAL LETTER A WITH ACUTE      , Aacute
+U000C2, LATIN CAPITAL LETTER A WITH CIRCUMFLEX , Acirc
+U000C3, LATIN CAPITAL LETTER A WITH TILDE      , Atilde
+U000C4, LATIN CAPITAL LETTER A WITH DIAERESIS  , Auml
+U000C5, LATIN CAPITAL LETTER A WITH RING ABOVE , Aring
+U000C6, LATIN CAPITAL LETTER AE                , AElig
+U000C7, LATIN CAPITAL LETTER C WITH CEDILLA    , Ccedil
+U000C8, LATIN CAPITAL LETTER E WITH GRAVE      , Egrave
+U000C9, LATIN CAPITAL LETTER E WITH ACUTE      , Eacute
+U000CA, LATIN CAPITAL LETTER E WITH CIRCUMFLEX , Ecirc
+U000CB, LATIN CAPITAL LETTER E WITH DIAERESIS  , Euml
+U000CC, LATIN CAPITAL LETTER I WITH GRAVE      , Igrave
+U000CD, LATIN CAPITAL LETTER I WITH ACUTE      , Iacute
+U000CE, LATIN CAPITAL LETTER I WITH CIRCUMFLEX , Icirc
+U000CF, LATIN CAPITAL LETTER I WITH DIAERESIS  , Iuml
+U000D0, LATIN CAPITAL LETTER ETH               , ETH
+U000D1, LATIN CAPITAL LETTER N WITH TILDE      , Ntilde
+U000D2, LATIN CAPITAL LETTER O WITH GRAVE      , Ograve
+U000D3, LATIN CAPITAL LETTER O WITH ACUTE      , Oacute
+U000D4, LATIN CAPITAL LETTER O WITH CIRCUMFLEX , Ocirc
+U000D5, LATIN CAPITAL LETTER O WITH TILDE      , Otilde
+U000D6, LATIN CAPITAL LETTER O WITH DIAERESIS  , Ouml
+U000D7, MULTIPLICATION SIGN                    , times
+U000D8, LATIN CAPITAL LETTER O WITH STROKE     , Oslash
+U000D9, LATIN CAPITAL LETTER U WITH GRAVE      , Ugrave
+U000DA, LATIN CAPITAL LETTER U WITH ACUTE      , Uacute
+U000DB, LATIN CAPITAL LETTER U WITH CIRCUMFLEX , Ucirc
+U000DC, LATIN CAPITAL LETTER U WITH DIAERESIS  , Uuml
+U000DD, LATIN CAPITAL LETTER Y WITH ACUTE      , Yacute
+U000DE, LATIN CAPITAL LETTER THORN             , THORN
+U000DF, LATIN SMALL LETTER SHARP S             , szlig
+U000E0, LATIN SMALL LETTER A WITH GRAVE        , agrave
+U000E1, LATIN SMALL LETTER A WITH ACUTE        , aacute
+U000E2, LATIN SMALL LETTER A WITH CIRCUMFLEX   , acirc
+U000E3, LATIN SMALL LETTER A WITH TILDE        , atilde
+U000E4, LATIN SMALL LETTER A WITH DIAERESIS    , auml
+U000E5, LATIN SMALL LETTER A WITH RING ABOVE   , aring
+U000E6, LATIN SMALL LETTER AE                  , aelig
+U000E7, LATIN SMALL LETTER C WITH CEDILLA      , ccedil
+U000E8, LATIN SMALL LETTER E WITH GRAVE        , egrave
+U000E9, LATIN SMALL LETTER E WITH ACUTE        , eacute
+U000EA, LATIN SMALL LETTER E WITH CIRCUMFLEX   , ecirc
+U000EB, LATIN SMALL LETTER E WITH DIAERESIS    , euml
+U000EC, LATIN SMALL LETTER I WITH GRAVE        , igrave
+U000ED, LATIN SMALL LETTER I WITH ACUTE        , iacute
+U000EE, LATIN SMALL LETTER I WITH CIRCUMFLEX   , icirc
+U000EF, LATIN SMALL LETTER I WITH DIAERESIS    , iuml
+U000F0, LATIN SMALL LETTER ETH                 , eth
+U000F1, LATIN SMALL LETTER N WITH TILDE        , ntilde
+U000F2, LATIN SMALL LETTER O WITH GRAVE        , ograve
+U000F3, LATIN SMALL LETTER O WITH ACUTE        , oacute
+U000F4, LATIN SMALL LETTER O WITH CIRCUMFLEX   , ocirc
+U000F5, LATIN SMALL LETTER O WITH TILDE        , otilde
+U000F6, LATIN SMALL LETTER O WITH DIAERESIS    , ouml
+U000F7, DIVISION SIGN                          , divide, div
+U000F8, LATIN SMALL LETTER O WITH STROKE       , oslash
+U000F9, LATIN SMALL LETTER U WITH GRAVE        , ugrave
+U000FA, LATIN SMALL LETTER U WITH ACUTE        , uacute
+U000FB, LATIN SMALL LETTER U WITH CIRCUMFLEX   , ucirc
+U000FC, LATIN SMALL LETTER U WITH DIAERESIS    , uuml
+U000FD, LATIN SMALL LETTER Y WITH ACUTE        , yacute
+U000FE, LATIN SMALL LETTER THORN               , thorn
+U000FF, LATIN SMALL LETTER Y WITH DIAERESIS    , yuml
+U00100, LATIN CAPITAL LETTER A WITH MACRON     , Amacr
+U00101, LATIN SMALL LETTER A WITH MACRON       , amacr
+U00102, LATIN CAPITAL LETTER A WITH BREVE      , Abreve
+U00103, LATIN SMALL LETTER A WITH BREVE        , abreve
+U00104, LATIN CAPITAL LETTER A WITH OGONEK     , Aogon
+U00105, LATIN SMALL LETTER A WITH OGONEK       , aogon
+U00106, LATIN CAPITAL LETTER C WITH ACUTE      , Cacute
+U00107, LATIN SMALL LETTER C WITH ACUTE        , cacute
+U00108, LATIN CAPITAL LETTER C WITH CIRCUMFLEX , Ccirc
+U00109, LATIN SMALL LETTER C WITH CIRCUMFLEX   , ccirc
+U0010A, LATIN CAPITAL LETTER C WITH DOT ABOVE  , Cdot
+U0010B, LATIN SMALL LETTER C WITH DOT ABOVE    , cdot
+U0010C, LATIN CAPITAL LETTER C WITH CARON      , Ccaron
+U0010D, LATIN SMALL LETTER C WITH CARON        , ccaron
+U0010E, LATIN CAPITAL LETTER D WITH CARON      , Dcaron
+U0010F, LATIN SMALL LETTER D WITH CARON        , dcaron
+U00110, LATIN CAPITAL LETTER D WITH STROKE     , Dstrok
+U00111, LATIN SMALL LETTER D WITH STROKE       , dstrok
+U00112, LATIN CAPITAL LETTER E WITH MACRON     , Emacr
+U00113, LATIN SMALL LETTER E WITH MACRON       , emacr
+U00116, LATIN CAPITAL LETTER E WITH DOT ABOVE  , Edot
+U00117, LATIN SMALL LETTER E WITH DOT ABOVE    , edot
+U00118, LATIN CAPITAL LETTER E WITH OGONEK     , Eogon
+U00119, LATIN SMALL LETTER E WITH OGONEK       , eogon
+U0011A, LATIN CAPITAL LETTER E WITH CARON      , Ecaron
+U0011B, LATIN SMALL LETTER E WITH CARON        , ecaron
+U0011C, LATIN CAPITAL LETTER G WITH CIRCUMFLEX , Gcirc
+U0011D, LATIN SMALL LETTER G WITH CIRCUMFLEX   , gcirc
+U0011E, LATIN CAPITAL LETTER G WITH BREVE      , Gbreve
+U0011F, LATIN SMALL LETTER G WITH BREVE        , gbreve
+U00120, LATIN CAPITAL LETTER G WITH DOT ABOVE  , Gdot
+U00121, LATIN SMALL LETTER G WITH DOT ABOVE    , gdot
+U00122, LATIN CAPITAL LETTER G WITH CEDILLA    , Gcedil
+U00124, LATIN CAPITAL LETTER H WITH CIRCUMFLEX , Hcirc
+U00125, LATIN SMALL LETTER H WITH CIRCUMFLEX   , hcirc
+U00126, LATIN CAPITAL LETTER H WITH STROKE     , Hstrok
+U00127, LATIN SMALL LETTER H WITH STROKE       , hstrok
+U00128, LATIN CAPITAL LETTER I WITH TILDE      , Itilde
+U00129, LATIN SMALL LETTER I WITH TILDE        , itilde
+U0012A, LATIN CAPITAL LETTER I WITH MACRON     , Imacr
+U0012B, LATIN SMALL LETTER I WITH MACRON       , imacr
+U0012E, LATIN CAPITAL LETTER I WITH OGONEK     , Iogon
+U0012F, LATIN SMALL LETTER I WITH OGONEK       , iogon
+U00130, LATIN CAPITAL LETTER I WITH DOT ABOVE  , Idot
+U00131, LATIN SMALL LETTER DOTLESS I           , imath, inodot
+U00132, LATIN CAPITAL LIGATURE IJ              , IJlig
+U00133, LATIN SMALL LIGATURE IJ                , ijlig
+U00134, LATIN CAPITAL LETTER J WITH CIRCUMFLEX , Jcirc
+U00135, LATIN SMALL LETTER J WITH CIRCUMFLEX   , jcirc
+U00136, LATIN CAPITAL LETTER K WITH CEDILLA    , Kcedil
+U00137, LATIN SMALL LETTER K WITH CEDILLA      , kcedil
+U00138, LATIN SMALL LETTER KRA                 , kgreen
+U00139, LATIN CAPITAL LETTER L WITH ACUTE      , Lacute
+U0013A, LATIN SMALL LETTER L WITH ACUTE        , lacute
+U0013B, LATIN CAPITAL LETTER L WITH CEDILLA    , Lcedil
+U0013C, LATIN SMALL LETTER L WITH CEDILLA      , lcedil
+U0013D, LATIN CAPITAL LETTER L WITH CARON      , Lcaron
+U0013E, LATIN SMALL LETTER L WITH CARON        , lcaron
+U0013F, LATIN CAPITAL LETTER L WITH MIDDLE DOT , Lmidot
+U00140, LATIN SMALL LETTER L WITH MIDDLE DOT   , lmidot
+U00141, LATIN CAPITAL LETTER L WITH STROKE     , Lstrok
+U00142, LATIN SMALL LETTER L WITH STROKE       , lstrok
+U00143, LATIN CAPITAL LETTER N WITH ACUTE      , Nacute
+U00144, LATIN SMALL LETTER N WITH ACUTE        , nacute
+U00145, LATIN CAPITAL LETTER N WITH CEDILLA    , Ncedil
+U00146, LATIN SMALL LETTER N WITH CEDILLA      , ncedil
+U00147, LATIN CAPITAL LETTER N WITH CARON      , Ncaron
+U00148, LATIN SMALL LETTER N WITH CARON        , ncaron
+U00149, LATIN SMALL LETTER N PRECEDED BY APOSTROPHE, napos
+U0014A, LATIN CAPITAL LETTER ENG               , ENG
+U0014B, LATIN SMALL LETTER ENG                 , eng
+U0014C, LATIN CAPITAL LETTER O WITH MACRON     , Omacr
+U0014D, LATIN SMALL LETTER O WITH MACRON       , omacr
+U00150, LATIN CAPITAL LETTER O WITH DOUBLE ACUTE, Odblac
+U00151, LATIN SMALL LETTER O WITH DOUBLE ACUTE , odblac
+U00152, LATIN CAPITAL LIGATURE OE              , OElig
+U00153, LATIN SMALL LIGATURE OE                , oelig
+U00154, LATIN CAPITAL LETTER R WITH ACUTE      , Racute
+U00155, LATIN SMALL LETTER R WITH ACUTE        , racute
+U00156, LATIN CAPITAL LETTER R WITH CEDILLA    , Rcedil
+U00157, LATIN SMALL LETTER R WITH CEDILLA      , rcedil
+U00158, LATIN CAPITAL LETTER R WITH CARON      , Rcaron
+U00159, LATIN SMALL LETTER R WITH CARON        , rcaron
+U0015A, LATIN CAPITAL LETTER S WITH ACUTE      , Sacute
+U0015B, LATIN SMALL LETTER S WITH ACUTE        , sacute
+U0015C, LATIN CAPITAL LETTER S WITH CIRCUMFLEX , Scirc
+U0015D, LATIN SMALL LETTER S WITH CIRCUMFLEX   , scirc
+U0015E, LATIN CAPITAL LETTER S WITH CEDILLA    , Scedil
+U0015F, LATIN SMALL LETTER S WITH CEDILLA      , scedil
+U00160, LATIN CAPITAL LETTER S WITH CARON      , Scaron
+U00161, LATIN SMALL LETTER S WITH CARON        , scaron
+U00162, LATIN CAPITAL LETTER T WITH CEDILLA    , Tcedil
+U00163, LATIN SMALL LETTER T WITH CEDILLA      , tcedil
+U00164, LATIN CAPITAL LETTER T WITH CARON      , Tcaron
+U00165, LATIN SMALL LETTER T WITH CARON        , tcaron
+U00166, LATIN CAPITAL LETTER T WITH STROKE     , Tstrok
+U00167, LATIN SMALL LETTER T WITH STROKE       , tstrok
+U00168, LATIN CAPITAL LETTER U WITH TILDE      , Utilde
+U00169, LATIN SMALL LETTER U WITH TILDE        , utilde
+U0016A, LATIN CAPITAL LETTER U WITH MACRON     , Umacr
+U0016B, LATIN SMALL LETTER U WITH MACRON       , umacr
+U0016C, LATIN CAPITAL LETTER U WITH BREVE      , Ubreve
+U0016D, LATIN SMALL LETTER U WITH BREVE        , ubreve
+U0016E, LATIN CAPITAL LETTER U WITH RING ABOVE , Uring
+U0016F, LATIN SMALL LETTER U WITH RING ABOVE   , uring
+U00170, LATIN CAPITAL LETTER U WITH DOUBLE ACUTE, Udblac
+U00171, LATIN SMALL LETTER U WITH DOUBLE ACUTE , udblac
+U00172, LATIN CAPITAL LETTER U WITH OGONEK     , Uogon
+U00173, LATIN SMALL LETTER U WITH OGONEK       , uogon
+U00174, LATIN CAPITAL LETTER W WITH CIRCUMFLEX , Wcirc
+U00175, LATIN SMALL LETTER W WITH CIRCUMFLEX   , wcirc
+U00176, LATIN CAPITAL LETTER Y WITH CIRCUMFLEX , Ycirc
+U00177, LATIN SMALL LETTER Y WITH CIRCUMFLEX   , ycirc
+U00178, LATIN CAPITAL LETTER Y WITH DIAERESIS  , Yuml
+U00179, LATIN CAPITAL LETTER Z WITH ACUTE      , Zacute
+U0017A, LATIN SMALL LETTER Z WITH ACUTE        , zacute
+U0017B, LATIN CAPITAL LETTER Z WITH DOT ABOVE  , Zdot
+U0017C, LATIN SMALL LETTER Z WITH DOT ABOVE    , zdot
+U0017D, LATIN CAPITAL LETTER Z WITH CARON      , Zcaron
+U0017E, LATIN SMALL LETTER Z WITH CARON        , zcaron
+U00192, LATIN SMALL LETTER F WITH HOOK         , fnof
+U001F5, LATIN SMALL LETTER G WITH ACUTE        , gacute
+U0025B, LATIN SMALL LETTER OPEN E              , epsiv, varepsilon
+U002C6, MODIFIER LETTER CIRCUMFLEX ACCENT      , circ
+U002C7, CARON                                  , caron, Hacek
+U002D8, BREVE                                  , breve, Breve
+U002D9, DOT ABOVE                              , dot, DiacriticalDot
+U002DA, RING ABOVE                             , ring
+U002DB, OGONEK                                 , ogon
+U002DC, SMALL TILDE                            , tilde, DiacriticalTilde
+U002DD, DOUBLE ACUTE ACCENT                    , dblac, DiacriticalDoubleAcute
+U00311, COMBINING INVERTED BREVE               , DownBreve
+U00332, COMBINING LOW LINE                     , UnderBar
+U00393, GREEK CAPITAL LETTER GAMMA             , Gamma
+U00394, GREEK CAPITAL LETTER DELTA             , Delta
+U00398, GREEK CAPITAL LETTER THETA             , Theta
+U0039B, GREEK CAPITAL LETTER LAMDA             , Lambda
+U0039E, GREEK CAPITAL LETTER XI                , Xi
+U003A0, GREEK CAPITAL LETTER PI                , Pi
+U003A3, GREEK CAPITAL LETTER SIGMA             , Sigma
+U003A5, GREEK CAPITAL LETTER UPSILON           , Upsilon
+U003A6, GREEK CAPITAL LETTER PHI               , Phi
+U003A8, GREEK CAPITAL LETTER PSI               , Psi
+U003A9, GREEK CAPITAL LETTER OMEGA             , Omega
+U003B1, GREEK SMALL LETTER ALPHA               , alpha
+U003B2, GREEK SMALL LETTER BETA                , beta
+U003B3, GREEK SMALL LETTER GAMMA               , gamma
+U003B4, GREEK SMALL LETTER DELTA               , delta
+U003B5, GREEK SMALL LETTER EPSILON             , epsi, straightepsilon
+U003B6, GREEK SMALL LETTER ZETA                , zeta
+U003B7, GREEK SMALL LETTER ETA                 , eta
+U003B8, GREEK SMALL LETTER THETA               , theta
+U003B9, GREEK SMALL LETTER IOTA                , iota
+U003BA, GREEK SMALL LETTER KAPPA               , kappa
+U003BB, GREEK SMALL LETTER LAMDA               , lambda
+U003BC, GREEK SMALL LETTER MU                  , mu
+U003BD, GREEK SMALL LETTER NU                  , nu
+U003BE, GREEK SMALL LETTER XI                  , xi
+U003C0, GREEK SMALL LETTER PI                  , pi
+U003C1, GREEK SMALL LETTER RHO                 , rho
+U003C2, GREEK SMALL LETTER FINAL SIGMA         , sigmav, varsigma
+U003C3, GREEK SMALL LETTER SIGMA               , sigma
+U003C4, GREEK SMALL LETTER TAU                 , tau
+U003C5, GREEK SMALL LETTER UPSILON             , upsi, upsilon
+U003C6, GREEK SMALL LETTER PHI                 , phiv, varphi
+U003C7, GREEK SMALL LETTER CHI                 , chi
+U003C8, GREEK SMALL LETTER PSI                 , psi
+U003C9, GREEK SMALL LETTER OMEGA               , omega
+U003D1, GREEK THETA SYMBOL                     , thetav, vartheta
+U003D2, GREEK UPSILON WITH HOOK SYMBOL         , Upsi
+U003D5, GREEK PHI SYMBOL                       , phi, straightphi
+U003D6, GREEK PI SYMBOL                        , piv, varpi
+U003DC, GREEK LETTER DIGAMMA                   , Gammad
+U003DD, GREEK SMALL LETTER DIGAMMA             , gammad, digamma
+U003F0, GREEK KAPPA SYMBOL                     , kappav, varkappa
+U003F1, GREEK RHO SYMBOL                       , rhov, varrho
+U003F6, GREEK REVERSED LUNATE EPSILON SYMBOL   , bepsi, backepsilon
+U00401, CYRILLIC CAPITAL LETTER IO             , IOcy
+U00402, CYRILLIC CAPITAL LETTER DJE            , DJcy
+U00403, CYRILLIC CAPITAL LETTER GJE            , GJcy
+U00404, CYRILLIC CAPITAL LETTER UKRAINIAN IE   , Jukcy
+U00405, CYRILLIC CAPITAL LETTER DZE            , DScy
+U00406, CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I, Iukcy
+U00407, CYRILLIC CAPITAL LETTER YI             , YIcy
+U00408, CYRILLIC CAPITAL LETTER JE             , Jsercy
+U00409, CYRILLIC CAPITAL LETTER LJE            , LJcy
+U0040A, CYRILLIC CAPITAL LETTER NJE            , NJcy
+U0040B, CYRILLIC CAPITAL LETTER TSHE           , TSHcy
+U0040C, CYRILLIC CAPITAL LETTER KJE            , KJcy
+U0040E, CYRILLIC CAPITAL LETTER SHORT U        , Ubrcy
+U0040F, CYRILLIC CAPITAL LETTER DZHE           , DZcy
+U00410, CYRILLIC CAPITAL LETTER A              , Acy
+U00411, CYRILLIC CAPITAL LETTER BE             , Bcy
+U00412, CYRILLIC CAPITAL LETTER VE             , Vcy
+U00413, CYRILLIC CAPITAL LETTER GHE            , Gcy
+U00414, CYRILLIC CAPITAL LETTER DE             , Dcy
+U00415, CYRILLIC CAPITAL LETTER IE             , IEcy
+U00416, CYRILLIC CAPITAL LETTER ZHE            , ZHcy
+U00417, CYRILLIC CAPITAL LETTER ZE             , Zcy
+U00418, CYRILLIC CAPITAL LETTER I              , Icy
+U00419, CYRILLIC CAPITAL LETTER SHORT I        , Jcy
+U0041A, CYRILLIC CAPITAL LETTER KA             , Kcy
+U0041B, CYRILLIC CAPITAL LETTER EL             , Lcy
+U0041C, CYRILLIC CAPITAL LETTER EM             , Mcy
+U0041D, CYRILLIC CAPITAL LETTER EN             , Ncy
+U0041E, CYRILLIC CAPITAL LETTER O              , Ocy
+U0041F, CYRILLIC CAPITAL LETTER PE             , Pcy
+U00420, CYRILLIC CAPITAL LETTER ER             , Rcy
+U00421, CYRILLIC CAPITAL LETTER ES             , Scy
+U00422, CYRILLIC CAPITAL LETTER TE             , Tcy
+U00423, CYRILLIC CAPITAL LETTER U              , Ucy
+U00424, CYRILLIC CAPITAL LETTER EF             , Fcy
+U00425, CYRILLIC CAPITAL LETTER HA             , KHcy
+U00426, CYRILLIC CAPITAL LETTER TSE            , TScy
+U00427, CYRILLIC CAPITAL LETTER CHE            , CHcy
+U00428, CYRILLIC CAPITAL LETTER SHA            , SHcy
+U00429, CYRILLIC CAPITAL LETTER SHCHA          , SHCHcy
+U0042A, CYRILLIC CAPITAL LETTER HARD SIGN      , HARDcy
+U0042B, CYRILLIC CAPITAL LETTER YERU           , Ycy
+U0042C, CYRILLIC CAPITAL LETTER SOFT SIGN      , SOFTcy
+U0042D, CYRILLIC CAPITAL LETTER E              , Ecy
+U0042E, CYRILLIC CAPITAL LETTER YU             , YUcy
+U0042F, CYRILLIC CAPITAL LETTER YA             , YAcy
+U00430, CYRILLIC SMALL LETTER A                , acy
+U00431, CYRILLIC SMALL LETTER BE               , bcy
+U00432, CYRILLIC SMALL LETTER VE               , vcy
+U00433, CYRILLIC SMALL LETTER GHE              , gcy
+U00434, CYRILLIC SMALL LETTER DE               , dcy
+U00435, CYRILLIC SMALL LETTER IE               , iecy
+U00436, CYRILLIC SMALL LETTER ZHE              , zhcy
+U00437, CYRILLIC SMALL LETTER ZE               , zcy
+U00438, CYRILLIC SMALL LETTER I                , icy
+U00439, CYRILLIC SMALL LETTER SHORT I          , jcy
+U0043A, CYRILLIC SMALL LETTER KA               , kcy
+U0043B, CYRILLIC SMALL LETTER EL               , lcy
+U0043C, CYRILLIC SMALL LETTER EM               , mcy
+U0043D, CYRILLIC SMALL LETTER EN               , ncy
+U0043E, CYRILLIC SMALL LETTER O                , ocy
+U0043F, CYRILLIC SMALL LETTER PE               , pcy
+U00440, CYRILLIC SMALL LETTER ER               , rcy
+U00441, CYRILLIC SMALL LETTER ES               , scy
+U00442, CYRILLIC SMALL LETTER TE               , tcy
+U00443, CYRILLIC SMALL LETTER U                , ucy
+U00444, CYRILLIC SMALL LETTER EF               , fcy
+U00445, CYRILLIC SMALL LETTER HA               , khcy
+U00446, CYRILLIC SMALL LETTER TSE              , tscy
+U00447, CYRILLIC SMALL LETTER CHE              , chcy
+U00448, CYRILLIC SMALL LETTER SHA              , shcy
+U00449, CYRILLIC SMALL LETTER SHCHA            , shchcy
+U0044A, CYRILLIC SMALL LETTER HARD SIGN        , hardcy
+U0044B, CYRILLIC SMALL LETTER YERU             , ycy
+U0044C, CYRILLIC SMALL LETTER SOFT SIGN        , softcy
+U0044D, CYRILLIC SMALL LETTER E                , ecy
+U0044E, CYRILLIC SMALL LETTER YU               , yucy
+U0044F, CYRILLIC SMALL LETTER YA               , yacy
+U00451, CYRILLIC SMALL LETTER IO               , iocy
+U00452, CYRILLIC SMALL LETTER DJE              , djcy
+U00453, CYRILLIC SMALL LETTER GJE              , gjcy
+U00454, CYRILLIC SMALL LETTER UKRAINIAN IE     , jukcy
+U00455, CYRILLIC SMALL LETTER DZE              , dscy
+U00456, CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I, iukcy
+U00457, CYRILLIC SMALL LETTER YI               , yicy
+U00458, CYRILLIC SMALL LETTER JE               , jsercy
+U00459, CYRILLIC SMALL LETTER LJE              , ljcy
+U0045A, CYRILLIC SMALL LETTER NJE              , njcy
+U0045B, CYRILLIC SMALL LETTER TSHE             , tshcy
+U0045C, CYRILLIC SMALL LETTER KJE              , kjcy
+U0045E, CYRILLIC SMALL LETTER SHORT U          , ubrcy
+U0045F, CYRILLIC SMALL LETTER DZHE             , dzcy
+U02002, EN SPACE                               , ensp
+U02003, EM SPACE                               , emsp
+U02004, THREE-PER-EM SPACE                     , emsp13
+U02005, FOUR-PER-EM SPACE                      , emsp14
+U02007, FIGURE SPACE                           , numsp
+U02008, PUNCTUATION SPACE                      , puncsp
+U02009, THIN SPACE                             , ThinSpace, thinsp
+U02009-0200A-0200A, space of width 5/18 em     , ThickSpace
+U0200A, HAIR SPACE                             , hairsp, VeryThinSpace
+U0200B, ZERO WIDTH SPACE                       , ZeroWidthSpace, NegativeVeryThinSpace, NegativeThinSpace, NegativeMediumSpace, NegativeThickSpace
+U02010, HYPHEN                                 , hyphen, dash
+U02013, EN DASH                                , ndash
+U02014, EM DASH                                , mdash
+U02015, HORIZONTAL BAR                         , horbar
+U02016, DOUBLE VERTICAL LINE                   , Verbar, Vert
+U02018, LEFT SINGLE QUOTATION MARK             , lsquo, OpenCurlyQuote
+U02019, RIGHT SINGLE QUOTATION MARK            , rsquo, rsquor, CloseCurlyQuote
+U0201A, SINGLE LOW-9 QUOTATION MARK            , lsquor
+U0201C, LEFT DOUBLE QUOTATION MARK             , ldquo, OpenCurlyDoubleQuote
+U0201D, RIGHT DOUBLE QUOTATION MARK            , rdquo, rdquor, CloseCurlyDoubleQuote
+U0201E, DOUBLE LOW-9 QUOTATION MARK            , ldquor
+U02020, DAGGER                                 , dagger, dagger
+U02021, DOUBLE DAGGER                          , Dagger, Dagger, ddagger
+U02022, BULLET                                 , bull, bullet
+U02025, TWO DOT LEADER                         , nldr
+U02026, HORIZONTAL ELLIPSIS                    , hellip, mldr
+U02030, PER MILLE SIGN                         , permil
+U02031, PER TEN THOUSAND SIGN                  , pertenk
+U02032, PRIME                                  , prime
+U02033, DOUBLE PRIME                           , Prime
+U02034, TRIPLE PRIME                           , tprime
+U02035, REVERSED PRIME                         , bprime, backprime
+U02041, CARET INSERTION POINT                  , caret
+U02043, HYPHEN BULLET                          , hybull
+U0204F, REVERSED SEMICOLON                     , bsemi
+U02057, QUADRUPLE PRIME                        , qprime
+U0205F, MEDIUM MATHEMATICAL SPACE              , MediumSpace
+U02060, WORD JOINER                            , NoBreak
+U02061, FUNCTION APPLICATION                   , ApplyFunction, af
+U02062, INVISIBLE TIMES                        , InvisibleTimes, it
+U02063, INVISIBLE SEPARATOR                    , InvisibleComma, ic
+U020DB, COMBINING THREE DOTS ABOVE             , tdot, TripleDot
+U020DC, COMBINING FOUR DOTS ABOVE              , DotDot
+U02102, DOUBLE-STRUCK CAPITAL C                , Copf, complexes
+U02105, CARE OF                                , incare
+U0210A, SCRIPT SMALL G                         , gscr
+U0210B, SCRIPT CAPITAL H                       , hamilt, HilbertSpace, Hscr
+U0210C, BLACK-LETTER CAPITAL H                 , Hfr, Poincareplane
+U0210D, DOUBLE-STRUCK CAPITAL H                , quaternions, Hopf
+U0210E, PLANCK CONSTANT                        , planckh
+U0210F, PLANCK CONSTANT OVER TWO PI            , planck, hbar, plankv, hslash
+U02110, SCRIPT CAPITAL I                       , Iscr, imagline
+U02111, BLACK-LETTER CAPITAL I                 , image, Im, imagpart, Ifr
+U02112, SCRIPT CAPITAL L                       , Lscr, lagran, Laplacetrf
+U02113, SCRIPT SMALL L                         , ell, lscr
+U02115, DOUBLE-STRUCK CAPITAL N                , Nopf, naturals
+U02116, NUMERO SIGN                            , numero
+U02117, SOUND RECORDING COPYRIGHT              , copysr
+U02118, SCRIPT CAPITAL P                       , weierp, wp
+U02119, DOUBLE-STRUCK CAPITAL P                , Popf, primes
+U0211A, DOUBLE-STRUCK CAPITAL Q                , rationals, Qopf
+U0211B, SCRIPT CAPITAL R                       , Rscr, realine
+U0211C, BLACK-LETTER CAPITAL R                 , real, Re, realpart, Rfr
+U0211D, DOUBLE-STRUCK CAPITAL R                , reals, Ropf
+U0211E, PRESCRIPTION TAKE                      , rx
+U02122, TRADE MARK SIGN                        , trade
+U02124, DOUBLE-STRUCK CAPITAL Z                , integers, Zopf
+U02126, OHM SIGN                               , ohm
+U02127, INVERTED OHM SIGN                      , mho
+U02128, BLACK-LETTER CAPITAL Z                 , Zfr, zeetrf
+U02129, TURNED GREEK SMALL LETTER IOTA         , iiota
+U0212B, ANGSTROM SIGN                          , angst
+U0212C, SCRIPT CAPITAL B                       , bernou, Bernoullis, Bscr
+U0212D, BLACK-LETTER CAPITAL C                 , Cfr, Cayleys
+U0212F, SCRIPT SMALL E                         , escr
+U02130, SCRIPT CAPITAL E                       , Escr, expectation
+U02131, SCRIPT CAPITAL F                       , Fscr, Fouriertrf
+U02133, SCRIPT CAPITAL M                       , phmmat, Mellintrf, Mscr
+U02134, SCRIPT SMALL O                         , order, orderof, oscr
+U02135, ALEF SYMBOL                            , aleph
+U02136, BET SYMBOL                             , beth
+U02137, GIMEL SYMBOL                           , gimel
+U02138, DALET SYMBOL                           , daleth
+U02145, DOUBLE-STRUCK ITALIC CAPITAL D         , CapitalDifferentialD, DD
+U02146, DOUBLE-STRUCK ITALIC SMALL D           , DifferentialD, dd
+U02147, DOUBLE-STRUCK ITALIC SMALL E           , ExponentialE, exponentiale, ee
+U02148, DOUBLE-STRUCK ITALIC SMALL I           , ImaginaryI, ii
+U02153, VULGAR FRACTION ONE THIRD              , frac13
+U02154, VULGAR FRACTION TWO THIRDS             , frac23
+U02155, VULGAR FRACTION ONE FIFTH              , frac15
+U02156, VULGAR FRACTION TWO FIFTHS             , frac25
+U02157, VULGAR FRACTION THREE FIFTHS           , frac35
+U02158, VULGAR FRACTION FOUR FIFTHS            , frac45
+U02159, VULGAR FRACTION ONE SIXTH              , frac16
+U0215A, VULGAR FRACTION FIVE SIXTHS            , frac56
+U0215B, VULGAR FRACTION ONE EIGHTH             , frac18
+U0215C, VULGAR FRACTION THREE EIGHTHS          , frac38
+U0215D, VULGAR FRACTION FIVE EIGHTHS           , frac58
+U0215E, VULGAR FRACTION SEVEN EIGHTHS          , frac78
+U02190, LEFTWARDS ARROW                        , larr, leftarrow, LeftArrow, slarr, ShortLeftArrow
+U02191, UPWARDS ARROW                          , uarr, uparrow, UpArrow, ShortUpArrow
+U02192, RIGHTWARDS ARROW                       , rarr, rightarrow, RightArrow, srarr, ShortRightArrow
+U02193, DOWNWARDS ARROW                        , darr, downarrow, DownArrow, ShortDownArrow
+U02194, LEFT RIGHT ARROW                       , harr, leftrightarrow, LeftRightArrow
+U02195, UP DOWN ARROW                          , varr, updownarrow, UpDownArrow
+U02196, NORTH WEST ARROW                       , nwarr, UpperLeftArrow, nwarrow
+U02197, NORTH EAST ARROW                       , nearr, UpperRightArrow, nearrow
+U02198, SOUTH EAST ARROW                       , searr, searrow, LowerRightArrow
+U02199, SOUTH WEST ARROW                       , swarr, swarrow, LowerLeftArrow
+U0219A, LEFTWARDS ARROW WITH STROKE            , nlarr, nleftarrow
+U0219B, RIGHTWARDS ARROW WITH STROKE           , nrarr, nrightarrow
+U0219D, RIGHTWARDS WAVE ARROW                  , rarrw, rightsquigarrow
+U0219D-00338, RIGHTWARDS WAVE ARROW with slash , nrarrw
+U0219E, LEFTWARDS TWO HEADED ARROW             , Larr, twoheadleftarrow
+U0219F, UPWARDS TWO HEADED ARROW               , Uarr
+U021A0, RIGHTWARDS TWO HEADED ARROW            , Rarr, twoheadrightarrow
+U021A1, DOWNWARDS TWO HEADED ARROW             , Darr
+U021A2, LEFTWARDS ARROW WITH TAIL              , larrtl, leftarrowtail
+U021A3, RIGHTWARDS ARROW WITH TAIL             , rarrtl, rightarrowtail, ratail
+U021A4, LEFTWARDS ARROW FROM BAR               , LeftTeeArrow, mapstoleft
+U021A5, UPWARDS ARROW FROM BAR                 , UpTeeArrow, mapstoup
+U021A6, RIGHTWARDS ARROW FROM BAR              , map, RightTeeArrow, mapsto
+U021A7, DOWNWARDS ARROW FROM BAR               , DownTeeArrow, mapstodown
+U021A9, LEFTWARDS ARROW WITH HOOK              , larrhk, hookleftarrow
+U021AA, RIGHTWARDS ARROW WITH HOOK             , rarrhk, hookrightarrow
+U021AB, LEFTWARDS ARROW WITH LOOP              , larrlp, looparrowleft
+U021AC, RIGHTWARDS ARROW WITH LOOP             , rarrlp, looparrowright
+U021AD, LEFT RIGHT WAVE ARROW                  , harrw, leftrightsquigarrow
+U021AE, LEFT RIGHT ARROW WITH STROKE           , nharr, nleftrightarrow
+U021B0, UPWARDS ARROW WITH TIP LEFTWARDS       , lsh, Lsh
+U021B1, UPWARDS ARROW WITH TIP RIGHTWARDS      , rsh, Rsh
+U021B2, DOWNWARDS ARROW WITH TIP LEFTWARDS     , ldsh
+U021B3, DOWNWARDS ARROW WITH TIP RIGHTWARDS    , rdsh
+U021B6, ANTICLOCKWISE TOP SEMICIRCLE ARROW     , cularr, curvearrowleft
+U021B7, CLOCKWISE TOP SEMICIRCLE ARROW         , curarr, curvearrowright
+U021BA, ANTICLOCKWISE OPEN CIRCLE ARROW        , olarr, circlearrowleft
+U021BB, CLOCKWISE OPEN CIRCLE ARROW            , orarr, circlearrowright
+U021BC, LEFTWARDS HARPOON WITH BARB UPWARDS    , lharu, LeftVector, leftharpoonup
+U021BD, LEFTWARDS HARPOON WITH BARB DOWNWARDS  , lhard, leftharpoondown, DownLeftVector
+U021BE, UPWARDS HARPOON WITH BARB RIGHTWARDS   , uharr, upharpoonright, RightUpVector
+U021BF, UPWARDS HARPOON WITH BARB LEFTWARDS    , uharl, upharpoonleft, LeftUpVector
+U021C0, RIGHTWARDS HARPOON WITH BARB UPWARDS   , rharu, RightVector, rightharpoonup
+U021C1, RIGHTWARDS HARPOON WITH BARB DOWNWARDS , rhard, rightharpoondown, DownRightVector
+U021C2, DOWNWARDS HARPOON WITH BARB RIGHTWARDS , dharr, RightDownVector, downharpoonright
+U021C3, DOWNWARDS HARPOON WITH BARB LEFTWARDS  , dharl, LeftDownVector, downharpoonleft
+U021C4, RIGHTWARDS ARROW OVER LEFTWARDS ARROW  , rlarr, rightleftarrows, RightArrowLeftArrow
+U021C5, UPWARDS ARROW LEFTWARDS OF DOWNWARDS ARROW, udarr, UpArrowDownArrow
+U021C6, LEFTWARDS ARROW OVER RIGHTWARDS ARROW  , lrarr, leftrightarrows, LeftArrowRightArrow
+U021C7, LEFTWARDS PAIRED ARROWS                , llarr, leftleftarrows
+U021C8, UPWARDS PAIRED ARROWS                  , uuarr, upuparrows
+U021C9, RIGHTWARDS PAIRED ARROWS               , rrarr, rightrightarrows
+U021CA, DOWNWARDS PAIRED ARROWS                , ddarr, downdownarrows
+U021CB, LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON, lrhar, ReverseEquilibrium, leftrightharpoons
+U021CC, RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON, rlhar, rightleftharpoons, Equilibrium
+U021CD, LEFTWARDS DOUBLE ARROW WITH STROKE     , nlArr, nLeftarrow, nvlArr
+U021CE, LEFT RIGHT DOUBLE ARROW WITH STROKE    , nhArr, nLeftrightarrow, nvHarr
+U021CF, RIGHTWARDS DOUBLE ARROW WITH STROKE    , nrArr, nRightarrow, nvrArr
+U021D0, LEFTWARDS DOUBLE ARROW                 , lArr, Leftarrow, DoubleLeftArrow
+U021D1, UPWARDS DOUBLE ARROW                   , uArr, Uparrow, DoubleUpArrow
+U021D2, RIGHTWARDS DOUBLE ARROW                , rArr, Rightarrow, Implies, DoubleRightArrow
+U021D3, DOWNWARDS DOUBLE ARROW                 , dArr, Downarrow, DoubleDownArrow
+U021D4, LEFT RIGHT DOUBLE ARROW                , hArr, Leftrightarrow, DoubleLeftRightArrow, iff
+U021D5, UP DOWN DOUBLE ARROW                   , vArr, Updownarrow, DoubleUpDownArrow
+U021D6, NORTH WEST DOUBLE ARROW                , nwArr
+U021D7, NORTH EAST DOUBLE ARROW                , neArr
+U021D8, SOUTH EAST DOUBLE ARROW                , seArr
+U021D9, SOUTH WEST DOUBLE ARROW                , swArr
+U021DA, LEFTWARDS TRIPLE ARROW                 , lAarr, Lleftarrow
+U021DB, RIGHTWARDS TRIPLE ARROW                , rAarr, Rrightarrow
+U021DD, RIGHTWARDS SQUIGGLE ARROW              , zigrarr
+U021E4, LEFTWARDS ARROW TO BAR                 , larrb, LeftArrowBar
+U021E5, RIGHTWARDS ARROW TO BAR                , rarrb, RightArrowBar
+U021F5, DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW, duarr, DownArrowUpArrow
+U021FD, LEFTWARDS OPEN-HEADED ARROW            , loarr
+U021FE, RIGHTWARDS OPEN-HEADED ARROW           , roarr
+U021FF, LEFT RIGHT OPEN-HEADED ARROW           , hoarr
+U02200, FOR ALL                                , forall, ForAll
+U02201, COMPLEMENT                             , comp, complement
+U02202, PARTIAL DIFFERENTIAL                   , part, PartialD
+U02202-00338, PARTIAL DIFFERENTIAL with slash  , npart
+U02203, THERE EXISTS                           , exist, Exists
+U02204, THERE DOES NOT EXIST                   , nexist, NotExists, nexists
+U02205, EMPTY SET                              , empty, emptyset, emptyv, varnothing
+U02207, NABLA                                  , nabla, Del
+U02208, ELEMENT OF                             , isin, isinv, Element, in
+U02209, NOT AN ELEMENT OF                      , notin, NotElement, notinva
+U02209-00307, NOT AN ELEMENT OF with dot       , notindot
+U0220B, CONTAINS AS MEMBER                     , niv, ReverseElement, ni, SuchThat
+U0220C, DOES NOT CONTAIN AS MEMBER             , notni, notniva, NotReverseElement
+U0220F, N-ARY PRODUCT                          , prod, Product
+U02210, N-ARY COPRODUCT                        , coprod, Coproduct
+U02211, N-ARY SUMMATION                        , sum, Sum
+U02212, MINUS SIGN                             , minus
+U02213, MINUS-OR-PLUS SIGN                     , mnplus, mp, MinusPlus
+U02214, DOT PLUS                               , plusdo, dotplus
+U02216, SET MINUS                              , setmn, setminus, Backslash, ssetmn, smallsetminus
+U02217, ASTERISK OPERATOR                      , lowast
+U02218, RING OPERATOR                          , compfn, SmallCircle
+U0221A, SQUARE ROOT                            , radic, Sqrt
+U0221D, PROPORTIONAL TO                        , prop, propto, Proportional, vprop, varpropto
+U0221E, INFINITY                               , infin
+U0221F, RIGHT ANGLE                            , angrt
+U02220, ANGLE                                  , ang, angle
+U02220-020D2, ANGLE with vertical line         , nang
+U02221, MEASURED ANGLE                         , angmsd, measuredangle
+U02222, SPHERICAL ANGLE                        , angsph
+U02223, DIVIDES                                , mid, VerticalBar, smid, shortmid
+U02224, DOES NOT DIVIDE                        , nmid, NotVerticalBar, nsmid, nshortmid
+U02225, PARALLEL TO                            , par, parallel, DoubleVerticalBar, spar, shortparallel
+U02225-0FE00, Slanted PARALLEL TO              , parsl
+U02225-0FE00-020E5, Slanted PARALLEL TO with reverse slash, nparsl
+U02226, NOT PARALLEL TO                        , npar, nparallel, NotDoubleVerticalBar, nspar, nshortparallel
+U02227, LOGICAL AND                            , and, wedge
+U02228, LOGICAL OR                             , or, vee
+U02229, INTERSECTION                           , cap
+U02229-0FE00, INTERSECTION with serifs         , caps
+U0222A, UNION                                  , cup
+U0222A-0FE00, UNION with serifs                , cups
+U0222B, INTEGRAL                               , int, Integral
+U0222C, DOUBLE INTEGRAL                        , Int
+U0222D, TRIPLE INTEGRAL                        , tint, iiint
+U0222E, CONTOUR INTEGRAL                       , conint, oint, ContourIntegral
+U0222F, SURFACE INTEGRAL                       , Conint, DoubleContourIntegral
+U02230, VOLUME INTEGRAL                        , Cconint
+U02231, CLOCKWISE INTEGRAL                     , cwint
+U02232, CLOCKWISE CONTOUR INTEGRAL             , cwconint, ClockwiseContourIntegral
+U02233, ANTICLOCKWISE CONTOUR INTEGRAL         , awconint, CounterClockwiseContourIntegral
+U02234, THEREFORE                              , there4, therefore, Therefore
+U02235, BECAUSE                                , becaus, because, Because
+U02236, RATIO                                  , ratio
+U02237, PROPORTION                             , Colon, Proportion
+U02238, DOT MINUS                              , minusd, dotminus
+U0223A, GEOMETRIC PROPORTION                   , mDDot
+U0223B, HOMOTHETIC                             , homtht
+U0223C, TILDE OPERATOR                         , sim, Tilde, thicksim
+U0223C-020D2, TILDE OPERATOR with vertical line, nvsim
+U0223D, REVERSED TILDE                         , bsim, backsim
+U0223E, INVERTED LAZY S                        , mstpos
+U0223F, SINE WAVE                              , acd
+U02240, WREATH PRODUCT                         , wreath, VerticalTilde, wr
+U02241, NOT TILDE                              , nsim, NotTilde
+U02242, MINUS TILDE                            , esim, EqualTilde, eqsim
+U02242-00338, MINUS TILDE with slash           , NotEqualTilde, nesim
+U02243, ASYMPTOTICALLY EQUAL TO                , sime, TildeEqual, simeq
+U02244, NOT ASYMPTOTICALLY EQUAL TO            , nsime, nsimeq, NotTildeEqual
+U02245, APPROXIMATELY EQUAL TO                 , cong, TildeFullEqual
+U02246, APPROXIMATELY BUT NOT ACTUALLY EQUAL TO, simne
+U02247, NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO, ncong, NotTildeFullEqual
+U02248, ALMOST EQUAL TO                        , asymp, ap, TildeTilde, approx, thkap, thickapprox
+U02249, NOT ALMOST EQUAL TO                    , nap, NotTildeTilde, napprox
+U0224A, ALMOST EQUAL OR EQUAL TO               , apE, ape, approxeq
+U0224B, TRIPLE TILDE                           , apid
+U0224B-00338, TRIPLE TILDE with slash          , napid
+U0224C, ALL EQUAL TO                           , bcong, backcong
+U0224D, EQUIVALENT TO                          , asympeq, CupCap
+U0224D-020D2, EQUIVALENT TO with vertical line , nvap
+U0224E, GEOMETRICALLY EQUIVALENT TO            , bump, HumpDownHump, Bumpeq
+U0224E-00338, GEOMETRICALLY EQUIVALENT TO with slash, NotHumpDownHump, nbump
+U0224F, DIFFERENCE BETWEEN                     , bumpe, HumpEqual, bumpeq
+U0224F-00338, DIFFERENCE BETWEEN with slash    , nbumpe, NotHumpEqual
+U02250, APPROACHES THE LIMIT                   , esdot, DotEqual, doteq
+U02251, GEOMETRICALLY EQUAL TO                 , eDot, doteqdot
+U02252, APPROXIMATELY EQUAL TO OR THE IMAGE OF , efDot, fallingdotseq
+U02253, IMAGE OF OR APPROXIMATELY EQUAL TO     , erDot, risingdotseq
+U02254, COLON EQUALS                           , colone, coloneq, Assign
+U02255, EQUALS COLON                           , ecolon, eqcolon
+U02256, RING IN EQUAL TO                       , ecir, eqcirc
+U02257, RING EQUAL TO                          , cire, circeq
+U02259, ESTIMATES                              , wedgeq
+U0225A, EQUIANGULAR TO                         , veeeq
+U0225B, STAR EQUALS                            , easter
+U0225C, DELTA EQUAL TO                         , trie, triangleq
+U0225F, QUESTIONED EQUAL TO                    , equest, questeq
+U02260, NOT EQUAL TO                           , ne, NotEqual
+U02260-00307, NOT EQUAL TO with dot            , nedot
+U02261, IDENTICAL TO                           , equiv, Congruent
+U02261-020E5, IDENTICAL TO with reverse slash  , bnequiv
+U02262, NOT IDENTICAL TO                       , nequiv, NotCongruent
+U02264, LESS-THAN OR EQUAL TO                  , le, leq
+U02265, GREATER-THAN OR EQUAL TO               , ge, GreaterEqual, geq
+U02266, LESS-THAN OVER EQUAL TO                , lE, LessFullEqual, leqq
+U02266-00338, LESS-THAN OVER EQUAL TO with slash, nlE, NotGreaterFullEqual, nleqq
+U02267, GREATER-THAN OVER EQUAL TO             , gE, GreaterFullEqual, geqq
+U02267-00338, GREATER-THAN OVER EQUAL TO with slash, ngE, ngeqq
+U02268, LESS-THAN BUT NOT EQUAL TO             , lnE, lneqq
+U02268-0FE00, LESS-THAN BUT NOT EQUAL TO - with vertical stroke, lvnE, lvertneqq
+U02269, GREATER-THAN BUT NOT EQUAL TO          , gnE, gneqq
+U02269-0FE00, GREATER-THAN BUT NOT EQUAL TO - with vertical stroke, gvnE, gvertneqq
+U0226A, MUCH LESS-THAN                         , Lt, NestedLessLess, ll
+U0226A-00338, MUCH LESS THAN with slash        , nLtv, NotLessLess
+U0226A-020D2, MUCH LESS THAN with vertical line, nLt
+U0226B, MUCH GREATER-THAN                      , Gt, NestedGreaterGreater, gg
+U0226B-00338, MUCH GREATER THAN with slash     , nGtv, NotGreaterGreater
+U0226B-020D2, MUCH GREATER THAN with vertical line, nGt
+U0226C, BETWEEN                                , twixt, between
+U0226D, NOT EQUIVALENT TO                      , NotCupCap
+U0226E, NOT LESS-THAN                          , nlt, NotLess, nless, nvlt
+U0226F, NOT GREATER-THAN                       , ngt, NotGreater, ngtr, nvgt
+U02270, NEITHER LESS-THAN NOR EQUAL TO         , nle, NotLessEqual, nleq
+U02271, NEITHER GREATER-THAN NOR EQUAL TO      , nge, NotGreaterEqual, ngeq
+U02272, LESS-THAN OR EQUIVALENT TO             , lap, lessapprox, lsim, LessTilde, lesssim
+U02273, GREATER-THAN OR EQUIVALENT TO          , gap, gtrapprox, gsim, gtrsim, GreaterTilde
+U02274, NEITHER LESS-THAN NOR EQUIVALENT TO    , nlsim, NotLessTilde
+U02275, NEITHER GREATER-THAN NOR EQUIVALENT TO , ngsim, NotGreaterTilde
+U02276, LESS-THAN OR GREATER-THAN              , lg, lessgtr, LessGreater
+U02277, GREATER-THAN OR LESS-THAN              , gl, gtrless, GreaterLess
+U02278, NEITHER LESS-THAN NOR GREATER-THAN     , ntlg, NotLessGreater
+U02279, NEITHER GREATER-THAN NOR LESS-THAN     , ntgl, NotGreaterLess
+U0227A, PRECEDES                               , pr, Precedes, prec
+U0227B, SUCCEEDS                               , sc, Succeeds, succ
+U0227C, PRECEDES OR EQUAL TO                   , prcue, PrecedesSlantEqual, preccurlyeq
+U0227D, SUCCEEDS OR EQUAL TO                   , sccue, SucceedsSlantEqual, succcurlyeq
+U0227E, PRECEDES OR EQUIVALENT TO              , prap, precapprox, prsim, precsim, PrecedesTilde
+U0227F, SUCCEEDS OR EQUIVALENT TO              , scap, succapprox, scsim, succsim, SucceedsTilde
+U0227F-00338, SUCCEEDS OR EQUIVALENT TO with slash, NotSucceedsTilde
+U02280, DOES NOT PRECEDE                       , npr, nprec, NotPrecedes
+U02281, DOES NOT SUCCEED                       , nsc, nsucc, NotSucceeds
+U02282, SUBSET OF                              , sub, subset
+U02283, SUPERSET OF                            , sup, supset, Superset
+U02283-00338, SUPERSET OF with slash           , suphsol
+U02284, NOT A SUBSET OF                        , nsub, vnsub, nsubset, NotSubset
+U02285, NOT A SUPERSET OF                      , nsup, vnsup, nsupset, NotSuperset
+U02286, SUBSET OF OR EQUAL TO                  , sube, SubsetEqual, subseteq
+U02287, SUPERSET OF OR EQUAL TO                , supe, supseteq, SupersetEqual
+U02288, NEITHER A SUBSET OF NOR EQUAL TO       , nsube, nsubseteq, NotSubsetEqual
+U02289, NEITHER A SUPERSET OF NOR EQUAL TO     , nsupe, nsupseteq, NotSupersetEqual
+U0228A, SUBSET OF WITH NOT EQUAL TO            , subne, subsetneq
+U0228A-0FE00, SUBSET OF WITH NOT EQUAL TO - variant with stroke through bottom members, vsubnE, varsubsetneqq, vsubne, varsubsetneq
+U0228B, SUPERSET OF WITH NOT EQUAL TO          , supne, supsetneq
+U0228B-0FE00, SUPERSET OF WITH NOT EQUAL TO - variant with stroke through bottom members, vsupne, varsupsetneq, vsupnE, varsupsetneqq
+U0228D, MULTISET MULTIPLICATION                , cupdot
+U0228E, MULTISET UNION                         , uplus, UnionPlus
+U0228F, SQUARE IMAGE OF                        , sqsub, SquareSubset, sqsubset
+U0228F-00338, SQUARE IMAGE OF with slash       , NotSquareSubset
+U02290, SQUARE ORIGINAL OF                     , sqsup, SquareSuperset, sqsupset
+U02290-00338, SQUARE ORIGINAL OF with slash    , NotSquareSuperset
+U02291, SQUARE IMAGE OF OR EQUAL TO            , sqsube, SquareSubsetEqual, sqsubseteq
+U02292, SQUARE ORIGINAL OF OR EQUAL TO         , sqsupe, SquareSupersetEqual, sqsupseteq
+U02293, SQUARE CAP                             , sqcap, SquareIntersection
+U02293-0FE00, SQUARE CAP with serifs           , sqcaps
+U02294, SQUARE CUP                             , sqcup, SquareUnion
+U02294-0FE00, SQUARE CUP with serifs           , sqcups
+U02295, CIRCLED PLUS                           , oplus, CirclePlus, xoplus, bigoplus
+U02296, CIRCLED MINUS                          , ominus, CircleMinus
+U02297, CIRCLED TIMES                          , otimes, CircleTimes, xotime, bigotimes
+U02298, CIRCLED DIVISION SLASH                 , osol
+U02299, CIRCLED DOT OPERATOR                   , odot, CircleDot, xodot, bigodot
+U0229A, CIRCLED RING OPERATOR                  , ocir, circledcirc
+U0229B, CIRCLED ASTERISK OPERATOR              , oast, circledast
+U0229D, CIRCLED DASH                           , odash, circleddash
+U0229E, SQUARED PLUS                           , plusb, boxplus
+U0229F, SQUARED MINUS                          , minusb, boxminus
+U022A0, SQUARED TIMES                          , timesb, boxtimes
+U022A1, SQUARED DOT OPERATOR                   , sdotb, dotsquare
+U022A2, RIGHT TACK                             , vdash, RightTee
+U022A3, LEFT TACK                              , dashv, LeftTee
+U022A4, DOWN TACK                              , top, DownTee
+U022A5, UP TACK                                , bottom, bot, perp, UpTee
+U022A7, MODELS                                 , models
+U022A8, TRUE                                   , vDash, DoubleRightTee
+U022A9, FORCES                                 , Vdash
+U022AA, TRIPLE VERTICAL BAR RIGHT TURNSTILE    , Vvdash
+U022AB, DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE, VDash
+U022AC, DOES NOT PROVE                         , nvdash
+U022AD, NOT TRUE                               , nvDash
+U022AE, DOES NOT FORCE                         , nVdash
+U022AF, NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE, nVDash
+U022B0, PRECEDES UNDER RELATION                , prurel
+U022B2, NORMAL SUBGROUP OF                     , vltri, vartriangleleft, LeftTriangle
+U022B3, CONTAINS AS NORMAL SUBGROUP            , vrtri, vartriangleright, RightTriangle
+U022B4, NORMAL SUBGROUP OF OR EQUAL TO         , ltrie, trianglelefteq, LeftTriangleEqual
+U022B4-020D2, NORMAL SUBGROUP OF OR EQUAL TO with vertical line, nvltrie
+U022B5, CONTAINS AS NORMAL SUBGROUP OR EQUAL TO, rtrie, trianglerighteq, RightTriangleEqual
+U022B5-020D2, CONTAINS AS NORMAL SUBGROUP OR EQUAL TO with vertical line, nvrtrie
+U022B6, ORIGINAL OF                            , origof
+U022B7, IMAGE OF                               , imof
+U022B8, MULTIMAP                               , mumap, multimap
+U022B9, HERMITIAN CONJUGATE MATRIX             , hercon
+U022BA, INTERCALATE                            , intcal, intercal
+U022BB, XOR                                    , veebar
+U022BC, NAND                                   , barwed, barwedge
+U022BD, NOR                                    , barvee
+U022BE, RIGHT ANGLE WITH ARC                   , angrtvb, vangrt
+U022BF, RIGHT TRIANGLE                         , lrtri
+U022C0, N-ARY LOGICAL AND                      , xwedge, Wedge, bigwedge
+U022C1, N-ARY LOGICAL OR                       , xvee, Vee, bigvee
+U022C2, N-ARY INTERSECTION                     , xcap, Intersection, bigcap
+U022C3, N-ARY UNION                            , xcup, Union, bigcup
+U022C4, DIAMOND OPERATOR                       , diam, diamond, Diamond
+U022C5, DOT OPERATOR                           , sdot
+U022C6, STAR OPERATOR                          , sstarf, Star
+U022C7, DIVISION TIMES                         , divonx, divideontimes
+U022C8, BOWTIE                                 , bowtie
+U022C9, LEFT NORMAL FACTOR SEMIDIRECT PRODUCT  , ltimes
+U022CA, RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT , rtimes
+U022CB, LEFT SEMIDIRECT PRODUCT                , lthree, leftthreetimes
+U022CC, RIGHT SEMIDIRECT PRODUCT               , rthree, rightthreetimes
+U022CD, REVERSED TILDE EQUALS                  , bsime, backsimeq
+U022CE, CURLY LOGICAL OR                       , cuvee, curlyvee
+U022CF, CURLY LOGICAL AND                      , cuwed, curlywedge
+U022D0, DOUBLE SUBSET                          , Sub, Subset
+U022D1, DOUBLE SUPERSET                        , Sup, Supset
+U022D2, DOUBLE INTERSECTION                    , Cap
+U022D3, DOUBLE UNION                           , Cup
+U022D4, PITCHFORK                              , fork, pitchfork
+U022D5, EQUAL AND PARALLEL TO                  , epar
+U022D6, LESS-THAN WITH DOT                     , ltdot, lessdot
+U022D7, GREATER-THAN WITH DOT                  , gtdot, gtrdot
+U022D8, VERY MUCH LESS-THAN                    , Ll
+U022D8-00338, VERY MUCH LESS-THAN with slash   , nLl
+U022D9, VERY MUCH GREATER-THAN                 , Gg, ggg
+U022D9-00338, VERY MUCH GREATER-THAN with slash, nGg
+U022DA, LESS-THAN EQUAL TO OR GREATER-THAN     , leg, LessEqualGreater, lesseqgtr
+U022DA-0FE00, LESS-THAN slanted EQUAL TO OR GREATER-THAN, lesg
+U022DB, GREATER-THAN EQUAL TO OR LESS-THAN     , gel, gtreqless, GreaterEqualLess
+U022DB-0FE00, GREATER-THAN slanted EQUAL TO OR LESS-THAN, gesl
+U022DE, EQUAL TO OR PRECEDES                   , cuepr, curlyeqprec
+U022DF, EQUAL TO OR SUCCEEDS                   , cuesc, curlyeqsucc
+U022E0, DOES NOT PRECEDE OR EQUAL              , nprcue, NotPrecedesSlantEqual
+U022E1, DOES NOT SUCCEED OR EQUAL              , nsccue, NotSucceedsSlantEqual
+U022E2, NOT SQUARE IMAGE OF OR EQUAL TO        , nsqsube, NotSquareSubsetEqual
+U022E3, NOT SQUARE ORIGINAL OF OR EQUAL TO     , nsqsupe, NotSquareSupersetEqual
+U022E6, LESS-THAN BUT NOT EQUIVALENT TO        , lnsim
+U022E7, GREATER-THAN BUT NOT EQUIVALENT TO     , gnsim
+U022E8, PRECEDES BUT NOT EQUIVALENT TO         , prnap, precnapprox, prnsim, precnsim
+U022E9, SUCCEEDS BUT NOT EQUIVALENT TO         , scnap, succnapprox, scnsim, succnsim
+U022EA, NOT NORMAL SUBGROUP OF                 , nltri, ntriangleleft, NotLeftTriangle
+U022EB, DOES NOT CONTAIN AS NORMAL SUBGROUP    , nrtri, ntriangleright, NotRightTriangle
+U022EC, NOT NORMAL SUBGROUP OF OR EQUAL TO     , nltrie, ntrianglelefteq, NotLeftTriangleEqual
+U022ED, DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL, nrtrie, ntrianglerighteq, NotRightTriangleEqual
+U022EE, VERTICAL ELLIPSIS                      , vellip
+U022EF, MIDLINE HORIZONTAL ELLIPSIS            , ctdot
+U022F0, UP RIGHT DIAGONAL ELLIPSIS             , utdot
+U022F1, DOWN RIGHT DIAGONAL ELLIPSIS           , dtdot
+U022F2, ELEMENT OF WITH LONG HORIZONTAL STROKE , disin
+U022F3, ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE, isinsv
+U022F4, SMALL ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE, isins
+U022F5, ELEMENT OF WITH DOT ABOVE              , isindot
+U022F6, ELEMENT OF WITH OVERBAR                , notinvc
+U022F7, SMALL ELEMENT OF WITH OVERBAR          , notinvb
+U022F9, ELEMENT OF WITH TWO HORIZONTAL STROKES , isinE
+U022FA, CONTAINS WITH LONG HORIZONTAL STROKE   , nisd
+U022FB, CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE, xnis
+U022FC, SMALL CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE, nis
+U022FD, CONTAINS WITH OVERBAR                  , notnivc
+U022FE, SMALL CONTAINS WITH OVERBAR            , notnivb
+U02306, PERSPECTIVE                            , Barwed, doublebarwedge
+U02308, LEFT CEILING                           , lceil, LeftCeiling
+U02309, RIGHT CEILING                          , rceil, RightCeiling
+U0230A, LEFT FLOOR                             , lfloor, LeftFloor
+U0230B, RIGHT FLOOR                            , rfloor, RightFloor
+U0230C, BOTTOM RIGHT CROP                      , drcrop
+U0230D, BOTTOM LEFT CROP                       , dlcrop
+U0230E, TOP RIGHT CROP                         , urcrop
+U0230F, TOP LEFT CROP                          , ulcrop
+U02310, REVERSED NOT SIGN                      , bnot
+U02312, ARC                                    , profline
+U02313, SEGMENT                                , profsurf
+U02315, TELEPHONE RECORDER                     , telrec
+U02316, POSITION INDICATOR                     , target
+U0231C, TOP LEFT CORNER                        , ulcorn, ulcorner
+U0231D, TOP RIGHT CORNER                       , urcorn, urcorner
+U0231E, BOTTOM LEFT CORNER                     , dlcorn, llcorner
+U0231F, BOTTOM RIGHT CORNER                    , drcorn, lrcorner
+U02322, FROWN                                  , frown
+U02323, SMILE                                  , smile
+U02329, LEFT-POINTING ANGLE BRACKET            , lang, LeftAngleBracket, langle
+U0232A, RIGHT-POINTING ANGLE BRACKET           , rang, RightAngleBracket, rangle
+U0232D, CYLINDRICITY                           , cylcty
+U0232E, ALL AROUND-PROFILE                     , profalar
+U02336, APL FUNCTIONAL SYMBOL I-BEAM           , topbot
+U0233D, APL FUNCTIONAL SYMBOL CIRCLE STILE     , ovbar
+U0233F, APL FUNCTIONAL SYMBOL SLASH BAR        , solbar
+U0237C, RIGHT ANGLE WITH DOWNWARDS ZIGZAG ARROW, angzarr
+U023B0, UPPER LEFT OR LOWER RIGHT CURLY BRACKET SECTION, lmoust, lmoustache
+U023B1, UPPER RIGHT OR LOWER LEFT CURLY BRACKET SECTION, rmoust, rmoustache
+U023B4, TOP SQUARE BRACKET                     , tbrk, OverBracket
+U023B5, BOTTOM SQUARE BRACKET                  , bbrk, UnderBracket
+U02423, OPEN BOX                               , blank
+U024C8, CIRCLED LATIN CAPITAL LETTER S         , oS, circledS
+U02500, BOX DRAWINGS LIGHT HORIZONTAL          , boxh, HorizontalLine
+U02502, BOX DRAWINGS LIGHT VERTICAL            , boxv
+U0250C, BOX DRAWINGS LIGHT DOWN AND RIGHT      , boxdr
+U02510, BOX DRAWINGS LIGHT DOWN AND LEFT       , boxdl
+U02514, BOX DRAWINGS LIGHT UP AND RIGHT        , boxur
+U02518, BOX DRAWINGS LIGHT UP AND LEFT         , boxul
+U0251C, BOX DRAWINGS LIGHT VERTICAL AND RIGHT  , boxvr
+U02524, BOX DRAWINGS LIGHT VERTICAL AND LEFT   , boxvl
+U0252C, BOX DRAWINGS LIGHT DOWN AND HORIZONTAL , boxhd
+U02534, BOX DRAWINGS LIGHT UP AND HORIZONTAL   , boxhu
+U0253C, BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL, boxvh
+U02550, BOX DRAWINGS DOUBLE HORIZONTAL         , boxH
+U02551, BOX DRAWINGS DOUBLE VERTICAL           , boxV
+U02552, BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE, boxdR
+U02553, BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE, boxDr
+U02554, BOX DRAWINGS DOUBLE DOWN AND RIGHT     , boxDR
+U02555, BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE, boxdL
+U02556, BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE, boxDl
+U02557, BOX DRAWINGS DOUBLE DOWN AND LEFT      , boxDL
+U02558, BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE, boxuR
+U02559, BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE, boxUr
+U0255A, BOX DRAWINGS DOUBLE UP AND RIGHT       , boxUR
+U0255B, BOX DRAWINGS UP SINGLE AND LEFT DOUBLE , boxuL
+U0255C, BOX DRAWINGS UP DOUBLE AND LEFT SINGLE , boxUl
+U0255D, BOX DRAWINGS DOUBLE UP AND LEFT        , boxUL
+U0255E, BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE, boxvR
+U0255F, BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE, boxVr
+U02560, BOX DRAWINGS DOUBLE VERTICAL AND RIGHT , boxVR
+U02561, BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE, boxvL
+U02562, BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE, boxVl
+U02563, BOX DRAWINGS DOUBLE VERTICAL AND LEFT  , boxVL
+U02564, BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE, boxHd
+U02565, BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE, boxhD
+U02566, BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL, boxHD
+U02567, BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE, boxHu
+U02568, BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE, boxhU
+U02569, BOX DRAWINGS DOUBLE UP AND HORIZONTAL  , boxHU
+U0256A, BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE, boxvH
+U0256B, BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE, boxVh
+U0256C, BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL, boxVH
+U02580, UPPER HALF BLOCK                       , uhblk
+U02584, LOWER HALF BLOCK                       , lhblk
+U02588, FULL BLOCK                             , block
+U02591, LIGHT SHADE                            , blk14
+U02592, MEDIUM SHADE                           , blk12
+U02593, DARK SHADE                             , blk34
+U025A1, WHITE SQUARE                           , squ, square, Square
+U025AA, BLACK SMALL SQUARE                     , squf, squarf, blacksquare, FilledVerySmallSquare
+U025AB, WHITE SMALL SQUARE                     , EmptyVerySmallSquare
+U025AD, WHITE RECTANGLE                        , rect
+U025AE, BLACK VERTICAL RECTANGLE               , marker
+U025B3, WHITE UP-POINTING TRIANGLE             , xutri, bigtriangleup
+U025B4, BLACK UP-POINTING SMALL TRIANGLE       , utrif, blacktriangle
+U025B5, WHITE UP-POINTING SMALL TRIANGLE       , utri, triangle
+U025B8, BLACK RIGHT-POINTING SMALL TRIANGLE    , rtrif, blacktriangleright
+U025B9, WHITE RIGHT-POINTING SMALL TRIANGLE    , rtri, triangleright
+U025BD, WHITE DOWN-POINTING TRIANGLE           , xdtri, bigtriangledown
+U025BE, BLACK DOWN-POINTING SMALL TRIANGLE     , dtrif, blacktriangledown
+U025BF, WHITE DOWN-POINTING SMALL TRIANGLE     , dtri, triangledown
+U025C2, BLACK LEFT-POINTING SMALL TRIANGLE     , ltrif, blacktriangleleft
+U025C3, WHITE LEFT-POINTING SMALL TRIANGLE     , ltri, triangleleft
+U025CA, LOZENGE                                , loz, lozenge
+U025CB, WHITE CIRCLE                           , cir
+U025EC, WHITE UP-POINTING TRIANGLE WITH DOT    , tridot
+U025EF, LARGE CIRCLE                           , xcirc, bigcirc
+U025F8, UPPER LEFT TRIANGLE                    , ultri
+U025F9, UPPER RIGHT TRIANGLE                   , urtri
+U025FA, LOWER LEFT TRIANGLE                    , lltri
+U025FB, WHITE MEDIUM SQUARE                    , EmptySmallSquare
+U025FC, BLACK MEDIUM SQUARE                    , FilledSmallSquare
+U02605, BLACK STAR                             , starf, bigstar
+U02606, WHITE STAR                             , star
+U0260E, BLACK TELEPHONE                        , phone
+U02640, FEMALE SIGN                            , female
+U02642, MALE SIGN                              , male
+U02660, BLACK SPADE SUIT                       , spades, spadesuit
+U02663, BLACK CLUB SUIT                        , clubs, clubsuit
+U02665, BLACK HEART SUIT                       , hearts, heartsuit
+U02666, BLACK DIAMOND SUIT                     , diams, diamondsuit
+U0266A, EIGHTH NOTE                            , sung
+U0266D, MUSIC FLAT SIGN                        , flat
+U0266E, MUSIC NATURAL SIGN                     , natur, natural
+U0266F, MUSIC SHARP SIGN                       , sharp
+U02713, CHECK MARK                             , check, checkmark
+U02717, BALLOT X                               , cross
+U02720, MALTESE CROSS                          , malt, maltese
+U02736, SIX POINTED BLACK STAR                 , sext
+U02758, LIGHT VERTICAL BAR                     , VerticalSeparator
+U027F5, LONG LEFTWARDS ARROW                   , xlarr, longleftarrow, LongLeftArrow
+U027F6, LONG RIGHTWARDS ARROW                  , xrarr, longrightarrow, LongRightArrow
+U027F7, LONG LEFT RIGHT ARROW                  , xharr, longleftrightarrow, LongLeftRightArrow
+U027F8, LONG LEFTWARDS DOUBLE ARROW            , xlArr, Longleftarrow, DoubleLongLeftArrow
+U027F9, LONG RIGHTWARDS DOUBLE ARROW           , xrArr, Longrightarrow, DoubleLongRightArrow
+U027FA, LONG LEFT RIGHT DOUBLE ARROW           , xhArr, Longleftrightarrow, DoubleLongLeftRightArrow
+U027FC, LONG RIGHTWARDS ARROW FROM BAR         , xmap, longmapsto
+U027FF, LONG RIGHTWARDS SQUIGGLE ARROW         , dzigrarr
+U02905, RIGHTWARDS TWO-HEADED ARROW FROM BAR   , Map
+U0290C, LEFTWARDS DOUBLE DASH ARROW            , lbarr
+U0290D, RIGHTWARDS DOUBLE DASH ARROW           , rbarr, bkarow
+U0290E, LEFTWARDS TRIPLE DASH ARROW            , lBarr
+U0290F, RIGHTWARDS TRIPLE DASH ARROW           , ac, rBarr, dbkarow
+U02910, RIGHTWARDS TWO-HEADED TRIPLE DASH ARROW, RBarr, drbkarow
+U02911, RIGHTWARDS ARROW WITH DOTTED STEM      , DDotrahd
+U02912, UPWARDS ARROW TO BAR                   , UpArrowBar
+U02913, DOWNWARDS ARROW TO BAR                 , DownArrowBar
+U02916, RIGHTWARDS TWO-HEADED ARROW WITH TAIL  , Rarrtl
+U02919, LEFTWARDS ARROW-TAIL                   , latail
+U0291B, LEFTWARDS DOUBLE ARROW-TAIL            , lAtail
+U0291C, RIGHTWARDS DOUBLE ARROW-TAIL           , rAtail
+U0291D, LEFTWARDS ARROW TO BLACK DIAMOND       , larrfs
+U0291E, RIGHTWARDS ARROW TO BLACK DIAMOND      , rarrfs
+U0291F, LEFTWARDS ARROW FROM BAR TO BLACK DIAMOND, larrbfs
+U02920, RIGHTWARDS ARROW FROM BAR TO BLACK DIAMOND, rarrbfs
+U02923, NORTH WEST ARROW WITH HOOK             , nwarhk
+U02924, NORTH EAST ARROW WITH HOOK             , nearhk
+U02925, SOUTH EAST ARROW WITH HOOK             , searhk, hksearow
+U02926, SOUTH WEST ARROW WITH HOOK             , swarhk, hkswarow
+U02927, NORTH WEST ARROW AND NORTH EAST ARROW  , nwnear
+U02928, NORTH EAST ARROW AND SOUTH EAST ARROW  , nesear, toea
+U02929, SOUTH EAST ARROW AND SOUTH WEST ARROW  , seswar, tosa
+U0292A, SOUTH WEST ARROW AND NORTH WEST ARROW  , swnwar
+U02933, WAVE ARROW POINTING DIRECTLY RIGHT     , rarrc
+U02933-00338, WAVE ARROW POINTING DIRECTLY RIGHT with slash, nrarrc
+U02935, ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS, cudarrr
+U02936, ARROW POINTING DOWNWARDS THEN CURVING LEFTWARDS, ldca
+U02937, ARROW POINTING DOWNWARDS THEN CURVING RIGHTWARDS, rdca
+U02938, RIGHT-SIDE ARC CLOCKWISE ARROW         , cudarrl
+U02939, LEFT-SIDE ARC ANTICLOCKWISE ARROW      , larrpl
+U0293C, TOP ARC CLOCKWISE ARROW WITH MINUS     , curarrm
+U0293D, TOP ARC ANTICLOCKWISE ARROW WITH PLUS  , cularrp
+U02945, RIGHTWARDS ARROW WITH PLUS BELOW       , rarrpl
+U02948, LEFT RIGHT ARROW THROUGH SMALL CIRCLE  , harrcir
+U02949, UPWARDS TWO-HEADED ARROW FROM SMALL CIRCLE, Uarrocir
+U0294A, LEFT BARB UP RIGHT BARB DOWN HARPOON   , lurdshar
+U0294B, LEFT BARB DOWN RIGHT BARB UP HARPOON   , ldrushar
+U0294E, LEFT BARB UP RIGHT BARB UP HARPOON     , LeftRightVector
+U0294F, UP BARB RIGHT DOWN BARB RIGHT HARPOON  , RightUpDownVector
+U02950, LEFT BARB DOWN RIGHT BARB DOWN HARPOON , DownLeftRightVector
+U02951, UP BARB LEFT DOWN BARB LEFT HARPOON    , LeftUpDownVector
+U02952, LEFTWARDS HARPOON WITH BARB UP TO BAR  , LeftVectorBar
+U02953, RIGHTWARDS HARPOON WITH BARB UP TO BAR , RightVectorBar
+U02954, UPWARDS HARPOON WITH BARB RIGHT TO BAR , RightUpVectorBar
+U02955, DOWNWARDS HARPOON WITH BARB RIGHT TO BAR, RightDownVectorBar
+U02956, LEFTWARDS HARPOON WITH BARB DOWN TO BAR, DownLeftVectorBar
+U02957, RIGHTWARDS HARPOON WITH BARB DOWN TO BAR, DownRightVectorBar
+U02958, UPWARDS HARPOON WITH BARB LEFT TO BAR  , LeftUpVectorBar
+U02959, DOWNWARDS HARPOON WITH BARB LEFT TO BAR, LeftDownVectorBar
+U0295A, LEFTWARDS HARPOON WITH BARB UP FROM BAR, LeftTeeVector
+U0295B, RIGHTWARDS HARPOON WITH BARB UP FROM BAR, RightTeeVector
+U0295C, UPWARDS HARPOON WITH BARB RIGHT FROM BAR, RightUpTeeVector
+U0295D, DOWNWARDS HARPOON WITH BARB RIGHT FROM BAR, RightDownTeeVector
+U0295E, LEFTWARDS HARPOON WITH BARB DOWN FROM BAR, DownLeftTeeVector
+U0295F, RIGHTWARDS HARPOON WITH BARB DOWN FROM BAR, DownRightTeeVector
+U02960, UPWARDS HARPOON WITH BARB LEFT FROM BAR, LeftUpTeeVector
+U02961, DOWNWARDS HARPOON WITH BARB LEFT FROM BAR, LeftDownTeeVector
+U02962, LEFTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB DOWN, lHar
+U02963, UPWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT, uHar
+U02964, RIGHTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB DOWN, rHar
+U02965, DOWNWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT, dHar
+U02966, LEFTWARDS HARPOON WITH BARB UP ABOVE RIGHTWARDS HARPOON WITH BARB UP, luruhar
+U02967, LEFTWARDS HARPOON WITH BARB DOWN ABOVE RIGHTWARDS HARPOON WITH BARB DOWN, ldrdhar
+U02968, RIGHTWARDS HARPOON WITH BARB UP ABOVE LEFTWARDS HARPOON WITH BARB UP, ruluhar
+U02969, RIGHTWARDS HARPOON WITH BARB DOWN ABOVE LEFTWARDS HARPOON WITH BARB DOWN, rdldhar
+U0296A, LEFTWARDS HARPOON WITH BARB UP ABOVE LONG DASH, lharul
+U0296B, LEFTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH, llhard
+U0296C, RIGHTWARDS HARPOON WITH BARB UP ABOVE LONG DASH, rharul
+U0296D, RIGHTWARDS HARPOON WITH BARB DOWN BELOW LONG DASH, lrhard
+U0296E, UPWARDS HARPOON WITH BARB LEFT BESIDE DOWNWARDS HARPOON WITH BARB RIGHT, udhar, UpEquilibrium
+U0296F, DOWNWARDS HARPOON WITH BARB LEFT BESIDE UPWARDS HARPOON WITH BARB RIGHT, duhar, ReverseUpEquilibrium
+U02970, RIGHT DOUBLE ARROW WITH ROUNDED HEAD   , RoundImplies
+U02971, EQUALS SIGN ABOVE RIGHTWARDS ARROW     , erarr
+U02972, TILDE OPERATOR ABOVE RIGHTWARDS ARROW  , simrarr
+U02973, LEFTWARDS ARROW ABOVE TILDE OPERATOR   , larrsim
+U02974, RIGHTWARDS ARROW ABOVE TILDE OPERATOR  , rarrsim
+U02975, RIGHTWARDS ARROW ABOVE ALMOST EQUAL TO , rarrap
+U02976, LESS-THAN ABOVE LEFTWARDS ARROW        , ltlarr
+U02978, GREATER-THAN ABOVE RIGHTWARDS ARROW    , gtrarr
+U02979, SUBSET ABOVE RIGHTWARDS ARROW          , subrarr
+U0297B, SUPERSET ABOVE LEFTWARDS ARROW         , suplarr
+U0297C, LEFT FISH TAIL                         , lfisht
+U0297D, RIGHT FISH TAIL                        , rfisht
+U0297E, UP FISH TAIL                           , ufisht
+U0297F, DOWN FISH TAIL                         , dfisht
+U02985, LEFT WHITE PARENTHESIS                 , lopar
+U02986, RIGHT WHITE PARENTHESIS                , ropar
+U02989, Z NOTATION LEFT BINDING BRACKET        , loang
+U0298A, Z NOTATION RIGHT BINDING BRACKET       , roang
+U0298B, LEFT SQUARE BRACKET WITH UNDERBAR      , lbrke
+U0298C, RIGHT SQUARE BRACKET WITH UNDERBAR     , rbrke
+U0298D, LEFT SQUARE BRACKET WITH TICK IN TOP CORNER, lbrkslu
+U0298E, RIGHT SQUARE BRACKET WITH TICK IN BOTTOM CORNER, rbrksld
+U0298F, LEFT SQUARE BRACKET WITH TICK IN BOTTOM CORNER, lbrksld
+U02990, RIGHT SQUARE BRACKET WITH TICK IN TOP CORNER, rbrkslu
+U02991, LEFT ANGLE BRACKET WITH DOT            , langd
+U02992, RIGHT ANGLE BRACKET WITH DOT           , rangd
+U02993, LEFT ARC LESS-THAN BRACKET             , lparlt
+U02994, RIGHT ARC GREATER-THAN BRACKET         , rpargt
+U02995, DOUBLE LEFT ARC GREATER-THAN BRACKET   , gtlPar
+U02996, DOUBLE RIGHT ARC LESS-THAN BRACKET     , ltrPar
+U0299A, VERTICAL ZIGZAG LINE                   , vzigzag
+U0299D, MEASURED RIGHT ANGLE WITH DOT          , angrtvbd
+U029A4, ANGLE WITH UNDERBAR                    , ange
+U029A5, REVERSED ANGLE WITH UNDERBAR           , range
+U029A6, OBLIQUE ANGLE OPENING UP               , dwangle
+U029A7, OBLIQUE ANGLE OPENING DOWN             , uwangle
+U029A8, MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND RIGHT, angmsdaa
+U029A9, MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING UP AND LEFT, angmsdab
+U029AA, MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND RIGHT, angmsdac
+U029AB, MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING DOWN AND LEFT, angmsdad
+U029AC, MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND UP, angmsdae
+U029AD, MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND UP, angmsdaf
+U029AE, MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING RIGHT AND DOWN, angmsdag
+U029AF, MEASURED ANGLE WITH OPEN ARM ENDING IN ARROW POINTING LEFT AND DOWN, angmsdah
+U029B0, REVERSED EMPTY SET                     , bemptyv
+U029B1, EMPTY SET WITH OVERBAR                 , demptyv
+U029B2, EMPTY SET WITH SMALL CIRCLE ABOVE      , cemptyv
+U029B3, EMPTY SET WITH RIGHT ARROW ABOVE       , raemptyv
+U029B4, EMPTY SET WITH LEFT ARROW ABOVE        , laemptyv
+U029B5, CIRCLE WITH HORIZONTAL BAR             , ohbar
+U029B6, CIRCLED VERTICAL BAR                   , omid
+U029B7, CIRCLED PARALLEL                       , opar
+U029B9, CIRCLED PERPENDICULAR                  , operp
+U029BB, CIRCLE WITH SUPERIMPOSED X             , olcross
+U029BC, CIRCLED ANTICLOCKWISE-ROTATED DIVISION SIGN, odsold
+U029BE, CIRCLED WHITE BULLET                   , olcir
+U029BF, CIRCLED BULLET                         , ofcir
+U029C0, CIRCLED LESS-THAN                      , olt
+U029C1, CIRCLED GREATER-THAN                   , ogt
+U029C2, CIRCLE WITH SMALL CIRCLE TO THE RIGHT  , cirscir
+U029C3, CIRCLE WITH TWO HORIZONTAL STROKES TO THE RIGHT, cirE
+U029C4, SQUARED RISING DIAGONAL SLASH          , solb
+U029C5, SQUARED FALLING DIAGONAL SLASH         , bsolb
+U029C9, TWO JOINED SQUARES                     , boxbox
+U029CD, TRIANGLE WITH SERIFS AT BOTTOM         , trisb
+U029CE, RIGHT TRIANGLE ABOVE LEFT TRIANGLE     , rtriltri
+U029CF, LEFT TRIANGLE BESIDE VERTICAL BAR      , LeftTriangleBar
+U029CF-00338, LEFT TRIANGLE BESIDE VERTICAL BAR with slash, NotLeftTriangleBar
+U029D0, VERTICAL BAR BESIDE RIGHT TRIANGLE     , RightTriangleBar
+U029D0-00338, VERTICAL BAR BESIDE RIGHT TRIANGLE with slash, NotRightTriangleBar
+U029DA, LEFT DOUBLE WIGGLY FENCE               , race
+U029DB, RIGHT DOUBLE WIGGLY FENCE              , acE
+U029DC, INCOMPLETE INFINITY                    , iinfin
+U029DE, INFINITY NEGATED WITH VERTICAL BAR     , nvinfin
+U029E3, EQUALS SIGN AND SLANTED PARALLEL       , eparsl
+U029E4, EQUALS SIGN AND SLANTED PARALLEL WITH TILDE ABOVE, smeparsl
+U029E5, IDENTICAL TO AND SLANTED PARALLEL      , eqvparsl
+U029EB, BLACK LOZENGE                          , lozf, blacklozenge
+U029F4, RULE-DELAYED                           , RuleDelayed
+U029F6, SOLIDUS WITH OVERBAR                   , dsol
+U02A04, N-ARY UNION OPERATOR WITH PLUS         , xuplus, biguplus
+U02A06, N-ARY SQUARE UNION OPERATOR            , xsqcup, bigsqcup
+U02A0C, QUADRUPLE INTEGRAL OPERATOR            , qint, iiiint
+U02A0D, FINITE PART INTEGRAL                   , fpartint
+U02A10, CIRCULATION FUNCTION                   , cirfnint
+U02A11, ANTICLOCKWISE INTEGRATION              , awint
+U02A12, LINE INTEGRATION WITH RECTANGULAR PATH AROUND POLE, rppolint
+U02A13, LINE INTEGRATION WITH SEMICIRCULAR PATH AROUND POLE, scpolint
+U02A14, LINE INTEGRATION NOT INCLUDING THE POLE, npolint
+U02A15, INTEGRAL AROUND A POINT OPERATOR       , pointint
+U02A16, QUATERNION INTEGRAL OPERATOR           , quatint
+U02A17, INTEGRAL WITH LEFTWARDS ARROW WITH HOOK, intlarhk
+U02A22, PLUS SIGN WITH SMALL CIRCLE ABOVE      , pluscir
+U02A23, PLUS SIGN WITH CIRCUMFLEX ACCENT ABOVE , plusacir
+U02A24, PLUS SIGN WITH TILDE ABOVE             , simplus
+U02A25, PLUS SIGN WITH DOT BELOW               , plusdu
+U02A26, PLUS SIGN WITH TILDE BELOW             , plussim
+U02A27, PLUS SIGN WITH SUBSCRIPT TWO           , plustwo
+U02A29, MINUS SIGN WITH COMMA ABOVE            , mcomma
+U02A2A, MINUS SIGN WITH DOT BELOW              , minusdu
+U02A2D, PLUS SIGN IN LEFT HALF CIRCLE          , loplus
+U02A2E, PLUS SIGN IN RIGHT HALF CIRCLE         , roplus
+U02A2F, VECTOR OR CROSS PRODUCT                , Cross
+U02A30, MULTIPLICATION SIGN WITH DOT ABOVE     , timesd
+U02A31, MULTIPLICATION SIGN WITH UNDERBAR      , timesbar
+U02A33, SMASH PRODUCT                          , smashp
+U02A34, MULTIPLICATION SIGN IN LEFT HALF CIRCLE, lotimes
+U02A35, MULTIPLICATION SIGN IN RIGHT HALF CIRCLE, rotimes
+U02A36, CIRCLED MULTIPLICATION SIGN WITH CIRCUMFLEX ACCENT, otimesas
+U02A37, MULTIPLICATION SIGN IN DOUBLE CIRCLE   , Otimes
+U02A38, CIRCLED DIVISION SIGN                  , odiv
+U02A39, PLUS SIGN IN TRIANGLE                  , triplus
+U02A3A, MINUS SIGN IN TRIANGLE                 , triminus
+U02A3B, MULTIPLICATION SIGN IN TRIANGLE        , tritime
+U02A3C, INTERIOR PRODUCT                       , iprod, intprod
+U02A3F, AMALGAMATION OR COPRODUCT              , amalg
+U02A40, INTERSECTION WITH DOT                  , capdot
+U02A42, UNION WITH OVERBAR                     , ncup
+U02A43, INTERSECTION WITH OVERBAR              , ncap
+U02A44, INTERSECTION WITH LOGICAL AND          , capand
+U02A45, UNION WITH LOGICAL OR                  , cupor
+U02A46, UNION ABOVE INTERSECTION               , cupcap
+U02A47, INTERSECTION ABOVE UNION               , capcup
+U02A48, UNION ABOVE BAR ABOVE INTERSECTION     , cupbrcap
+U02A49, INTERSECTION ABOVE BAR ABOVE UNION     , capbrcup
+U02A4A, UNION BESIDE AND JOINED WITH UNION     , cupcup
+U02A4B, INTERSECTION BESIDE AND JOINED WITH INTERSECTION, capcap
+U02A4C, CLOSED UNION WITH SERIFS               , ccups
+U02A4D, CLOSED INTERSECTION WITH SERIFS        , ccaps
+U02A50, CLOSED UNION WITH SERIFS AND SMASH PRODUCT, ccupssm
+U02A53, DOUBLE LOGICAL AND                     , And
+U02A54, DOUBLE LOGICAL OR                      , Or
+U02A55, TWO INTERSECTING LOGICAL AND           , andand
+U02A56, TWO INTERSECTING LOGICAL OR            , oror
+U02A57, SLOPING LARGE OR                       , orslope
+U02A58, SLOPING LARGE AND                      , andslope
+U02A5A, LOGICAL AND WITH MIDDLE STEM           , andv
+U02A5B, LOGICAL OR WITH MIDDLE STEM            , orv
+U02A5C, LOGICAL AND WITH HORIZONTAL DASH       , andd
+U02A5D, LOGICAL OR WITH HORIZONTAL DASH        , ord
+U02A5F, LOGICAL AND WITH UNDERBAR              , wedbar
+U02A66, EQUALS SIGN WITH DOT BELOW             , sdote
+U02A6A, TILDE OPERATOR WITH DOT ABOVE          , simdot
+U02A6D, CONGRUENT WITH DOT ABOVE               , congdot
+U02A6D-00338, CONGRUENT WITH DOT ABOVE with slash, ncongdot
+U02A6F, ALMOST EQUAL TO WITH CIRCUMFLEX ACCENT , apacir
+U02A70-00338, APPROXIMATELY EQUAL OR EQUAL TO with slash, napE
+U02A71, EQUALS SIGN ABOVE PLUS SIGN            , eplus
+U02A72, PLUS SIGN ABOVE EQUALS SIGN            , pluse
+U02A73, EQUALS SIGN ABOVE TILDE OPERATOR       , Esim
+U02A74, DOUBLE COLON EQUAL                     , Colone
+U02A75, TWO CONSECUTIVE EQUALS SIGNS           , Equal
+U02A77, EQUALS SIGN WITH TWO DOTS ABOVE AND TWO DOTS BELOW, eDDot, ddotseq
+U02A78, EQUIVALENT WITH FOUR DOTS ABOVE        , equivDD
+U02A79, LESS-THAN WITH CIRCLE INSIDE           , ltcir
+U02A7A, GREATER-THAN WITH CIRCLE INSIDE        , gtcir
+U02A7B, LESS-THAN WITH QUESTION MARK ABOVE     , ltquest
+U02A7C, GREATER-THAN WITH QUESTION MARK ABOVE  , gtquest
+U02A7D, LESS-THAN OR SLANTED EQUAL TO          , les, LessSlantEqual, leqslant
+U02A7D-00338, LESS-THAN OR SLANTED EQUAL TO with slash, nles, NotLessSlantEqual, nleqslant, nvle
+U02A7E, GREATER-THAN OR SLANTED EQUAL TO       , ges, GreaterSlantEqual, geqslant
+U02A7E-00338, GREATER-THAN OR SLANTED EQUAL TO with slash, nges, NotGreaterSlantEqual, ngeqslant, nvge
+U02A7F, LESS-THAN OR SLANTED EQUAL TO WITH DOT INSIDE, lesdot
+U02A80, GREATER-THAN OR SLANTED EQUAL TO WITH DOT INSIDE, gesdot
+U02A81, LESS-THAN OR SLANTED EQUAL TO WITH DOT ABOVE, lesdoto
+U02A82, GREATER-THAN OR SLANTED EQUAL TO WITH DOT ABOVE, gesdoto
+U02A83, LESS-THAN OR SLANTED EQUAL TO WITH DOT ABOVE RIGHT, lesdotor
+U02A84, GREATER-THAN OR SLANTED EQUAL TO WITH DOT ABOVE LEFT, gesdotol
+U02A87, LESS-THAN AND SINGLE-LINE NOT EQUAL TO , lne, lneq
+U02A88, GREATER-THAN AND SINGLE-LINE NOT EQUAL TO, gne, gneq
+U02A89, LESS-THAN AND NOT APPROXIMATE          , lnap, lnapprox
+U02A8A, GREATER-THAN AND NOT APPROXIMATE       , gnap, gnapprox
+U02A8B, LESS-THAN ABOVE DOUBLE-LINE EQUAL ABOVE GREATER-THAN, lEg, lesseqqgtr
+U02A8C, GREATER-THAN ABOVE DOUBLE-LINE EQUAL ABOVE LESS-THAN, gEl, gtreqqless
+U02A8D, LESS-THAN ABOVE SIMILAR OR EQUAL       , lsime
+U02A8E, GREATER-THAN ABOVE SIMILAR OR EQUAL    , gsime
+U02A8F, LESS-THAN ABOVE SIMILAR ABOVE GREATER-THAN, lsimg
+U02A90, GREATER-THAN ABOVE SIMILAR ABOVE LESS-THAN, gsiml
+U02A91, LESS-THAN ABOVE GREATER-THAN ABOVE DOUBLE-LINE EQUAL, lgE
+U02A92, GREATER-THAN ABOVE LESS-THAN ABOVE DOUBLE-LINE EQUAL, glE
+U02A93, LESS-THAN ABOVE SLANTED EQUAL ABOVE GREATER-THAN ABOVE SLANTED EQUAL, lesges
+U02A94, GREATER-THAN ABOVE SLANTED EQUAL ABOVE LESS-THAN ABOVE SLANTED EQUAL, gesles
+U02A95, SLANTED EQUAL TO OR LESS-THAN          , els, eqslantless
+U02A96, SLANTED EQUAL TO OR GREATER-THAN       , egs, eqslantgtr
+U02A97, SLANTED EQUAL TO OR LESS-THAN WITH DOT INSIDE, elsdot
+U02A98, SLANTED EQUAL TO OR GREATER-THAN WITH DOT INSIDE, egsdot
+U02A99, DOUBLE-LINE EQUAL TO OR LESS-THAN      , el
+U02A9A, DOUBLE-LINE EQUAL TO OR GREATER-THAN   , eg
+U02A9D, SIMILAR OR LESS-THAN                   , siml
+U02A9E, SIMILAR OR GREATER-THAN                , simg
+U02A9F, SIMILAR ABOVE LESS-THAN ABOVE EQUALS SIGN, simlE
+U02AA0, SIMILAR ABOVE GREATER-THAN ABOVE EQUALS SIGN, simgE
+U02AA1, DOUBLE NESTED LESS-THAN                , LessLess
+U02AA1-00338, DOUBLE NESTED LESS-THAN with slash, NotNestedLessLess
+U02AA2, DOUBLE NESTED GREATER-THAN             , GreaterGreater
+U02AA2-00338, DOUBLE NESTED GREATER-THAN with slash, NotNestedGreaterGreater
+U02AA4, GREATER-THAN OVERLAPPING LESS-THAN     , glj
+U02AA5, GREATER-THAN BESIDE LESS-THAN          , gla
+U02AA6, LESS-THAN CLOSED BY CURVE              , ltcc
+U02AA7, GREATER-THAN CLOSED BY CURVE           , gtcc
+U02AA8, LESS-THAN CLOSED BY CURVE ABOVE SLANTED EQUAL, lescc
+U02AA9, GREATER-THAN CLOSED BY CURVE ABOVE SLANTED EQUAL, gescc
+U02AAA, SMALLER THAN                           , smt
+U02AAB, LARGER THAN                            , lat
+U02AAC, SMALLER THAN OR EQUAL TO               , smte
+U02AAC-0FE00, SMALLER THAN OR slanted EQUAL    , smtes
+U02AAD, LARGER THAN OR EQUAL TO                , late
+U02AAD-0FE00, LARGER THAN OR slanted EQUAL     , lates
+U02AAE, EQUALS SIGN WITH BUMPY ABOVE           , bumpE
+U02AAF, PRECEDES ABOVE SINGLE-LINE EQUALS SIGN , pre, preceq, PrecedesEqual
+U02AAF-00338, PRECEDES ABOVE SINGLE-LINE EQUALS SIGN with slash, npre, npreceq, NotPrecedesEqual
+U02AB0, SUCCEEDS ABOVE SINGLE-LINE EQUALS SIGN , sce, succeq, SucceedsEqual
+U02AB0-00338, SUCCEEDS ABOVE SINGLE-LINE EQUALS SIGN with slash, nsce, nsucceq, NotSucceedsEqual
+U02AB3, PRECEDES ABOVE EQUALS SIGN             , prE
+U02AB4, SUCCEEDS ABOVE EQUALS SIGN             , scE
+U02AB5, PRECEDES ABOVE NOT EQUAL TO            , prnE, precneqq
+U02AB6, SUCCEEDS ABOVE NOT EQUAL TO            , scnE, succneqq
+U02ABB, DOUBLE PRECEDES                        , Pr
+U02ABC, DOUBLE SUCCEEDS                        , Sc
+U02ABD, SUBSET WITH DOT                        , subdot
+U02ABE, SUPERSET WITH DOT                      , supdot
+U02ABF, SUBSET WITH PLUS SIGN BELOW            , subplus
+U02AC0, SUPERSET WITH PLUS SIGN BELOW          , supplus
+U02AC1, SUBSET WITH MULTIPLICATION SIGN BELOW  , submult
+U02AC2, SUPERSET WITH MULTIPLICATION SIGN BELOW, supmult
+U02AC3, SUBSET OF OR EQUAL TO WITH DOT ABOVE   , subedot
+U02AC4, SUPERSET OF OR EQUAL TO WITH DOT ABOVE , supedot
+U02AC5, SUBSET OF ABOVE EQUALS SIGN            , subE, subseteqq
+U02AC5-0338, SUBSET OF ABOVE EQUALS SIGN with slash, nsubE, nsubseteqq
+U02AC6, SUPERSET OF ABOVE EQUALS SIGN          , supE, supseteqq
+U02AC6-0338, SUPERSET OF ABOVE EQUALS SIGN with slash, nsupE, nsupseteqq
+U02AC7, SUBSET OF ABOVE TILDE OPERATOR         , subsim
+U02AC8, SUPERSET OF ABOVE TILDE OPERATOR       , supsim
+U02ACB, SUBSET OF ABOVE NOT EQUAL TO           , subnE, subsetneqq
+U02ACC, SUPERSET OF ABOVE NOT EQUAL TO         , supnE, supsetneqq
+U02ACF, CLOSED SUBSET                          , csub
+U02AD0, CLOSED SUPERSET                        , csup
+U02AD1, CLOSED SUBSET OR EQUAL TO              , csube
+U02AD2, CLOSED SUPERSET OR EQUAL TO            , csupe
+U02AD3, SUBSET ABOVE SUPERSET                  , subsup
+U02AD4, SUPERSET ABOVE SUBSET                  , supsub
+U02AD5, SUBSET ABOVE SUBSET                    , subsub
+U02AD6, SUPERSET ABOVE SUPERSET                , supsup
+U02AD7, SUPERSET BESIDE SUBSET                 , suphsub
+U02AD8, SUPERSET BESIDE AND JOINED BY DASH WITH SUBSET, supdsub
+U02AD9, ELEMENT OF OPENING DOWNWARDS           , forkv
+U02ADA, PITCHFORK WITH TEE TOP                 , topfork
+U02ADB, TRANSVERSAL INTERSECTION               , mlcp
+U02AE4, VERTICAL BAR DOUBLE LEFT TURNSTILE     , Dashv, DoubleLeftTee
+U02AE6, LONG DASH FROM LEFT MEMBER OF DOUBLE VERTICAL, Vdashl
+U02AE7, SHORT DOWN TACK WITH OVERBAR           , Barv
+U02AE8, SHORT UP TACK WITH UNDERBAR            , vBar
+U02AE9, SHORT UP TACK ABOVE SHORT DOWN TACK    , vBarv
+U02AEB, DOUBLE UP TACK                         , Vbar
+U02AEC, DOUBLE STROKE NOT SIGN                 , Not
+U02AED, REVERSED DOUBLE STROKE NOT SIGN        , bNot
+U02AEE, DOES NOT DIVIDE WITH REVERSED NEGATION SLASH, rnmid
+U02AEF, VERTICAL LINE WITH CIRCLE ABOVE        , cirmid
+U02AF0, VERTICAL LINE WITH CIRCLE BELOW        , midcir
+U02AF1, DOWN TACK WITH CIRCLE BELOW            , topcir
+U02AF2, PARALLEL WITH HORIZONTAL STROKE        , nhpar
+U02AF3, PARALLEL WITH TILDE OPERATOR           , parsim
+U0300A, LEFT DOUBLE ANGLE BRACKET              , Lang
+U0300B, RIGHT DOUBLE ANGLE BRACKET             , Rang
+U03014, LEFT TORTOISE SHELL BRACKET            , lbbrk
+U03015, RIGHT TORTOISE SHELL BRACKET           , rbbrk
+U0301A, LEFT WHITE SQUARE BRACKET              , lobrk, LeftDoubleBracket
+U0301B, RIGHT WHITE SQUARE BRACKET             , robrk, RightDoubleBracket
+U0FB00, LATIN SMALL LIGATURE FF                , fflig
+U0FB01, LATIN SMALL LIGATURE FI                , filig
+U0FB02, LATIN SMALL LIGATURE FL                , fllig
+U0FB03, LATIN SMALL LIGATURE FFI               , ffilig
+U0FB04, LATIN SMALL LIGATURE FFL               , ffllig
+U0FE35, PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS, OverParenthesis
+U0FE36, PRESENTATION FORM FOR VERTICAL RIGHT PARENTHESIS, UnderParenthesis
+U0FE37, PRESENTATION FORM FOR VERTICAL LEFT CURLY BRACKET, OverBrace
+U0FE38, PRESENTATION FORM FOR VERTICAL RIGHT CURLY BRACKET, UnderBrace
+U1D400, MATHEMATICAL BOLD CAPITAL A            , 
+U1D401, MATHEMATICAL BOLD CAPITAL B            , 
+U1D402, MATHEMATICAL BOLD CAPITAL C            , 
+U1D403, MATHEMATICAL BOLD CAPITAL D            , 
+U1D404, MATHEMATICAL BOLD CAPITAL E            , 
+U1D405, MATHEMATICAL BOLD CAPITAL F            , 
+U1D406, MATHEMATICAL BOLD CAPITAL G            , 
+U1D407, MATHEMATICAL BOLD CAPITAL H            , 
+U1D408, MATHEMATICAL BOLD CAPITAL I            , 
+U1D409, MATHEMATICAL BOLD CAPITAL J            , 
+U1D40A, MATHEMATICAL BOLD CAPITAL K            , 
+U1D40B, MATHEMATICAL BOLD CAPITAL L            , 
+U1D40C, MATHEMATICAL BOLD CAPITAL M            , 
+U1D40D, MATHEMATICAL BOLD CAPITAL N            , 
+U1D40E, MATHEMATICAL BOLD CAPITAL O            , 
+U1D40F, MATHEMATICAL BOLD CAPITAL P            , 
+U1D410, MATHEMATICAL BOLD CAPITAL Q            , 
+U1D411, MATHEMATICAL BOLD CAPITAL R            , 
+U1D412, MATHEMATICAL BOLD CAPITAL S            , 
+U1D413, MATHEMATICAL BOLD CAPITAL T            , 
+U1D414, MATHEMATICAL BOLD CAPITAL U            , 
+U1D415, MATHEMATICAL BOLD CAPITAL V            , 
+U1D416, MATHEMATICAL BOLD CAPITAL W            , 
+U1D417, MATHEMATICAL BOLD CAPITAL X            , 
+U1D418, MATHEMATICAL BOLD CAPITAL Y            , 
+U1D419, MATHEMATICAL BOLD CAPITAL Z            , 
+U1D41A, MATHEMATICAL BOLD SMALL A              , 
+U1D41B, MATHEMATICAL BOLD SMALL B              , 
+U1D41C, MATHEMATICAL BOLD SMALL C              , 
+U1D41D, MATHEMATICAL BOLD SMALL D              , 
+U1D41E, MATHEMATICAL BOLD SMALL E              , 
+U1D41F, MATHEMATICAL BOLD SMALL F              , 
+U1D420, MATHEMATICAL BOLD SMALL G              , 
+U1D421, MATHEMATICAL BOLD SMALL H              , 
+U1D422, MATHEMATICAL BOLD SMALL I              , 
+U1D423, MATHEMATICAL BOLD SMALL J              , 
+U1D424, MATHEMATICAL BOLD SMALL K              , 
+U1D425, MATHEMATICAL BOLD SMALL L              , 
+U1D426, MATHEMATICAL BOLD SMALL M              , 
+U1D427, MATHEMATICAL BOLD SMALL N              , 
+U1D428, MATHEMATICAL BOLD SMALL O              , 
+U1D429, MATHEMATICAL BOLD SMALL P              , 
+U1D42A, MATHEMATICAL BOLD SMALL Q              , 
+U1D42B, MATHEMATICAL BOLD SMALL R              , 
+U1D42C, MATHEMATICAL BOLD SMALL S              , 
+U1D42D, MATHEMATICAL BOLD SMALL T              , 
+U1D42E, MATHEMATICAL BOLD SMALL U              , 
+U1D42F, MATHEMATICAL BOLD SMALL V              , 
+U1D430, MATHEMATICAL BOLD SMALL W              , 
+U1D431, MATHEMATICAL BOLD SMALL X              , 
+U1D432, MATHEMATICAL BOLD SMALL Y              , 
+U1D433, MATHEMATICAL BOLD SMALL Z              , 
+U1D434, MATHEMATICAL ITALIC CAPITAL A          , 
+U1D435, MATHEMATICAL ITALIC CAPITAL B          , 
+U1D436, MATHEMATICAL ITALIC CAPITAL C          , 
+U1D437, MATHEMATICAL ITALIC CAPITAL D          , 
+U1D438, MATHEMATICAL ITALIC CAPITAL E          , 
+U1D439, MATHEMATICAL ITALIC CAPITAL F          , 
+U1D43A, MATHEMATICAL ITALIC CAPITAL G          , 
+U1D43B, MATHEMATICAL ITALIC CAPITAL H          , 
+U1D43C, MATHEMATICAL ITALIC CAPITAL I          , 
+U1D43D, MATHEMATICAL ITALIC CAPITAL J          , 
+U1D43E, MATHEMATICAL ITALIC CAPITAL K          , 
+U1D43F, MATHEMATICAL ITALIC CAPITAL L          , 
+U1D440, MATHEMATICAL ITALIC CAPITAL M          , 
+U1D441, MATHEMATICAL ITALIC CAPITAL N          , 
+U1D442, MATHEMATICAL ITALIC CAPITAL O          , 
+U1D443, MATHEMATICAL ITALIC CAPITAL P          , 
+U1D444, MATHEMATICAL ITALIC CAPITAL Q          , 
+U1D445, MATHEMATICAL ITALIC CAPITAL R          , 
+U1D446, MATHEMATICAL ITALIC CAPITAL S          , 
+U1D447, MATHEMATICAL ITALIC CAPITAL T          , 
+U1D448, MATHEMATICAL ITALIC CAPITAL U          , 
+U1D449, MATHEMATICAL ITALIC CAPITAL V          , 
+U1D44A, MATHEMATICAL ITALIC CAPITAL W          , 
+U1D44B, MATHEMATICAL ITALIC CAPITAL X          , 
+U1D44C, MATHEMATICAL ITALIC CAPITAL Y          , 
+U1D44D, MATHEMATICAL ITALIC CAPITAL Z          , 
+U1D44E, MATHEMATICAL ITALIC SMALL A            , 
+U1D44F, MATHEMATICAL ITALIC SMALL B            , 
+U1D450, MATHEMATICAL ITALIC SMALL C            , 
+U1D451, MATHEMATICAL ITALIC SMALL D            , 
+U1D452, MATHEMATICAL ITALIC SMALL E            , 
+U1D453, MATHEMATICAL ITALIC SMALL F            , 
+U1D454, MATHEMATICAL ITALIC SMALL G            , 
+U1D455,                                        , 
+U1D456, MATHEMATICAL ITALIC SMALL I            , 
+U1D457, MATHEMATICAL ITALIC SMALL J            , 
+U1D458, MATHEMATICAL ITALIC SMALL K            , 
+U1D459, MATHEMATICAL ITALIC SMALL L            , 
+U1D45A, MATHEMATICAL ITALIC SMALL M            , 
+U1D45B, MATHEMATICAL ITALIC SMALL N            , 
+U1D45C, MATHEMATICAL ITALIC SMALL O            , 
+U1D45D, MATHEMATICAL ITALIC SMALL P            , 
+U1D45E, MATHEMATICAL ITALIC SMALL Q            , 
+U1D45F, MATHEMATICAL ITALIC SMALL R            , 
+U1D460, MATHEMATICAL ITALIC SMALL S            , 
+U1D461, MATHEMATICAL ITALIC SMALL T            , 
+U1D462, MATHEMATICAL ITALIC SMALL U            , 
+U1D463, MATHEMATICAL ITALIC SMALL V            , 
+U1D464, MATHEMATICAL ITALIC SMALL W            , 
+U1D465, MATHEMATICAL ITALIC SMALL X            , 
+U1D466, MATHEMATICAL ITALIC SMALL Y            , 
+U1D467, MATHEMATICAL ITALIC SMALL Z            , 
+U1D468, MATHEMATICAL BOLD ITALIC CAPITAL A     , 
+U1D469, MATHEMATICAL BOLD ITALIC CAPITAL B     , 
+U1D46A, MATHEMATICAL BOLD ITALIC CAPITAL C     , 
+U1D46B, MATHEMATICAL BOLD ITALIC CAPITAL D     , 
+U1D46C, MATHEMATICAL BOLD ITALIC CAPITAL E     , 
+U1D46D, MATHEMATICAL BOLD ITALIC CAPITAL F     , 
+U1D46E, MATHEMATICAL BOLD ITALIC CAPITAL G     , 
+U1D46F, MATHEMATICAL BOLD ITALIC CAPITAL H     , 
+U1D470, MATHEMATICAL BOLD ITALIC CAPITAL I     , 
+U1D471, MATHEMATICAL BOLD ITALIC CAPITAL J     , 
+U1D472, MATHEMATICAL BOLD ITALIC CAPITAL K     , 
+U1D473, MATHEMATICAL BOLD ITALIC CAPITAL L     , 
+U1D474, MATHEMATICAL BOLD ITALIC CAPITAL M     , 
+U1D475, MATHEMATICAL BOLD ITALIC CAPITAL N     , 
+U1D476, MATHEMATICAL BOLD ITALIC CAPITAL O     , 
+U1D477, MATHEMATICAL BOLD ITALIC CAPITAL P     , 
+U1D478, MATHEMATICAL BOLD ITALIC CAPITAL Q     , 
+U1D479, MATHEMATICAL BOLD ITALIC CAPITAL R     , 
+U1D47A, MATHEMATICAL BOLD ITALIC CAPITAL S     , 
+U1D47B, MATHEMATICAL BOLD ITALIC CAPITAL T     , 
+U1D47C, MATHEMATICAL BOLD ITALIC CAPITAL U     , 
+U1D47D, MATHEMATICAL BOLD ITALIC CAPITAL V     , 
+U1D47E, MATHEMATICAL BOLD ITALIC CAPITAL W     , 
+U1D47F, MATHEMATICAL BOLD ITALIC CAPITAL X     , 
+U1D480, MATHEMATICAL BOLD ITALIC CAPITAL Y     , 
+U1D481, MATHEMATICAL BOLD ITALIC CAPITAL Z     , 
+U1D482, MATHEMATICAL BOLD ITALIC SMALL A       , 
+U1D483, MATHEMATICAL BOLD ITALIC SMALL B       , 
+U1D484, MATHEMATICAL BOLD ITALIC SMALL C       , 
+U1D485, MATHEMATICAL BOLD ITALIC SMALL D       , 
+U1D486, MATHEMATICAL BOLD ITALIC SMALL E       , 
+U1D487, MATHEMATICAL BOLD ITALIC SMALL F       , 
+U1D488, MATHEMATICAL BOLD ITALIC SMALL G       , 
+U1D489, MATHEMATICAL BOLD ITALIC SMALL H       , 
+U1D48A, MATHEMATICAL BOLD ITALIC SMALL I       , 
+U1D48B, MATHEMATICAL BOLD ITALIC SMALL J       , 
+U1D48C, MATHEMATICAL BOLD ITALIC SMALL K       , 
+U1D48D, MATHEMATICAL BOLD ITALIC SMALL L       , 
+U1D48E, MATHEMATICAL BOLD ITALIC SMALL M       , 
+U1D48F, MATHEMATICAL BOLD ITALIC SMALL N       , 
+U1D490, MATHEMATICAL BOLD ITALIC SMALL O       , 
+U1D491, MATHEMATICAL BOLD ITALIC SMALL P       , 
+U1D492, MATHEMATICAL BOLD ITALIC SMALL Q       , 
+U1D493, MATHEMATICAL BOLD ITALIC SMALL R       , 
+U1D494, MATHEMATICAL BOLD ITALIC SMALL S       , 
+U1D495, MATHEMATICAL BOLD ITALIC SMALL T       , 
+U1D496, MATHEMATICAL BOLD ITALIC SMALL U       , 
+U1D497, MATHEMATICAL BOLD ITALIC SMALL V       , 
+U1D498, MATHEMATICAL BOLD ITALIC SMALL W       , 
+U1D499, MATHEMATICAL BOLD ITALIC SMALL X       , 
+U1D49A, MATHEMATICAL BOLD ITALIC SMALL Y       , 
+U1D49B, MATHEMATICAL BOLD ITALIC SMALL Z       , 
+U1D49C, MATHEMATICAL SCRIPT CAPITAL A          , Ascr
+U1D49D,                                        , 
+U1D49E, MATHEMATICAL SCRIPT CAPITAL C          , Cscr
+U1D49F, MATHEMATICAL SCRIPT CAPITAL D          , Dscr
+U1D4A0,                                        , 
+U1D4A1,                                        , 
+U1D4A2, MATHEMATICAL SCRIPT CAPITAL G          , Gscr
+U1D4A3,                                        , 
+U1D4A4,                                        , 
+U1D4A5, MATHEMATICAL SCRIPT CAPITAL J          , Jscr
+U1D4A6, MATHEMATICAL SCRIPT CAPITAL K          , Kscr
+U1D4A7,                                        , 
+U1D4A8,                                        , 
+U1D4A9, MATHEMATICAL SCRIPT CAPITAL N          , Nscr
+U1D4AA, MATHEMATICAL SCRIPT CAPITAL O          , Oscr
+U1D4AB, MATHEMATICAL SCRIPT CAPITAL P          , Pscr
+U1D4AC, MATHEMATICAL SCRIPT CAPITAL Q          , Qscr
+U1D4AD,                                        , 
+U1D4AE, MATHEMATICAL SCRIPT CAPITAL S          , Sscr
+U1D4AF, MATHEMATICAL SCRIPT CAPITAL T          , Tscr
+U1D4B0, MATHEMATICAL SCRIPT CAPITAL U          , Uscr
+U1D4B1, MATHEMATICAL SCRIPT CAPITAL V          , Vscr
+U1D4B2, MATHEMATICAL SCRIPT CAPITAL W          , Wscr
+U1D4B3, MATHEMATICAL SCRIPT CAPITAL X          , Xscr
+U1D4B4, MATHEMATICAL SCRIPT CAPITAL Y          , Yscr
+U1D4B5, MATHEMATICAL SCRIPT CAPITAL Z          , Zscr
+U1D4B6, MATHEMATICAL SCRIPT SMALL A            , ascr
+U1D4B7, MATHEMATICAL SCRIPT SMALL B            , bscr
+U1D4B8, MATHEMATICAL SCRIPT SMALL C            , cscr
+U1D4B9, MATHEMATICAL SCRIPT SMALL D            , dscr
+U1D4BA,                                        , 
+U1D4BB, MATHEMATICAL SCRIPT SMALL F            , fscr
+U1D4BC,                                        , 
+U1D4BD, MATHEMATICAL SCRIPT SMALL H            , hscr
+U1D4BE, MATHEMATICAL SCRIPT SMALL I            , iscr
+U1D4BF, MATHEMATICAL SCRIPT SMALL J            , jscr
+U1D4C0, MATHEMATICAL SCRIPT SMALL K            , kscr
+U1D4C1,                                        , 
+U1D4C2, MATHEMATICAL SCRIPT SMALL M            , mscr
+U1D4C3, MATHEMATICAL SCRIPT SMALL N            , nscr
+U1D4C4,                                        , 
+U1D4C5, MATHEMATICAL SCRIPT SMALL P            , pscr
+U1D4C6, MATHEMATICAL SCRIPT SMALL Q            , qscr
+U1D4C7, MATHEMATICAL SCRIPT SMALL R            , rscr
+U1D4C8, MATHEMATICAL SCRIPT SMALL S            , sscr
+U1D4C9, MATHEMATICAL SCRIPT SMALL T            , tscr
+U1D4CA, MATHEMATICAL SCRIPT SMALL U            , uscr
+U1D4CB, MATHEMATICAL SCRIPT SMALL V            , vscr
+U1D4CC, MATHEMATICAL SCRIPT SMALL W            , wscr
+U1D4CD, MATHEMATICAL SCRIPT SMALL X            , xscr
+U1D4CE, MATHEMATICAL SCRIPT SMALL Y            , yscr
+U1D4CF, MATHEMATICAL SCRIPT SMALL Z            , zscr
+U1D4D0, MATHEMATICAL BOLD SCRIPT CAPITAL A     , 
+U1D4D1, MATHEMATICAL BOLD SCRIPT CAPITAL B     , 
+U1D4D2, MATHEMATICAL BOLD SCRIPT CAPITAL C     , 
+U1D4D3, MATHEMATICAL BOLD SCRIPT CAPITAL D     , 
+U1D4D4, MATHEMATICAL BOLD SCRIPT CAPITAL E     , 
+U1D4D5, MATHEMATICAL BOLD SCRIPT CAPITAL F     , 
+U1D4D6, MATHEMATICAL BOLD SCRIPT CAPITAL G     , 
+U1D4D7, MATHEMATICAL BOLD SCRIPT CAPITAL H     , 
+U1D4D8, MATHEMATICAL BOLD SCRIPT CAPITAL I     , 
+U1D4D9, MATHEMATICAL BOLD SCRIPT CAPITAL J     , 
+U1D4DA, MATHEMATICAL BOLD SCRIPT CAPITAL K     , 
+U1D4DB, MATHEMATICAL BOLD SCRIPT CAPITAL L     , 
+U1D4DC, MATHEMATICAL BOLD SCRIPT CAPITAL M     , 
+U1D4DD, MATHEMATICAL BOLD SCRIPT CAPITAL N     , 
+U1D4DE, MATHEMATICAL BOLD SCRIPT CAPITAL O     , 
+U1D4DF, MATHEMATICAL BOLD SCRIPT CAPITAL P     , 
+U1D4E0, MATHEMATICAL BOLD SCRIPT CAPITAL Q     , 
+U1D4E1, MATHEMATICAL BOLD SCRIPT CAPITAL R     , 
+U1D4E2, MATHEMATICAL BOLD SCRIPT CAPITAL S     , 
+U1D4E3, MATHEMATICAL BOLD SCRIPT CAPITAL T     , 
+U1D4E4, MATHEMATICAL BOLD SCRIPT CAPITAL U     , 
+U1D4E5, MATHEMATICAL BOLD SCRIPT CAPITAL V     , 
+U1D4E6, MATHEMATICAL BOLD SCRIPT CAPITAL W     , 
+U1D4E7, MATHEMATICAL BOLD SCRIPT CAPITAL X     , 
+U1D4E8, MATHEMATICAL BOLD SCRIPT CAPITAL Y     , 
+U1D4E9, MATHEMATICAL BOLD SCRIPT CAPITAL Z     , 
+U1D4EA, MATHEMATICAL BOLD SCRIPT SMALL A       , 
+U1D4EB, MATHEMATICAL BOLD SCRIPT SMALL B       , 
+U1D4EC, MATHEMATICAL BOLD SCRIPT SMALL C       , 
+U1D4ED, MATHEMATICAL BOLD SCRIPT SMALL D       , 
+U1D4EE, MATHEMATICAL BOLD SCRIPT SMALL E       , 
+U1D4EF, MATHEMATICAL BOLD SCRIPT SMALL F       , 
+U1D4F0, MATHEMATICAL BOLD SCRIPT SMALL G       , 
+U1D4F1, MATHEMATICAL BOLD SCRIPT SMALL H       , 
+U1D4F2, MATHEMATICAL BOLD SCRIPT SMALL I       , 
+U1D4F3, MATHEMATICAL BOLD SCRIPT SMALL J       , 
+U1D4F4, MATHEMATICAL BOLD SCRIPT SMALL K       , 
+U1D4F5, MATHEMATICAL BOLD SCRIPT SMALL L       , 
+U1D4F6, MATHEMATICAL BOLD SCRIPT SMALL M       , 
+U1D4F7, MATHEMATICAL BOLD SCRIPT SMALL N       , 
+U1D4F8, MATHEMATICAL BOLD SCRIPT SMALL O       , 
+U1D4F9, MATHEMATICAL BOLD SCRIPT SMALL P       , 
+U1D4FA, MATHEMATICAL BOLD SCRIPT SMALL Q       , 
+U1D4FB, MATHEMATICAL BOLD SCRIPT SMALL R       , 
+U1D4FC, MATHEMATICAL BOLD SCRIPT SMALL S       , 
+U1D4FD, MATHEMATICAL BOLD SCRIPT SMALL T       , 
+U1D4FE, MATHEMATICAL BOLD SCRIPT SMALL U       , 
+U1D4FF, MATHEMATICAL BOLD SCRIPT SMALL V       , 
+U1D500, MATHEMATICAL BOLD SCRIPT SMALL W       , 
+U1D501, MATHEMATICAL BOLD SCRIPT SMALL X       , 
+U1D502, MATHEMATICAL BOLD SCRIPT SMALL Y       , 
+U1D503, MATHEMATICAL BOLD SCRIPT SMALL Z       , 
+U1D504, MATHEMATICAL FRAKTUR CAPITAL A         , Afr
+U1D505, MATHEMATICAL FRAKTUR CAPITAL B         , Bfr
+U1D506,                                        , 
+U1D507, MATHEMATICAL FRAKTUR CAPITAL D         , Dfr
+U1D508, MATHEMATICAL FRAKTUR CAPITAL E         , Efr
+U1D509, MATHEMATICAL FRAKTUR CAPITAL F         , Ffr
+U1D50A, MATHEMATICAL FRAKTUR CAPITAL G         , Gfr
+U1D50B,                                        , 
+U1D50C,                                        , 
+U1D50D, MATHEMATICAL FRAKTUR CAPITAL J         , Jfr
+U1D50E, MATHEMATICAL FRAKTUR CAPITAL K         , Kfr
+U1D50F, MATHEMATICAL FRAKTUR CAPITAL L         , Lfr
+U1D510, MATHEMATICAL FRAKTUR CAPITAL M         , Mfr
+U1D511, MATHEMATICAL FRAKTUR CAPITAL N         , Nfr
+U1D512, MATHEMATICAL FRAKTUR CAPITAL O         , Ofr
+U1D513, MATHEMATICAL FRAKTUR CAPITAL P         , Pfr
+U1D514, MATHEMATICAL FRAKTUR CAPITAL Q         , Qfr
+U1D515,                                        , 
+U1D516, MATHEMATICAL FRAKTUR CAPITAL S         , Sfr
+U1D517, MATHEMATICAL FRAKTUR CAPITAL T         , Tfr
+U1D518, MATHEMATICAL FRAKTUR CAPITAL U         , Ufr
+U1D519, MATHEMATICAL FRAKTUR CAPITAL V         , Vfr
+U1D51A, MATHEMATICAL FRAKTUR CAPITAL W         , Wfr
+U1D51B, MATHEMATICAL FRAKTUR CAPITAL X         , Xfr
+U1D51C, MATHEMATICAL FRAKTUR CAPITAL Y         , Yfr
+U1D51D,                                        , 
+U1D51E, MATHEMATICAL FRAKTUR SMALL A           , afr
+U1D51F, MATHEMATICAL FRAKTUR SMALL B           , bfr
+U1D520, MATHEMATICAL FRAKTUR SMALL C           , cfr
+U1D521, MATHEMATICAL FRAKTUR SMALL D           , dfr
+U1D522, MATHEMATICAL FRAKTUR SMALL E           , efr
+U1D523, MATHEMATICAL FRAKTUR SMALL F           , ffr
+U1D524, MATHEMATICAL FRAKTUR SMALL G           , gfr
+U1D525, MATHEMATICAL FRAKTUR SMALL H           , hfr
+U1D526, MATHEMATICAL FRAKTUR SMALL I           , ifr
+U1D527, MATHEMATICAL FRAKTUR SMALL J           , jfr
+U1D528, MATHEMATICAL FRAKTUR SMALL K           , kfr
+U1D529, MATHEMATICAL FRAKTUR SMALL L           , lfr
+U1D52A, MATHEMATICAL FRAKTUR SMALL M           , mfr
+U1D52B, MATHEMATICAL FRAKTUR SMALL N           , nfr
+U1D52C, MATHEMATICAL FRAKTUR SMALL O           , ofr
+U1D52D, MATHEMATICAL FRAKTUR SMALL P           , pfr
+U1D52E, MATHEMATICAL FRAKTUR SMALL Q           , qfr
+U1D52F, MATHEMATICAL FRAKTUR SMALL R           , rfr
+U1D530, MATHEMATICAL FRAKTUR SMALL S           , sfr
+U1D531, MATHEMATICAL FRAKTUR SMALL T           , tfr
+U1D532, MATHEMATICAL FRAKTUR SMALL U           , ufr
+U1D533, MATHEMATICAL FRAKTUR SMALL V           , vfr
+U1D534, MATHEMATICAL FRAKTUR SMALL W           , wfr
+U1D535, MATHEMATICAL FRAKTUR SMALL X           , xfr
+U1D536, MATHEMATICAL FRAKTUR SMALL Y           , yfr
+U1D537, MATHEMATICAL FRAKTUR SMALL Z           , zfr
+U1D538, MATHEMATICAL DOUBLE-STRUCK CAPITAL A   , Aopf
+U1D539, MATHEMATICAL DOUBLE-STRUCK CAPITAL B   , Bopf
+U1D53A,                                        , 
+U1D53B, MATHEMATICAL DOUBLE-STRUCK CAPITAL D   , Dopf
+U1D53C, MATHEMATICAL DOUBLE-STRUCK CAPITAL E   , Eopf
+U1D53D, MATHEMATICAL DOUBLE-STRUCK CAPITAL F   , Fopf
+U1D53E, MATHEMATICAL DOUBLE-STRUCK CAPITAL G   , Gopf
+U1D53F,                                        , 
+U1D540, MATHEMATICAL DOUBLE-STRUCK CAPITAL I   , Iopf
+U1D541, MATHEMATICAL DOUBLE-STRUCK CAPITAL J   , Jopf
+U1D542, MATHEMATICAL DOUBLE-STRUCK CAPITAL K   , Kopf
+U1D543, MATHEMATICAL DOUBLE-STRUCK CAPITAL L   , Lopf, imped
+U1D544, MATHEMATICAL DOUBLE-STRUCK CAPITAL M   , Mopf
+U1D545,                                        , 
+U1D546, MATHEMATICAL DOUBLE-STRUCK CAPITAL O   , Oopf
+U1D547,                                        , 
+U1D548,                                        , 
+U1D549,                                        , 
+U1D54A, MATHEMATICAL DOUBLE-STRUCK CAPITAL S   , Sopf
+U1D54B, MATHEMATICAL DOUBLE-STRUCK CAPITAL T   , Topf
+U1D54C, MATHEMATICAL DOUBLE-STRUCK CAPITAL U   , Uopf
+U1D54D, MATHEMATICAL DOUBLE-STRUCK CAPITAL V   , Vopf
+U1D54E, MATHEMATICAL DOUBLE-STRUCK CAPITAL W   , Wopf
+U1D54F, MATHEMATICAL DOUBLE-STRUCK CAPITAL X   , Xopf
+U1D550, MATHEMATICAL DOUBLE-STRUCK CAPITAL Y   , Yopf
+U1D551,                                        , 
+U1D552, MATHEMATICAL DOUBLE-STRUCK SMALL A     , aopf
+U1D553, MATHEMATICAL DOUBLE-STRUCK SMALL B     , bopf
+U1D554, MATHEMATICAL DOUBLE-STRUCK SMALL C     , copf
+U1D555, MATHEMATICAL DOUBLE-STRUCK SMALL D     , dopf
+U1D556, MATHEMATICAL DOUBLE-STRUCK SMALL E     , eopf
+U1D557, MATHEMATICAL DOUBLE-STRUCK SMALL F     , fopf
+U1D558, MATHEMATICAL DOUBLE-STRUCK SMALL G     , gopf
+U1D559, MATHEMATICAL DOUBLE-STRUCK SMALL H     , hopf
+U1D55A, MATHEMATICAL DOUBLE-STRUCK SMALL I     , iopf
+U1D55B, MATHEMATICAL DOUBLE-STRUCK SMALL J     , jopf
+U1D55C, MATHEMATICAL DOUBLE-STRUCK SMALL K     , kopf
+U1D55D, MATHEMATICAL DOUBLE-STRUCK SMALL L     , lopf
+U1D55E, MATHEMATICAL DOUBLE-STRUCK SMALL M     , mopf
+U1D55F, MATHEMATICAL DOUBLE-STRUCK SMALL N     , nopf
+U1D560, MATHEMATICAL DOUBLE-STRUCK SMALL O     , oopf
+U1D561, MATHEMATICAL DOUBLE-STRUCK SMALL P     , popf
+U1D562, MATHEMATICAL DOUBLE-STRUCK SMALL Q     , qopf
+U1D563, MATHEMATICAL DOUBLE-STRUCK SMALL R     , ropf
+U1D564, MATHEMATICAL DOUBLE-STRUCK SMALL S     , sopf
+U1D565, MATHEMATICAL DOUBLE-STRUCK SMALL T     , topf
+U1D566, MATHEMATICAL DOUBLE-STRUCK SMALL U     , uopf
+U1D567, MATHEMATICAL DOUBLE-STRUCK SMALL V     , vopf
+U1D568, MATHEMATICAL DOUBLE-STRUCK SMALL W     , wopf
+U1D569, MATHEMATICAL DOUBLE-STRUCK SMALL X     , xopf
+U1D56A, MATHEMATICAL DOUBLE-STRUCK SMALL Y     , yopf
+U1D56B, MATHEMATICAL DOUBLE-STRUCK SMALL Z     , zopf
+U1D56C, MATHEMATICAL BOLD FRAKTUR CAPITAL A    , 
+U1D56D, MATHEMATICAL BOLD FRAKTUR CAPITAL B    , 
+U1D56E, MATHEMATICAL BOLD FRAKTUR CAPITAL C    , 
+U1D56F, MATHEMATICAL BOLD FRAKTUR CAPITAL D    , 
+U1D570, MATHEMATICAL BOLD FRAKTUR CAPITAL E    , 
+U1D571, MATHEMATICAL BOLD FRAKTUR CAPITAL F    , 
+U1D572, MATHEMATICAL BOLD FRAKTUR CAPITAL G    , 
+U1D573, MATHEMATICAL BOLD FRAKTUR CAPITAL H    , 
+U1D574, MATHEMATICAL BOLD FRAKTUR CAPITAL I    , 
+U1D575, MATHEMATICAL BOLD FRAKTUR CAPITAL J    , 
+U1D576, MATHEMATICAL BOLD FRAKTUR CAPITAL K    , 
+U1D577, MATHEMATICAL BOLD FRAKTUR CAPITAL L    , 
+U1D578, MATHEMATICAL BOLD FRAKTUR CAPITAL M    , 
+U1D579, MATHEMATICAL BOLD FRAKTUR CAPITAL N    , 
+U1D57A, MATHEMATICAL BOLD FRAKTUR CAPITAL O    , 
+U1D57B, MATHEMATICAL BOLD FRAKTUR CAPITAL P    , 
+U1D57C, MATHEMATICAL BOLD FRAKTUR CAPITAL Q    , 
+U1D57D, MATHEMATICAL BOLD FRAKTUR CAPITAL R    , 
+U1D57E, MATHEMATICAL BOLD FRAKTUR CAPITAL S    , 
+U1D57F, MATHEMATICAL BOLD FRAKTUR CAPITAL T    , 
+U1D580, MATHEMATICAL BOLD FRAKTUR CAPITAL U    , 
+U1D581, MATHEMATICAL BOLD FRAKTUR CAPITAL V    , 
+U1D582, MATHEMATICAL BOLD FRAKTUR CAPITAL W    , 
+U1D583, MATHEMATICAL BOLD FRAKTUR CAPITAL X    , 
+U1D584, MATHEMATICAL BOLD FRAKTUR CAPITAL Y    , 
+U1D585, MATHEMATICAL BOLD FRAKTUR CAPITAL Z    , 
+U1D586, MATHEMATICAL BOLD FRAKTUR SMALL A      , 
+U1D587, MATHEMATICAL BOLD FRAKTUR SMALL B      , 
+U1D588, MATHEMATICAL BOLD FRAKTUR SMALL C      , 
+U1D589, MATHEMATICAL BOLD FRAKTUR SMALL D      , 
+U1D58A, MATHEMATICAL BOLD FRAKTUR SMALL E      , 
+U1D58B, MATHEMATICAL BOLD FRAKTUR SMALL F      , 
+U1D58C, MATHEMATICAL BOLD FRAKTUR SMALL G      , 
+U1D58D, MATHEMATICAL BOLD FRAKTUR SMALL H      , 
+U1D58E, MATHEMATICAL BOLD FRAKTUR SMALL I      , 
+U1D58F, MATHEMATICAL BOLD FRAKTUR SMALL J      , 
+U1D590, MATHEMATICAL BOLD FRAKTUR SMALL K      , 
+U1D591, MATHEMATICAL BOLD FRAKTUR SMALL L      , 
+U1D592, MATHEMATICAL BOLD FRAKTUR SMALL M      , 
+U1D593, MATHEMATICAL BOLD FRAKTUR SMALL N      , 
+U1D594, MATHEMATICAL BOLD FRAKTUR SMALL O      , 
+U1D595, MATHEMATICAL BOLD FRAKTUR SMALL P      , 
+U1D596, MATHEMATICAL BOLD FRAKTUR SMALL Q      , 
+U1D597, MATHEMATICAL BOLD FRAKTUR SMALL R      , 
+U1D598, MATHEMATICAL BOLD FRAKTUR SMALL S      , 
+U1D599, MATHEMATICAL BOLD FRAKTUR SMALL T      , 
+U1D59A, MATHEMATICAL BOLD FRAKTUR SMALL U      , 
+U1D59B, MATHEMATICAL BOLD FRAKTUR SMALL V      , 
+U1D59C, MATHEMATICAL BOLD FRAKTUR SMALL W      , 
+U1D59D, MATHEMATICAL BOLD FRAKTUR SMALL X      , 
+U1D59E, MATHEMATICAL BOLD FRAKTUR SMALL Y      , 
+U1D59F, MATHEMATICAL BOLD FRAKTUR SMALL Z      , 
+U1D5A0, MATHEMATICAL SANS-SERIF CAPITAL A      , 
+U1D5A1, MATHEMATICAL SANS-SERIF CAPITAL B      , 
+U1D5A2, MATHEMATICAL SANS-SERIF CAPITAL C      , 
+U1D5A3, MATHEMATICAL SANS-SERIF CAPITAL D      , 
+U1D5A4, MATHEMATICAL SANS-SERIF CAPITAL E      , 
+U1D5A5, MATHEMATICAL SANS-SERIF CAPITAL F      , 
+U1D5A6, MATHEMATICAL SANS-SERIF CAPITAL G      , 
+U1D5A7, MATHEMATICAL SANS-SERIF CAPITAL H      , 
+U1D5A8, MATHEMATICAL SANS-SERIF CAPITAL I      , 
+U1D5A9, MATHEMATICAL SANS-SERIF CAPITAL J      , 
+U1D5AA, MATHEMATICAL SANS-SERIF CAPITAL K      , 
+U1D5AB, MATHEMATICAL SANS-SERIF CAPITAL L      , 
+U1D5AC, MATHEMATICAL SANS-SERIF CAPITAL M      , 
+U1D5AD, MATHEMATICAL SANS-SERIF CAPITAL N      , 
+U1D5AE, MATHEMATICAL SANS-SERIF CAPITAL O      , 
+U1D5AF, MATHEMATICAL SANS-SERIF CAPITAL P      , 
+U1D5B0, MATHEMATICAL SANS-SERIF CAPITAL Q      , 
+U1D5B1, MATHEMATICAL SANS-SERIF CAPITAL R      , 
+U1D5B2, MATHEMATICAL SANS-SERIF CAPITAL S      , 
+U1D5B3, MATHEMATICAL SANS-SERIF CAPITAL T      , 
+U1D5B4, MATHEMATICAL SANS-SERIF CAPITAL U      , 
+U1D5B5, MATHEMATICAL SANS-SERIF CAPITAL V      , 
+U1D5B6, MATHEMATICAL SANS-SERIF CAPITAL W      , 
+U1D5B7, MATHEMATICAL SANS-SERIF CAPITAL X      , 
+U1D5B8, MATHEMATICAL SANS-SERIF CAPITAL Y      , 
+U1D5B9, MATHEMATICAL SANS-SERIF CAPITAL Z      , 
+U1D5BA, MATHEMATICAL SANS-SERIF SMALL A        , 
+U1D5BB, MATHEMATICAL SANS-SERIF SMALL B        , 
+U1D5BC, MATHEMATICAL SANS-SERIF SMALL C        , 
+U1D5BD, MATHEMATICAL SANS-SERIF SMALL D        , 
+U1D5BE, MATHEMATICAL SANS-SERIF SMALL E        , 
+U1D5BF, MATHEMATICAL SANS-SERIF SMALL F        , 
+U1D5C0, MATHEMATICAL SANS-SERIF SMALL G        , 
+U1D5C1, MATHEMATICAL SANS-SERIF SMALL H        , 
+U1D5C2, MATHEMATICAL SANS-SERIF SMALL I        , 
+U1D5C3, MATHEMATICAL SANS-SERIF SMALL J        , 
+U1D5C4, MATHEMATICAL SANS-SERIF SMALL K        , 
+U1D5C5, MATHEMATICAL SANS-SERIF SMALL L        , 
+U1D5C6, MATHEMATICAL SANS-SERIF SMALL M        , 
+U1D5C7, MATHEMATICAL SANS-SERIF SMALL N        , 
+U1D5C8, MATHEMATICAL SANS-SERIF SMALL O        , 
+U1D5C9, MATHEMATICAL SANS-SERIF SMALL P        , 
+U1D5CA, MATHEMATICAL SANS-SERIF SMALL Q        , 
+U1D5CB, MATHEMATICAL SANS-SERIF SMALL R        , 
+U1D5CC, MATHEMATICAL SANS-SERIF SMALL S        , 
+U1D5CD, MATHEMATICAL SANS-SERIF SMALL T        , 
+U1D5CE, MATHEMATICAL SANS-SERIF SMALL U        , 
+U1D5CF, MATHEMATICAL SANS-SERIF SMALL V        , 
+U1D5D0, MATHEMATICAL SANS-SERIF SMALL W        , 
+U1D5D1, MATHEMATICAL SANS-SERIF SMALL X        , 
+U1D5D2, MATHEMATICAL SANS-SERIF SMALL Y        , 
+U1D5D3, MATHEMATICAL SANS-SERIF SMALL Z        , 
+U1D5D4, MATHEMATICAL SANS-SERIF BOLD CAPITAL A , 
+U1D5D5, MATHEMATICAL SANS-SERIF BOLD CAPITAL B , 
+U1D5D6, MATHEMATICAL SANS-SERIF BOLD CAPITAL C , 
+U1D5D7, MATHEMATICAL SANS-SERIF BOLD CAPITAL D , 
+U1D5D8, MATHEMATICAL SANS-SERIF BOLD CAPITAL E , 
+U1D5D9, MATHEMATICAL SANS-SERIF BOLD CAPITAL F , 
+U1D5DA, MATHEMATICAL SANS-SERIF BOLD CAPITAL G , 
+U1D5DB, MATHEMATICAL SANS-SERIF BOLD CAPITAL H , 
+U1D5DC, MATHEMATICAL SANS-SERIF BOLD CAPITAL I , 
+U1D5DD, MATHEMATICAL SANS-SERIF BOLD CAPITAL J , 
+U1D5DE, MATHEMATICAL SANS-SERIF BOLD CAPITAL K , 
+U1D5DF, MATHEMATICAL SANS-SERIF BOLD CAPITAL L , 
+U1D5E0, MATHEMATICAL SANS-SERIF BOLD CAPITAL M , 
+U1D5E1, MATHEMATICAL SANS-SERIF BOLD CAPITAL N , 
+U1D5E2, MATHEMATICAL SANS-SERIF BOLD CAPITAL O , 
+U1D5E3, MATHEMATICAL SANS-SERIF BOLD CAPITAL P , 
+U1D5E4, MATHEMATICAL SANS-SERIF BOLD CAPITAL Q , 
+U1D5E5, MATHEMATICAL SANS-SERIF BOLD CAPITAL R , 
+U1D5E6, MATHEMATICAL SANS-SERIF BOLD CAPITAL S , 
+U1D5E7, MATHEMATICAL SANS-SERIF BOLD CAPITAL T , 
+U1D5E8, MATHEMATICAL SANS-SERIF BOLD CAPITAL U , 
+U1D5E9, MATHEMATICAL SANS-SERIF BOLD CAPITAL V , 
+U1D5EA, MATHEMATICAL SANS-SERIF BOLD CAPITAL W , 
+U1D5EB, MATHEMATICAL SANS-SERIF BOLD CAPITAL X , 
+U1D5EC, MATHEMATICAL SANS-SERIF BOLD CAPITAL Y , 
+U1D5ED, MATHEMATICAL SANS-SERIF BOLD CAPITAL Z , 
+U1D5EE, MATHEMATICAL SANS-SERIF BOLD SMALL A   , 
+U1D5EF, MATHEMATICAL SANS-SERIF BOLD SMALL B   , 
+U1D5F0, MATHEMATICAL SANS-SERIF BOLD SMALL C   , 
+U1D5F1, MATHEMATICAL SANS-SERIF BOLD SMALL D   , 
+U1D5F2, MATHEMATICAL SANS-SERIF BOLD SMALL E   , 
+U1D5F3, MATHEMATICAL SANS-SERIF BOLD SMALL F   , 
+U1D5F4, MATHEMATICAL SANS-SERIF BOLD SMALL G   , 
+U1D5F5, MATHEMATICAL SANS-SERIF BOLD SMALL H   , 
+U1D5F6, MATHEMATICAL SANS-SERIF BOLD SMALL I   , 
+U1D5F7, MATHEMATICAL SANS-SERIF BOLD SMALL J   , 
+U1D5F8, MATHEMATICAL SANS-SERIF BOLD SMALL K   , 
+U1D5F9, MATHEMATICAL SANS-SERIF BOLD SMALL L   , 
+U1D5FA, MATHEMATICAL SANS-SERIF BOLD SMALL M   , 
+U1D5FB, MATHEMATICAL SANS-SERIF BOLD SMALL N   , 
+U1D5FC, MATHEMATICAL SANS-SERIF BOLD SMALL O   , 
+U1D5FD, MATHEMATICAL SANS-SERIF BOLD SMALL P   , 
+U1D5FE, MATHEMATICAL SANS-SERIF BOLD SMALL Q   , 
+U1D5FF, MATHEMATICAL SANS-SERIF BOLD SMALL R   , 
+U1D600, MATHEMATICAL SANS-SERIF BOLD SMALL S   , 
+U1D601, MATHEMATICAL SANS-SERIF BOLD SMALL T   , 
+U1D602, MATHEMATICAL SANS-SERIF BOLD SMALL U   , 
+U1D603, MATHEMATICAL SANS-SERIF BOLD SMALL V   , 
+U1D604, MATHEMATICAL SANS-SERIF BOLD SMALL W   , 
+U1D605, MATHEMATICAL SANS-SERIF BOLD SMALL X   , 
+U1D606, MATHEMATICAL SANS-SERIF BOLD SMALL Y   , 
+U1D607, MATHEMATICAL SANS-SERIF BOLD SMALL Z   , 
+U1D608, MATHEMATICAL SANS-SERIF ITALIC CAPITAL A, 
+U1D609, MATHEMATICAL SANS-SERIF ITALIC CAPITAL B, 
+U1D60A, MATHEMATICAL SANS-SERIF ITALIC CAPITAL C, 
+U1D60B, MATHEMATICAL SANS-SERIF ITALIC CAPITAL D, 
+U1D60C, MATHEMATICAL SANS-SERIF ITALIC CAPITAL E, 
+U1D60D, MATHEMATICAL SANS-SERIF ITALIC CAPITAL F, 
+U1D60E, MATHEMATICAL SANS-SERIF ITALIC CAPITAL G, 
+U1D60F, MATHEMATICAL SANS-SERIF ITALIC CAPITAL H, 
+U1D610, MATHEMATICAL SANS-SERIF ITALIC CAPITAL I, 
+U1D611, MATHEMATICAL SANS-SERIF ITALIC CAPITAL J, 
+U1D612, MATHEMATICAL SANS-SERIF ITALIC CAPITAL K, 
+U1D613, MATHEMATICAL SANS-SERIF ITALIC CAPITAL L, 
+U1D614, MATHEMATICAL SANS-SERIF ITALIC CAPITAL M, 
+U1D615, MATHEMATICAL SANS-SERIF ITALIC CAPITAL N, 
+U1D616, MATHEMATICAL SANS-SERIF ITALIC CAPITAL O, 
+U1D617, MATHEMATICAL SANS-SERIF ITALIC CAPITAL P, 
+U1D618, MATHEMATICAL SANS-SERIF ITALIC CAPITAL Q, 
+U1D619, MATHEMATICAL SANS-SERIF ITALIC CAPITAL R, 
+U1D61A, MATHEMATICAL SANS-SERIF ITALIC CAPITAL S, 
+U1D61B, MATHEMATICAL SANS-SERIF ITALIC CAPITAL T, 
+U1D61C, MATHEMATICAL SANS-SERIF ITALIC CAPITAL U, 
+U1D61D, MATHEMATICAL SANS-SERIF ITALIC CAPITAL V, 
+U1D61E, MATHEMATICAL SANS-SERIF ITALIC CAPITAL W, 
+U1D61F, MATHEMATICAL SANS-SERIF ITALIC CAPITAL X, 
+U1D620, MATHEMATICAL SANS-SERIF ITALIC CAPITAL Y, 
+U1D621, MATHEMATICAL SANS-SERIF ITALIC CAPITAL Z, 
+U1D622, MATHEMATICAL SANS-SERIF ITALIC SMALL A , 
+U1D623, MATHEMATICAL SANS-SERIF ITALIC SMALL B , 
+U1D624, MATHEMATICAL SANS-SERIF ITALIC SMALL C , 
+U1D625, MATHEMATICAL SANS-SERIF ITALIC SMALL D , 
+U1D626, MATHEMATICAL SANS-SERIF ITALIC SMALL E , 
+U1D627, MATHEMATICAL SANS-SERIF ITALIC SMALL F , 
+U1D628, MATHEMATICAL SANS-SERIF ITALIC SMALL G , 
+U1D629, MATHEMATICAL SANS-SERIF ITALIC SMALL H , 
+U1D62A, MATHEMATICAL SANS-SERIF ITALIC SMALL I , 
+U1D62B, MATHEMATICAL SANS-SERIF ITALIC SMALL J , 
+U1D62C, MATHEMATICAL SANS-SERIF ITALIC SMALL K , 
+U1D62D, MATHEMATICAL SANS-SERIF ITALIC SMALL L , 
+U1D62E, MATHEMATICAL SANS-SERIF ITALIC SMALL M , 
+U1D62F, MATHEMATICAL SANS-SERIF ITALIC SMALL N , 
+U1D630, MATHEMATICAL SANS-SERIF ITALIC SMALL O , 
+U1D631, MATHEMATICAL SANS-SERIF ITALIC SMALL P , 
+U1D632, MATHEMATICAL SANS-SERIF ITALIC SMALL Q , 
+U1D633, MATHEMATICAL SANS-SERIF ITALIC SMALL R , 
+U1D634, MATHEMATICAL SANS-SERIF ITALIC SMALL S , 
+U1D635, MATHEMATICAL SANS-SERIF ITALIC SMALL T , 
+U1D636, MATHEMATICAL SANS-SERIF ITALIC SMALL U , 
+U1D637, MATHEMATICAL SANS-SERIF ITALIC SMALL V , 
+U1D638, MATHEMATICAL SANS-SERIF ITALIC SMALL W , 
+U1D639, MATHEMATICAL SANS-SERIF ITALIC SMALL X , 
+U1D63A, MATHEMATICAL SANS-SERIF ITALIC SMALL Y , 
+U1D63B, MATHEMATICAL SANS-SERIF ITALIC SMALL Z , 
+U1D63C, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL A, 
+U1D63D, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL B, 
+U1D63E, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL C, 
+U1D63F, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL D, 
+U1D640, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL E, 
+U1D641, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL F, 
+U1D642, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL G, 
+U1D643, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL H, 
+U1D644, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL I, 
+U1D645, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL J, 
+U1D646, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL K, 
+U1D647, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL L, 
+U1D648, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL M, 
+U1D649, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL N, 
+U1D64A, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL O, 
+U1D64B, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL P, 
+U1D64C, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Q, 
+U1D64D, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL R, 
+U1D64E, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL S, 
+U1D64F, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL T, 
+U1D650, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL U, 
+U1D651, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL V, 
+U1D652, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL W, 
+U1D653, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL X, 
+U1D654, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Y, 
+U1D655, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL Z, 
+U1D656, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL A, 
+U1D657, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL B, 
+U1D658, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL C, 
+U1D659, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL D, 
+U1D65A, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL E, 
+U1D65B, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL F, 
+U1D65C, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL G, 
+U1D65D, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL H, 
+U1D65E, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL I, 
+U1D65F, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL J, 
+U1D660, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL K, 
+U1D661, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL L, 
+U1D662, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL M, 
+U1D663, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL N, 
+U1D664, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL O, 
+U1D665, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL P, 
+U1D666, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Q, 
+U1D667, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL R, 
+U1D668, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL S, 
+U1D669, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL T, 
+U1D66A, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL U, 
+U1D66B, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL V, 
+U1D66C, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL W, 
+U1D66D, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL X, 
+U1D66E, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Y, 
+U1D66F, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL Z, 
+U1D670, MATHEMATICAL MONOSPACE CAPITAL A       , 
+U1D671, MATHEMATICAL MONOSPACE CAPITAL B       , 
+U1D672, MATHEMATICAL MONOSPACE CAPITAL C       , 
+U1D673, MATHEMATICAL MONOSPACE CAPITAL D       , 
+U1D674, MATHEMATICAL MONOSPACE CAPITAL E       , 
+U1D675, MATHEMATICAL MONOSPACE CAPITAL F       , 
+U1D676, MATHEMATICAL MONOSPACE CAPITAL G       , 
+U1D677, MATHEMATICAL MONOSPACE CAPITAL H       , 
+U1D678, MATHEMATICAL MONOSPACE CAPITAL I       , 
+U1D679, MATHEMATICAL MONOSPACE CAPITAL J       , 
+U1D67A, MATHEMATICAL MONOSPACE CAPITAL K       , 
+U1D67B, MATHEMATICAL MONOSPACE CAPITAL L       , 
+U1D67C, MATHEMATICAL MONOSPACE CAPITAL M       , 
+U1D67D, MATHEMATICAL MONOSPACE CAPITAL N       , 
+U1D67E, MATHEMATICAL MONOSPACE CAPITAL O       , 
+U1D67F, MATHEMATICAL MONOSPACE CAPITAL P       , 
+U1D680, MATHEMATICAL MONOSPACE CAPITAL Q       , 
+U1D681, MATHEMATICAL MONOSPACE CAPITAL R       , 
+U1D682, MATHEMATICAL MONOSPACE CAPITAL S       , 
+U1D683, MATHEMATICAL MONOSPACE CAPITAL T       , 
+U1D684, MATHEMATICAL MONOSPACE CAPITAL U       , 
+U1D685, MATHEMATICAL MONOSPACE CAPITAL V       , 
+U1D686, MATHEMATICAL MONOSPACE CAPITAL W       , 
+U1D687, MATHEMATICAL MONOSPACE CAPITAL X       , 
+U1D688, MATHEMATICAL MONOSPACE CAPITAL Y       , 
+U1D689, MATHEMATICAL MONOSPACE CAPITAL Z       , 
+U1D68A, MATHEMATICAL MONOSPACE SMALL A         , 
+U1D68B, MATHEMATICAL MONOSPACE SMALL B         , 
+U1D68C, MATHEMATICAL MONOSPACE SMALL C         , 
+U1D68D, MATHEMATICAL MONOSPACE SMALL D         , 
+U1D68E, MATHEMATICAL MONOSPACE SMALL E         , 
+U1D68F, MATHEMATICAL MONOSPACE SMALL F         , 
+U1D690, MATHEMATICAL MONOSPACE SMALL G         , 
+U1D691, MATHEMATICAL MONOSPACE SMALL H         , 
+U1D692, MATHEMATICAL MONOSPACE SMALL I         , 
+U1D693, MATHEMATICAL MONOSPACE SMALL J         , 
+U1D694, MATHEMATICAL MONOSPACE SMALL K         , 
+U1D695, MATHEMATICAL MONOSPACE SMALL L         , 
+U1D696, MATHEMATICAL MONOSPACE SMALL M         , 
+U1D697, MATHEMATICAL MONOSPACE SMALL N         , 
+U1D698, MATHEMATICAL MONOSPACE SMALL O         , 
+U1D699, MATHEMATICAL MONOSPACE SMALL P         , 
+U1D69A, MATHEMATICAL MONOSPACE SMALL Q         , 
+U1D69B, MATHEMATICAL MONOSPACE SMALL R         , 
+U1D69C, MATHEMATICAL MONOSPACE SMALL S         , 
+U1D69D, MATHEMATICAL MONOSPACE SMALL T         , 
+U1D69E, MATHEMATICAL MONOSPACE SMALL U         , 
+U1D69F, MATHEMATICAL MONOSPACE SMALL V         , 
+U1D6A0, MATHEMATICAL MONOSPACE SMALL W         , 
+U1D6A1, MATHEMATICAL MONOSPACE SMALL X         , 
+U1D6A2, MATHEMATICAL MONOSPACE SMALL Y         , 
+U1D6A3, MATHEMATICAL MONOSPACE SMALL Z         , 
+U1D6A8, MATHEMATICAL BOLD CAPITAL ALPHA        , 
+U1D6A9, MATHEMATICAL BOLD CAPITAL BETA         , 
+U1D6AA, MATHEMATICAL BOLD CAPITAL GAMMA        , 
+U1D6AB, MATHEMATICAL BOLD CAPITAL DELTA        , 
+U1D6AC, MATHEMATICAL BOLD CAPITAL EPSILON      , 
+U1D6AD, MATHEMATICAL BOLD CAPITAL ZETA         , 
+U1D6AE, MATHEMATICAL BOLD CAPITAL ETA          , 
+U1D6AF, MATHEMATICAL BOLD CAPITAL THETA        , 
+U1D6B0, MATHEMATICAL BOLD CAPITAL IOTA         , 
+U1D6B1, MATHEMATICAL BOLD CAPITAL KAPPA        , 
+U1D6B2, MATHEMATICAL BOLD CAPITAL LAMDA        , 
+U1D6B3, MATHEMATICAL BOLD CAPITAL MU           , 
+U1D6B4, MATHEMATICAL BOLD CAPITAL NU           , 
+U1D6B5, MATHEMATICAL BOLD CAPITAL XI           , 
+U1D6B6, MATHEMATICAL BOLD CAPITAL OMICRON      , 
+U1D6B7, MATHEMATICAL BOLD CAPITAL PI           , 
+U1D6B8, MATHEMATICAL BOLD CAPITAL RHO          , 
+U1D6B9, MATHEMATICAL BOLD CAPITAL THETA SYMBOL , 
+U1D6BA, MATHEMATICAL BOLD CAPITAL SIGMA        , 
+U1D6BB, MATHEMATICAL BOLD CAPITAL TAU          , 
+U1D6BC, MATHEMATICAL BOLD CAPITAL UPSILON      , 
+U1D6BD, MATHEMATICAL BOLD CAPITAL PHI          , 
+U1D6BE, MATHEMATICAL BOLD CAPITAL CHI          , 
+U1D6BF, MATHEMATICAL BOLD CAPITAL PSI          , 
+U1D6C0, MATHEMATICAL BOLD CAPITAL OMEGA        , 
+U1D6C1, MATHEMATICAL BOLD NABLA                , 
+U1D6C2, MATHEMATICAL BOLD SMALL ALPHA          , 
+U1D6C3, MATHEMATICAL BOLD SMALL BETA           , 
+U1D6C4, MATHEMATICAL BOLD SMALL GAMMA          , 
+U1D6C5, MATHEMATICAL BOLD SMALL DELTA          , 
+U1D6C6, MATHEMATICAL BOLD SMALL EPSILON        , 
+U1D6C7, MATHEMATICAL BOLD SMALL ZETA           , 
+U1D6C8, MATHEMATICAL BOLD SMALL ETA            , 
+U1D6C9, MATHEMATICAL BOLD SMALL THETA          , 
+U1D6CA, MATHEMATICAL BOLD SMALL IOTA           , 
+U1D6CB, MATHEMATICAL BOLD SMALL KAPPA          , 
+U1D6CC, MATHEMATICAL BOLD SMALL LAMDA          , 
+U1D6CD, MATHEMATICAL BOLD SMALL MU             , 
+U1D6CE, MATHEMATICAL BOLD SMALL NU             , 
+U1D6CF, MATHEMATICAL BOLD SMALL XI             , 
+U1D6D0, MATHEMATICAL BOLD SMALL OMICRON        , 
+U1D6D1, MATHEMATICAL BOLD SMALL PI             , 
+U1D6D2, MATHEMATICAL BOLD SMALL RHO            , 
+U1D6D3, MATHEMATICAL BOLD SMALL FINAL SIGMA    , 
+U1D6D4, MATHEMATICAL BOLD SMALL SIGMA          , 
+U1D6D5, MATHEMATICAL BOLD SMALL TAU            , 
+U1D6D6, MATHEMATICAL BOLD SMALL UPSILON        , 
+U1D6D7, MATHEMATICAL BOLD SMALL PHI            , 
+U1D6D8, MATHEMATICAL BOLD SMALL CHI            , 
+U1D6D9, MATHEMATICAL BOLD SMALL PSI            , 
+U1D6DA, MATHEMATICAL BOLD SMALL OMEGA          , 
+U1D6DB, MATHEMATICAL BOLD PARTIAL DIFFERENTIAL , 
+U1D6DC, MATHEMATICAL BOLD EPSILON SYMBOL       , 
+U1D6DD, MATHEMATICAL BOLD THETA SYMBOL         , 
+U1D6DE, MATHEMATICAL BOLD KAPPA SYMBOL         , 
+U1D6DF, MATHEMATICAL BOLD PHI SYMBOL           , 
+U1D6E0, MATHEMATICAL BOLD RHO SYMBOL           , 
+U1D6E1, MATHEMATICAL BOLD PI SYMBOL            , 
+U1D6E2, MATHEMATICAL ITALIC CAPITAL ALPHA      , 
+U1D6E3, MATHEMATICAL ITALIC CAPITAL BETA       , 
+U1D6E4, MATHEMATICAL ITALIC CAPITAL GAMMA      , 
+U1D6E5, MATHEMATICAL ITALIC CAPITAL DELTA      , 
+U1D6E6, MATHEMATICAL ITALIC CAPITAL EPSILON    , 
+U1D6E7, MATHEMATICAL ITALIC CAPITAL ZETA       , 
+U1D6E8, MATHEMATICAL ITALIC CAPITAL ETA        , 
+U1D6E9, MATHEMATICAL ITALIC CAPITAL THETA      , 
+U1D6EA, MATHEMATICAL ITALIC CAPITAL IOTA       , 
+U1D6EB, MATHEMATICAL ITALIC CAPITAL KAPPA      , 
+U1D6EC, MATHEMATICAL ITALIC CAPITAL LAMDA      , 
+U1D6ED, MATHEMATICAL ITALIC CAPITAL MU         , 
+U1D6EE, MATHEMATICAL ITALIC CAPITAL NU         , 
+U1D6EF, MATHEMATICAL ITALIC CAPITAL XI         , 
+U1D6F0, MATHEMATICAL ITALIC CAPITAL OMICRON    , 
+U1D6F1, MATHEMATICAL ITALIC CAPITAL PI         , 
+U1D6F2, MATHEMATICAL ITALIC CAPITAL RHO        , 
+U1D6F3, MATHEMATICAL ITALIC CAPITAL THETA SYMBOL, 
+U1D6F4, MATHEMATICAL ITALIC CAPITAL SIGMA      , 
+U1D6F5, MATHEMATICAL ITALIC CAPITAL TAU        , 
+U1D6F6, MATHEMATICAL ITALIC CAPITAL UPSILON    , 
+U1D6F7, MATHEMATICAL ITALIC CAPITAL PHI        , 
+U1D6F8, MATHEMATICAL ITALIC CAPITAL CHI        , 
+U1D6F9, MATHEMATICAL ITALIC CAPITAL PSI        , 
+U1D6FA, MATHEMATICAL ITALIC CAPITAL OMEGA      , 
+U1D6FB, MATHEMATICAL ITALIC NABLA              , 
+U1D6FC, MATHEMATICAL ITALIC SMALL ALPHA        , 
+U1D6FD, MATHEMATICAL ITALIC SMALL BETA         , 
+U1D6FE, MATHEMATICAL ITALIC SMALL GAMMA        , 
+U1D6FF, MATHEMATICAL ITALIC SMALL DELTA        , 
+U1D700, MATHEMATICAL ITALIC SMALL EPSILON      , 
+U1D701, MATHEMATICAL ITALIC SMALL ZETA         , 
+U1D702, MATHEMATICAL ITALIC SMALL ETA          , 
+U1D703, MATHEMATICAL ITALIC SMALL THETA        , 
+U1D704, MATHEMATICAL ITALIC SMALL IOTA         , 
+U1D705, MATHEMATICAL ITALIC SMALL KAPPA        , 
+U1D706, MATHEMATICAL ITALIC SMALL LAMDA        , 
+U1D707, MATHEMATICAL ITALIC SMALL MU           , 
+U1D708, MATHEMATICAL ITALIC SMALL NU           , 
+U1D709, MATHEMATICAL ITALIC SMALL XI           , 
+U1D70A, MATHEMATICAL ITALIC SMALL OMICRON      , 
+U1D70B, MATHEMATICAL ITALIC SMALL PI           , 
+U1D70C, MATHEMATICAL ITALIC SMALL RHO          , 
+U1D70D, MATHEMATICAL ITALIC SMALL FINAL SIGMA  , 
+U1D70E, MATHEMATICAL ITALIC SMALL SIGMA        , 
+U1D70F, MATHEMATICAL ITALIC SMALL TAU          , 
+U1D710, MATHEMATICAL ITALIC SMALL UPSILON      , 
+U1D711, MATHEMATICAL ITALIC SMALL PHI          , 
+U1D712, MATHEMATICAL ITALIC SMALL CHI          , 
+U1D713, MATHEMATICAL ITALIC SMALL PSI          , 
+U1D714, MATHEMATICAL ITALIC SMALL OMEGA        , 
+U1D715, MATHEMATICAL ITALIC PARTIAL DIFFERENTIAL, 
+U1D716, MATHEMATICAL ITALIC EPSILON SYMBOL     , 
+U1D717, MATHEMATICAL ITALIC THETA SYMBOL       , 
+U1D718, MATHEMATICAL ITALIC KAPPA SYMBOL       , 
+U1D719, MATHEMATICAL ITALIC PHI SYMBOL         , 
+U1D71A, MATHEMATICAL ITALIC RHO SYMBOL         , 
+U1D71B, MATHEMATICAL ITALIC PI SYMBOL          , 
+U1D71C, MATHEMATICAL BOLD ITALIC CAPITAL ALPHA , 
+U1D71D, MATHEMATICAL BOLD ITALIC CAPITAL BETA  , 
+U1D71E, MATHEMATICAL BOLD ITALIC CAPITAL GAMMA , 
+U1D71F, MATHEMATICAL BOLD ITALIC CAPITAL DELTA , 
+U1D720, MATHEMATICAL BOLD ITALIC CAPITAL EPSILON, 
+U1D721, MATHEMATICAL BOLD ITALIC CAPITAL ZETA  , 
+U1D722, MATHEMATICAL BOLD ITALIC CAPITAL ETA   , 
+U1D723, MATHEMATICAL BOLD ITALIC CAPITAL THETA , 
+U1D724, MATHEMATICAL BOLD ITALIC CAPITAL IOTA  , 
+U1D725, MATHEMATICAL BOLD ITALIC CAPITAL KAPPA , 
+U1D726, MATHEMATICAL BOLD ITALIC CAPITAL LAMDA , 
+U1D727, MATHEMATICAL BOLD ITALIC CAPITAL MU    , 
+U1D728, MATHEMATICAL BOLD ITALIC CAPITAL NU    , 
+U1D729, MATHEMATICAL BOLD ITALIC CAPITAL XI    , 
+U1D72A, MATHEMATICAL BOLD ITALIC CAPITAL OMICRON, 
+U1D72B, MATHEMATICAL BOLD ITALIC CAPITAL PI    , 
+U1D72C, MATHEMATICAL BOLD ITALIC CAPITAL RHO   , 
+U1D72D, MATHEMATICAL BOLD ITALIC CAPITAL THETA SYMBOL, 
+U1D72E, MATHEMATICAL BOLD ITALIC CAPITAL SIGMA , 
+U1D72F, MATHEMATICAL BOLD ITALIC CAPITAL TAU   , 
+U1D730, MATHEMATICAL BOLD ITALIC CAPITAL UPSILON, 
+U1D731, MATHEMATICAL BOLD ITALIC CAPITAL PHI   , 
+U1D732, MATHEMATICAL BOLD ITALIC CAPITAL CHI   , 
+U1D733, MATHEMATICAL BOLD ITALIC CAPITAL PSI   , 
+U1D734, MATHEMATICAL BOLD ITALIC CAPITAL OMEGA , 
+U1D735, MATHEMATICAL BOLD ITALIC NABLA         , 
+U1D736, MATHEMATICAL BOLD ITALIC SMALL ALPHA   , 
+U1D737, MATHEMATICAL BOLD ITALIC SMALL BETA    , 
+U1D738, MATHEMATICAL BOLD ITALIC SMALL GAMMA   , 
+U1D739, MATHEMATICAL BOLD ITALIC SMALL DELTA   , 
+U1D73A, MATHEMATICAL BOLD ITALIC SMALL EPSILON , 
+U1D73B, MATHEMATICAL BOLD ITALIC SMALL ZETA    , 
+U1D73C, MATHEMATICAL BOLD ITALIC SMALL ETA     , 
+U1D73D, MATHEMATICAL BOLD ITALIC SMALL THETA   , 
+U1D73E, MATHEMATICAL BOLD ITALIC SMALL IOTA    , 
+U1D73F, MATHEMATICAL BOLD ITALIC SMALL KAPPA   , 
+U1D740, MATHEMATICAL BOLD ITALIC SMALL LAMDA   , 
+U1D741, MATHEMATICAL BOLD ITALIC SMALL MU      , 
+U1D742, MATHEMATICAL BOLD ITALIC SMALL NU      , 
+U1D743, MATHEMATICAL BOLD ITALIC SMALL XI      , 
+U1D744, MATHEMATICAL BOLD ITALIC SMALL OMICRON , 
+U1D745, MATHEMATICAL BOLD ITALIC SMALL PI      , 
+U1D746, MATHEMATICAL BOLD ITALIC SMALL RHO     , 
+U1D747, MATHEMATICAL BOLD ITALIC SMALL FINAL SIGMA, 
+U1D748, MATHEMATICAL BOLD ITALIC SMALL SIGMA   , 
+U1D749, MATHEMATICAL BOLD ITALIC SMALL TAU     , 
+U1D74A, MATHEMATICAL BOLD ITALIC SMALL UPSILON , 
+U1D74B, MATHEMATICAL BOLD ITALIC SMALL PHI     , 
+U1D74C, MATHEMATICAL BOLD ITALIC SMALL CHI     , 
+U1D74D, MATHEMATICAL BOLD ITALIC SMALL PSI     , 
+U1D74E, MATHEMATICAL BOLD ITALIC SMALL OMEGA   , 
+U1D74F, MATHEMATICAL BOLD ITALIC PARTIAL DIFFERENTIAL, 
+U1D750, MATHEMATICAL BOLD ITALIC EPSILON SYMBOL, 
+U1D751, MATHEMATICAL BOLD ITALIC THETA SYMBOL  , 
+U1D752, MATHEMATICAL BOLD ITALIC KAPPA SYMBOL  , 
+U1D753, MATHEMATICAL BOLD ITALIC PHI SYMBOL    , 
+U1D754, MATHEMATICAL BOLD ITALIC RHO SYMBOL    , 
+U1D755, MATHEMATICAL BOLD ITALIC PI SYMBOL     , 
+U1D756, MATHEMATICAL SANS-SERIF BOLD CAPITAL ALPHA, 
+U1D757, MATHEMATICAL SANS-SERIF BOLD CAPITAL BETA, 
+U1D758, MATHEMATICAL SANS-SERIF BOLD CAPITAL GAMMA, 
+U1D759, MATHEMATICAL SANS-SERIF BOLD CAPITAL DELTA, 
+U1D75A, MATHEMATICAL SANS-SERIF BOLD CAPITAL EPSILON, 
+U1D75B, MATHEMATICAL SANS-SERIF BOLD CAPITAL ZETA, 
+U1D75C, MATHEMATICAL SANS-SERIF BOLD CAPITAL ETA, 
+U1D75D, MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA, 
+U1D75E, MATHEMATICAL SANS-SERIF BOLD CAPITAL IOTA, 
+U1D75F, MATHEMATICAL SANS-SERIF BOLD CAPITAL KAPPA, 
+U1D760, MATHEMATICAL SANS-SERIF BOLD CAPITAL LAMDA, 
+U1D761, MATHEMATICAL SANS-SERIF BOLD CAPITAL MU, 
+U1D762, MATHEMATICAL SANS-SERIF BOLD CAPITAL NU, 
+U1D763, MATHEMATICAL SANS-SERIF BOLD CAPITAL XI, 
+U1D764, MATHEMATICAL SANS-SERIF BOLD CAPITAL OMICRON, 
+U1D765, MATHEMATICAL SANS-SERIF BOLD CAPITAL PI, 
+U1D766, MATHEMATICAL SANS-SERIF BOLD CAPITAL RHO, 
+U1D767, MATHEMATICAL SANS-SERIF BOLD CAPITAL THETA SYMBOL, 
+U1D768, MATHEMATICAL SANS-SERIF BOLD CAPITAL SIGMA, 
+U1D769, MATHEMATICAL SANS-SERIF BOLD CAPITAL TAU, 
+U1D76A, MATHEMATICAL SANS-SERIF BOLD CAPITAL UPSILON, 
+U1D76B, MATHEMATICAL SANS-SERIF BOLD CAPITAL PHI, 
+U1D76C, MATHEMATICAL SANS-SERIF BOLD CAPITAL CHI, 
+U1D76D, MATHEMATICAL SANS-SERIF BOLD CAPITAL PSI, 
+U1D76E, MATHEMATICAL SANS-SERIF BOLD CAPITAL OMEGA, 
+U1D76F, MATHEMATICAL SANS-SERIF BOLD NABLA     , 
+U1D770, MATHEMATICAL SANS-SERIF BOLD SMALL ALPHA, 
+U1D771, MATHEMATICAL SANS-SERIF BOLD SMALL BETA, 
+U1D772, MATHEMATICAL SANS-SERIF BOLD SMALL GAMMA, 
+U1D773, MATHEMATICAL SANS-SERIF BOLD SMALL DELTA, 
+U1D774, MATHEMATICAL SANS-SERIF BOLD SMALL EPSILON, 
+U1D775, MATHEMATICAL SANS-SERIF BOLD SMALL ZETA, 
+U1D776, MATHEMATICAL SANS-SERIF BOLD SMALL ETA , 
+U1D777, MATHEMATICAL SANS-SERIF BOLD SMALL THETA, 
+U1D778, MATHEMATICAL SANS-SERIF BOLD SMALL IOTA, 
+U1D779, MATHEMATICAL SANS-SERIF BOLD SMALL KAPPA, 
+U1D77A, MATHEMATICAL SANS-SERIF BOLD SMALL LAMDA, 
+U1D77B, MATHEMATICAL SANS-SERIF BOLD SMALL MU  , 
+U1D77C, MATHEMATICAL SANS-SERIF BOLD SMALL NU  , 
+U1D77D, MATHEMATICAL SANS-SERIF BOLD SMALL XI  , 
+U1D77E, MATHEMATICAL SANS-SERIF BOLD SMALL OMICRON, 
+U1D77F, MATHEMATICAL SANS-SERIF BOLD SMALL PI  , 
+U1D780, MATHEMATICAL SANS-SERIF BOLD SMALL RHO , 
+U1D781, MATHEMATICAL SANS-SERIF BOLD SMALL FINAL SIGMA, 
+U1D782, MATHEMATICAL SANS-SERIF BOLD SMALL SIGMA, 
+U1D783, MATHEMATICAL SANS-SERIF BOLD SMALL TAU , 
+U1D784, MATHEMATICAL SANS-SERIF BOLD SMALL UPSILON, 
+U1D785, MATHEMATICAL SANS-SERIF BOLD SMALL PHI , 
+U1D786, MATHEMATICAL SANS-SERIF BOLD SMALL CHI , 
+U1D787, MATHEMATICAL SANS-SERIF BOLD SMALL PSI , 
+U1D788, MATHEMATICAL SANS-SERIF BOLD SMALL OMEGA, 
+U1D789, MATHEMATICAL SANS-SERIF BOLD PARTIAL DIFFERENTIAL, 
+U1D78A, MATHEMATICAL SANS-SERIF BOLD EPSILON SYMBOL, 
+U1D78B, MATHEMATICAL SANS-SERIF BOLD THETA SYMBOL, 
+U1D78C, MATHEMATICAL SANS-SERIF BOLD KAPPA SYMBOL, 
+U1D78D, MATHEMATICAL SANS-SERIF BOLD PHI SYMBOL, 
+U1D78E, MATHEMATICAL SANS-SERIF BOLD RHO SYMBOL, 
+U1D78F, MATHEMATICAL SANS-SERIF BOLD PI SYMBOL , 
+U1D790, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ALPHA, 
+U1D791, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL BETA, 
+U1D792, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL GAMMA, 
+U1D793, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL DELTA, 
+U1D794, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL EPSILON, 
+U1D795, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ZETA, 
+U1D796, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL ETA, 
+U1D797, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA, 
+U1D798, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL IOTA, 
+U1D799, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL KAPPA, 
+U1D79A, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL LAMDA, 
+U1D79B, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL MU, 
+U1D79C, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL NU, 
+U1D79D, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL XI, 
+U1D79E, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMICRON, 
+U1D79F, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PI, 
+U1D7A0, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL RHO, 
+U1D7A1, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL THETA SYMBOL, 
+U1D7A2, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL SIGMA, 
+U1D7A3, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL TAU, 
+U1D7A4, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL UPSILON, 
+U1D7A5, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PHI, 
+U1D7A6, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL CHI, 
+U1D7A7, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL PSI, 
+U1D7A8, MATHEMATICAL SANS-SERIF BOLD ITALIC CAPITAL OMEGA, 
+U1D7A9, MATHEMATICAL SANS-SERIF BOLD ITALIC NABLA, 
+U1D7AA, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ALPHA, 
+U1D7AB, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL BETA, 
+U1D7AC, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL GAMMA, 
+U1D7AD, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL DELTA, 
+U1D7AE, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL EPSILON, 
+U1D7AF, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ZETA, 
+U1D7B0, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL ETA, 
+U1D7B1, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL THETA, 
+U1D7B2, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL IOTA, 
+U1D7B3, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL KAPPA, 
+U1D7B4, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL LAMDA, 
+U1D7B5, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL MU, 
+U1D7B6, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL NU, 
+U1D7B7, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL XI, 
+U1D7B8, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMICRON, 
+U1D7B9, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PI, 
+U1D7BA, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL RHO, 
+U1D7BB, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL FINAL SIGMA, 
+U1D7BC, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL SIGMA, 
+U1D7BD, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL TAU, 
+U1D7BE, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL UPSILON, 
+U1D7BF, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PHI, 
+U1D7C0, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL CHI, 
+U1D7C1, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL PSI, 
+U1D7C2, MATHEMATICAL SANS-SERIF BOLD ITALIC SMALL OMEGA, 
+U1D7C3, MATHEMATICAL SANS-SERIF BOLD ITALIC PARTIAL DIFFERENTIAL, 
+U1D7C4, MATHEMATICAL SANS-SERIF BOLD ITALIC EPSILON SYMBOL, 
+U1D7C5, MATHEMATICAL SANS-SERIF BOLD ITALIC THETA SYMBOL, 
+U1D7C6, MATHEMATICAL SANS-SERIF BOLD ITALIC KAPPA SYMBOL, 
+U1D7C7, MATHEMATICAL SANS-SERIF BOLD ITALIC PHI SYMBOL, 
+U1D7C8, MATHEMATICAL SANS-SERIF BOLD ITALIC RHO SYMBOL, 
+U1D7C9, MATHEMATICAL SANS-SERIF BOLD ITALIC PI SYMBOL, 
+U1D7CE, MATHEMATICAL BOLD DIGIT ZERO           , 
+U1D7CF, MATHEMATICAL BOLD DIGIT ONE            , 
+U1D7D0, MATHEMATICAL BOLD DIGIT TWO            , 
+U1D7D1, MATHEMATICAL BOLD DIGIT THREE          , 
+U1D7D2, MATHEMATICAL BOLD DIGIT FOUR           , 
+U1D7D3, MATHEMATICAL BOLD DIGIT FIVE           , 
+U1D7D4, MATHEMATICAL BOLD DIGIT SIX            , 
+U1D7D5, MATHEMATICAL BOLD DIGIT SEVEN          , 
+U1D7D6, MATHEMATICAL BOLD DIGIT EIGHT          , 
+U1D7D7, MATHEMATICAL BOLD DIGIT NINE           , 
+U1D7D8, MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO  , 
+U1D7D9, MATHEMATICAL DOUBLE-STRUCK DIGIT ONE   , 
+U1D7DA, MATHEMATICAL DOUBLE-STRUCK DIGIT TWO   , 
+U1D7DB, MATHEMATICAL DOUBLE-STRUCK DIGIT THREE , 
+U1D7DC, MATHEMATICAL DOUBLE-STRUCK DIGIT FOUR  , 
+U1D7DD, MATHEMATICAL DOUBLE-STRUCK DIGIT FIVE  , 
+U1D7DE, MATHEMATICAL DOUBLE-STRUCK DIGIT SIX   , 
+U1D7DF, MATHEMATICAL DOUBLE-STRUCK DIGIT SEVEN , 
+U1D7E0, MATHEMATICAL DOUBLE-STRUCK DIGIT EIGHT , 
+U1D7E1, MATHEMATICAL DOUBLE-STRUCK DIGIT NINE  , 
+U1D7E2, MATHEMATICAL SANS-SERIF DIGIT ZERO     , 
+U1D7E3, MATHEMATICAL SANS-SERIF DIGIT ONE      , 
+U1D7E4, MATHEMATICAL SANS-SERIF DIGIT TWO      , 
+U1D7E5, MATHEMATICAL SANS-SERIF DIGIT THREE    , 
+U1D7E6, MATHEMATICAL SANS-SERIF DIGIT FOUR     , 
+U1D7E7, MATHEMATICAL SANS-SERIF DIGIT FIVE     , 
+U1D7E8, MATHEMATICAL SANS-SERIF DIGIT SIX      , 
+U1D7E9, MATHEMATICAL SANS-SERIF DIGIT SEVEN    , 
+U1D7EA, MATHEMATICAL SANS-SERIF DIGIT EIGHT    , 
+U1D7EB, MATHEMATICAL SANS-SERIF DIGIT NINE     , 
+U1D7EC, MATHEMATICAL SANS-SERIF BOLD DIGIT ZERO, 
+U1D7ED, MATHEMATICAL SANS-SERIF BOLD DIGIT ONE , 
+U1D7EE, MATHEMATICAL SANS-SERIF BOLD DIGIT TWO , 
+U1D7EF, MATHEMATICAL SANS-SERIF BOLD DIGIT THREE, 
+U1D7F0, MATHEMATICAL SANS-SERIF BOLD DIGIT FOUR, 
+U1D7F1, MATHEMATICAL SANS-SERIF BOLD DIGIT FIVE, 
+U1D7F2, MATHEMATICAL SANS-SERIF BOLD DIGIT SIX , 
+U1D7F3, MATHEMATICAL SANS-SERIF BOLD DIGIT SEVEN, 
+U1D7F4, MATHEMATICAL SANS-SERIF BOLD DIGIT EIGHT, 
+U1D7F5, MATHEMATICAL SANS-SERIF BOLD DIGIT NINE, 
+U1D7F6, MATHEMATICAL MONOSPACE DIGIT ZERO      , 
+U1D7F7, MATHEMATICAL MONOSPACE DIGIT ONE       , 
+U1D7F8, MATHEMATICAL MONOSPACE DIGIT TWO       , 
+U1D7F9, MATHEMATICAL MONOSPACE DIGIT THREE     , 
+U1D7FA, MATHEMATICAL MONOSPACE DIGIT FOUR      , 
+U1D7FB, MATHEMATICAL MONOSPACE DIGIT FIVE      , 
+U1D7FC, MATHEMATICAL MONOSPACE DIGIT SIX       , 
+U1D7FD, MATHEMATICAL MONOSPACE DIGIT SEVEN     , 
+U1D7FE, MATHEMATICAL MONOSPACE DIGIT EIGHT     , 
+U1D7FF, MATHEMATICAL MONOSPACE DIGIT NINE      , 

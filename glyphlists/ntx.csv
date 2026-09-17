@@ -1,0 +1,386 @@
+# Format: two comma-delimited fields:
+#   (1) glyph name--upper/lowercase letters and digits
+#   (2) Unicode scalar values, space-separated if more than one
+Arrownortheast,21D7
+Arrownorthwest,21D6
+Arrowsoutheast,21D8
+Arrowsouthwest,21D9
+Barcolon,2239 003A
+Colonbar,003A 003A 002D
+Colonequal,2A74
+Diamond,25C7
+DiamondLeft,21D0 25C7
+DiamondRight,25C7 21D2
+Diamonddot,27D0
+DiamonddotLeft,21D0 27D0
+DiamonddotRight,27D0 21D2
+Diamonddotleft,2190 27D0
+Diamonddotright,27D0 2192
+Diamondleft,2190 25C7
+Diamondright,25C7 2192
+Diamondsolid,25C6
+Equalcolon,2255
+Forcesbar,22AA
+J.alt,1D611
+Latticetop,2AEA
+Mapsfrom,2AE4
+Mapsto,27FE
+Mmapsfrom,2AE5
+Mmapsto,255E
+Perpendicular,2AEB
+Wreathproduct,2240 2240
+ampersandinv,214B
+anglearc,2222
+angleleftbigx,27E8 FE01
+anglerightbigx,27E9 FE01
+apple,1F34E
+arcwide,0361
+arcwider,0361 FE01
+arcwiderr,0361 FE02
+arcwidest,0361 FE03
+arcwideult,0361 FE04
+arrowaxisleft,2B05
+arrowaxisright,27A1
+arrowhorizex,23AF
+arrowvertex,23D0
+axisshort,2027
+barbar,0304 0304
+barcino,1F60E
+barcolon,2239
+bardblex,2225 FE01
+bardblexbigx,2225 FE02
+barex,007C FE01
+barexbigx,007C FE01
+barhat,0304 0303
+barshort,2758
+bartilde,0304 0302
+bartriple,2AF4
+bbA,1D538
+bbB,1D539
+bbC,2102
+bbD,1D53B
+bbE,1D53C
+bbF,1D53D
+bbG,1D53E
+bbH,210D
+bbI,1D540
+bbJ,1D541
+bbK,1D542
+bbL,1D543
+bbM,1D544
+bbN,2115
+bbO,1D546
+bbP,2119
+bbQ,211A
+bbR,211D
+bbS,1D54A
+bbT,1D54B
+bbU,1D54C
+bbV,1D54D
+bbW,1D54E
+bbX,1D54F
+bbY,1D550
+bbZ,2124
+bbk,1D55C
+blacktriangleleft,25B6
+blacktriangleright,25C0
+bracehext,02C9
+braceleftbigx,007B FE01
+bracerightbigx,007D FE01
+bracketdoubleleft,27E6
+bracketdoubleright,27E7
+bracketleftbigx,005B FE01
+bracketrightbigx,005D FE01
+bulletS,25C5
+bulletSS,2022
+bulletSSS,2219
+cdotB,00B7
+cdotBB,22C5
+ceilingleftbigx,2308 FE01
+ceilingrightbigx,2309 FE01
+circlebackslash,2298
+circlebar,233D
+circledotleft,2190 2299
+circledotright,2299 2192
+circleleft,2190 25CB
+circleright,25CB 2192
+club1,2667
+colonapprox,003A 2248
+colonbar,003A 002D
+coloncolonapprox,003A 2248
+coloncolonsim,003A 003A 223C
+colonequal,2254
+colonequal,2254
+colonsim,003A 223C
+cupdotdisplay,2A03
+cupdottext,2A03
+curvearrowleft,21B6
+curvearrowright,21B7
+cwm,200B
+dashedarrowboth,290E 290F
+dashedarrowleft,290E
+dashedarrowright,290F
+dblbracketleft,27E6
+dblbracketleftBig,27E6 FE03
+dblbracketleftBigg,27E6 FE04
+dblbracketleftbig,27E6 FE01
+dblbracketleftbigg,27E6 FE02
+dblbracketleftbt,23A5 23A3
+dblbracketleftex,23A5 23A2
+dblbracketlefttp,23A5 23A1
+dblbracketright,27E7
+dblbracketrightBig,27E6 FE03
+dblbracketrightBigg,27E6 FE04
+dblbracketrightbig,27E6 FE01
+dblbracketrightbigg,27E6 FE02
+dblbracketrightbt,23A6 23A2
+dblbracketrightex,23A5 23A2
+dblbracketrighttp,23A4 23A2
+ddddot,20DC
+ddddotacc,20DC
+dddot,20DB
+dddotacc,20DB
+ddotacc,0308
+diameter,2300
+diamond1,2666
+dotacc,0307
+dotaccent,0307
+dotbelow,0323
+doteq,2250
+ell,2113
+emptysetAlt,2300
+emptysetAlt2,2205
+emptysetstress,2205
+equalcolon,2255
+equalcolon,2255
+floorleftbigx,230A FE01
+floorrightbigx,230B FE01
+followsordblequal,2AB4
+forcesextra,22AB
+g.alt,1D628
+g1,1D454
+geqslant,2A7E
+greaterornotsimilar,22E7
+groupatipdownleft,1DFE 02CA
+groupatipdownright,02CB 0350
+groupatipupleft,02F1 02CF
+groupatipupright,02CE 02F2
+grouphtipdownleft,02CA
+grouphtipdownright,02CB
+grouphtipupleft,02CF
+grouphtipupright,02CE
+harpoonacc,20D2
+harpoonleftdown,21BD
+harpoonleftup,21BC
+harpoonrightdown,21C1
+harpoonrightup,21C0
+hat4,0302 FE04
+hat5,0302 FE05
+hat6,0302 FE06
+hatbar,0303 0304
+hathat,0303 0303
+hattilde,0303 0302
+heart1,2665
+hookabove,0309
+hookleftchar,02D2
+hookrightchar,02D3
+hslash,210F
+integralex,23AE
+intersectionsqdisplay,2A05 FE01
+intersectionsqtext,2A05 FE01
+intersectmulti,2A44 FE01
+intersectmultidisplay,2A44 FE00
+intersectmultitext,2A44 FE00
+intersectsqmultidisplay,2A05 FE00
+intersectsqmultitext,2A05 FE00
+kappa1,1D718
+kappa1up,03F0
+lambdabar,1D706 0335
+lambdaslash,019B
+lbag,27C5
+lbagBig,27C5 FE03
+lbagBigg,27C5 FE04
+lbagBiggg,27C5 FE05
+lbagBigggg,27C5 FE06
+lbagBiggggg,27C5 FE07
+lbagbig,27C5 FE01
+lbagbig,27C5 FE01
+lbagbigg,27C5 FE02
+leadsto,301C
+leadstoext,219D
+leftleftarrows,21C7
+leqslant,2A7D
+lessornotsimilar,22E6
+lharpoonacc,20D0
+lrharpoonacc,20E1
+lrvec,20E1
+lsolidmultimapboth,22B7
+lvec,20D6
+mapsfrom,2ADE
+mapstochar,21A6
+medbullet,25CF
+medcircle,25CB
+mmapsfrom,2AE3
+mmapsto,2AE6
+multicloseboth,22C8
+multicloseboth1,22C8 FE01
+multicloseleft1,22C9
+multicloseright1,22CA
+multimapboth,29DF
+multimapinv,27DC
+multiopenboth,2715
+multiopenboth1,2715 FE01
+napproxequal,2249
+nelement,2209
+nelement,2209
+nequal,2260
+nequal,2260
+nequivalence,2262
+nequivasymptotic,226D
+nexists,2204
+ngreatermuch,226B 0338
+nlessmuch,226A 0338
+notapproxequal,2249
+notapproxorequal,224A 0338
+notdblarrowheadleft,219E 0337
+notdblarrowheadright,2900
+notdifference,224F 0338
+notexists,2204
+notfollowsorcurly,22E1
+notfollowsordblequal,2AB4 0338
+notfollowsorequal,2AB7 0338
+notfollowsorsimilar,22E1
+notgeomequivalent,224E 0338
+notgeqslant,2A7E 0338
+notgreaterorapproxeql,2A86 0338
+notgreaterorless,2279
+notgreaterorsimilar,2275
+notleqslant,2A7D 0338
+notlessorapproxeql,2A85 0338
+notlessorgreater,2278
+notlessorsimilar,2274
+notowner,220C
+notparallelslanted,2226
+notprecedesorcurly,22E0
+notprecedesordblequal,2AB3 0338
+notprecedesorequal,2AB8 0338
+notprecedesorsimilar,22E0
+notrevasymptequal,22CD 0338
+notrevsimilar,223D 0338
+notshortbar,2016 0337
+notshortparallel,2AF2
+notsimequal,2247
+notsquareimage,228F 0338
+notsquareoriginal,2290 0338
+notsubsetdbl,22D0 0338
+notsupersetdbl,22D1 0338
+notvDash,22AD
+nowner,220C
+nowner,220C
+nparallel,2226
+nparallel1,2226 FE01
+npropersubset,2284
+npropersubset,2284
+npropersuperset,2285
+npropersuperset,2285
+nsimilar,2241
+nsimilarequal,2244
+nsubsetsqequal,22E2
+nsupersetsqequal,22E3
+oarcwide,0361 0350
+oarcwider,0361 FE01 0350
+oarcwiderr,0361 FE02 0350
+oarcwidest,0361 FE03 0350
+oarcwideult,0361 FE04 0350
+ogreater,29C1
+oless,29C0
+opentrans,260D FE01
+ovee,2228 20DD
+owedge,2227 20DD
+parallel1,2225
+parallelshort,2016
+parallelslanted,2225
+parenleftbigx,0028 FE01
+parenleftbtA,239D
+parenleftexA,239C
+parenlefttpA,239B
+parenrightbigx,0029 FE01
+parenrightbtA,23A0
+parenrightexA,239F
+parenrighttpA,239E
+partialdiff1,1D715
+perthousandzero,2080
+pi2,03D6
+precedesordblequal,2AB3
+prime2,02B9
+productdisplay1,2715
+producttext1,2715
+radicalex,23AF
+radicallow,23B7
+raisedsquare,2E0B
+rbag,27C6
+rbagBig,27C6 FE03
+rbagBigg,27C6 FE04
+rbagBiggg,27C6 FE05
+rbagBigggg,27C6 FE06
+rbagBiggggg,27C6 FE07
+rbagbig,27C6 FE01
+rbagbig,27C6 FE01
+rbagbigg,27C6 FE02
+rho2,03F1
+rightrightarrows,21C9
+rsolidmultimapboth,22B6
+rvec,20D7
+simequal,2245
+slurabove,2312
+smallsetminus,2216
+smcompB,25CB
+solidmultimap,22B8 FE01
+solidmultimapboth,29DF FE01
+solidmultimapinv,27DC FE01
+solidtrans,2051 20D2
+spade1,2664
+squareLeft,21D0 25A1
+squareRight,25A1 21D2
+squareasterisk,29C6
+squarebackslash,29C5
+squarebar,25EB
+squaredotLeft,21D0 22A1
+squaredotRight,22A1 21D2
+squaredotleft,2190 22A1
+squaredotright,22A1 2192
+squareintersectmulti,2A4E FE01
+squareleft,2190 25A1
+squareright,25A1 2192
+squareslash,29C4
+squaresmallsolid,25A0
+squareunionmulti,228E FE01
+squiggleleft,21DC
+strict,297D
+strictboth,297C 297D
+strictinverse,297C
+subsetneqq,2ACB
+subsetornoteql,2ACB
+supersetornoteql,2ACC
+swords,2694
+swordsdown,2694
+threequartersemdash,2014
+tilde4,0303 FE04
+tilde5,0303 FE05
+tilde6,0303 FE06
+tildebar,0302 0304
+tildehat,0302 0303
+tildetilde,0302 0302
+topopentrans,27DF FE01
+topsolidtrans,2AF1 FE01
+unionsqmultidisplay,2A04 FE00
+unionsqmultitext,2A04 FE00
+v.alt,1D637
+v1,1D463
+vDash,22A8
+varsubsetneq,228A
+vec,20D7
+w.alt,1D638
+w1,1D464
+y.alt,1D63A
+y1,1D466

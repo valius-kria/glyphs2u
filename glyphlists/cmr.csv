@@ -1,0 +1,280 @@
+# Format: two comma-delimited fields:
+#   (1) glyph name--upper/lowercase letters and digits
+#   (2) Unicode scalar values, space-separated if more than one
+a1,25C1
+a2,22B4
+a3,25B7
+a4,22B5
+a40,02C2
+a41,02C3
+a42,2303
+a43,2304
+a48,2127
+a49,22C8
+a50,25A1
+a51,25C7
+a58,2053
+a59,219D
+a60,228F
+a61,2290
+angbracketleftBig,27E8 FE02
+angbracketleftBigg,27E8 FE04
+angbracketleftbig,27E8 FE01
+angbracketleftbigg,27E8 FE03
+angbracketrightBig,27E9 FE02
+angbracketrightBigg,27E9 FE04
+angbracketrightbig,27E9 FE01
+angbracketrightbigg,27E9 FE03
+arrowbt,2193
+arrowdblbt,21D3
+arrowdbltp,21D1
+arrowhookleft,21AA
+arrowhookright,21A9
+arrowtp,2191
+arrowvertex,23D0
+arrowvertexdbl,20E6
+backslashBig,005C FE02
+backslashBigg,005C FE04
+backslashbig,005C FE01
+backslashbigg,005C FE03
+braceex,23AA
+bracehtipdownleft,23DF
+bracehtipdownright,23DF
+bracehtipupleft,23DE
+bracehtipupright,23DE
+braceleftBig,007B FE02
+braceleftBigg,007B FE04
+braceleftbig,007B FE01
+braceleftbigg,007B FE03
+braceleftbt,23A9
+braceleftmid,23A8
+bracelefttp,23A7
+bracerightBig,007D FE02
+bracerightBigg,007D FE04
+bracerightbig,007D FE01
+bracerightbigg,007D FE03
+bracerightbt,23AD
+bracerightmid,23AC
+bracerighttp,23AB
+bracketleftBig,005B FE02
+bracketleftBigg,005B FE04
+bracketleftbig,005B FE01
+bracketleftbigg,005B FE03
+bracketleftbt,23A3
+bracketleftex,23A2
+bracketlefttp,23A1
+bracketrightBig,005D FE02
+bracketrightBigg,005D FE04
+bracketrightbig,005D FE01
+bracketrightbigg,005D FE03
+bracketrightbt,23A6
+bracketrightex,23A5
+bracketrighttp,23A4
+ceilingleftBig,2308 FE02
+ceilingleftBigg,2308 FE04
+ceilingleftbig,2308 FE01
+ceilingleftbigg,2308 FE03
+ceilingrightBig,2309 FE02
+ceilingrightBigg,2309 FE04
+ceilingrightbig,2309 FE01
+ceilingrightbigg,2309 FE03
+circledotdisplay,2A00 FE02
+circledottext,2A00 FE01
+circlemultiplydisplay,2A02 FE02
+circlemultiplytext,2A02 FE01
+circleplusdisplay,2A01 FE02
+circleplustext,2A01 FE01
+contintegraldisplay,222E FE02
+contintegraltext,222E FE01
+coproductdisplay,2210 FE02
+coproducttext,2210 FE01
+d0,2199
+d1,2199
+d10,2193
+d100,2196
+d101,2196
+d102,2196
+d103,2190
+d104,2190
+d105,2190
+d106,2190
+d107,2190
+d108,2190
+d109,2190
+d11,2193
+d110,2190
+d111,2190
+d112,2190
+d113,2190
+d114,2190
+d115,2190
+d116,2190
+d117,2190
+d118,2190
+d119,2190
+d12,2193
+d120,2199
+d121,2199
+d122,2199
+d123,2199
+d124,2199
+d125,2199
+d126,2199
+d127,2199
+d13,2193
+d14,2193
+d15,2193
+d16,2193
+d17,2193
+d18,2193
+d19,2193
+d2,2199
+d20,2193
+d21,2193
+d22,2193
+d23,2193
+d24,2198
+d25,2198
+d26,2198
+d27,2198
+d28,2198
+d29,2198
+d3,2199
+d30,2198
+d31,2198
+d32,2198
+d33,2198
+d34,2198
+d35,2198
+d36,2198
+d37,2198
+d38,2198
+d39,2192
+d4,2199
+d40,2192
+d41,2192
+d42,2192
+d43,2192
+d44,2192
+d45,2192
+d46,2192
+d47,2192
+d48,2192
+d49,2192
+d5,2199
+d50,2192
+d51,2192
+d52,2192
+d53,2192
+d54,2192
+d55,2192
+d56,2197
+d57,2197
+d58,2197
+d59,2197
+d6,2199
+d60,2197
+d61,2197
+d62,2197
+d63,2197
+d64,2197
+d65,2197
+d66,2197
+d67,2197
+d68,2197
+d69,2197
+d7,2193
+d70,2197
+d71,2191
+d72,2191
+d73,2191
+d74,2191
+d75,2191
+d76,2191
+d77,2191
+d78,2191
+d79,2191
+d8,2193
+d80,2191
+d81,2191
+d82,2191
+d83,2191
+d84,2191
+d85,2191
+d86,2191
+d87,2191
+d88,2196
+d89,2196
+d9,2193
+d90,2196
+d91,2196
+d92,2196
+d93,2196
+d94,2196
+d95,2196
+d96,2196
+d97,2196
+d98,2196
+d99,2196
+floorleftBig,230A FE02
+floorleftBigg,230A FE04
+floorleftbig,230A FE01
+floorleftbigg,230A FE03
+floorrightBig,230B FE02
+floorrightBigg,230B FE04
+floorrightbig,230B FE01
+floorrightbigg,230B FE03
+hatwide,02C6 FE01
+hatwider,02C6 FE02
+hatwidest,02C6 FE03
+integraldisplay,222B FE02
+integraltext,222B FE01
+intersectiondisplay,22C2 FE02
+intersectiontext,22C2 FE01
+logicalanddisplay,22C0 FE02
+logicalandtext,22C0 FE01
+logicalordisplay,22C1 FE02
+logicalortext,22C1 FE01
+mapsto,21A6
+parenleftBig,0028 FE02
+parenleftBigg,0028 FE04
+parenleftbig,0028 FE01
+parenleftbigg,0028 FE03
+parenleftbt,239D
+parenleftex,239C
+parenlefttp,239B
+parenrightBig,0029 FE02
+parenrightBigg,0029 FE04
+parenrightbig,0029 FE01
+parenrightbigg,0029 FE03
+parenrightbt,23A0
+parenrightex,239F
+parenrighttp,239E
+productdisplay,220F FE02
+producttext,220F FE01
+radicalBig,221A FE02
+radicalBigg,221A FE04
+radicalbig,221A FE01
+radicalbigg,221A FE03
+radicalbt,23B7
+radicaltp,231C
+radicalvertex,20D3
+slashBig,002F FE02
+slashBigg,002F FE04
+slashbig,002F FE01
+slashbigg,002F FE03
+summationdisplay,2211 FE02
+summationtext,2211 FE01
+suppress,EB61
+tie,2040
+tildewide,02DC FE01
+tildewider,02DC FE02
+tildewidest,02DC FE03
+uniondisplay,22C3 FE02
+unionmultidisplay,2A04 FE02
+unionmultitext,2A04 FE01
+unionsqdisplay,2A06 FE02
+unionsqtext,2A06 FE01
+uniontext,22C3 FE01
+vextenddouble,20E6
+vextendsingle,20D3

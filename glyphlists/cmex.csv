@@ -1,0 +1,135 @@
+# Format: two comma-delimited fields:
+#   (1) glyph name--upper/lowercase letters and digits
+#   (2) Unicode scalar values, space-separated if more than one
+angbracketleftBig,27E8 FE02
+angbracketleftBigg,27E8 FE04
+angbracketleftbig,27E8 FE01
+angbracketleftbigg,27E8 FE03
+angbracketrightBig,27E9 FE02
+angbracketrightBigg,27E9 FE04
+angbracketrightbig,27E9 FE01
+angbracketrightbigg,27E9 FE03
+arrowbt,2193
+arrowdblbt,21D3
+arrowdbltp,21D1
+arrowhookleft,21AA
+arrowhookright,21A9
+arrowtp,2191
+arrowvertex,23D0
+arrowvertexdbl,20E6
+backslashBig,005C FE02
+backslashBigg,005C FE04
+backslashbig,005C FE01
+backslashbigg,005C FE03
+braceex,23AA
+bracehtipdownleft,23DF
+bracehtipdownright,23DF
+bracehtipupleft,23DE
+bracehtipupright,23DE
+braceleftBig,007B FE02
+braceleftBigg,007B FE04
+braceleftbig,007B FE01
+braceleftbigg,007B FE03
+braceleftbt,23A9
+braceleftmid,23A8
+bracelefttp,23A7
+bracerightBig,007D FE02
+bracerightBigg,007D FE04
+bracerightbig,007D FE01
+bracerightbigg,007D FE03
+bracerightbt,23AD
+bracerightmid,23AC
+bracerighttp,23AB
+bracketleftBig,005B FE02
+bracketleftBigg,005B FE04
+bracketleftbig,005B FE01
+bracketleftbigg,005B FE03
+bracketleftbt,23A3
+bracketleftex,23A2
+bracketlefttp,23A1
+bracketrightBig,005D FE02
+bracketrightBigg,005D FE04
+bracketrightbig,005D FE01
+bracketrightbigg,005D FE03
+bracketrightbt,23A6
+bracketrightex,23A5
+bracketrighttp,23A4
+ceilingleftBig,2308 FE02
+ceilingleftBigg,2308 FE04
+ceilingleftbig,2308 FE01
+ceilingleftbigg,2308 FE03
+ceilingrightBig,2309 FE02
+ceilingrightBigg,2309 FE04
+ceilingrightbig,2309 FE01
+ceilingrightbigg,2309 FE03
+circledotdisplay,2A00 FE02
+circledottext,2A00 FE01
+circlemultiplydisplay,2A02 FE02
+circlemultiplytext,2A02 FE01
+circleplusdisplay,2A01 FE02
+circleplustext,2A01 FE01
+contintegraldisplay,222E FE02
+contintegraltext,222E FE01
+coproductdisplay,2210 FE02
+coproducttext,2210 FE01
+floorleftBig,230A FE02
+floorleftBigg,230A FE04
+floorleftbig,230A FE01
+floorleftbigg,230A FE03
+floorrightBig,230B FE02
+floorrightBigg,230B FE04
+floorrightbig,230B FE01
+floorrightbigg,230B FE03
+hatwide,02C6 FE01
+hatwider,02C6 FE02
+hatwidest,02C6 FE03
+integraldisplay,222B FE02
+integraltext,222B FE01
+intersectiondisplay,22C2 FE02
+intersectiontext,22C2 FE01
+logicalanddisplay,22C0 FE02
+logicalandtext,22C0 FE01
+logicalordisplay,22C1 FE02
+logicalortext,22C1 FE01
+mapsto,21A6
+parenleftBig,0028 FE02
+parenleftBigg,0028 FE04
+parenleftbig,0028 FE01
+parenleftbigg,0028 FE03
+parenleftbt,239D
+parenleftex,239C
+parenlefttp,239B
+parenrightBig,0029 FE02
+parenrightBigg,0029 FE04
+parenrightbig,0029 FE01
+parenrightbigg,0029 FE03
+parenrightbt,23A0
+parenrightex,239F
+parenrighttp,239E
+productdisplay,220F FE02
+producttext,220F FE01
+radicalBig,221A FE02
+radicalBigg,221A FE04
+radicalbig,221A FE01
+radicalbigg,221A FE03
+radicalbt,23B7
+radicaltp,231C
+radicalvertex,20D3
+slashBig,002F FE02
+slashBigg,002F FE04
+slashbig,002F FE01
+slashbigg,002F FE03
+summationdisplay,2211 FE02
+summationtext,2211 FE01
+tie,2040
+tildewide,02DC FE01
+tildewider,02DC FE02
+tildewidest,02DC FE03
+uniondisplay,22C3 FE02
+unionmultidisplay,2A04 FE02
+unionmultitext,2A04 FE01
+unionsqdisplay,2A06 FE02
+unionsqtext,2A06 FE01
+uniontext,22C3 FE01
+vextenddouble,20E6
+vextendsingle,20D3

@@ -1,0 +1,165 @@
+{
+    "families": {
+        "fences": {
+            "0xFE01": "big",
+            "0xFE02": "Big",
+            "0xFE03": "bigg",
+            "0xFE04": "Bigg"
+        },
+        "operators": {
+            "0xFE01": "text",
+            "0xFE02": "display"
+        },
+        "accents": {
+            "0xFE01": "wide",
+            "0xFE02": "wider",
+            "0xFE03": "widest"
+        }
+    },
+    "roots": {
+        "0x27E8": {
+            "root": "angbracketleft",
+            "family": "fences"
+        },
+        "0x27E9": {
+            "root": "angbracketright",
+            "family": "fences"
+        },
+        "0x361": {
+            "root": "arc",
+            "family": "accents"
+        },
+        "0x5C": {
+            "root": "backslash",
+            "family": "fences"
+        },
+        "0x7B": {
+            "root": "braceleft",
+            "family": "fences"
+        },
+        "0x7D": {
+            "root": "braceright",
+            "family": "fences"
+        },
+        "0x5B": {
+            "root": "bracketleft",
+            "family": "fences"
+        },
+        "0x5D": {
+            "root": "bracketright",
+            "family": "fences"
+        },
+        "0x2308": {
+            "root": "ceilingleft",
+            "family": "fences"
+        },
+        "0x2309": {
+            "root": "ceilingright",
+            "family": "fences"
+        },
+        "0x2A00": {
+            "root": "circledot",
+            "family": "operators"
+        },
+        "0x2A02": {
+            "root": "circlemultiply",
+            "family": "operators"
+        },
+        "0x2A01": {
+            "root": "circleplus",
+            "family": "operators"
+        },
+        "0x222E": {
+            "root": "contintegral",
+            "family": "operators"
+        },
+        "0x2210": {
+            "root": "coproduct",
+            "family": "operators"
+        },
+        "0x27E6": {
+            "root": "dblbracketright",
+            "family": "fences"
+        },
+        "0x230A": {
+            "root": "floorleft",
+            "family": "fences"
+        },
+        "0x230B": {
+            "root": "floorright",
+            "family": "fences"
+        },
+        "0x2C6": {
+            "root": "hat",
+            "family": "accents"
+        },
+        "0x222B": {
+            "root": "integral",
+            "family": "operators"
+        },
+        "0x22C2": {
+            "root": "intersection",
+            "family": "operators"
+        },
+        "0x2A05": {
+            "root": "intersectionsq",
+            "family": "operators"
+        },
+        "0x27C5": {
+            "root": "lbag",
+            "family": "fences"
+        },
+        "0x22C0": {
+            "root": "logicaland",
+            "family": "operators"
+        },
+        "0x22C1": {
+            "root": "logicalor",
+            "family": "operators"
+        },
+        "0x28": {
+            "root": "parenleft",
+            "family": "fences"
+        },
+        "0x29": {
+            "root": "parenright",
+            "family": "fences"
+        },
+        "0x220F": {
+            "root": "product",
+            "family": "operators"
+        },
+        "0x221A": {
+            "root": "radical",
+            "family": "fences"
+        },
+        "0x27C6": {
+            "root": "rbag",
+            "family": "fences"
+        },
+        "0x2F": {
+            "root": "slash",
+            "family": "fences"
+        },
+        "0x2211": {
+            "root": "summation",
+            "family": "operators"
+        },
+        "0x2DC": {
+            "root": "tilde",
+            "family": "accents"
+        },
+        "0x22C3": {
+            "root": "union",
+            "family": "operators"
+        },
+        "0x2A04": {
+            "root": "unionmulti",
+            "family": "operators"
+        },
+        "0x2A06": {
+            "root": "unionsq",
+            "family": "operators"
+        }
+    }
+}

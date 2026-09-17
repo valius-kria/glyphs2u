@@ -1,0 +1,7 @@
+# Format: two comma-delimited fields:
+#   (1) glyph name--upper/lowercase letters and digits
+#   (2) Unicode scalar values, space-separated if more than one
+althyphen,002D
+csquotedblright,201C
+polishlcross,0337
+suppress,0337

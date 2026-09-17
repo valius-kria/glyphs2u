@@ -1,0 +1,13 @@
+return {
+  ['zero'] = { 0x1D7CE, },-- MATHEMATICAL BOLD DIGIT ZERO
+  ['one'] = { 0x1D7CF, },-- MATHEMATICAL BOLD DIGIT ONE
+  ['two'] = { 0x1D7D0, },-- MATHEMATICAL BOLD DIGIT TWO
+  ['three'] = { 0x1D7D1, },-- MATHEMATICAL BOLD DIGIT THREE
+  ['four'] = { 0x1D7D2, },-- MATHEMATICAL BOLD DIGIT FOUR
+  ['five'] = { 0x1D7D3, },-- MATHEMATICAL BOLD DIGIT FIVE
+  ['six'] = { 0x1D7D4, },-- MATHEMATICAL BOLD DIGIT SIX
+  ['seven'] = { 0x1D7D5, },-- MATHEMATICAL BOLD DIGIT SEVEN
+  ['eight'] = { 0x1D7D6, },-- MATHEMATICAL BOLD DIGIT EIGHT
+  ['nine'] = { 0x1D7D7, },-- MATHEMATICAL BOLD DIGIT NINE
+  ['.notdef'] = { 0x0020 },-- SPACE
+}

@@ -1,0 +1,6 @@
+return {
+  ['mapsfromchar'] = { 0x2E21 },-- RIGHT VERTICAL BAR WITH QUILL
+  ['uniE0B4'] = { 0x02BF },-- MODIFIER LETTER LEFT HALF RING
+  ['uniE0B5'] = { 0x02BE },-- MODIFIER LETTER RIGHT HALF RING
+  ['uniE0B6'] = { 0x2E20 },-- LEFT VERTICAL BAR WITH QUILL
+  }
