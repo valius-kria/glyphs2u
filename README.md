@@ -327,6 +327,54 @@ project root:
 make font_glyph_maps.lua
 ```
 
+## The glyph image dataset
+
+`make edit-<font>.lua` recognises a glyph by its shape, and what it compares
+against is a dataset of labelled glyph images under `glyphs-dataset/`.  That
+directory is generated and is not part of the repository — it runs to over a
+gigabyte — so it has to be built before the editor is of any use.
+
+There are two sources of labels, and they work in opposite directions:
+
+- **Type 1 fonts**, rendered through each working directory's own tables: the
+  per-font Lua table merged with the built-in one gives the codepoints, and
+  every glyph with a known value is rasterised.  So the dataset is only as
+  good as the tables already written — it was first built once a reasonable
+  set of them existed.
+- **OpenType and TrueType fonts**, which carry their Unicode values in their
+  own `cmap`, so they need no table and can be ingested directly.
+
+```sh
+make dataset DIR=public/lm      # one working directory
+make dataset-all                # every directory in config-list.json
+make inspect-math-otf           # check a curated OTF list's conventions first
+make dataset-math-otf           # then ingest it
+make dataset-otf DIR=<tree>     # any other OTF/TTF tree
+make clean-pua                  # drop Private Use Area labels (DRY_RUN=1 to preview)
+make list-fonts                 # what is currently in there
+make index                       # build glyphs-dataset/knn-index.joblib
+```
+
+`make index` has to be re-run after the dataset changes, `clean-pua`
+included.
+
+Since the dataset is built locally and never distributed, fonts whose tables
+cannot be published here can still be used as training material on your own
+machine.
+
+### Known state, for whenever it is next touched
+
+Nothing here is urgent; the dataset works as it is.
+
+- **STIX is not in it.** It was the last family worked on, and its tables
+  arrived after the dataset was last rebuilt.
+- **Ingesting OTF made the script slow.** Worth looking at before a full
+  rebuild rather than during one.
+- **Every size of a font is included separately**, which is largely
+  redundant: the shapes of `cmr5` and `cmr17` differ by design but not by
+  much, and carrying all of them inflates the dataset for little gain in
+  recognition.  Thinning that out is the obvious first cleaning.
+
 ## Provenance of included data
 
 Some files are reproduced from other sources and keep their own terms:
