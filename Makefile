@@ -110,53 +110,6 @@ prod-pfb-dirs.json: prod-pfb-dict.json
 config-list.json: $(script_dir)/list-config-files.py
 	$(PYTHON)/list-config-files.py
 
-# Join lua tables from config files; also outputs 'lua_tables_aliases_dict.json'.
-# NOTE. font_glyph_maps.lua is read by xdvipsk everywhere and is meant for
-# freely licensed fonts only.  It stays that way here because config-list.json
-# is every working directory in the project and every one of them is public.
-# Should a directory for a commercial font ever be added, the two must be
-# separated again -- a list of the public subset, joined instead of this one --
-# or those tables would enter the convoluted table unnoticed.
-font_glyph_maps.json: config-list.json
-font_glyph_maps.json: $(script_dir)/join-lua-tables.py
-	$(PYTHON)/join-lua-tables.py
-
-# Transform joined lua tables data into nested dictionary
-font_glyph_dict.json: font_glyph_maps.json
-font_glyph_dict.json: $(script_dir)/lua-data-to-dict.py
-	$(PYTHON)/lua-data-to-dict.py
-
-# Bild glyph tree
-glyph-uni-tree.json: font_glyph_dict.json
-glyph-uni-tree.json: $(script_dir)/glyph-uni-tree.py
-	$(PYTHON)/glyph-uni-tree.py
-
-# Build set-like structure for joined lua tables
-lua-table-glyph-values.json: font_glyph_dict.json
-lua-table-glyph-values.json: $(script_dir)/lua-table-glyph-values.py
-	$(PYTHON)/lua-table-glyph-values.py
-
-# Compare lua tables by equality and save the map to representatives
-lua-tables-partition-map.json: lua-table-glyph-values.json
-lua-tables-partition-map.json: $(script_dir)/partition-lua-tables.py
-	$(PYTHON)/partition-lua-tables.py
-
-# Output joined lua tables wrt comparison
-font_glyph_maps.lua: lua-tables-partition-map.json font_glyph_maps.json
-font_glyph_maps.lua: lua_tables_aliases_dict.json
-font_glyph_maps.lua: $(script_dir)/output-joined-table.py
-	$(PYTHON)/output-joined-table.py
-
-# Compare glyph-values of lua tables
-lua-tables-rels.txt: lua-table-glyph-values.json
-lua-tables-rels.txt: $(script_dir)/compare-lua-tables.py
-	$(PYTHON)/compare-lua-tables.py
-
-# Put joined lua tables in table name order
-font_glyph_maps_sorted.lua: font_glyph_maps_ST.lua
-font_glyph_maps_sorted.lua: $(script_dir)/sort-glyph-maps.py
-	$(PYTHON)/sort-glyph-maps.py font_glyph_maps_ST.lua font_glyph_maps_sorted.lua
-
 ## ML glyph classifier — repo-wide dataset and model
 # Build/refresh the labeled glyph-image dataset for ONE working directory.
 # Usage: make dataset DIR=public/lm

@@ -11,16 +11,6 @@ __pycache__/
 # List of working directories, rebuilt by scanning the tree; holds absolute
 # paths, so it belongs to a checkout rather than to the repository.
 config-list.json
-# Intermediate steps on the way to font_glyph_maps.lua.  The table itself is
-# committed, since it is the deliverable that xdvipsk reads.
-font_glyph_maps.json
-font_glyph_dict.json
-lua_tables_aliases_dict.json
-lua-table-glyph-values.json
-lua-tables-partition-map.json
-lua-tables-rels.txt
-glyph-uni-tree.json
-font_glyph_maps_sorted.lua
 # Parsed Unicode and psfonts.map data, rebuilt from unicode-data/ and from
 # the psfonts.map of your TeX installation.
 UnicodeData.pkl

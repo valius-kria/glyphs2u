@@ -19,12 +19,14 @@ environment so that the working directory stays portable:
 
 Deployment
 ----------
-`xdvipsk` always reads its built-in table and the convoluted table
-`font_glyph_maps.lua`.  Per-font tables are additional: they only have to be
-somewhere kpathsea will find them.  That can be the system-wide tree, your
-personal tree, or even the directory holding the manuscript being typeset --
-which is why the choice belongs to each working directory.  The default here
-is your personal tree (TEXMFHOME), because it is writable without root:
+`xdvipsk` always reads its built-in table and the convoluted table that is
+installed with it.  The per-font tables built here are additional: `xdvipsk`
+looks for `<font>.lua` for each `<font>.pfb` it embeds, so a table takes
+effect by being somewhere kpathsea will find it.  That can be the system-wide
+tree, your personal tree, or even the directory holding the manuscript being
+typeset -- which is why the choice belongs to each working directory.  The
+default here is your personal tree (TEXMFHOME), because it is writable without
+root:
 
     dest_dir = xdvipsk_cmap_dir("type1/public/lm")
 

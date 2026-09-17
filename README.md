@@ -42,30 +42,38 @@ the intended non-PUA values are kept in a table of their own — see
 
 ## The three kinds of table
 
-| Table | Where it lives | Read by xdvipsk |
+| Table | Where it comes from | Read by xdvipsk |
 | --- | --- | --- |
 | built-in glyph list | compiled into the binary | always |
-| `font_glyph_maps.lua` | this repository, deployed | always |
-| per-font `<font>.lua` | any tree kpathsea can search | when present |
+| the convoluted table | installed with xdvipsk | always |
+| per-font `<font>.lua` | **this repository**, deployed by you | when present |
 
-`font_glyph_maps.lua` is the **convoluted table**: the per-font tables of this
-repository joined into one optimised, structured Lua table, with identical
-tables collapsed to a single representative and the other font names recorded
-as aliases.  It is committed here because it is the deliverable, and it is
-rebuilt with `make font_glyph_maps.lua`.
+The first two arrive with `xdvipsk` and are not built here.  The **convoluted
+table** is the per-font tables of many fonts joined into one optimised
+structure, with identical tables collapsed to a single representative and the
+other font names kept as aliases; it is maintained at VTeX along with
+`xdvipsk` itself, and is not revised every time a font is added.
 
-It covers freely licensed fonts only, and must keep doing so: `xdvipsk` reads
-it wherever it runs.  That holds here without any filtering, because the join
-takes every working directory in the project and all of them are public.  If a
-directory for a commercial font is ever added, the public subset has to be
-listed separately again and joined instead, or its tables would enter this
-file unnoticed.
+What this repository holds is the third kind: **one table per font**, and the
+tools to build, check and deploy them.
 
-Per-font tables are additional and optional.  They only have to be somewhere
-`kpathsea` will find them — a system-wide tree, your personal tree, or even
-the directory holding the manuscript being typeset.  That is why the
-deployment directory is chosen by each working directory rather than fixed
+A per-font table takes effect simply by being where `kpathsea` will find it.
+`xdvipsk` looks for `<font>.lua` for each `<font>.pfb` it embeds — the DVI
+file names only TFM files, and the PFB name is resolved through
+`psfonts.map` — so installing a table is a matter of putting it in a tree that
+is searched: a system-wide tree, your personal tree, or even the directory
+holding the manuscript being typeset.  That is what `make deploy` does, and
+why the destination is chosen by each working directory rather than fixed
 here; see [config.py](#configpy) below.
+
+### Contributing a table
+
+A table you build is useful to you as soon as it is deployed.  If you send it
+here as well, it can later be folded into the convoluted table that ships with
+`xdvipsk`, so that everyone gets it without installing anything — that being
+the present policy, which covers freely licensed fonts.  Tables may also
+reasonably be distributed by the font packages themselves, alongside the fonts
+they belong to.
 
 ## Requirements
 
@@ -327,12 +335,9 @@ recognising the glyph images instead.  `make sentinels-<font>` maps every
 glyph to U+FFFD, and `make edit-<font>.lua` opens an editor offering the
 nearest matches from a k-NN index built over the whole dataset.
 
-After the per-font tables are settled, rebuild the convoluted table from the
-project root:
-
-```sh
-make font_glyph_maps.lua
-```
+Once the tables are settled and deployed, they are in use.  Sending them here
+as well lets them reach other people — see
+[Contributing a table](#contributing-a-table).
 
 ## When you do not have the fonts
 
