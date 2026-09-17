@@ -1,9 +1,11 @@
 {
     "Aacutesmall": [
-        "0x00E1"
+        "0x1D00",
+        "0x0301"
     ],
     "Acircumflexsmall": [
-        "0x00E2"
+        "0x1D00",
+        "0x0302"
     ],
     "Acute": [
         "0x00B4"
@@ -12,10 +14,11 @@
         "0x00B4"
     ],
     "Adieresissmall": [
-        "0x00E4"
+        "0x1D00",
+        "0x0308"
     ],
     "AEsmall": [
-        "0x00E6"
+        "0x1D01"
     ],
     "afii10063": [
         "0x0433"
@@ -33,13 +36,15 @@
         "0x0442"
     ],
     "Agravesmall": [
-        "0x00E0"
+        "0x1D00",
+        "0x0300"
     ],
     "ampersandsmall": [
-        "0x0026"
+        "0xFE60"
     ],
     "Aringsmall": [
-        "0x00E5"
+        "0x1D00",
+        "0x030A"
     ],
     "arrowhorizex": [
         "0x23AF"
@@ -48,13 +53,14 @@
         "0x23D0"
     ],
     "Asmall": [
-        "0x0061"
+        "0x1D00"
     ],
     "asuperior": [
-        "0x0061"
+        "0x00AA"
     ],
     "Atildesmall": [
-        "0x00E3"
+        "0x1D00",
+        "0x0303"
     ],
     "braceex": [
         "0x23AA"
@@ -99,10 +105,10 @@
         "0x02D8"
     ],
     "Bsmall": [
-        "0x0062"
+        "0x0299"
     ],
     "bsuperior": [
-        "0x0062"
+        "0x1D47"
     ],
     "Caron": [
         "0x02C7"
@@ -111,7 +117,8 @@
         "0x02C7"
     ],
     "Ccedillasmall": [
-        "0x00E7"
+        "0x1D04",
+        "0x0327"
     ],
     "Cedillasmall": [
         "0x00B8"
@@ -144,7 +151,7 @@
         "0x00A9"
     ],
     "Csmall": [
-        "0x0063"
+        "0x1D04"
     ],
     "cyrBreve": [
         "0x02D8"
@@ -200,40 +207,44 @@
         "0x0237"
     ],
     "Dsmall": [
-        "0x0064"
+        "0x1D05"
     ],
     "dsuperior": [
-        "0x0064"
+        "0x1D48"
     ],
     "Eacutesmall": [
-        "0x00E9"
+        "0x1D07",
+        "0x0301"
     ],
     "Ecircumflexsmall": [
-        "0x00EA"
+        "0x1D07",
+        "0x0302"
     ],
     "Edieresissmall": [
-        "0x00EB"
+        "0x1D07",
+        "0x0308"
     ],
     "Egravesmall": [
-        "0x00E8"
+        "0x1D07",
+        "0x0300"
     ],
     "eightoldstyle": [
         "0x0038"
     ],
     "Esmall": [
-        "0x0065"
+        "0x1D07"
     ],
     "esuperior": [
-        "0x0065"
+        "0x1D49"
     ],
     "Ethsmall": [
-        "0x00F0"
+        "0x1D06"
     ],
     "exclamdownsmall": [
         "0x00A1"
     ],
     "exclamsmall": [
-        "0x0021"
+        "0xFE57"
     ],
     "fiveoldstyle": [
         "0x0035"
@@ -242,7 +253,7 @@
         "0x0034"
     ],
     "Fsmall": [
-        "0x0066"
+        "0xA730"
     ],
     "Grave": [
         "0x0060"
@@ -251,10 +262,10 @@
         "0x0060"
     ],
     "Gsmall": [
-        "0x0067"
+        "0x0262"
     ],
     "Hsmall": [
-        "0x0068"
+        "0x029C"
     ],
     "Hungarumlaut": [
         "0x02DD"
@@ -266,34 +277,38 @@
         "0x002D"
     ],
     "hyphensuperior": [
-        "0x002D"
+        "0x207B"
     ],
     "Iacutesmall": [
-        "0x00ED"
+        "0x026A",
+        "0x0301"
     ],
     "Icircumflexsmall": [
-        "0x00EE"
+        "0x026A",
+        "0x0302"
     ],
     "Idieresissmall": [
-        "0x00EF"
+        "0x026A",
+        "0x0308"
     ],
     "Igravesmall": [
-        "0x00EC"
+        "0x026A",
+        "0x0300"
     ],
     "integralex": [
         "0x23AE"
     ],
     "Ismall": [
-        "0x0069"
+        "0x026A"
     ],
     "isuperior": [
-        "0x0069"
+        "0x2071"
     ],
     "Jsmall": [
-        "0x006A"
+        "0x1D0A"
     ],
     "Ksmall": [
-        "0x006B"
+        "0x1D0B"
     ],
     "lamedholamdagesh": [
         "0x05DC",
@@ -324,13 +339,13 @@
         "0x006C"
     ],
     "Lslashsmall": [
-        "0x0142"
+        "0x1D0C"
     ],
     "Lsmall": [
-        "0x006C"
+        "0x029F"
     ],
     "lsuperior": [
-        "0x006C"
+        "0x02E1"
     ],
     "Macron": [
         "0x00AF"
@@ -339,37 +354,42 @@
         "0x00AF"
     ],
     "Msmall": [
-        "0x006D"
+        "0x1D0D"
     ],
     "msuperior": [
-        "0x006D"
+        "0x1D50"
     ],
     "nineoldstyle": [
         "0x0039"
     ],
     "Nsmall": [
-        "0x006E"
+        "0x0274"
     ],
     "Ntildesmall": [
-        "0x00F1"
+        "0x0274",
+        "0x0303"
     ],
     "Oacutesmall": [
-        "0x00F3"
+        "0x1D0F",
+        "0x0301"
     ],
     "Ocircumflexsmall": [
-        "0x00F4"
+        "0x1D0F",
+        "0x0302"
     ],
     "Odieresissmall": [
-        "0x00F6"
+        "0x1D0F",
+        "0x0308"
     ],
     "OEsmall": [
-        "0x0153"
+        "0x0276"
     ],
     "Ogoneksmall": [
         "0x02DB"
     ],
     "Ogravesmall": [
-        "0x00F2"
+        "0x1D0F",
+        "0x0300"
     ],
     "onefitted": [
         "0x0031"
@@ -381,13 +401,14 @@
         "0x00F8"
     ],
     "Osmall": [
-        "0x006F"
+        "0x1D0F"
     ],
     "osuperior": [
-        "0x006F"
+        "0x00BA"
     ],
     "Otildesmall": [
-        "0x00F5"
+        "0x1D0F",
+        "0x0303"
     ],
     "parenleftbt": [
         "0x239D"
@@ -414,16 +435,16 @@
         "0x002E"
     ],
     "Psmall": [
-        "0x0070"
+        "0x1D18"
     ],
     "Qsmall": [
-        "0x0071"
+        "0xA7AF"
     ],
     "questiondownsmall": [
         "0x00BF"
     ],
     "questionsmall": [
-        "0x003F"
+        "0xFE56"
     ],
     "radicalex": [
         "0x23D0"
@@ -444,16 +465,17 @@
         "0x02DA"
     ],
     "Rsmall": [
-        "0x0072"
+        "0x0280"
     ],
     "rsuperior": [
-        "0x0072"
+        "0x02B3"
     ],
     "rupiah": [
         "0x20A8"
     ],
     "Scaronsmall": [
-        "0x0161"
+        "0xA731",
+        "0x030C"
     ],
     "sevenoldstyle": [
         "0x0037"
@@ -462,10 +484,10 @@
         "0x0036"
     ],
     "Ssmall": [
-        "0x0073"
+        "0xA731"
     ],
     "ssuperior": [
-        "0x0073"
+        "0x02E2"
     ],
     "Thornsmall": [
         "0x00FE"
@@ -486,54 +508,61 @@
         "0x2122"
     ],
     "Tsmall": [
-        "0x0074"
+        "0x1D1B"
     ],
     "tsuperior": [
-        "0x0074"
+        "0x1D57"
     ],
     "twooldstyle": [
         "0x0032"
     ],
     "Uacutesmall": [
-        "0x00FA"
+        "0x1D1C",
+        "0x0301"
     ],
     "Ucircumflexsmall": [
-        "0x00FB"
+        "0x1D1C",
+        "0x0302"
     ],
     "Udieresissmall": [
-        "0x00FC"
+        "0x1D1C",
+        "0x0308"
     ],
     "Ugravesmall": [
-        "0x00F9"
+        "0x1D1C",
+        "0x0300"
     ],
     "Usmall": [
-        "0x0075"
+        "0x1D1C"
     ],
     "Vsmall": [
-        "0x0076"
+        "0x1D20"
     ],
     "Wsmall": [
-        "0x0077"
+        "0x1D21"
     ],
     "Xsmall": [
         "0x0078"
     ],
     "Yacutesmall": [
-        "0x00FD"
+        "0x028F",
+        "0x0301"
     ],
     "Ydieresissmall": [
-        "0x00FF"
+        "0x028F",
+        "0x0308"
     ],
     "Ysmall": [
-        "0x0079"
+        "0x028F"
     ],
     "Zcaronsmall": [
-        "0x017E"
+        "0x1D22",
+        "0x030C"
     ],
     "zerooldstyle": [
         "0x0030"
     ],
     "Zsmall": [
-        "0x007A"
+        "0x1D22"
     ]
 }

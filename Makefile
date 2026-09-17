@@ -74,13 +74,12 @@ builtin-roots.json: builtin-glyph-map.json $(script_dir)/build-roots.py
 %-lua.json: %.lua
 	$(PYTHON)/lua-table-to-dict.py $< $@
 
-# The readable rendering of the Private Use Area replacement map.  The JSON
-# is what the scripts read; this Lua table is the same data with the Unicode
-# names spelled out, so a change to the JSON can be reviewed in terms of the
-# characters it affects.  The dependency keeps the two from drifting apart.
-adobe-private/adobe-private.lua: adobe-private-lua.json \
- $(script_dir)/dict-to-lua-table.py UnicodeData.pkl
-	$(PYTHON)/dict-to-lua-table.py $< $@
+# The Private Use Area replacement map, as a dictionary for the scripts.
+# The Lua table is the source: it is the curated one, carrying the Unicode
+# names as comments and the more exact values arrived at over time.  The
+# dependency keeps the JSON from falling behind it.
+adobe-private-lua.json: adobe-private/adobe-private.lua
+	$(PYTHON)/lua-table-to-dict.py $< $@
 
 # Scanning the production files for information about used tfm files.
 # At first, find list of .fls files
