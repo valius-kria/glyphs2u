@@ -26,12 +26,19 @@ Not every glyph has to appear in a font table:
    [[https://github.com/adobe-type-tools/agl-specification][Adobe Glyph List Specification]] — for example =uni20AC0308= (mapped to
    the list [U+20AC, U+0308]) or =u1040C= (mapped to U+1040C).
 
-The Adobe Glyph List does map some names into the Private Use Area.  Such a
-name *should* be listed in the font table with a value outside the PUA.
-Correcting the built-in table is not enough, because Distiller remaps glyphs
-according to its own table; an entry in the font table works because
-=xdvipsk= renames the glyph internally when it finds the font table and the
-built-in table disagreeing.
+** Glyph names mapped into a Private Use Area
+
+The Adobe Glyph List maps some names into a Unicode Private Use Area, and
+those values are useless for extracting or searching text.  They cannot
+simply be corrected in a table, because Adobe Acrobat Distiller *ignores*
+the Unicode values given in the PostScript file whenever the glyph name is
+an AGL name — it uses its own copy of the list instead.
+
+The way out is renaming: if the glyph no longer carries an AGL name,
+Distiller has nothing to override with, and the value supplied by =xdvipsk=
+survives.  So such a glyph is renamed internally by =xdvipsk=, which is why
+the intended non-PUA values are kept in a table of their own — see
+[[file:adobe-private/][adobe-private/]] below.
 
 * The three kinds of table
 
@@ -96,10 +103,27 @@ Shared material in the project root:
 | =Makefile=               | project-wide targets                             |
 | =glyphlists/=            | sources of the table built into xdvipsk          |
 | =unicode-data/=          | Unicode Character Database files                 |
-| =adobe-private/=         | Adobe's Corporate Use Subarea assignments        |
+| =adobe-private/=         | non-PUA values for AGL names mapped into a PUA   |
 | =builtin-glyph-map.json= | the built-in table as a dictionary               |
 | =tex-specific.lua=       | TeX conventions that override the built-in table |
 | =fonttable/=             | TeX sources for proofing a table as a PDF        |
+
+** adobe-private/
+
+"Private" here means the Unicode Private Use Areas, not restricted material.
+The directory holds the values to use instead of the PUA ones, for the AGL
+names described above, and the vendor tables those PUA assignments come
+from:
+
+- =adobe-private.lua= :: for each affected AGL glyph name, the Unicode value
+  or sequence that the glyph really represents.  Small capitals, for
+  instance, are given as the small-capital letter followed by a combining
+  accent, so =Aacutesmall= becomes U+1D00 U+0301.
+- =adobe-private-lua.json= :: the replacement map the scripts load (see
+  =pyscripts/glyph_maps.py=), covering the PUA values in the built-in table.
+- =adobe-private.txt=, =apple-private.txt= :: the vendors' own PUA
+  assignment tables, for reference.
+- =adobe-glyphlist.txt= :: a copy of the Adobe Glyph List.
 
 ** config.py
 
@@ -191,6 +215,7 @@ Some files are reproduced from other sources and keep their own terms:
   List For New Fonts, © 2002-2019 Adobe, BSD 3-clause.
 - =adobe-private/adobe-private.txt= — Adobe's "Unicode Corporate Use
   Subarea" assignments, table version 1.2 (1998).
+- =adobe-private/apple-private.txt= — the corresponding Apple assignments.
 - =glyphlists/texglyphlist.txt=, =glyphlists/luaotfload-glyphlist.lua= and
   the =glyphtounicode-*.tex= files — collected from TeX Live.
 - =unicode-data/= — files of the Unicode Character Database, © Unicode, Inc.,
