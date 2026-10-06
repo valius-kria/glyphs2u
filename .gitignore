@@ -78,3 +78,27 @@ glyphlists/cs.lua
 glyphlists/glyphlist_table-generated.lua
 glyphlists/*-not-main.*
 glyphlists/main-not-*
+
+## Font-investigation work dirs (mk/font.mk).  Only the .gpm.json records,
+## the `pairs' files and any .exclude are kept; everything else is rebuilt
+## from the fonts and the distribution.
+tfm/**/*.path
+tfm/**/*.enc.json
+tfm/**/*-glyphs.json
+tfm/**/*.metrics.json
+tfm/**/*.pos/
+tfm/**/*.pos.*
+tfm/**/*.cmp.map.json
+tfm/**/*.cmp.html
+tfm/**/*.gpm.html
+tfm/**/*.gpm.map.json
+tfm/**/*.gpm.lua
+tfm/**/*.gpm.dropped
+tfm/**/*.gpm.json.lock
+tfm/**/*.fonttable.*
+tfm/**/Makefile
+tfm/**/plain
+
+## Maps derived from the TeX Live tree, kept per release (data_dir).
+## Rebuilt with `make htf-data'; large and installation-specific.
+[0-9][0-9][0-9][0-9]/

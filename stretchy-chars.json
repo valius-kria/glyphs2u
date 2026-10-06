@@ -1,0 +1,2341 @@
+{
+ "source": "mathml-ops.csv",
+ "counts": {
+  "accents": 90,
+  "delimiters": 122,
+  "big operators": 47
+ },
+ "chars": {
+  "U+0028": {
+   "char": "(",
+   "name": "left parenthesis",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+0029": {
+   "char": ")",
+   "name": "right parenthesis",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+005B": {
+   "char": "[",
+   "name": "left square bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+005D": {
+   "char": "]",
+   "name": "right square bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+007B": {
+   "char": "{",
+   "name": "left curly bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+007C": {
+   "char": "|",
+   "name": "vertical line",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+007D": {
+   "char": "}",
+   "name": "right curly bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2016": {
+   "char": "‖",
+   "name": "double vertical line",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": false
+  },
+  "U+2308": {
+   "char": "⌈",
+   "name": "left ceiling",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2309": {
+   "char": "⌉",
+   "name": "right ceiling",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+230A": {
+   "char": "⌊",
+   "name": "left floor",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+230B": {
+   "char": "⌋",
+   "name": "right floor",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2329": {
+   "char": "〈",
+   "name": "left-pointing angle bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+232A": {
+   "char": "〉",
+   "name": "right-pointing angle bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2772": {
+   "char": "❲",
+   "name": "light left tortoise shell bracket ornament",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2773": {
+   "char": "❳",
+   "name": "light right tortoise shell bracket ornament",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27E6": {
+   "char": "⟦",
+   "name": "mathematical left white square bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27E7": {
+   "char": "⟧",
+   "name": "mathematical right white square bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27E8": {
+   "char": "⟨",
+   "name": "mathematical left angle bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27E9": {
+   "char": "⟩",
+   "name": "mathematical right angle bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27EA": {
+   "char": "⟪",
+   "name": "mathematical left double angle bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27EB": {
+   "char": "⟫",
+   "name": "mathematical right double angle bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27EC": {
+   "char": "⟬",
+   "name": "mathematical left white tortoise shell bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27ED": {
+   "char": "⟭",
+   "name": "mathematical right white tortoise shell bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27EE": {
+   "char": "⟮",
+   "name": "mathematical left flattened parenthesis",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+27EF": {
+   "char": "⟯",
+   "name": "mathematical right flattened parenthesis",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2980": {
+   "char": "⦀",
+   "name": "triple vertical bar delimiter",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": false
+  },
+  "U+2983": {
+   "char": "⦃",
+   "name": "left white curly bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2984": {
+   "char": "⦄",
+   "name": "right white curly bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2985": {
+   "char": "⦅",
+   "name": "left white parenthesis",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2986": {
+   "char": "⦆",
+   "name": "right white parenthesis",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2987": {
+   "char": "⦇",
+   "name": "z notation left image bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2988": {
+   "char": "⦈",
+   "name": "z notation right image bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2989": {
+   "char": "⦉",
+   "name": "z notation left binding bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+298A": {
+   "char": "⦊",
+   "name": "z notation right binding bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+298B": {
+   "char": "⦋",
+   "name": "left square bracket with underbar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+298C": {
+   "char": "⦌",
+   "name": "right square bracket with underbar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+298D": {
+   "char": "⦍",
+   "name": "left square bracket with tick in top corner",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+298E": {
+   "char": "⦎",
+   "name": "right square bracket with tick in bottom corner",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+298F": {
+   "char": "⦏",
+   "name": "left square bracket with tick in bottom corner",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2990": {
+   "char": "⦐",
+   "name": "right square bracket with tick in top corner",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2991": {
+   "char": "⦑",
+   "name": "left angle bracket with dot",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2992": {
+   "char": "⦒",
+   "name": "right angle bracket with dot",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2993": {
+   "char": "⦓",
+   "name": "left arc less-than bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2994": {
+   "char": "⦔",
+   "name": "right arc greater-than bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2995": {
+   "char": "⦕",
+   "name": "double left arc greater-than bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2996": {
+   "char": "⦖",
+   "name": "double right arc less-than bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2997": {
+   "char": "⦗",
+   "name": "left black tortoise shell bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2998": {
+   "char": "⦘",
+   "name": "right black tortoise shell bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+29FC": {
+   "char": "⧼",
+   "name": "left-pointing curved angle bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+29FD": {
+   "char": "⧽",
+   "name": "right-pointing curved angle bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": true,
+   "symmetric": true
+  },
+  "U+2044": {
+   "char": "⁄",
+   "name": "fraction slash",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2215": {
+   "char": "∕",
+   "name": "division slash",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2190": {
+   "char": "←",
+   "name": "leftwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2191": {
+   "char": "↑",
+   "name": "upwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2192": {
+   "char": "→",
+   "name": "rightwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2193": {
+   "char": "↓",
+   "name": "downwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2194": {
+   "char": "↔",
+   "name": "left right arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2195": {
+   "char": "↕",
+   "name": "up down arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2196": {
+   "char": "↖",
+   "name": "north west arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2197": {
+   "char": "↗",
+   "name": "north east arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2198": {
+   "char": "↘",
+   "name": "south east arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2199": {
+   "char": "↙",
+   "name": "south west arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+219C": {
+   "char": "↜",
+   "name": "leftwards wave arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+219D": {
+   "char": "↝",
+   "name": "rightwards wave arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+219E": {
+   "char": "↞",
+   "name": "leftwards two headed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+219F": {
+   "char": "↟",
+   "name": "upwards two headed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A0": {
+   "char": "↠",
+   "name": "rightwards two headed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A1": {
+   "char": "↡",
+   "name": "downwards two headed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A2": {
+   "char": "↢",
+   "name": "leftwards arrow with tail",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A3": {
+   "char": "↣",
+   "name": "rightwards arrow with tail",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A4": {
+   "char": "↤",
+   "name": "leftwards arrow from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A5": {
+   "char": "↥",
+   "name": "upwards arrow from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A6": {
+   "char": "↦",
+   "name": "rightwards arrow from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A7": {
+   "char": "↧",
+   "name": "downwards arrow from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A8": {
+   "char": "↨",
+   "name": "up down arrow with base",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21A9": {
+   "char": "↩",
+   "name": "leftwards arrow with hook",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21AA": {
+   "char": "↪",
+   "name": "rightwards arrow with hook",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21AB": {
+   "char": "↫",
+   "name": "leftwards arrow with loop",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21AC": {
+   "char": "↬",
+   "name": "rightwards arrow with loop",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21AD": {
+   "char": "↭",
+   "name": "left right wave arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21AF": {
+   "char": "↯",
+   "name": "downwards zigzag arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21B0": {
+   "char": "↰",
+   "name": "upwards arrow with tip leftwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21B1": {
+   "char": "↱",
+   "name": "upwards arrow with tip rightwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21B2": {
+   "char": "↲",
+   "name": "downwards arrow with tip leftwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21B3": {
+   "char": "↳",
+   "name": "downwards arrow with tip rightwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21B4": {
+   "char": "↴",
+   "name": "rightwards arrow with corner downwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21B5": {
+   "char": "↵",
+   "name": "downwards arrow with corner leftwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21B9": {
+   "char": "↹",
+   "name": "leftwards arrow to bar over rightwards arrow to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21BC": {
+   "char": "↼",
+   "name": "leftwards harpoon with barb upwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21BD": {
+   "char": "↽",
+   "name": "leftwards harpoon with barb downwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21BE": {
+   "char": "↾",
+   "name": "upwards harpoon with barb rightwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21BF": {
+   "char": "↿",
+   "name": "upwards harpoon with barb leftwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C0": {
+   "char": "⇀",
+   "name": "rightwards harpoon with barb upwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C1": {
+   "char": "⇁",
+   "name": "rightwards harpoon with barb downwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C2": {
+   "char": "⇂",
+   "name": "downwards harpoon with barb rightwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C3": {
+   "char": "⇃",
+   "name": "downwards harpoon with barb leftwards",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C4": {
+   "char": "⇄",
+   "name": "rightwards arrow over leftwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C5": {
+   "char": "⇅",
+   "name": "upwards arrow leftwards of downwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C6": {
+   "char": "⇆",
+   "name": "leftwards arrow over rightwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C7": {
+   "char": "⇇",
+   "name": "leftwards paired arrows",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C8": {
+   "char": "⇈",
+   "name": "upwards paired arrows",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21C9": {
+   "char": "⇉",
+   "name": "rightwards paired arrows",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21CA": {
+   "char": "⇊",
+   "name": "downwards paired arrows",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21CB": {
+   "char": "⇋",
+   "name": "leftwards harpoon over rightwards harpoon",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21CC": {
+   "char": "⇌",
+   "name": "rightwards harpoon over leftwards harpoon",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D0": {
+   "char": "⇐",
+   "name": "leftwards double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D1": {
+   "char": "⇑",
+   "name": "upwards double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D2": {
+   "char": "⇒",
+   "name": "rightwards double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D3": {
+   "char": "⇓",
+   "name": "downwards double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D4": {
+   "char": "⇔",
+   "name": "left right double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D5": {
+   "char": "⇕",
+   "name": "up down double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D6": {
+   "char": "⇖",
+   "name": "north west double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D7": {
+   "char": "⇗",
+   "name": "north east double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D8": {
+   "char": "⇘",
+   "name": "south east double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21D9": {
+   "char": "⇙",
+   "name": "south west double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21DA": {
+   "char": "⇚",
+   "name": "leftwards triple arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21DB": {
+   "char": "⇛",
+   "name": "rightwards triple arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21DC": {
+   "char": "⇜",
+   "name": "leftwards squiggle arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21DD": {
+   "char": "⇝",
+   "name": "rightwards squiggle arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E0": {
+   "char": "⇠",
+   "name": "leftwards dashed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E1": {
+   "char": "⇡",
+   "name": "upwards dashed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E2": {
+   "char": "⇢",
+   "name": "rightwards dashed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E3": {
+   "char": "⇣",
+   "name": "downwards dashed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E4": {
+   "char": "⇤",
+   "name": "leftwards arrow to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E5": {
+   "char": "⇥",
+   "name": "rightwards arrow to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E6": {
+   "char": "⇦",
+   "name": "leftwards white arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E7": {
+   "char": "⇧",
+   "name": "upwards white arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E8": {
+   "char": "⇨",
+   "name": "rightwards white arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21E9": {
+   "char": "⇩",
+   "name": "downwards white arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21EA": {
+   "char": "⇪",
+   "name": "upwards white arrow from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21EB": {
+   "char": "⇫",
+   "name": "upwards white arrow on pedestal",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21EC": {
+   "char": "⇬",
+   "name": "upwards white arrow on pedestal with horizontal bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21ED": {
+   "char": "⇭",
+   "name": "upwards white arrow on pedestal with vertical bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21EE": {
+   "char": "⇮",
+   "name": "upwards white double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21EF": {
+   "char": "⇯",
+   "name": "upwards white double arrow on pedestal",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21F0": {
+   "char": "⇰",
+   "name": "rightwards white arrow from wall",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21F3": {
+   "char": "⇳",
+   "name": "up down white arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21F5": {
+   "char": "⇵",
+   "name": "downwards arrow leftwards of upwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21F6": {
+   "char": "⇶",
+   "name": "three rightwards arrows",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21FD": {
+   "char": "⇽",
+   "name": "leftwards open-headed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21FE": {
+   "char": "⇾",
+   "name": "rightwards open-headed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+21FF": {
+   "char": "⇿",
+   "name": "left right open-headed arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27F0": {
+   "char": "⟰",
+   "name": "upwards quadruple arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27F1": {
+   "char": "⟱",
+   "name": "downwards quadruple arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27F5": {
+   "char": "⟵",
+   "name": "long leftwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27F6": {
+   "char": "⟶",
+   "name": "long rightwards arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27F7": {
+   "char": "⟷",
+   "name": "long left right arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27F8": {
+   "char": "⟸",
+   "name": "long leftwards double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27F9": {
+   "char": "⟹",
+   "name": "long rightwards double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27FA": {
+   "char": "⟺",
+   "name": "long left right double arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27FB": {
+   "char": "⟻",
+   "name": "long leftwards arrow from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27FC": {
+   "char": "⟼",
+   "name": "long rightwards arrow from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27FD": {
+   "char": "⟽",
+   "name": "long leftwards double arrow from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27FE": {
+   "char": "⟾",
+   "name": "long rightwards double arrow from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+27FF": {
+   "char": "⟿",
+   "name": "long rightwards squiggle arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+290A": {
+   "char": "⤊",
+   "name": "upwards triple arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+290B": {
+   "char": "⤋",
+   "name": "downwards triple arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+290C": {
+   "char": "⤌",
+   "name": "leftwards double dash arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+290D": {
+   "char": "⤍",
+   "name": "rightwards double dash arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+290E": {
+   "char": "⤎",
+   "name": "leftwards triple dash arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+290F": {
+   "char": "⤏",
+   "name": "rightwards triple dash arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2910": {
+   "char": "⤐",
+   "name": "rightwards two-headed triple dash arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2912": {
+   "char": "⤒",
+   "name": "upwards arrow to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2913": {
+   "char": "⤓",
+   "name": "downwards arrow to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2921": {
+   "char": "⤡",
+   "name": "north west and south east arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2922": {
+   "char": "⤢",
+   "name": "north east and south west arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+294E": {
+   "char": "⥎",
+   "name": "left barb up right barb up harpoon",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+294F": {
+   "char": "⥏",
+   "name": "up barb right down barb right harpoon",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2950": {
+   "char": "⥐",
+   "name": "left barb down right barb down harpoon",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2951": {
+   "char": "⥑",
+   "name": "up barb left down barb left harpoon",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2952": {
+   "char": "⥒",
+   "name": "leftwards harpoon with barb up to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2953": {
+   "char": "⥓",
+   "name": "rightwards harpoon with barb up to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2954": {
+   "char": "⥔",
+   "name": "upwards harpoon with barb right to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2955": {
+   "char": "⥕",
+   "name": "downwards harpoon with barb right to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2956": {
+   "char": "⥖",
+   "name": "leftwards harpoon with barb down to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2957": {
+   "char": "⥗",
+   "name": "rightwards harpoon with barb down to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2958": {
+   "char": "⥘",
+   "name": "upwards harpoon with barb left to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2959": {
+   "char": "⥙",
+   "name": "downwards harpoon with barb left to bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+295A": {
+   "char": "⥚",
+   "name": "leftwards harpoon with barb up from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+295B": {
+   "char": "⥛",
+   "name": "rightwards harpoon with barb up from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+295C": {
+   "char": "⥜",
+   "name": "upwards harpoon with barb right from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+295D": {
+   "char": "⥝",
+   "name": "downwards harpoon with barb right from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+295E": {
+   "char": "⥞",
+   "name": "leftwards harpoon with barb down from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+295F": {
+   "char": "⥟",
+   "name": "rightwards harpoon with barb down from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2960": {
+   "char": "⥠",
+   "name": "upwards harpoon with barb left from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2961": {
+   "char": "⥡",
+   "name": "downwards harpoon with barb left from bar",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+296E": {
+   "char": "⥮",
+   "name": "upwards harpoon with barb left beside downwards harpoon with barb right",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+296F": {
+   "char": "⥯",
+   "name": "downwards harpoon with barb left beside upwards harpoon with barb right",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2B45": {
+   "char": "⭅",
+   "name": "leftwards quadruple arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2B46": {
+   "char": "⭆",
+   "name": "rightwards quadruple arrow",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+2211": {
+   "char": "∑",
+   "name": "n-ary summation",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A0A": {
+   "char": "⨊",
+   "name": "modulo two sum",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A0B": {
+   "char": "⨋",
+   "name": "summation with integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+222C": {
+   "char": "∬",
+   "name": "double integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+222D": {
+   "char": "∭",
+   "name": "triple integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A01": {
+   "char": "⨁",
+   "name": "n-ary circled plus operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+222B": {
+   "char": "∫",
+   "name": "integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+222E": {
+   "char": "∮",
+   "name": "contour integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+222F": {
+   "char": "∯",
+   "name": "surface integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2230": {
+   "char": "∰",
+   "name": "volume integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2231": {
+   "char": "∱",
+   "name": "clockwise integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2232": {
+   "char": "∲",
+   "name": "clockwise contour integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2233": {
+   "char": "∳",
+   "name": "anticlockwise contour integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A0C": {
+   "char": "⨌",
+   "name": "quadruple integral operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A0D": {
+   "char": "⨍",
+   "name": "finite part integral",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A0E": {
+   "char": "⨎",
+   "name": "integral with double stroke",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A0F": {
+   "char": "⨏",
+   "name": "integral average with slash",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A10": {
+   "char": "⨐",
+   "name": "circulation function",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A11": {
+   "char": "⨑",
+   "name": "anticlockwise integration",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A12": {
+   "char": "⨒",
+   "name": "line integration with rectangular path around pole",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A13": {
+   "char": "⨓",
+   "name": "line integration with semicircular path around pole",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A14": {
+   "char": "⨔",
+   "name": "line integration not including the pole",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A15": {
+   "char": "⨕",
+   "name": "integral around a point operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A16": {
+   "char": "⨖",
+   "name": "quaternion integral operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A17": {
+   "char": "⨗",
+   "name": "integral with leftwards arrow with hook",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A18": {
+   "char": "⨘",
+   "name": "integral with times sign",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A19": {
+   "char": "⨙",
+   "name": "integral with intersection",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A1A": {
+   "char": "⨚",
+   "name": "integral with union",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A1B": {
+   "char": "⨛",
+   "name": "integral with overbar",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A1C": {
+   "char": "⨜",
+   "name": "integral with underbar",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+22C3": {
+   "char": "⋃",
+   "name": "n-ary union",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A03": {
+   "char": "⨃",
+   "name": "n-ary union operator with dot",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A04": {
+   "char": "⨄",
+   "name": "n-ary union operator with plus",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+22C0": {
+   "char": "⋀",
+   "name": "n-ary logical and",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+22C1": {
+   "char": "⋁",
+   "name": "n-ary logical or",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+22C2": {
+   "char": "⋂",
+   "name": "n-ary intersection",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A00": {
+   "char": "⨀",
+   "name": "n-ary circled dot operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A02": {
+   "char": "⨂",
+   "name": "n-ary circled times operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A05": {
+   "char": "⨅",
+   "name": "n-ary square intersection operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A06": {
+   "char": "⨆",
+   "name": "n-ary square union operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A07": {
+   "char": "⨇",
+   "name": "two logical and operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A08": {
+   "char": "⨈",
+   "name": "two logical or operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2A09": {
+   "char": "⨉",
+   "name": "n-ary times operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2AFC": {
+   "char": "⫼",
+   "name": "large triple vertical bar operator",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2AFF": {
+   "char": "⫿",
+   "name": "n-ary white vertical bar",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+220F": {
+   "char": "∏",
+   "name": "n-ary product",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+2210": {
+   "char": "∐",
+   "name": "n-ary coproduct",
+   "stretchy": false,
+   "largeop": true,
+   "accent": false,
+   "fence": false,
+   "symmetric": true
+  },
+  "U+221A": {
+   "char": "√",
+   "name": "square root",
+   "stretchy": true,
+   "largeop": false,
+   "accent": false,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+005E": {
+   "char": "^",
+   "name": "circumflex accent",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+005F": {
+   "char": "_",
+   "name": "low line",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+007E": {
+   "char": "~",
+   "name": "tilde",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+00AF": {
+   "char": "¯",
+   "name": "macron",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+02C6": {
+   "char": "ˆ",
+   "name": "modifier letter circumflex accent",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+02C7": {
+   "char": "ˇ",
+   "name": "caron",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+02C9": {
+   "char": "ˉ",
+   "name": "modifier letter macron",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+02CD": {
+   "char": "ˍ",
+   "name": "modifier letter low macron",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+02DC": {
+   "char": "˜",
+   "name": "small tilde",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+02F7": {
+   "char": "˷",
+   "name": "modifier letter low tilde",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+0302": {
+   "char": "̂",
+   "name": "combining circumflex accent",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+203E": {
+   "char": "‾",
+   "name": "overline",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+23B4": {
+   "char": "⎴",
+   "name": "top square bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+23B5": {
+   "char": "⎵",
+   "name": "bottom square bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+23DC": {
+   "char": "⏜",
+   "name": "top parenthesis",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+23DD": {
+   "char": "⏝",
+   "name": "bottom parenthesis",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+23DE": {
+   "char": "⏞",
+   "name": "top curly bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+23DF": {
+   "char": "⏟",
+   "name": "bottom curly bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+23E0": {
+   "char": "⏠",
+   "name": "top tortoise shell bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  },
+  "U+23E1": {
+   "char": "⏡",
+   "name": "bottom tortoise shell bracket",
+   "stretchy": true,
+   "largeop": false,
+   "accent": true,
+   "fence": false,
+   "symmetric": false
+  }
+ }
+}

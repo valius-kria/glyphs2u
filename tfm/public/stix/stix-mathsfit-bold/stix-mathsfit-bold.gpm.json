@@ -1,0 +1,4074 @@
+{
+ "font": "stix-mathsfit-bold",
+ "pfb": "stix-mathsfit-bold.pfb",
+ "enc": "stix-mathsfit-bold.pfb.enc.json",
+ "htf": "stix-mathsfit-bold",
+ "htf_entry": "stix-mathsfit-bold",
+ "htf_decl": {},
+ "props": {},
+ "status": {
+  "family": "?",
+  "weight": "manual",
+  "variant": "?",
+  "style": "manual"
+ },
+ "glyphs": {
+  "u1D792": {
+   "slot": 0,
+   "pos": 1,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x0393;</mfont>",
+   "base": "Γ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D793": {
+   "slot": 1,
+   "pos": 2,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x0394;</mfont>",
+   "base": "Δ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D797": {
+   "slot": 2,
+   "pos": 3,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x0398;</mfont>",
+   "base": "Θ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D79A": {
+   "slot": 3,
+   "pos": 4,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x039B;</mfont>",
+   "base": "Λ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D79D": {
+   "slot": 4,
+   "pos": 5,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x039E;</mfont>",
+   "base": "Ξ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D79F": {
+   "slot": 5,
+   "pos": 6,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03A0;</mfont>",
+   "base": "Π",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7A2": {
+   "slot": 6,
+   "pos": 7,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03A3;</mfont>",
+   "base": "Σ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7A4": {
+   "slot": 7,
+   "pos": 8,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03A5;</mfont>",
+   "base": "Υ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7A5": {
+   "slot": 8,
+   "pos": 9,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03A6;</mfont>",
+   "base": "Φ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7A7": {
+   "slot": 9,
+   "pos": 10,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03A8;</mfont>",
+   "base": "Ψ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7A8": {
+   "slot": 10,
+   "pos": 11,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03A9;</mfont>",
+   "base": "Ω",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7AA": {
+   "slot": 11,
+   "pos": 12,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03B1;</mfont>",
+   "base": "α",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7AB": {
+   "slot": 12,
+   "pos": 13,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03B2;</mfont>",
+   "base": "β",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7AC": {
+   "slot": 13,
+   "pos": 14,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03B3;</mfont>",
+   "base": "γ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7AD": {
+   "slot": 14,
+   "pos": 15,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03B4;</mfont>",
+   "base": "δ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7C4": {
+   "slot": 15,
+   "pos": 16,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03F5;</mfont>",
+   "base": "ϵ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7AF": {
+   "slot": 16,
+   "pos": 17,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03B6;</mfont>",
+   "base": "ζ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7B0": {
+   "slot": 17,
+   "pos": 18,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03B7;</mfont>",
+   "base": "η",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7B1": {
+   "slot": 18,
+   "pos": 19,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03B8;</mfont>",
+   "base": "θ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7B2": {
+   "slot": 19,
+   "pos": 20,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03B9;</mfont>",
+   "base": "ι",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7B3": {
+   "slot": 20,
+   "pos": 21,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03BA;</mfont>",
+   "base": "κ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7B4": {
+   "slot": 21,
+   "pos": 22,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03BB;</mfont>",
+   "base": "λ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7B5": {
+   "slot": 22,
+   "pos": 23,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03BC;</mfont>",
+   "base": "μ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7B6": {
+   "slot": 23,
+   "pos": 24,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03BD;</mfont>",
+   "base": "ν",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7B7": {
+   "slot": 24,
+   "pos": 25,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03BE;</mfont>",
+   "base": "ξ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7B9": {
+   "slot": 25,
+   "pos": 26,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C0;</mfont>",
+   "base": "π",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7BA": {
+   "slot": 26,
+   "pos": 27,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C1;</mfont>",
+   "base": "ρ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7BC": {
+   "slot": 27,
+   "pos": 28,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C3;</mfont>",
+   "base": "σ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7BD": {
+   "slot": 28,
+   "pos": 29,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C4;</mfont>",
+   "base": "τ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7BE": {
+   "slot": 29,
+   "pos": 30,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C5;</mfont>",
+   "base": "υ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7C7": {
+   "slot": 30,
+   "pos": 31,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03D5;</mfont>",
+   "base": "ϕ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7C0": {
+   "slot": 31,
+   "pos": 32,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C7;</mfont>",
+   "base": "χ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7C1": {
+   "slot": 32,
+   "pos": 33,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C8;</mfont>",
+   "base": "ψ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7C2": {
+   "slot": 33,
+   "pos": 34,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C9;</mfont>",
+   "base": "ω",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7AE": {
+   "slot": 34,
+   "pos": 35,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03B5;</mfont>",
+   "base": "ε",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7C5": {
+   "slot": 35,
+   "pos": 36,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03D1;</mfont>",
+   "base": "ϑ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7C9": {
+   "slot": 36,
+   "pos": 37,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03D6;</mfont>",
+   "base": "ϖ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7C8": {
+   "slot": 37,
+   "pos": 38,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03F1;</mfont>",
+   "base": "ϱ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7BB": {
+   "slot": 38,
+   "pos": 39,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C2;</mfont>",
+   "base": "ς",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7BF": {
+   "slot": 39,
+   "pos": 40,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x03C6;</mfont>",
+   "base": "φ",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7A9": {
+   "slot": 40,
+   "pos": 41,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x2207;</mfont>",
+   "base": "∇",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D7C3": {
+   "slot": 41,
+   "pos": 42,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x2202;</mfont>",
+   "base": "∂",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "uni2B32": {
+   "slot": 42,
+   "pos": 43,
+   "htf_value": "&#x2B32;",
+   "base": "⬲",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B33": {
+   "slot": 43,
+   "pos": 44,
+   "htf_value": "&#x2B33;",
+   "base": "⬳",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B34": {
+   "slot": 44,
+   "pos": 45,
+   "htf_value": "&#x2B34;",
+   "base": "⬴",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B35": {
+   "slot": 45,
+   "pos": 46,
+   "htf_value": "&#x2B35;",
+   "base": "⬵",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B36": {
+   "slot": 46,
+   "pos": 47,
+   "htf_value": "&#x2B36;",
+   "base": "⬶",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B37": {
+   "slot": 47,
+   "pos": 48,
+   "htf_value": "&#x2B37;",
+   "base": "⬷",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "u1D7EC": {
+   "slot": 48,
+   "pos": 49,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">0</mfont>",
+   "base": "0",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "u1D7ED": {
+   "slot": 49,
+   "pos": 50,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">1</mfont>",
+   "base": "1",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "u1D7EE": {
+   "slot": 50,
+   "pos": 51,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">2</mfont>",
+   "base": "2",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "u1D7EF": {
+   "slot": 51,
+   "pos": 52,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">3</mfont>",
+   "base": "3",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "u1D7F0": {
+   "slot": 52,
+   "pos": 53,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">4</mfont>",
+   "base": "4",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "u1D7F1": {
+   "slot": 53,
+   "pos": 54,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">5</mfont>",
+   "base": "5",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "u1D7F2": {
+   "slot": 54,
+   "pos": 55,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">6</mfont>",
+   "base": "6",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "u1D7F3": {
+   "slot": 55,
+   "pos": 56,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">7</mfont>",
+   "base": "7",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "u1D7F4": {
+   "slot": 56,
+   "pos": 57,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">8</mfont>",
+   "base": "8",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "u1D7F5": {
+   "slot": 57,
+   "pos": 58,
+   "htf_value": "<mfont mathvariant=\"bold-sans-serif\">9</mfont>",
+   "base": "9",
+   "props": {
+    "weight": "bold",
+    "family": "sans-serif",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode",
+    "style": "sibling"
+   }
+  },
+  "uni2B38": {
+   "slot": 58,
+   "pos": 59,
+   "htf_value": "&#x2B38;",
+   "base": "⬸",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B39": {
+   "slot": 59,
+   "pos": 60,
+   "htf_value": "&#x2B39;",
+   "base": "⬹",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B3A": {
+   "slot": 60,
+   "pos": 61,
+   "htf_value": "&#x2B3A;",
+   "base": "⬺",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B3B": {
+   "slot": 61,
+   "pos": 62,
+   "htf_value": "&#x2B3B;",
+   "base": "⬻",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B3C": {
+   "slot": 62,
+   "pos": 63,
+   "htf_value": "&#x2B3C;",
+   "base": "⬼",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B3D": {
+   "slot": 63,
+   "pos": 64,
+   "htf_value": "&#x2B3D;",
+   "base": "⬽",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B3E": {
+   "slot": 64,
+   "pos": 65,
+   "htf_value": "&#x2B3E;",
+   "base": "⬾",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "u1D63C": {
+   "slot": 65,
+   "pos": 66,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">A</mfont>",
+   "base": "A",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D63D": {
+   "slot": 66,
+   "pos": 67,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">B</mfont>",
+   "base": "B",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D63E": {
+   "slot": 67,
+   "pos": 68,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">C</mfont>",
+   "base": "C",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D63F": {
+   "slot": 68,
+   "pos": 69,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">D</mfont>",
+   "base": "D",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D640": {
+   "slot": 69,
+   "pos": 70,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">E</mfont>",
+   "base": "E",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D641": {
+   "slot": 70,
+   "pos": 71,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">F</mfont>",
+   "base": "F",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D642": {
+   "slot": 71,
+   "pos": 72,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">G</mfont>",
+   "base": "G",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D643": {
+   "slot": 72,
+   "pos": 73,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">H</mfont>",
+   "base": "H",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D644": {
+   "slot": 73,
+   "pos": 74,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">I</mfont>",
+   "base": "I",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D645": {
+   "slot": 74,
+   "pos": 75,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">J</mfont>",
+   "base": "J",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D646": {
+   "slot": 75,
+   "pos": 76,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">K</mfont>",
+   "base": "K",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D647": {
+   "slot": 76,
+   "pos": 77,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">L</mfont>",
+   "base": "L",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D648": {
+   "slot": 77,
+   "pos": 78,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">M</mfont>",
+   "base": "M",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D649": {
+   "slot": 78,
+   "pos": 79,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">N</mfont>",
+   "base": "N",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D64A": {
+   "slot": 79,
+   "pos": 80,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">O</mfont>",
+   "base": "O",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D64B": {
+   "slot": 80,
+   "pos": 81,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">P</mfont>",
+   "base": "P",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D64C": {
+   "slot": 81,
+   "pos": 82,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">Q</mfont>",
+   "base": "Q",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D64D": {
+   "slot": 82,
+   "pos": 83,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">R</mfont>",
+   "base": "R",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D64E": {
+   "slot": 83,
+   "pos": 84,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">S</mfont>",
+   "base": "S",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D64F": {
+   "slot": 84,
+   "pos": 85,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">T</mfont>",
+   "base": "T",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D650": {
+   "slot": 85,
+   "pos": 86,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">U</mfont>",
+   "base": "U",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D651": {
+   "slot": 86,
+   "pos": 87,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">V</mfont>",
+   "base": "V",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D652": {
+   "slot": 87,
+   "pos": 88,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">W</mfont>",
+   "base": "W",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D653": {
+   "slot": 88,
+   "pos": 89,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">X</mfont>",
+   "base": "X",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D654": {
+   "slot": 89,
+   "pos": 90,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">Y</mfont>",
+   "base": "Y",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D655": {
+   "slot": 90,
+   "pos": 91,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">Z</mfont>",
+   "base": "Z",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "uni2B3F": {
+   "slot": 91,
+   "pos": 92,
+   "htf_value": "&#x2B3F;",
+   "base": "⬿",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B40": {
+   "slot": 92,
+   "pos": 93,
+   "htf_value": "&#x2B40;",
+   "base": "⭀",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B41": {
+   "slot": 93,
+   "pos": 94,
+   "htf_value": "&#x2B41;",
+   "base": "⭁",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B42": {
+   "slot": 94,
+   "pos": 95,
+   "htf_value": "&#x2B42;",
+   "base": "⭂",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B43": {
+   "slot": 95,
+   "pos": 96,
+   "htf_value": "&#x2B43;",
+   "base": "⭃",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B44": {
+   "slot": 96,
+   "pos": 97,
+   "htf_value": "&#x2B44;",
+   "base": "⭄",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "u1D656": {
+   "slot": 97,
+   "pos": 98,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">a</mfont>",
+   "base": "a",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D657": {
+   "slot": 98,
+   "pos": 99,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">b</mfont>",
+   "base": "b",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D658": {
+   "slot": 99,
+   "pos": 100,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">c</mfont>",
+   "base": "c",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D659": {
+   "slot": 100,
+   "pos": 101,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">d</mfont>",
+   "base": "d",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D65A": {
+   "slot": 101,
+   "pos": 102,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">e</mfont>",
+   "base": "e",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D65B": {
+   "slot": 102,
+   "pos": 103,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">f</mfont>",
+   "base": "f",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D65C": {
+   "slot": 103,
+   "pos": 104,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">g</mfont>",
+   "base": "g",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D65D": {
+   "slot": 104,
+   "pos": 105,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">h</mfont>",
+   "base": "h",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D65E": {
+   "slot": 105,
+   "pos": 106,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">i</mfont>",
+   "base": "i",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D65F": {
+   "slot": 106,
+   "pos": 107,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">j</mfont>",
+   "base": "j",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D660": {
+   "slot": 107,
+   "pos": 108,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">k</mfont>",
+   "base": "k",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D661": {
+   "slot": 108,
+   "pos": 109,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">l</mfont>",
+   "base": "l",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D662": {
+   "slot": 109,
+   "pos": 110,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">m</mfont>",
+   "base": "m",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D663": {
+   "slot": 110,
+   "pos": 111,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">n</mfont>",
+   "base": "n",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D664": {
+   "slot": 111,
+   "pos": 112,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">o</mfont>",
+   "base": "o",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D665": {
+   "slot": 112,
+   "pos": 113,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">p</mfont>",
+   "base": "p",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D666": {
+   "slot": 113,
+   "pos": 114,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">q</mfont>",
+   "base": "q",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D667": {
+   "slot": 114,
+   "pos": 115,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">r</mfont>",
+   "base": "r",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D668": {
+   "slot": 115,
+   "pos": 116,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">s</mfont>",
+   "base": "s",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D669": {
+   "slot": 116,
+   "pos": 117,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">t</mfont>",
+   "base": "t",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D66A": {
+   "slot": 117,
+   "pos": 118,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">u</mfont>",
+   "base": "u",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D66B": {
+   "slot": 118,
+   "pos": 119,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">v</mfont>",
+   "base": "v",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D66C": {
+   "slot": 119,
+   "pos": 120,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">w</mfont>",
+   "base": "w",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D66D": {
+   "slot": 120,
+   "pos": 121,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">x</mfont>",
+   "base": "x",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D66E": {
+   "slot": 121,
+   "pos": 122,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">y</mfont>",
+   "base": "y",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D66F": {
+   "slot": 122,
+   "pos": 123,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">z</mfont>",
+   "base": "z",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D65E.dtls": {
+   "slot": 123,
+   "pos": 124,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x0131;</mfont>",
+   "base": "ı",
+   "rename": "idotless",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "name",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "u1D65F.dtls": {
+   "slot": 124,
+   "pos": 125,
+   "htf_value": "<mfont mathvariant=\"sans-serif-bold-italic\">&#x0237;</mfont>",
+   "base": "ȷ",
+   "rename": "jdotless",
+   "props": {
+    "family": "sans-serif",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "name",
+    "family": "unicode",
+    "weight": "unicode",
+    "style": "unicode"
+   }
+  },
+  "uni2B45": {
+   "slot": 125,
+   "pos": 126,
+   "htf_value": "&#x2B45;",
+   "base": "⭅",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B46": {
+   "slot": 126,
+   "pos": 127,
+   "htf_value": "&#x2B46;",
+   "base": "⭆",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2040": {
+   "slot": 127,
+   "pos": 128,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2040;</mfont>",
+   "base": "⁀",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0300": {
+   "slot": 128,
+   "pos": 129,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0300;</mfont>",
+   "base": "̀",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0301": {
+   "slot": 129,
+   "pos": 130,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0301;</mfont>",
+   "base": "́",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0302": {
+   "slot": 130,
+   "pos": 131,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0302;</mfont>",
+   "base": "̂",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0303": {
+   "slot": 131,
+   "pos": 132,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0303;</mfont>",
+   "base": "̃",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0304": {
+   "slot": 132,
+   "pos": 133,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0304;</mfont>",
+   "base": "̄",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0306": {
+   "slot": 133,
+   "pos": 134,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0306;</mfont>",
+   "base": "̆",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0307": {
+   "slot": 134,
+   "pos": 135,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0307;</mfont>",
+   "base": "̇",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0308": {
+   "slot": 135,
+   "pos": 136,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0308;</mfont>",
+   "base": "̈",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0309": {
+   "slot": 136,
+   "pos": 137,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0309;</mfont>",
+   "base": "̉",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni030A": {
+   "slot": 137,
+   "pos": 138,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x030A;</mfont>",
+   "base": "̊",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni030C": {
+   "slot": 138,
+   "pos": 139,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x030C;</mfont>",
+   "base": "̌",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0310": {
+   "slot": 139,
+   "pos": 140,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0310;</mfont>",
+   "base": "̐",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0312": {
+   "slot": 140,
+   "pos": 141,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0312;</mfont>",
+   "base": "̒",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni0315": {
+   "slot": 141,
+   "pos": 142,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0315;</mfont>",
+   "base": "̕",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni031A": {
+   "slot": 142,
+   "pos": 143,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x031A;</mfont>",
+   "base": "̚",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20D0": {
+   "slot": 143,
+   "pos": 144,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D0;</mfont>",
+   "base": "⃐",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20D1": {
+   "slot": 144,
+   "pos": 145,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D1;</mfont>",
+   "base": "⃑",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20D6": {
+   "slot": 145,
+   "pos": 146,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D6;</mfont>",
+   "base": "⃖",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20D7": {
+   "slot": 146,
+   "pos": 147,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D7;</mfont>",
+   "base": "⃗",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20DB": {
+   "slot": 147,
+   "pos": 148,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20DB;</mfont>",
+   "base": "⃛",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20DC": {
+   "slot": 148,
+   "pos": 149,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20DC;</mfont>",
+   "base": "⃜",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20E1": {
+   "slot": 149,
+   "pos": 150,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20E1;</mfont>",
+   "base": "⃡",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20E7": {
+   "slot": 150,
+   "pos": 151,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20E7;</mfont>",
+   "base": "⃧",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20E9": {
+   "slot": 151,
+   "pos": 152,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20E9;</mfont>",
+   "base": "⃩",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni20F0": {
+   "slot": 152,
+   "pos": 153,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20F0;</mfont>",
+   "base": "⃰",
+   "props": {
+    "weight": "bold",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2900": {
+   "slot": 153,
+   "pos": 154,
+   "htf_value": "&#x2900;",
+   "base": "⤀",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2901": {
+   "slot": 154,
+   "pos": 155,
+   "htf_value": "&#x2901;",
+   "base": "⤁",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2902": {
+   "slot": 155,
+   "pos": 156,
+   "htf_value": "&#x2902;",
+   "base": "⤂",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2903": {
+   "slot": 156,
+   "pos": 157,
+   "htf_value": "&#x2903;",
+   "base": "⤃",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2904": {
+   "slot": 157,
+   "pos": 158,
+   "htf_value": "&#x2904;",
+   "base": "⤄",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2905": {
+   "slot": 158,
+   "pos": 159,
+   "htf_value": "&#x2905;",
+   "base": "⤅",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2906": {
+   "slot": 159,
+   "pos": 160,
+   "htf_value": "&#x2906;",
+   "base": "⤆",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2907": {
+   "slot": 160,
+   "pos": 161,
+   "htf_value": "&#x2907;",
+   "base": "⤇",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2908": {
+   "slot": 161,
+   "pos": 162,
+   "htf_value": "&#x2908;",
+   "base": "⤈",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2909": {
+   "slot": 162,
+   "pos": 163,
+   "htf_value": "&#x2909;",
+   "base": "⤉",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B30": {
+   "slot": 163,
+   "pos": 164,
+   "htf_value": "&#x2B30;",
+   "base": "⬰",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2B31": {
+   "slot": 164,
+   "pos": 165,
+   "htf_value": "&#x2B31;",
+   "base": "⬱",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni290C": {
+   "slot": 165,
+   "pos": 166,
+   "htf_value": "&#x290C;",
+   "base": "⤌",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni290D": {
+   "slot": 166,
+   "pos": 167,
+   "htf_value": "&#x290D;",
+   "base": "⤍",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni290E": {
+   "slot": 167,
+   "pos": 168,
+   "htf_value": "&#x290E;",
+   "base": "⤎",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni290F": {
+   "slot": 168,
+   "pos": 169,
+   "htf_value": "&#x290F;",
+   "base": "⤏",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2910": {
+   "slot": 169,
+   "pos": 170,
+   "htf_value": "&#x2910;",
+   "base": "⤐",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2911": {
+   "slot": 170,
+   "pos": 171,
+   "htf_value": "&#x2911;",
+   "base": "⤑",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2912": {
+   "slot": 171,
+   "pos": 172,
+   "htf_value": "&#x2912;",
+   "base": "⤒",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2913": {
+   "slot": 172,
+   "pos": 173,
+   "htf_value": "&#x2913;",
+   "base": "⤓",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2914": {
+   "slot": 173,
+   "pos": 174,
+   "htf_value": "&#x2914;",
+   "base": "⤔",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2915": {
+   "slot": 174,
+   "pos": 175,
+   "htf_value": "&#x2915;",
+   "base": "⤕",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2916": {
+   "slot": 175,
+   "pos": 176,
+   "htf_value": "&#x2916;",
+   "base": "⤖",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2917": {
+   "slot": 176,
+   "pos": 177,
+   "htf_value": "&#x2917;",
+   "base": "⤗",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2918": {
+   "slot": 177,
+   "pos": 178,
+   "htf_value": "&#x2918;",
+   "base": "⤘",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2919": {
+   "slot": 178,
+   "pos": 179,
+   "htf_value": "&#x2919;",
+   "base": "⤙",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni291A": {
+   "slot": 179,
+   "pos": 180,
+   "htf_value": "&#x291A;",
+   "base": "⤚",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni291B": {
+   "slot": 180,
+   "pos": 181,
+   "htf_value": "&#x291B;",
+   "base": "⤛",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni291C": {
+   "slot": 181,
+   "pos": 182,
+   "htf_value": "&#x291C;",
+   "base": "⤜",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni291D": {
+   "slot": 182,
+   "pos": 183,
+   "htf_value": "&#x291D;",
+   "base": "⤝",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni291E": {
+   "slot": 183,
+   "pos": 184,
+   "htf_value": "&#x291E;",
+   "base": "⤞",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni291F": {
+   "slot": 184,
+   "pos": 185,
+   "htf_value": "&#x291F;",
+   "base": "⤟",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2920": {
+   "slot": 185,
+   "pos": 186,
+   "htf_value": "&#x2920;",
+   "base": "⤠",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2921": {
+   "slot": 186,
+   "pos": 187,
+   "htf_value": "&#x2921;",
+   "base": "⤡",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2922": {
+   "slot": 187,
+   "pos": 188,
+   "htf_value": "&#x2922;",
+   "base": "⤢",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2923": {
+   "slot": 188,
+   "pos": 189,
+   "htf_value": "&#x2923;",
+   "base": "⤣",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2924": {
+   "slot": 189,
+   "pos": 190,
+   "htf_value": "&#x2924;",
+   "base": "⤤",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2925": {
+   "slot": 190,
+   "pos": 191,
+   "htf_value": "&#x2925;",
+   "base": "⤥",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2926": {
+   "slot": 191,
+   "pos": 192,
+   "htf_value": "&#x2926;",
+   "base": "⤦",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2927": {
+   "slot": 192,
+   "pos": 193,
+   "htf_value": "&#x2927;",
+   "base": "⤧",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2928": {
+   "slot": 193,
+   "pos": 194,
+   "htf_value": "&#x2928;",
+   "base": "⤨",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2929": {
+   "slot": 194,
+   "pos": 195,
+   "htf_value": "&#x2929;",
+   "base": "⤩",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni292A": {
+   "slot": 195,
+   "pos": 196,
+   "htf_value": "&#x292A;",
+   "base": "⤪",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni292B": {
+   "slot": 196,
+   "pos": 197,
+   "htf_value": "&#x292B;",
+   "base": "⤫",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni292C": {
+   "slot": 197,
+   "pos": 198,
+   "htf_value": "&#x292C;",
+   "base": "⤬",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni292D": {
+   "slot": 198,
+   "pos": 199,
+   "htf_value": "&#x292D;",
+   "base": "⤭",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni292E": {
+   "slot": 199,
+   "pos": 200,
+   "htf_value": "&#x292E;",
+   "base": "⤮",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni292F": {
+   "slot": 200,
+   "pos": 201,
+   "htf_value": "&#x292F;",
+   "base": "⤯",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2930": {
+   "slot": 201,
+   "pos": 202,
+   "htf_value": "&#x2930;",
+   "base": "⤰",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2931": {
+   "slot": 202,
+   "pos": 203,
+   "htf_value": "&#x2931;",
+   "base": "⤱",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2932": {
+   "slot": 203,
+   "pos": 204,
+   "htf_value": "&#x2932;",
+   "base": "⤲",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2933": {
+   "slot": 204,
+   "pos": 205,
+   "htf_value": "&#x2933;",
+   "base": "⤳",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2934": {
+   "slot": 205,
+   "pos": 206,
+   "htf_value": "&#x2934;",
+   "base": "⤴",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2935": {
+   "slot": 206,
+   "pos": 207,
+   "htf_value": "&#x2935;",
+   "base": "⤵",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2936": {
+   "slot": 207,
+   "pos": 208,
+   "htf_value": "&#x2936;",
+   "base": "⤶",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2937": {
+   "slot": 208,
+   "pos": 209,
+   "htf_value": "&#x2937;",
+   "base": "⤷",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2938": {
+   "slot": 209,
+   "pos": 210,
+   "htf_value": "&#x2938;",
+   "base": "⤸",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2939": {
+   "slot": 210,
+   "pos": 211,
+   "htf_value": "&#x2939;",
+   "base": "⤹",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni293A": {
+   "slot": 211,
+   "pos": 212,
+   "htf_value": "&#x293A;",
+   "base": "⤺",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni293B": {
+   "slot": 212,
+   "pos": 213,
+   "htf_value": "&#x293B;",
+   "base": "⤻",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni293C": {
+   "slot": 213,
+   "pos": 214,
+   "htf_value": "&#x293C;",
+   "base": "⤼",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni293D": {
+   "slot": 214,
+   "pos": 215,
+   "htf_value": "&#x293D;",
+   "base": "⤽",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni293E": {
+   "slot": 215,
+   "pos": 216,
+   "htf_value": "&#x293E;",
+   "base": "⤾",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni293F": {
+   "slot": 216,
+   "pos": 217,
+   "htf_value": "&#x293F;",
+   "base": "⤿",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2940": {
+   "slot": 217,
+   "pos": 218,
+   "htf_value": "&#x2940;",
+   "base": "⥀",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2941": {
+   "slot": 218,
+   "pos": 219,
+   "htf_value": "&#x2941;",
+   "base": "⥁",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2942": {
+   "slot": 219,
+   "pos": 220,
+   "htf_value": "&#x2942;",
+   "base": "⥂",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2943": {
+   "slot": 220,
+   "pos": 221,
+   "htf_value": "&#x2943;",
+   "base": "⥃",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2944": {
+   "slot": 221,
+   "pos": 222,
+   "htf_value": "&#x2944;",
+   "base": "⥄",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2945": {
+   "slot": 222,
+   "pos": 223,
+   "htf_value": "&#x2945;",
+   "base": "⥅",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2946": {
+   "slot": 223,
+   "pos": 224,
+   "htf_value": "&#x2946;",
+   "base": "⥆",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2947": {
+   "slot": 224,
+   "pos": 225,
+   "htf_value": "&#x2947;",
+   "base": "⥇",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2948": {
+   "slot": 225,
+   "pos": 226,
+   "htf_value": "&#x2948;",
+   "base": "⥈",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2949": {
+   "slot": 226,
+   "pos": 227,
+   "htf_value": "&#x2949;",
+   "base": "⥉",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni294A": {
+   "slot": 227,
+   "pos": 228,
+   "htf_value": "&#x294A;",
+   "base": "⥊",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni294B": {
+   "slot": 228,
+   "pos": 229,
+   "htf_value": "&#x294B;",
+   "base": "⥋",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni294C": {
+   "slot": 229,
+   "pos": 230,
+   "htf_value": "&#x294C;",
+   "base": "⥌",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni294D": {
+   "slot": 230,
+   "pos": 231,
+   "htf_value": "&#x294D;",
+   "base": "⥍",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni294E": {
+   "slot": 231,
+   "pos": 232,
+   "htf_value": "&#x294E;",
+   "base": "⥎",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni294F": {
+   "slot": 232,
+   "pos": 233,
+   "htf_value": "&#x294F;",
+   "base": "⥏",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2950": {
+   "slot": 233,
+   "pos": 234,
+   "htf_value": "&#x2950;",
+   "base": "⥐",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2951": {
+   "slot": 234,
+   "pos": 235,
+   "htf_value": "&#x2951;",
+   "base": "⥑",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2952": {
+   "slot": 235,
+   "pos": 236,
+   "htf_value": "&#x2952;",
+   "base": "⥒",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2953": {
+   "slot": 236,
+   "pos": 237,
+   "htf_value": "&#x2953;",
+   "base": "⥓",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2954": {
+   "slot": 237,
+   "pos": 238,
+   "htf_value": "&#x2954;",
+   "base": "⥔",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2955": {
+   "slot": 238,
+   "pos": 239,
+   "htf_value": "&#x2955;",
+   "base": "⥕",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2956": {
+   "slot": 239,
+   "pos": 240,
+   "htf_value": "&#x2956;",
+   "base": "⥖",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2957": {
+   "slot": 240,
+   "pos": 241,
+   "htf_value": "&#x2957;",
+   "base": "⥗",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2958": {
+   "slot": 241,
+   "pos": 242,
+   "htf_value": "&#x2958;",
+   "base": "⥘",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2959": {
+   "slot": 242,
+   "pos": 243,
+   "htf_value": "&#x2959;",
+   "base": "⥙",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni295A": {
+   "slot": 243,
+   "pos": 244,
+   "htf_value": "&#x295A;",
+   "base": "⥚",
+   "props": {
+    "style": "normal",
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "style": "sibling",
+    "weight": "cmp"
+   }
+  },
+  "uni295B": {
+   "slot": 244,
+   "pos": 245,
+   "htf_value": "&#x295B;",
+   "base": "⥛",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni295C": {
+   "slot": 245,
+   "pos": 246,
+   "htf_value": "&#x295C;",
+   "base": "⥜",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni295D": {
+   "slot": 246,
+   "pos": 247,
+   "htf_value": "&#x295D;",
+   "base": "⥝",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni295E": {
+   "slot": 247,
+   "pos": 248,
+   "htf_value": "&#x295E;",
+   "base": "⥞",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni295F": {
+   "slot": 248,
+   "pos": 249,
+   "htf_value": "&#x295F;",
+   "base": "⥟",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2960": {
+   "slot": 249,
+   "pos": 250,
+   "htf_value": "&#x2960;",
+   "base": "⥠",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2961": {
+   "slot": 250,
+   "pos": 251,
+   "htf_value": "&#x2961;",
+   "base": "⥡",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2962": {
+   "slot": 251,
+   "pos": 252,
+   "htf_value": "&#x2962;",
+   "base": "⥢",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2963": {
+   "slot": 252,
+   "pos": 253,
+   "htf_value": "&#x2963;",
+   "base": "⥣",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2964": {
+   "slot": 253,
+   "pos": 254,
+   "htf_value": "&#x2964;",
+   "base": "⥤",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2965": {
+   "slot": 254,
+   "pos": 255,
+   "htf_value": "&#x2965;",
+   "base": "⥥",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  },
+  "uni2966": {
+   "slot": 255,
+   "pos": 256,
+   "htf_value": "&#x2966;",
+   "base": "⥦",
+   "props": {
+    "weight": "normal",
+    "style": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp",
+    "style": "sibling"
+   }
+  }
+ },
+ "reviewed": {
+  "what": "gpm.html"
+ }
+}

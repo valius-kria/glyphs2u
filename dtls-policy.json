@@ -1,0 +1,86 @@
+{
+  "_about": [
+    "What a '.dtls' glyph -- the dotless cut of i or j in a styled math font --",
+    "resolves to on the glyphs2u side.  Unicode encodes dotless i and j only as",
+    "U+0131/U+0237 (plain) and U+1D6A4/U+1D6A5 (italic); there is no",
+    "double-struck, fraktur, monospace or sans-serif dotless i.  So every one of",
+    "these glyphs forces a choice between two things it cannot keep at once:",
+    "the DOT being absent, or the font view (double-struck, fraktur, ...).",
+    "Deriving it from base+properties alone always sacrificed the font view,",
+    "which is what made the existing lua tables inconsistent.",
+    "",
+    "'dotted' keeps the font view and gives up the dot -- it resolves to the",
+    "styled letter WITH its dot, composed from base 'i'/'j' and the font's own",
+    "properties.  That target is not guessed: for all 26 stix cases it comes out",
+    "exactly equal to the codepoint the glyph's own name states (u1D55A.dtls ->",
+    "U+1D55A MATHEMATICAL DOUBLE-STRUCK SMALL I), so the font's designers and",
+    "this derivation agree.",
+    "",
+    "'dotless' keeps the dot absent and gives up whatever the font view needs,",
+    "respecting slant: upright -> U+0131/U+0237, italic -> U+1D6A4/U+1D6A5.",
+    "",
+    "'italic-dotless' forces U+1D6A4/U+1D6A5 whatever the record's style says,",
+    "for the families whose letters are inherently slanted.",
+    "",
+    "Rules are tried IN ORDER and the first match wins, so the order is the",
+    "precedence.  'weight: bold' comes first deliberately: it overrides the",
+    "family rules below it."
+  ],
+
+  "rules": [
+    { "when": { "weight": "bold" },
+      "use": "dotted",
+      "why": "a bold cut is a weight of the styled letter, so the styled letter is what it should stay; this overrides the script and sans-serif rules below" },
+
+    { "when": { "family": "double-struck" },
+      "use": "dotted",
+      "why": "blackboard bold and its italic/bold variants: losing 'double-struck' loses the only thing that identifies the font" },
+
+    { "when": { "family": "fraktur" },
+      "use": "dotted",
+      "why": "fraktur and its variants, for the same reason" },
+
+    { "when": { "family": "monospace" },
+      "use": "dotted",
+      "why": "monospace is a width property, and width carries meaning in XML/HTML output, so it is not the thing to give up" },
+
+    { "when": { "family": "script" },
+      "use": "italic-dotless",
+      "why": "script letters are inherently slanted, so the italic dotless character is the closest Unicode has; non-bold only -- the bold rule above catches bold script" },
+
+    { "when": { "family": "cursive" },
+      "use": "italic-dotless",
+      "why": "calligraphic: CSS spells this family 'cursive' where MathML spells it 'script', and the same reasoning applies" },
+
+    { "when": { "family": "sans-serif" },
+      "use": "dotless",
+      "why": "non-bold sans-serif keeps the dot absent and respects slant, so upright gives U+0131/U+0237 and italic gives U+1D6A4/U+1D6A5" }
+  ],
+
+  "default": "dotless",
+  "_default_why": "no family to preserve, so nothing argues against keeping the dot absent",
+
+  "_about_rename": [
+    "A dotless target needs the glyph RENAMED, and a dotted one does not.",
+    "Acrobat Distiller truncates a glyph name at the first dot before consulting",
+    "the AGL, so 'u1D48A.dtls' is read as 'u1D48A' -- which decodes to the letter",
+    "WITH its dot.  When the policy chose the dotted target that is the same",
+    "character the row already states, so truncation misrepresents nothing and no",
+    "rename is called for.  When it chose a dotless one the two disagree, and",
+    "without a rename the dotless cut would be published as the dotted letter.",
+    "",
+    "The names below are the ones these fonts already use (stix-mathit-bold and",
+    "stix-mathsfit-bold carry them by hand).  Note they are NOT in the built-in",
+    "glyph list, so their job is to be dot-free and distinct rather than to carry",
+    "a codepoint -- the row's own codepoints do that.  'dotlessj' would be a trap",
+    "here: the built-in list maps it to U+F6BE, not to U+0237."
+  ],
+
+  "targets": {
+    "dotted":         { "how": "compose", "base": { "ı": "i", "ȷ": "j" } },
+    "dotless":        { "how": "compose", "base": { "ı": "ı", "ȷ": "ȷ" },
+                        "rename": { "ı": "idotless", "ȷ": "jdotless" } },
+    "italic-dotless": { "how": "literal", "char": { "ı": "𝚤", "ȷ": "𝚥" },
+                        "rename": { "ı": "idotless", "ȷ": "jdotless" } }
+  }
+}

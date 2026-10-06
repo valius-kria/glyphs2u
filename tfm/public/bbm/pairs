@@ -1,0 +1,12 @@
+# Pairing map for bbm -- hand-editable.
+# Seeded from htf_mfont_targets.json; edit freely, this file wins.
+# A '-' in the plain column means 'do not compare this font'.
+#
+# variant                plain                  differs
+# bbm10                  ?                      ?
+bbmbx10                bbm10                  weight=bold
+bbmsl10                bbm10                  style=oblique
+bbmss10                bbm10                  family=sans-serif
+bbmssbx10              bbmss10                weight=bold
+bbmssi10               bbmss10                style=italic
+bbmtt10                bbm10                  family=monospace

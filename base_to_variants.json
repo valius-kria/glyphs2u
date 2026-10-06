@@ -1,0 +1,1358 @@
+{
+  "g": {
+    "small-caps": "ɢ",
+    "script": "ℊ",
+    "bold": "𝐠",
+    "italic": "𝑔",
+    "bold-italic": "𝒈",
+    "bold-script": "𝓰",
+    "fraktur": "𝔤",
+    "double-struck": "𝕘",
+    "bold-fraktur": "𝖌",
+    "sans-serif": "𝗀",
+    "bold-sans-serif": "𝗴",
+    "sans-serif-italic": "𝘨",
+    "sans-serif-bold-italic": "𝙜",
+    "monospace": "𝚐"
+  },
+  "i": {
+    "small-caps": "ɪ",
+    "double-struck-italic": "ⅈ",
+    "bold": "𝐢",
+    "italic": "𝑖",
+    "bold-italic": "𝒊",
+    "script": "𝒾",
+    "bold-script": "𝓲",
+    "fraktur": "𝔦",
+    "double-struck": "𝕚",
+    "bold-fraktur": "𝖎",
+    "sans-serif": "𝗂",
+    "bold-sans-serif": "𝗶",
+    "sans-serif-italic": "𝘪",
+    "sans-serif-bold-italic": "𝙞",
+    "monospace": "𝚒"
+  },
+  "n": {
+    "small-caps": "ɴ",
+    "bold": "𝐧",
+    "italic": "𝑛",
+    "bold-italic": "𝒏",
+    "script": "𝓃",
+    "bold-script": "𝓷",
+    "fraktur": "𝔫",
+    "double-struck": "𝕟",
+    "bold-fraktur": "𝖓",
+    "sans-serif": "𝗇",
+    "bold-sans-serif": "𝗻",
+    "sans-serif-italic": "𝘯",
+    "sans-serif-bold-italic": "𝙣",
+    "monospace": "𝚗"
+  },
+  "œ": {
+    "small-caps": "ɶ"
+  },
+  "r": {
+    "small-caps": "ʀ",
+    "bold": "𝐫",
+    "italic": "𝑟",
+    "bold-italic": "𝒓",
+    "script": "𝓇",
+    "bold-script": "𝓻",
+    "fraktur": "𝔯",
+    "double-struck": "𝕣",
+    "bold-fraktur": "𝖗",
+    "sans-serif": "𝗋",
+    "bold-sans-serif": "𝗿",
+    "sans-serif-italic": "𝘳",
+    "sans-serif-bold-italic": "𝙧",
+    "monospace": "𝚛"
+  },
+  "y": {
+    "small-caps": "ʏ",
+    "bold": "𝐲",
+    "italic": "𝑦",
+    "bold-italic": "𝒚",
+    "script": "𝓎",
+    "bold-script": "𝔂",
+    "fraktur": "𝔶",
+    "double-struck": "𝕪",
+    "bold-fraktur": "𝖞",
+    "sans-serif": "𝗒",
+    "bold-sans-serif": "𝘆",
+    "sans-serif-italic": "𝘺",
+    "sans-serif-bold-italic": "𝙮",
+    "monospace": "𝚢"
+  },
+  "b": {
+    "small-caps": "ʙ",
+    "bold": "𝐛",
+    "italic": "𝑏",
+    "bold-italic": "𝒃",
+    "script": "𝒷",
+    "bold-script": "𝓫",
+    "fraktur": "𝔟",
+    "double-struck": "𝕓",
+    "bold-fraktur": "𝖇",
+    "sans-serif": "𝖻",
+    "bold-sans-serif": "𝗯",
+    "sans-serif-italic": "𝘣",
+    "sans-serif-bold-italic": "𝙗",
+    "monospace": "𝚋"
+  },
+  "ɠ": {
+    "small-caps": "ʛ"
+  },
+  "h": {
+    "small-caps": "ʜ",
+    "bold": "𝐡",
+    "bold-italic": "𝒉",
+    "script": "𝒽",
+    "bold-script": "𝓱",
+    "fraktur": "𝔥",
+    "double-struck": "𝕙",
+    "bold-fraktur": "𝖍",
+    "sans-serif": "𝗁",
+    "bold-sans-serif": "𝗵",
+    "sans-serif-italic": "𝘩",
+    "sans-serif-bold-italic": "𝙝",
+    "monospace": "𝚑"
+  },
+  "l": {
+    "small-caps": "ʟ",
+    "bold": "𝐥",
+    "italic": "𝑙",
+    "bold-italic": "𝒍",
+    "script": "𝓁",
+    "bold-script": "𝓵",
+    "fraktur": "𝔩",
+    "double-struck": "𝕝",
+    "bold-fraktur": "𝖑",
+    "sans-serif": "𝗅",
+    "bold-sans-serif": "𝗹",
+    "sans-serif-italic": "𝘭",
+    "sans-serif-bold-italic": "𝙡",
+    "monospace": "𝚕"
+  },
+  "a": {
+    "small-caps": "ᴀ",
+    "bold": "𝐚",
+    "italic": "𝑎",
+    "bold-italic": "𝒂",
+    "script": "𝒶",
+    "bold-script": "𝓪",
+    "fraktur": "𝔞",
+    "double-struck": "𝕒",
+    "bold-fraktur": "𝖆",
+    "sans-serif": "𝖺",
+    "bold-sans-serif": "𝗮",
+    "sans-serif-italic": "𝘢",
+    "sans-serif-bold-italic": "𝙖",
+    "monospace": "𝚊"
+  },
+  "æ": {
+    "small-caps": "ᴁ"
+  },
+  "ƀ": {
+    "small-caps": "ᴃ"
+  },
+  "c": {
+    "small-caps": "ᴄ",
+    "bold": "𝐜",
+    "italic": "𝑐",
+    "bold-italic": "𝒄",
+    "script": "𝒸",
+    "bold-script": "𝓬",
+    "fraktur": "𝔠",
+    "double-struck": "𝕔",
+    "bold-fraktur": "𝖈",
+    "sans-serif": "𝖼",
+    "bold-sans-serif": "𝗰",
+    "sans-serif-italic": "𝘤",
+    "sans-serif-bold-italic": "𝙘",
+    "monospace": "𝚌"
+  },
+  "d": {
+    "small-caps": "ᴅ",
+    "double-struck-italic": "ⅆ",
+    "bold": "𝐝",
+    "italic": "𝑑",
+    "bold-italic": "𝒅",
+    "script": "𝒹",
+    "bold-script": "𝓭",
+    "fraktur": "𝔡",
+    "double-struck": "𝕕",
+    "bold-fraktur": "𝖉",
+    "sans-serif": "𝖽",
+    "bold-sans-serif": "𝗱",
+    "sans-serif-italic": "𝘥",
+    "sans-serif-bold-italic": "𝙙",
+    "monospace": "𝚍"
+  },
+  "ð": {
+    "small-caps": "ᴆ"
+  },
+  "e": {
+    "small-caps": "ᴇ",
+    "script": "ℯ",
+    "double-struck-italic": "ⅇ",
+    "bold": "𝐞",
+    "italic": "𝑒",
+    "bold-italic": "𝒆",
+    "bold-script": "𝓮",
+    "fraktur": "𝔢",
+    "double-struck": "𝕖",
+    "bold-fraktur": "𝖊",
+    "sans-serif": "𝖾",
+    "bold-sans-serif": "𝗲",
+    "sans-serif-italic": "𝘦",
+    "sans-serif-bold-italic": "𝙚",
+    "monospace": "𝚎"
+  },
+  "j": {
+    "small-caps": "ᴊ",
+    "double-struck-italic": "ⅉ",
+    "bold": "𝐣",
+    "italic": "𝑗",
+    "bold-italic": "𝒋",
+    "script": "𝒿",
+    "bold-script": "𝓳",
+    "fraktur": "𝔧",
+    "double-struck": "𝕛",
+    "bold-fraktur": "𝖏",
+    "sans-serif": "𝗃",
+    "bold-sans-serif": "𝗷",
+    "sans-serif-italic": "𝘫",
+    "sans-serif-bold-italic": "𝙟",
+    "monospace": "𝚓"
+  },
+  "k": {
+    "small-caps": "ᴋ",
+    "bold": "𝐤",
+    "italic": "𝑘",
+    "bold-italic": "𝒌",
+    "script": "𝓀",
+    "bold-script": "𝓴",
+    "fraktur": "𝔨",
+    "double-struck": "𝕜",
+    "bold-fraktur": "𝖐",
+    "sans-serif": "𝗄",
+    "bold-sans-serif": "𝗸",
+    "sans-serif-italic": "𝘬",
+    "sans-serif-bold-italic": "𝙠",
+    "monospace": "𝚔"
+  },
+  "ł": {
+    "small-caps": "ᴌ"
+  },
+  "m": {
+    "small-caps": "ᴍ",
+    "bold": "𝐦",
+    "italic": "𝑚",
+    "bold-italic": "𝒎",
+    "script": "𝓂",
+    "bold-script": "𝓶",
+    "fraktur": "𝔪",
+    "double-struck": "𝕞",
+    "bold-fraktur": "𝖒",
+    "sans-serif": "𝗆",
+    "bold-sans-serif": "𝗺",
+    "sans-serif-italic": "𝘮",
+    "sans-serif-bold-italic": "𝙢",
+    "monospace": "𝚖"
+  },
+  "o": {
+    "small-caps": "ᴏ",
+    "script": "ℴ",
+    "bold": "𝐨",
+    "italic": "𝑜",
+    "bold-italic": "𝒐",
+    "bold-script": "𝓸",
+    "fraktur": "𝔬",
+    "double-struck": "𝕠",
+    "bold-fraktur": "𝖔",
+    "sans-serif": "𝗈",
+    "bold-sans-serif": "𝗼",
+    "sans-serif-italic": "𝘰",
+    "sans-serif-bold-italic": "𝙤",
+    "monospace": "𝚘"
+  },
+  "ɔ": {
+    "small-caps": "ᴐ"
+  },
+  "ȣ": {
+    "small-caps": "ᴕ"
+  },
+  "p": {
+    "small-caps": "ᴘ",
+    "bold": "𝐩",
+    "italic": "𝑝",
+    "bold-italic": "𝒑",
+    "script": "𝓅",
+    "bold-script": "𝓹",
+    "fraktur": "𝔭",
+    "double-struck": "𝕡",
+    "bold-fraktur": "𝖕",
+    "sans-serif": "𝗉",
+    "bold-sans-serif": "𝗽",
+    "sans-serif-italic": "𝘱",
+    "sans-serif-bold-italic": "𝙥",
+    "monospace": "𝚙"
+  },
+  "t": {
+    "small-caps": "ᴛ",
+    "bold": "𝐭",
+    "italic": "𝑡",
+    "bold-italic": "𝒕",
+    "script": "𝓉",
+    "bold-script": "𝓽",
+    "fraktur": "𝔱",
+    "double-struck": "𝕥",
+    "bold-fraktur": "𝖙",
+    "sans-serif": "𝗍",
+    "bold-sans-serif": "𝘁",
+    "sans-serif-italic": "𝘵",
+    "sans-serif-bold-italic": "𝙩",
+    "monospace": "𝚝"
+  },
+  "u": {
+    "small-caps": "ᴜ",
+    "bold": "𝐮",
+    "italic": "𝑢",
+    "bold-italic": "𝒖",
+    "script": "𝓊",
+    "bold-script": "𝓾",
+    "fraktur": "𝔲",
+    "double-struck": "𝕦",
+    "bold-fraktur": "𝖚",
+    "sans-serif": "𝗎",
+    "bold-sans-serif": "𝘂",
+    "sans-serif-italic": "𝘶",
+    "sans-serif-bold-italic": "𝙪",
+    "monospace": "𝚞"
+  },
+  "v": {
+    "small-caps": "ᴠ",
+    "bold": "𝐯",
+    "italic": "𝑣",
+    "bold-italic": "𝒗",
+    "script": "𝓋",
+    "bold-script": "𝓿",
+    "fraktur": "𝔳",
+    "double-struck": "𝕧",
+    "bold-fraktur": "𝖛",
+    "sans-serif": "𝗏",
+    "bold-sans-serif": "𝘃",
+    "sans-serif-italic": "𝘷",
+    "sans-serif-bold-italic": "𝙫",
+    "monospace": "𝚟"
+  },
+  "w": {
+    "small-caps": "ᴡ",
+    "bold": "𝐰",
+    "italic": "𝑤",
+    "bold-italic": "𝒘",
+    "script": "𝓌",
+    "bold-script": "𝔀",
+    "fraktur": "𝔴",
+    "double-struck": "𝕨",
+    "bold-fraktur": "𝖜",
+    "sans-serif": "𝗐",
+    "bold-sans-serif": "𝘄",
+    "sans-serif-italic": "𝘸",
+    "sans-serif-bold-italic": "𝙬",
+    "monospace": "𝚠"
+  },
+  "z": {
+    "small-caps": "ᴢ",
+    "bold": "𝐳",
+    "italic": "𝑧",
+    "bold-italic": "𝒛",
+    "script": "𝓏",
+    "bold-script": "𝔃",
+    "fraktur": "𝔷",
+    "double-struck": "𝕫",
+    "bold-fraktur": "𝖟",
+    "sans-serif": "𝗓",
+    "bold-sans-serif": "𝘇",
+    "sans-serif-italic": "𝘻",
+    "sans-serif-bold-italic": "𝙯",
+    "monospace": "𝚣"
+  },
+  "ʒ": {
+    "small-caps": "ᴣ"
+  },
+  "ɣ": {
+    "small-caps": "ᴦ"
+  },
+  "λ": {
+    "small-caps": "ᴧ",
+    "bold": "𝛌",
+    "italic": "𝜆",
+    "bold-italic": "𝝀",
+    "bold-sans-serif": "𝝺",
+    "sans-serif-bold-italic": "𝞴"
+  },
+  "π": {
+    "small-caps": "ᴨ",
+    "double-struck": "ℼ",
+    "bold": "𝛑",
+    "italic": "𝜋",
+    "bold-italic": "𝝅",
+    "bold-sans-serif": "𝝿",
+    "sans-serif-bold-italic": "𝞹"
+  },
+  "ρ": {
+    "small-caps": "ᴩ",
+    "bold": "𝛒",
+    "italic": "𝜌",
+    "bold-italic": "𝝆",
+    "bold-sans-serif": "𝞀",
+    "sans-serif-bold-italic": "𝞺"
+  },
+  "ψ": {
+    "small-caps": "ᴪ",
+    "bold": "𝛙",
+    "italic": "𝜓",
+    "bold-italic": "𝝍",
+    "bold-sans-serif": "𝞇",
+    "sans-serif-bold-italic": "𝟁"
+  },
+  "л": {
+    "small-caps": "ᴫ"
+  },
+  "ɨ": {
+    "small-caps": "ᵻ"
+  },
+  "ʉ": {
+    "small-caps": "ᵾ"
+  },
+  "C": {
+    "double-struck": "ℂ",
+    "fraktur": "ℭ",
+    "bold": "𝐂",
+    "italic": "𝐶",
+    "bold-italic": "𝑪",
+    "script": "𝒞",
+    "bold-script": "𝓒",
+    "bold-fraktur": "𝕮",
+    "sans-serif": "𝖢",
+    "bold-sans-serif": "𝗖",
+    "sans-serif-italic": "𝘊",
+    "sans-serif-bold-italic": "𝘾",
+    "monospace": "𝙲"
+  },
+  "H": {
+    "script": "ℋ",
+    "fraktur": "ℌ",
+    "double-struck": "ℍ",
+    "bold": "𝐇",
+    "italic": "𝐻",
+    "bold-italic": "𝑯",
+    "bold-script": "𝓗",
+    "bold-fraktur": "𝕳",
+    "sans-serif": "𝖧",
+    "bold-sans-serif": "𝗛",
+    "sans-serif-italic": "𝘏",
+    "sans-serif-bold-italic": "𝙃",
+    "monospace": "𝙷"
+  },
+  "I": {
+    "script": "ℐ",
+    "fraktur": "ℑ",
+    "bold": "𝐈",
+    "italic": "𝐼",
+    "bold-italic": "𝑰",
+    "bold-script": "𝓘",
+    "double-struck": "𝕀",
+    "bold-fraktur": "𝕴",
+    "sans-serif": "𝖨",
+    "bold-sans-serif": "𝗜",
+    "sans-serif-italic": "𝘐",
+    "sans-serif-bold-italic": "𝙄",
+    "monospace": "𝙸"
+  },
+  "L": {
+    "script": "ℒ",
+    "bold": "𝐋",
+    "italic": "𝐿",
+    "bold-italic": "𝑳",
+    "bold-script": "𝓛",
+    "fraktur": "𝔏",
+    "double-struck": "𝕃",
+    "bold-fraktur": "𝕷",
+    "sans-serif": "𝖫",
+    "bold-sans-serif": "𝗟",
+    "sans-serif-italic": "𝘓",
+    "sans-serif-bold-italic": "𝙇",
+    "monospace": "𝙻"
+  },
+  "N": {
+    "double-struck": "ℕ",
+    "bold": "𝐍",
+    "italic": "𝑁",
+    "bold-italic": "𝑵",
+    "script": "𝒩",
+    "bold-script": "𝓝",
+    "fraktur": "𝔑",
+    "bold-fraktur": "𝕹",
+    "sans-serif": "𝖭",
+    "bold-sans-serif": "𝗡",
+    "sans-serif-italic": "𝘕",
+    "sans-serif-bold-italic": "𝙉",
+    "monospace": "𝙽"
+  },
+  "P": {
+    "double-struck": "ℙ",
+    "bold": "𝐏",
+    "italic": "𝑃",
+    "bold-italic": "𝑷",
+    "script": "𝒫",
+    "bold-script": "𝓟",
+    "fraktur": "𝔓",
+    "bold-fraktur": "𝕻",
+    "sans-serif": "𝖯",
+    "bold-sans-serif": "𝗣",
+    "sans-serif-italic": "𝘗",
+    "sans-serif-bold-italic": "𝙋",
+    "monospace": "𝙿"
+  },
+  "Q": {
+    "double-struck": "ℚ",
+    "bold": "𝐐",
+    "italic": "𝑄",
+    "bold-italic": "𝑸",
+    "script": "𝒬",
+    "bold-script": "𝓠",
+    "fraktur": "𝔔",
+    "bold-fraktur": "𝕼",
+    "sans-serif": "𝖰",
+    "bold-sans-serif": "𝗤",
+    "sans-serif-italic": "𝘘",
+    "sans-serif-bold-italic": "𝙌",
+    "monospace": "𝚀"
+  },
+  "R": {
+    "script": "ℛ",
+    "fraktur": "ℜ",
+    "double-struck": "ℝ",
+    "bold": "𝐑",
+    "italic": "𝑅",
+    "bold-italic": "𝑹",
+    "bold-script": "𝓡",
+    "bold-fraktur": "𝕽",
+    "sans-serif": "𝖱",
+    "bold-sans-serif": "𝗥",
+    "sans-serif-italic": "𝘙",
+    "sans-serif-bold-italic": "𝙍",
+    "monospace": "𝚁"
+  },
+  "Z": {
+    "double-struck": "ℤ",
+    "fraktur": "ℨ",
+    "bold": "𝐙",
+    "italic": "𝑍",
+    "bold-italic": "𝒁",
+    "script": "𝒵",
+    "bold-script": "𝓩",
+    "bold-fraktur": "𝖅",
+    "sans-serif": "𝖹",
+    "bold-sans-serif": "𝗭",
+    "sans-serif-italic": "𝘡",
+    "sans-serif-bold-italic": "𝙕",
+    "monospace": "𝚉"
+  },
+  "B": {
+    "script": "ℬ",
+    "bold": "𝐁",
+    "italic": "𝐵",
+    "bold-italic": "𝑩",
+    "bold-script": "𝓑",
+    "fraktur": "𝔅",
+    "double-struck": "𝔹",
+    "bold-fraktur": "𝕭",
+    "sans-serif": "𝖡",
+    "bold-sans-serif": "𝗕",
+    "sans-serif-italic": "𝘉",
+    "sans-serif-bold-italic": "𝘽",
+    "monospace": "𝙱"
+  },
+  "E": {
+    "script": "ℰ",
+    "bold": "𝐄",
+    "italic": "𝐸",
+    "bold-italic": "𝑬",
+    "bold-script": "𝓔",
+    "fraktur": "𝔈",
+    "double-struck": "𝔼",
+    "bold-fraktur": "𝕰",
+    "sans-serif": "𝖤",
+    "bold-sans-serif": "𝗘",
+    "sans-serif-italic": "𝘌",
+    "sans-serif-bold-italic": "𝙀",
+    "monospace": "𝙴"
+  },
+  "F": {
+    "script": "ℱ",
+    "bold": "𝐅",
+    "italic": "𝐹",
+    "bold-italic": "𝑭",
+    "bold-script": "𝓕",
+    "fraktur": "𝔉",
+    "double-struck": "𝔽",
+    "bold-fraktur": "𝕱",
+    "sans-serif": "𝖥",
+    "bold-sans-serif": "𝗙",
+    "sans-serif-italic": "𝘍",
+    "sans-serif-bold-italic": "𝙁",
+    "monospace": "𝙵"
+  },
+  "M": {
+    "script": "ℳ",
+    "bold": "𝐌",
+    "italic": "𝑀",
+    "bold-italic": "𝑴",
+    "bold-script": "𝓜",
+    "fraktur": "𝔐",
+    "double-struck": "𝕄",
+    "bold-fraktur": "𝕸",
+    "sans-serif": "𝖬",
+    "bold-sans-serif": "𝗠",
+    "sans-serif-italic": "𝘔",
+    "sans-serif-bold-italic": "𝙈",
+    "monospace": "𝙼"
+  },
+  "γ": {
+    "double-struck": "ℽ",
+    "bold": "𝛄",
+    "italic": "𝛾",
+    "bold-italic": "𝜸",
+    "bold-sans-serif": "𝝲",
+    "sans-serif-bold-italic": "𝞬"
+  },
+  "Γ": {
+    "double-struck": "ℾ",
+    "bold": "𝚪",
+    "italic": "𝛤",
+    "bold-italic": "𝜞",
+    "bold-sans-serif": "𝝘",
+    "sans-serif-bold-italic": "𝞒"
+  },
+  "Π": {
+    "double-struck": "ℿ",
+    "bold": "𝚷",
+    "italic": "𝛱",
+    "bold-italic": "𝜫",
+    "bold-sans-serif": "𝝥",
+    "sans-serif-bold-italic": "𝞟"
+  },
+  "∑": {
+    "double-struck": "⅀"
+  },
+  "D": {
+    "double-struck-italic": "ⅅ",
+    "bold": "𝐃",
+    "italic": "𝐷",
+    "bold-italic": "𝑫",
+    "script": "𝒟",
+    "bold-script": "𝓓",
+    "fraktur": "𝔇",
+    "double-struck": "𝔻",
+    "bold-fraktur": "𝕯",
+    "sans-serif": "𝖣",
+    "bold-sans-serif": "𝗗",
+    "sans-serif-italic": "𝘋",
+    "sans-serif-bold-italic": "𝘿",
+    "monospace": "𝙳"
+  },
+  "f": {
+    "small-caps": "ꜰ",
+    "bold": "𝐟",
+    "italic": "𝑓",
+    "bold-italic": "𝒇",
+    "script": "𝒻",
+    "bold-script": "𝓯",
+    "fraktur": "𝔣",
+    "double-struck": "𝕗",
+    "bold-fraktur": "𝖋",
+    "sans-serif": "𝖿",
+    "bold-sans-serif": "𝗳",
+    "sans-serif-italic": "𝘧",
+    "sans-serif-bold-italic": "𝙛",
+    "monospace": "𝚏"
+  },
+  "s": {
+    "small-caps": "ꜱ",
+    "bold": "𝐬",
+    "italic": "𝑠",
+    "bold-italic": "𝒔",
+    "script": "𝓈",
+    "bold-script": "𝓼",
+    "fraktur": "𝔰",
+    "double-struck": "𝕤",
+    "bold-fraktur": "𝖘",
+    "sans-serif": "𝗌",
+    "bold-sans-serif": "𝘀",
+    "sans-serif-italic": "𝘴",
+    "sans-serif-bold-italic": "𝙨",
+    "monospace": "𝚜"
+  },
+  "ꝵ": {
+    "small-caps": "ꝶ"
+  },
+  "q": {
+    "small-caps": "ꞯ",
+    "bold": "𝐪",
+    "italic": "𝑞",
+    "bold-italic": "𝒒",
+    "script": "𝓆",
+    "bold-script": "𝓺",
+    "fraktur": "𝔮",
+    "double-struck": "𝕢",
+    "bold-fraktur": "𝖖",
+    "sans-serif": "𝗊",
+    "bold-sans-serif": "𝗾",
+    "sans-serif-italic": "𝘲",
+    "sans-serif-bold-italic": "𝙦",
+    "monospace": "𝚚"
+  },
+  "ꞷ": {
+    "small-caps": "ꭥ"
+  },
+  "A": {
+    "bold": "𝐀",
+    "italic": "𝐴",
+    "bold-italic": "𝑨",
+    "script": "𝒜",
+    "bold-script": "𝓐",
+    "fraktur": "𝔄",
+    "double-struck": "𝔸",
+    "bold-fraktur": "𝕬",
+    "sans-serif": "𝖠",
+    "bold-sans-serif": "𝗔",
+    "sans-serif-italic": "𝘈",
+    "sans-serif-bold-italic": "𝘼",
+    "monospace": "𝙰"
+  },
+  "G": {
+    "bold": "𝐆",
+    "italic": "𝐺",
+    "bold-italic": "𝑮",
+    "script": "𝒢",
+    "bold-script": "𝓖",
+    "fraktur": "𝔊",
+    "double-struck": "𝔾",
+    "bold-fraktur": "𝕲",
+    "sans-serif": "𝖦",
+    "bold-sans-serif": "𝗚",
+    "sans-serif-italic": "𝘎",
+    "sans-serif-bold-italic": "𝙂",
+    "monospace": "𝙶"
+  },
+  "J": {
+    "bold": "𝐉",
+    "italic": "𝐽",
+    "bold-italic": "𝑱",
+    "script": "𝒥",
+    "bold-script": "𝓙",
+    "fraktur": "𝔍",
+    "double-struck": "𝕁",
+    "bold-fraktur": "𝕵",
+    "sans-serif": "𝖩",
+    "bold-sans-serif": "𝗝",
+    "sans-serif-italic": "𝘑",
+    "sans-serif-bold-italic": "𝙅",
+    "monospace": "𝙹"
+  },
+  "K": {
+    "bold": "𝐊",
+    "italic": "𝐾",
+    "bold-italic": "𝑲",
+    "script": "𝒦",
+    "bold-script": "𝓚",
+    "fraktur": "𝔎",
+    "double-struck": "𝕂",
+    "bold-fraktur": "𝕶",
+    "sans-serif": "𝖪",
+    "bold-sans-serif": "𝗞",
+    "sans-serif-italic": "𝘒",
+    "sans-serif-bold-italic": "𝙆",
+    "monospace": "𝙺"
+  },
+  "O": {
+    "bold": "𝐎",
+    "italic": "𝑂",
+    "bold-italic": "𝑶",
+    "script": "𝒪",
+    "bold-script": "𝓞",
+    "fraktur": "𝔒",
+    "double-struck": "𝕆",
+    "bold-fraktur": "𝕺",
+    "sans-serif": "𝖮",
+    "bold-sans-serif": "𝗢",
+    "sans-serif-italic": "𝘖",
+    "sans-serif-bold-italic": "𝙊",
+    "monospace": "𝙾"
+  },
+  "S": {
+    "bold": "𝐒",
+    "italic": "𝑆",
+    "bold-italic": "𝑺",
+    "script": "𝒮",
+    "bold-script": "𝓢",
+    "fraktur": "𝔖",
+    "double-struck": "𝕊",
+    "bold-fraktur": "𝕾",
+    "sans-serif": "𝖲",
+    "bold-sans-serif": "𝗦",
+    "sans-serif-italic": "𝘚",
+    "sans-serif-bold-italic": "𝙎",
+    "monospace": "𝚂"
+  },
+  "T": {
+    "bold": "𝐓",
+    "italic": "𝑇",
+    "bold-italic": "𝑻",
+    "script": "𝒯",
+    "bold-script": "𝓣",
+    "fraktur": "𝔗",
+    "double-struck": "𝕋",
+    "bold-fraktur": "𝕿",
+    "sans-serif": "𝖳",
+    "bold-sans-serif": "𝗧",
+    "sans-serif-italic": "𝘛",
+    "sans-serif-bold-italic": "𝙏",
+    "monospace": "𝚃"
+  },
+  "U": {
+    "bold": "𝐔",
+    "italic": "𝑈",
+    "bold-italic": "𝑼",
+    "script": "𝒰",
+    "bold-script": "𝓤",
+    "fraktur": "𝔘",
+    "double-struck": "𝕌",
+    "bold-fraktur": "𝖀",
+    "sans-serif": "𝖴",
+    "bold-sans-serif": "𝗨",
+    "sans-serif-italic": "𝘜",
+    "sans-serif-bold-italic": "𝙐",
+    "monospace": "𝚄"
+  },
+  "V": {
+    "bold": "𝐕",
+    "italic": "𝑉",
+    "bold-italic": "𝑽",
+    "script": "𝒱",
+    "bold-script": "𝓥",
+    "fraktur": "𝔙",
+    "double-struck": "𝕍",
+    "bold-fraktur": "𝖁",
+    "sans-serif": "𝖵",
+    "bold-sans-serif": "𝗩",
+    "sans-serif-italic": "𝘝",
+    "sans-serif-bold-italic": "𝙑",
+    "monospace": "𝚅"
+  },
+  "W": {
+    "bold": "𝐖",
+    "italic": "𝑊",
+    "bold-italic": "𝑾",
+    "script": "𝒲",
+    "bold-script": "𝓦",
+    "fraktur": "𝔚",
+    "double-struck": "𝕎",
+    "bold-fraktur": "𝖂",
+    "sans-serif": "𝖶",
+    "bold-sans-serif": "𝗪",
+    "sans-serif-italic": "𝘞",
+    "sans-serif-bold-italic": "𝙒",
+    "monospace": "𝚆"
+  },
+  "X": {
+    "bold": "𝐗",
+    "italic": "𝑋",
+    "bold-italic": "𝑿",
+    "script": "𝒳",
+    "bold-script": "𝓧",
+    "fraktur": "𝔛",
+    "double-struck": "𝕏",
+    "bold-fraktur": "𝖃",
+    "sans-serif": "𝖷",
+    "bold-sans-serif": "𝗫",
+    "sans-serif-italic": "𝘟",
+    "sans-serif-bold-italic": "𝙓",
+    "monospace": "𝚇"
+  },
+  "Y": {
+    "bold": "𝐘",
+    "italic": "𝑌",
+    "bold-italic": "𝒀",
+    "script": "𝒴",
+    "bold-script": "𝓨",
+    "fraktur": "𝔜",
+    "double-struck": "𝕐",
+    "bold-fraktur": "𝖄",
+    "sans-serif": "𝖸",
+    "bold-sans-serif": "𝗬",
+    "sans-serif-italic": "𝘠",
+    "sans-serif-bold-italic": "𝙔",
+    "monospace": "𝚈"
+  },
+  "x": {
+    "bold": "𝐱",
+    "italic": "𝑥",
+    "bold-italic": "𝒙",
+    "script": "𝓍",
+    "bold-script": "𝔁",
+    "fraktur": "𝔵",
+    "double-struck": "𝕩",
+    "bold-fraktur": "𝖝",
+    "sans-serif": "𝗑",
+    "bold-sans-serif": "𝘅",
+    "sans-serif-italic": "𝘹",
+    "sans-serif-bold-italic": "𝙭",
+    "monospace": "𝚡"
+  },
+  "ı": {
+    "italic": "𝚤"
+  },
+  "ȷ": {
+    "italic": "𝚥"
+  },
+  "Α": {
+    "bold": "𝚨",
+    "italic": "𝛢",
+    "bold-italic": "𝜜",
+    "bold-sans-serif": "𝝖",
+    "sans-serif-bold-italic": "𝞐"
+  },
+  "Β": {
+    "bold": "𝚩",
+    "italic": "𝛣",
+    "bold-italic": "𝜝",
+    "bold-sans-serif": "𝝗",
+    "sans-serif-bold-italic": "𝞑"
+  },
+  "Δ": {
+    "bold": "𝚫",
+    "italic": "𝛥",
+    "bold-italic": "𝜟",
+    "bold-sans-serif": "𝝙",
+    "sans-serif-bold-italic": "𝞓"
+  },
+  "Ε": {
+    "bold": "𝚬",
+    "italic": "𝛦",
+    "bold-italic": "𝜠",
+    "bold-sans-serif": "𝝚",
+    "sans-serif-bold-italic": "𝞔"
+  },
+  "Ζ": {
+    "bold": "𝚭",
+    "italic": "𝛧",
+    "bold-italic": "𝜡",
+    "bold-sans-serif": "𝝛",
+    "sans-serif-bold-italic": "𝞕"
+  },
+  "Η": {
+    "bold": "𝚮",
+    "italic": "𝛨",
+    "bold-italic": "𝜢",
+    "bold-sans-serif": "𝝜",
+    "sans-serif-bold-italic": "𝞖"
+  },
+  "Θ": {
+    "bold": "𝚯",
+    "italic": "𝛩",
+    "bold-italic": "𝜣",
+    "bold-sans-serif": "𝝝",
+    "sans-serif-bold-italic": "𝞗"
+  },
+  "Ι": {
+    "bold": "𝚰",
+    "italic": "𝛪",
+    "bold-italic": "𝜤",
+    "bold-sans-serif": "𝝞",
+    "sans-serif-bold-italic": "𝞘"
+  },
+  "Κ": {
+    "bold": "𝚱",
+    "italic": "𝛫",
+    "bold-italic": "𝜥",
+    "bold-sans-serif": "𝝟",
+    "sans-serif-bold-italic": "𝞙"
+  },
+  "Λ": {
+    "bold": "𝚲",
+    "italic": "𝛬",
+    "bold-italic": "𝜦",
+    "bold-sans-serif": "𝝠",
+    "sans-serif-bold-italic": "𝞚"
+  },
+  "Μ": {
+    "bold": "𝚳",
+    "italic": "𝛭",
+    "bold-italic": "𝜧",
+    "bold-sans-serif": "𝝡",
+    "sans-serif-bold-italic": "𝞛"
+  },
+  "Ν": {
+    "bold": "𝚴",
+    "italic": "𝛮",
+    "bold-italic": "𝜨",
+    "bold-sans-serif": "𝝢",
+    "sans-serif-bold-italic": "𝞜"
+  },
+  "Ξ": {
+    "bold": "𝚵",
+    "italic": "𝛯",
+    "bold-italic": "𝜩",
+    "bold-sans-serif": "𝝣",
+    "sans-serif-bold-italic": "𝞝"
+  },
+  "Ο": {
+    "bold": "𝚶",
+    "italic": "𝛰",
+    "bold-italic": "𝜪",
+    "bold-sans-serif": "𝝤",
+    "sans-serif-bold-italic": "𝞞"
+  },
+  "Ρ": {
+    "bold": "𝚸",
+    "italic": "𝛲",
+    "bold-italic": "𝜬",
+    "bold-sans-serif": "𝝦",
+    "sans-serif-bold-italic": "𝞠"
+  },
+  "ϴ": {
+    "bold": "𝚹",
+    "italic": "𝛳",
+    "bold-italic": "𝜭",
+    "bold-sans-serif": "𝝧",
+    "sans-serif-bold-italic": "𝞡"
+  },
+  "Σ": {
+    "bold": "𝚺",
+    "italic": "𝛴",
+    "bold-italic": "𝜮",
+    "bold-sans-serif": "𝝨",
+    "sans-serif-bold-italic": "𝞢"
+  },
+  "Τ": {
+    "bold": "𝚻",
+    "italic": "𝛵",
+    "bold-italic": "𝜯",
+    "bold-sans-serif": "𝝩",
+    "sans-serif-bold-italic": "𝞣"
+  },
+  "Υ": {
+    "bold": "𝚼",
+    "italic": "𝛶",
+    "bold-italic": "𝜰",
+    "bold-sans-serif": "𝝪",
+    "sans-serif-bold-italic": "𝞤"
+  },
+  "Φ": {
+    "bold": "𝚽",
+    "italic": "𝛷",
+    "bold-italic": "𝜱",
+    "bold-sans-serif": "𝝫",
+    "sans-serif-bold-italic": "𝞥"
+  },
+  "Χ": {
+    "bold": "𝚾",
+    "italic": "𝛸",
+    "bold-italic": "𝜲",
+    "bold-sans-serif": "𝝬",
+    "sans-serif-bold-italic": "𝞦"
+  },
+  "Ψ": {
+    "bold": "𝚿",
+    "italic": "𝛹",
+    "bold-italic": "𝜳",
+    "bold-sans-serif": "𝝭",
+    "sans-serif-bold-italic": "𝞧"
+  },
+  "Ω": {
+    "bold": "𝛀",
+    "italic": "𝛺",
+    "bold-italic": "𝜴",
+    "bold-sans-serif": "𝝮",
+    "sans-serif-bold-italic": "𝞨"
+  },
+  "∇": {
+    "bold": "𝛁",
+    "italic": "𝛻",
+    "bold-italic": "𝜵",
+    "bold-sans-serif": "𝝯",
+    "sans-serif-bold-italic": "𝞩"
+  },
+  "α": {
+    "bold": "𝛂",
+    "italic": "𝛼",
+    "bold-italic": "𝜶",
+    "bold-sans-serif": "𝝰",
+    "sans-serif-bold-italic": "𝞪"
+  },
+  "β": {
+    "bold": "𝛃",
+    "italic": "𝛽",
+    "bold-italic": "𝜷",
+    "bold-sans-serif": "𝝱",
+    "sans-serif-bold-italic": "𝞫"
+  },
+  "δ": {
+    "bold": "𝛅",
+    "italic": "𝛿",
+    "bold-italic": "𝜹",
+    "bold-sans-serif": "𝝳",
+    "sans-serif-bold-italic": "𝞭"
+  },
+  "ε": {
+    "bold": "𝛆",
+    "italic": "𝜀",
+    "bold-italic": "𝜺",
+    "bold-sans-serif": "𝝴",
+    "sans-serif-bold-italic": "𝞮"
+  },
+  "ζ": {
+    "bold": "𝛇",
+    "italic": "𝜁",
+    "bold-italic": "𝜻",
+    "bold-sans-serif": "𝝵",
+    "sans-serif-bold-italic": "𝞯"
+  },
+  "η": {
+    "bold": "𝛈",
+    "italic": "𝜂",
+    "bold-italic": "𝜼",
+    "bold-sans-serif": "𝝶",
+    "sans-serif-bold-italic": "𝞰"
+  },
+  "θ": {
+    "bold": "𝛉",
+    "italic": "𝜃",
+    "bold-italic": "𝜽",
+    "bold-sans-serif": "𝝷",
+    "sans-serif-bold-italic": "𝞱"
+  },
+  "ι": {
+    "bold": "𝛊",
+    "italic": "𝜄",
+    "bold-italic": "𝜾",
+    "bold-sans-serif": "𝝸",
+    "sans-serif-bold-italic": "𝞲"
+  },
+  "κ": {
+    "bold": "𝛋",
+    "italic": "𝜅",
+    "bold-italic": "𝜿",
+    "bold-sans-serif": "𝝹",
+    "sans-serif-bold-italic": "𝞳"
+  },
+  "μ": {
+    "bold": "𝛍",
+    "italic": "𝜇",
+    "bold-italic": "𝝁",
+    "bold-sans-serif": "𝝻",
+    "sans-serif-bold-italic": "𝞵"
+  },
+  "ν": {
+    "bold": "𝛎",
+    "italic": "𝜈",
+    "bold-italic": "𝝂",
+    "bold-sans-serif": "𝝼",
+    "sans-serif-bold-italic": "𝞶"
+  },
+  "ξ": {
+    "bold": "𝛏",
+    "italic": "𝜉",
+    "bold-italic": "𝝃",
+    "bold-sans-serif": "𝝽",
+    "sans-serif-bold-italic": "𝞷"
+  },
+  "ο": {
+    "bold": "𝛐",
+    "italic": "𝜊",
+    "bold-italic": "𝝄",
+    "bold-sans-serif": "𝝾",
+    "sans-serif-bold-italic": "𝞸"
+  },
+  "ς": {
+    "bold": "𝛓",
+    "italic": "𝜍",
+    "bold-italic": "𝝇",
+    "bold-sans-serif": "𝞁",
+    "sans-serif-bold-italic": "𝞻"
+  },
+  "σ": {
+    "bold": "𝛔",
+    "italic": "𝜎",
+    "bold-italic": "𝝈",
+    "bold-sans-serif": "𝞂",
+    "sans-serif-bold-italic": "𝞼"
+  },
+  "τ": {
+    "bold": "𝛕",
+    "italic": "𝜏",
+    "bold-italic": "𝝉",
+    "bold-sans-serif": "𝞃",
+    "sans-serif-bold-italic": "𝞽"
+  },
+  "υ": {
+    "bold": "𝛖",
+    "italic": "𝜐",
+    "bold-italic": "𝝊",
+    "bold-sans-serif": "𝞄",
+    "sans-serif-bold-italic": "𝞾"
+  },
+  "φ": {
+    "bold": "𝛗",
+    "italic": "𝜑",
+    "bold-italic": "𝝋",
+    "bold-sans-serif": "𝞅",
+    "sans-serif-bold-italic": "𝞿"
+  },
+  "χ": {
+    "bold": "𝛘",
+    "italic": "𝜒",
+    "bold-italic": "𝝌",
+    "bold-sans-serif": "𝞆",
+    "sans-serif-bold-italic": "𝟀"
+  },
+  "ω": {
+    "bold": "𝛚",
+    "italic": "𝜔",
+    "bold-italic": "𝝎",
+    "bold-sans-serif": "𝞈",
+    "sans-serif-bold-italic": "𝟂"
+  },
+  "∂": {
+    "bold": "𝛛",
+    "italic": "𝜕",
+    "bold-italic": "𝝏",
+    "bold-sans-serif": "𝞉",
+    "sans-serif-bold-italic": "𝟃"
+  },
+  "ϵ": {
+    "bold": "𝛜",
+    "italic": "𝜖",
+    "bold-italic": "𝝐",
+    "bold-sans-serif": "𝞊",
+    "sans-serif-bold-italic": "𝟄"
+  },
+  "ϑ": {
+    "bold": "𝛝",
+    "italic": "𝜗",
+    "bold-italic": "𝝑",
+    "bold-sans-serif": "𝞋",
+    "sans-serif-bold-italic": "𝟅"
+  },
+  "ϰ": {
+    "bold": "𝛞",
+    "italic": "𝜘",
+    "bold-italic": "𝝒",
+    "bold-sans-serif": "𝞌",
+    "sans-serif-bold-italic": "𝟆"
+  },
+  "ϕ": {
+    "bold": "𝛟",
+    "italic": "𝜙",
+    "bold-italic": "𝝓",
+    "bold-sans-serif": "𝞍",
+    "sans-serif-bold-italic": "𝟇"
+  },
+  "ϱ": {
+    "bold": "𝛠",
+    "italic": "𝜚",
+    "bold-italic": "𝝔",
+    "bold-sans-serif": "𝞎",
+    "sans-serif-bold-italic": "𝟈"
+  },
+  "ϖ": {
+    "bold": "𝛡",
+    "italic": "𝜛",
+    "bold-italic": "𝝕",
+    "bold-sans-serif": "𝞏",
+    "sans-serif-bold-italic": "𝟉"
+  },
+  "Ϝ": {
+    "bold": "𝟊"
+  },
+  "ϝ": {
+    "bold": "𝟋"
+  },
+  "0": {
+    "bold": "𝟎",
+    "double-struck": "𝟘",
+    "sans-serif": "𝟢",
+    "bold-sans-serif": "𝟬",
+    "monospace": "𝟶"
+  },
+  "1": {
+    "bold": "𝟏",
+    "double-struck": "𝟙",
+    "sans-serif": "𝟣",
+    "bold-sans-serif": "𝟭",
+    "monospace": "𝟷"
+  },
+  "2": {
+    "bold": "𝟐",
+    "double-struck": "𝟚",
+    "sans-serif": "𝟤",
+    "bold-sans-serif": "𝟮",
+    "monospace": "𝟸"
+  },
+  "3": {
+    "bold": "𝟑",
+    "double-struck": "𝟛",
+    "sans-serif": "𝟥",
+    "bold-sans-serif": "𝟯",
+    "monospace": "𝟹"
+  },
+  "4": {
+    "bold": "𝟒",
+    "double-struck": "𝟜",
+    "sans-serif": "𝟦",
+    "bold-sans-serif": "𝟰",
+    "monospace": "𝟺"
+  },
+  "5": {
+    "bold": "𝟓",
+    "double-struck": "𝟝",
+    "sans-serif": "𝟧",
+    "bold-sans-serif": "𝟱",
+    "monospace": "𝟻"
+  },
+  "6": {
+    "bold": "𝟔",
+    "double-struck": "𝟞",
+    "sans-serif": "𝟨",
+    "bold-sans-serif": "𝟲",
+    "monospace": "𝟼"
+  },
+  "7": {
+    "bold": "𝟕",
+    "double-struck": "𝟟",
+    "sans-serif": "𝟩",
+    "bold-sans-serif": "𝟳",
+    "monospace": "𝟽"
+  },
+  "8": {
+    "bold": "𝟖",
+    "double-struck": "𝟠",
+    "sans-serif": "𝟪",
+    "bold-sans-serif": "𝟴",
+    "monospace": "𝟾"
+  },
+  "9": {
+    "bold": "𝟗",
+    "double-struck": "𝟡",
+    "sans-serif": "𝟫",
+    "bold-sans-serif": "𝟵",
+    "monospace": "𝟿"
+  },
+  "ɬ": {
+    "small-caps": "𝼄"
+  }
+}

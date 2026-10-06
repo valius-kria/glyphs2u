@@ -1,0 +1,27 @@
+# Pairing map for stix -- hand-editable.
+# Seeded from htf_mfont_targets.json; edit freely, this file wins.
+# A '-' in the plain column means 'do not compare this font'.
+#
+# variant                plain                  differs
+# stix-mathbb            ?                      ?
+stix-mathbb-bold         stix-mathbb            weight=bold
+stix-mathbbit            stix-mathbb            style=italic
+stix-mathbbit-bold       stix-mathbbit          weight=bold
+# stix-mathcal           ?                      ?
+stix-mathcal-bold        stix-mathcal           weight=bold
+# stix-mathex            ?                      ?
+stix-mathex-bold         stix-mathex            weight=bold
+# stix-mathfrak          ?                      ?
+stix-mathfrak-bold       stix-mathfrak          weight=bold
+# stix-mathit            ?                      ?
+stix-mathit-bold         stix-mathit            weight=bold
+# stix-mathrm            ?                      ?
+stix-mathrm-bold         stix-mathrm            weight=bold
+# stix-mathscr           ?                      ?
+stix-mathscr-bold        stix-mathscr           weight=bold
+# stix-mathsf            ?                      ?
+stix-mathsf-bold         stix-mathsf            weight=bold
+stix-mathsfit            stix-mathsf            style=italic
+stix-mathsfit-bold       stix-mathsfit          weight=bold
+# stix-mathtt            ?                      ?
+stix-mathtt-bold         stix-mathtt            weight=bold

@@ -110,6 +110,46 @@ prod-pfb-dirs.json: prod-pfb-dict.json
 config-list.json: $(script_dir)/list-config-files.py
 	$(PYTHON)/list-config-files.py
 
+## Glyph property maps -- the font analysis from the htf-fonts project.
+## Per-font records live in tfm/<supplier>/<family>/<font>/<font>.gpm.json and
+## hold a base character plus font properties for every glyph; mk/font.mk has
+## the per-font rules.  See README.md, "The glyph property maps".
+include mk/config.mk
+mk_dir := $(project_dir)/mk
+
+# Maps derived from the distribution, kept per release under $(data_dir).
+# htf_data.json is tex4ht's own .htf files, read with htf_to_json.py: the
+# source the records are seeded from, and what the analysis is meant to
+# correct.  The script appends to whatever it finds, so the old file goes
+# first.
+$(data_dir)/htf_data.json: $(script_dir)/htf_to_json.py
+	@mkdir -p $(data_dir)
+	@rm -f $@
+	@for d in $(HTF_DIRS); do 	    if [ -d "$$d" ]; then 	        echo "reading .htf from $$d"; 	        (cd $(data_dir) && $(PYTHON) $(script_dir)/htf_to_json.py "$$d"); 	    else echo "skip (missing): $$d"; fi; 	done
+
+# tfm -> pfb, so a record can name the font file its glyphs come from.
+$(data_dir)/psfonts-map-tfm-data.json: $(script_dir)/psfonts-tfm-data.py
+	@mkdir -p $(data_dir)
+	cd $(data_dir) && $(PYTHON) $(script_dir)/psfonts-tfm-data.py \
+	    `$(KPSEWHICH) psfonts.map`
+
+htf-data: $(data_dir)/htf_data.json $(data_dir)/psfonts-map-tfm-data.json
+
+# Scaffold a font's work dir: locate its tfm, mirror the distribution's
+# supplier/family path under tfm/, drop a Makefile including mk/font.mk, and
+# record the `plain' sibling the raster comparison needs.
+%.tfmdir:
+	@p=`$(KPSEWHICH) $*.tfm`; \
+	if [ -z "$$p" ]; then echo "no tfm found for '$*'"; exit 1; fi; \
+	rel=$${p#*/fonts/tfm/}; rel=$${rel%/*}; \
+	d=$(tfm_dir)/$$rel/$*; mkdir -p "$$d"; \
+	[ -e "$$d/Makefile" ] || printf 'include %s\n' "$(mk_dir)/font.mk" > "$$d/Makefile"; \
+	sib=`$(PYTHON) $(script_dir)/cmp_sibling.py $* 2>/dev/null`; \
+	if [ -n "$$sib" ]; then echo "$$sib" > "$$d/plain"; echo "  plain sibling: $$sib"; fi; \
+	echo "tfm work dir: $$d"
+
+.PHONY: htf-data
+
 ## ML glyph classifier — repo-wide dataset and model
 # Build/refresh the labeled glyph-image dataset for ONE working directory.
 # Usage: make dataset DIR=public/lm
@@ -180,6 +220,6 @@ dataset-math-otf:
 	done
 
 .PHONY: print-%-dir dataset dataset-all dataset-otf dataset-math-otf \
-        inspect-math-otf index list-fonts clean-pua
+        inspect-math-otf index list-fonts clean-pua htf-data
 
 .FORCE:

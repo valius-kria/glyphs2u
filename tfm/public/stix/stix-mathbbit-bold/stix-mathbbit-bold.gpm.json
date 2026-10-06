@@ -1,0 +1,3623 @@
+{
+ "font": "stix-mathbbit-bold",
+ "pfb": "stix-mathbbit-bold.pfb",
+ "enc": "stix-mathbbit-bold.pfb.enc.json",
+ "htf": "stix-mathbbit-bold",
+ "htf_entry": "stix-mathbbit-bold",
+ "htf_decl": {},
+ "props": {
+  "weight": "bold",
+  "style": "normal"
+ },
+ "status": {
+  "family": "?",
+  "weight": "decl",
+  "variant": "?",
+  "style": "manual"
+ },
+ "glyphs": {
+  "uniE004": {
+   "slot": 0,
+   "pos": 1,
+   "htf_value": "&#x219D;&#x0338;",
+   "base": "↝̸",
+   "uni": [
+    "0x219D",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE005": {
+   "slot": 1,
+   "pos": 2,
+   "htf_value": "&#x2933;&#x0338;",
+   "base": "⤳̸",
+   "uni": [
+    "0x2933",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE00E": {
+   "slot": 2,
+   "pos": 3,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2267;&#x0338;</mfont>",
+   "base": "≧̸",
+   "uni": [
+    "0x2267",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE00F": {
+   "slot": 3,
+   "pos": 4,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A7E;&#x0338;</mfont>",
+   "base": "⩾̸",
+   "uni": [
+    "0x2A7E",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE010": {
+   "slot": 4,
+   "pos": 5,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A7D;&#x0338;</mfont>",
+   "base": "⩽̸",
+   "uni": [
+    "0x2A7D",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE011": {
+   "slot": 5,
+   "pos": 6,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2266;&#x0338;</mfont>",
+   "base": "≦̸",
+   "uni": [
+    "0x2266",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE016": {
+   "slot": 6,
+   "pos": 7,
+   "htf_value": "&#x2AC5;&#x0338;",
+   "base": "⫅̸",
+   "uni": [
+    "0x2AC5",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE018": {
+   "slot": 7,
+   "pos": 8,
+   "htf_value": "&#x2AC6;&#x0338;",
+   "base": "⫆̸",
+   "uni": [
+    "0x2AC6",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE01E": {
+   "slot": 8,
+   "pos": 9,
+   "htf_value": "&#x224B;&#x0338;",
+   "base": "≋̸",
+   "uni": [
+    "0x224B",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE023": {
+   "slot": 9,
+   "pos": 10,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A6D;&#x0338;</mfont>",
+   "base": "⩭̸",
+   "uni": [
+    "0x2A6D",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE025": {
+   "slot": 10,
+   "pos": 11,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A70;&#x0338;</mfont>",
+   "base": "⩰̸",
+   "uni": [
+    "0x2A70",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE028": {
+   "slot": 11,
+   "pos": 12,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x226A;&#x0338;</mfont>",
+   "base": "≪̸",
+   "uni": [
+    "0x226A",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE029": {
+   "slot": 12,
+   "pos": 13,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x226B;&#x0338;</mfont>",
+   "base": "≫̸",
+   "uni": [
+    "0x226B",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE02A": {
+   "slot": 13,
+   "pos": 14,
+   "htf_value": "&#x22D8;&#x0338;",
+   "base": "⋘̸",
+   "uni": [
+    "0x22D8",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE02B": {
+   "slot": 14,
+   "pos": 15,
+   "htf_value": "&#x22D9;&#x0338;",
+   "base": "⋙̸",
+   "uni": [
+    "0x22D9",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE035": {
+   "slot": 15,
+   "pos": 16,
+   "htf_value": "&#x220D;&#x0338;",
+   "base": "∍̸",
+   "uni": [
+    "0x220D",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE03A": {
+   "slot": 16,
+   "pos": 17,
+   "htf_value": "<mfont mathvariant=\"italic\">&#x2202;&#x0338;</mfont>",
+   "base": "∂̸",
+   "uni": [
+    "0x2202",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua",
+    "style": "sibling"
+   }
+  },
+  "uniE03B": {
+   "slot": 17,
+   "pos": 18,
+   "htf_value": "&#x22F5;&#x0338;",
+   "base": "⋵̸",
+   "uni": [
+    "0x22F5",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE03C": {
+   "slot": 18,
+   "pos": 19,
+   "htf_value": "&#x22F9;&#x0338;",
+   "base": "⋹̸",
+   "uni": [
+    "0x22F9",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE03D": {
+   "slot": 19,
+   "pos": 20,
+   "htf_value": "&#x220A;&#x0338;",
+   "base": "∊̸",
+   "uni": [
+    "0x220A",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE045": {
+   "slot": 20,
+   "pos": 21,
+   "htf_value": "&#x2A9B;&#x0338;",
+   "base": "⪛̸",
+   "uni": [
+    "0x2A9B",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE046": {
+   "slot": 21,
+   "pos": 22,
+   "htf_value": "&#x2A9C;&#x0338;",
+   "base": "⪜̸",
+   "uni": [
+    "0x2A9C",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE04B": {
+   "slot": 22,
+   "pos": 23,
+   "htf_value": "&#x2AAF;&#x0338;",
+   "base": "⪯̸",
+   "uni": [
+    "0x2AAF",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE04C": {
+   "slot": 23,
+   "pos": 24,
+   "htf_value": "&#x2AB3;&#x0338;",
+   "base": "⪳̸",
+   "uni": [
+    "0x2AB3",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE04E": {
+   "slot": 24,
+   "pos": 25,
+   "htf_value": "&#x2AB4;&#x0338;",
+   "base": "⪴̸",
+   "uni": [
+    "0x2AB4",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE04F": {
+   "slot": 25,
+   "pos": 26,
+   "htf_value": "&#x2AB0;&#x0338;",
+   "base": "⪰̸",
+   "uni": [
+    "0x2AB0",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE050": {
+   "slot": 26,
+   "pos": 27,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x228F;&#x0338;</mfont>",
+   "base": "⊏̸",
+   "uni": [
+    "0x228F",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE051": {
+   "slot": 27,
+   "pos": 28,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2290;&#x0338;</mfont>",
+   "base": "⊐̸",
+   "uni": [
+    "0x2290",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE052": {
+   "slot": 28,
+   "pos": 29,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x224E;&#x0338;</mfont>",
+   "base": "≎̸",
+   "uni": [
+    "0x224E",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE059": {
+   "slot": 29,
+   "pos": 30,
+   "htf_value": "&#x2274;",
+   "base": "≴",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp"
+   }
+  },
+  "uniE05A": {
+   "slot": 30,
+   "pos": 31,
+   "htf_value": "&#x227F;&#x0338;",
+   "base": "≿̸",
+   "uni": [
+    "0x227F",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE05B": {
+   "slot": 31,
+   "pos": 32,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x224F;&#x0338;</mfont>",
+   "base": "≏̸",
+   "uni": [
+    "0x224F",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE05C": {
+   "slot": 32,
+   "pos": 33,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2242;&#x0338;</mfont>",
+   "base": "≂̸",
+   "uni": [
+    "0x2242",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE06D": {
+   "slot": 33,
+   "pos": 34,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x22F7;&#x0338;</mfont>",
+   "base": "⋷̸",
+   "uni": [
+    "0x22F7",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE06E": {
+   "slot": 34,
+   "pos": 35,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x22FE;&#x0338;</mfont>",
+   "base": "⋾̸",
+   "uni": [
+    "0x22FE",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE075": {
+   "slot": 35,
+   "pos": 36,
+   "htf_value": "&#x2A6C;&#x0338;",
+   "base": "⩬̸",
+   "uni": [
+    "0x2A6C",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE07C": {
+   "slot": 36,
+   "pos": 37,
+   "htf_value": "&#x2263;&#x0338;",
+   "base": "≣̸",
+   "uni": [
+    "0x2263",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE082": {
+   "slot": 37,
+   "pos": 38,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A95;&#x0338;</mfont>",
+   "base": "⪕̸",
+   "uni": [
+    "0x2A95",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE083": {
+   "slot": 38,
+   "pos": 39,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A96;&#x0338;</mfont>",
+   "base": "⪖̸",
+   "uni": [
+    "0x2A96",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE086": {
+   "slot": 39,
+   "pos": 40,
+   "htf_value": "&#x2A99;&#x0338;",
+   "base": "⪙̸",
+   "uni": [
+    "0x2A99",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE087": {
+   "slot": 40,
+   "pos": 41,
+   "htf_value": "&#x2A9A;&#x0338;",
+   "base": "⪚̸",
+   "uni": [
+    "0x2A9A",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE094": {
+   "slot": 41,
+   "pos": 42,
+   "htf_value": "&#x22DE;&#x0338;",
+   "base": "⋞̸",
+   "uni": [
+    "0x22DE",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE095": {
+   "slot": 42,
+   "pos": 43,
+   "htf_value": "&#x22DF;&#x0338;",
+   "base": "⋟̸",
+   "uni": [
+    "0x22DF",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE098": {
+   "slot": 43,
+   "pos": 44,
+   "htf_value": "&#x2AF4;&#x0337;",
+   "base": "⫴̷",
+   "uni": [
+    "0x2AF4",
+    "0x0337"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE14C": {
+   "slot": 44,
+   "pos": 45,
+   "htf_value": "&#x29CF;&#x0338;",
+   "base": "⧏̸",
+   "uni": [
+    "0x29CF",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE14D": {
+   "slot": 45,
+   "pos": 46,
+   "htf_value": "&#x29D0;&#x0338;",
+   "base": "⧐̸",
+   "uni": [
+    "0x29D0",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE14E": {
+   "slot": 46,
+   "pos": 47,
+   "htf_value": "&#x2AA1;&#x0338;",
+   "base": "⪡̸",
+   "uni": [
+    "0x2AA1",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "uniE14F": {
+   "slot": 47,
+   "pos": 48,
+   "htf_value": "&#x2AA2;&#x0338;",
+   "base": "⪢̸",
+   "uni": [
+    "0x2AA2",
+    "0x0338"
+   ],
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "lua",
+    "weight": "cmp",
+    "uni": "lua"
+   }
+  },
+  "u1D7D8": {
+   "slot": 48,
+   "pos": 49,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">0</mfont>",
+   "base": "0",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7D9": {
+   "slot": 49,
+   "pos": 50,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">1</mfont>",
+   "base": "1",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DA": {
+   "slot": 50,
+   "pos": 51,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">2</mfont>",
+   "base": "2",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DB": {
+   "slot": 51,
+   "pos": 52,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">3</mfont>",
+   "base": "3",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DC": {
+   "slot": 52,
+   "pos": 53,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">4</mfont>",
+   "base": "4",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DD": {
+   "slot": 53,
+   "pos": 54,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">5</mfont>",
+   "base": "5",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DE": {
+   "slot": 54,
+   "pos": 55,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">6</mfont>",
+   "base": "6",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DF": {
+   "slot": 55,
+   "pos": 56,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">7</mfont>",
+   "base": "7",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7E0": {
+   "slot": 56,
+   "pos": 57,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">8</mfont>",
+   "base": "8",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7E1": {
+   "slot": 57,
+   "pos": 58,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck\">9</mfont>",
+   "base": "9",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uniE200": {
+   "slot": 65,
+   "pos": 66,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">A</mfont>",
+   "base": "A",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE201": {
+   "slot": 66,
+   "pos": 67,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">B</mfont>",
+   "base": "B",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uni2102.bi": {
+   "slot": 67,
+   "pos": 68,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">C</mfont>",
+   "base": "C",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "name",
+    "weight": "name"
+   }
+  },
+  "uni2145": {
+   "slot": 68,
+   "pos": 69,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">D</mfont>",
+   "base": "D",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uniE203": {
+   "slot": 69,
+   "pos": 70,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">E</mfont>",
+   "base": "E",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE204": {
+   "slot": 70,
+   "pos": 71,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">F</mfont>",
+   "base": "F",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE205": {
+   "slot": 71,
+   "pos": 72,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">G</mfont>",
+   "base": "G",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uni210D.bi": {
+   "slot": 72,
+   "pos": 73,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">H</mfont>",
+   "base": "H",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "name",
+    "weight": "name"
+   }
+  },
+  "uniE206": {
+   "slot": 73,
+   "pos": 74,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">I</mfont>",
+   "base": "I",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE207": {
+   "slot": 74,
+   "pos": 75,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">J</mfont>",
+   "base": "J",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE208": {
+   "slot": 75,
+   "pos": 76,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">K</mfont>",
+   "base": "K",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE209": {
+   "slot": 76,
+   "pos": 77,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">L</mfont>",
+   "base": "L",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE20A": {
+   "slot": 77,
+   "pos": 78,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">M</mfont>",
+   "base": "M",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uni2115.bi": {
+   "slot": 78,
+   "pos": 79,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">N</mfont>",
+   "base": "N",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "name",
+    "weight": "name"
+   }
+  },
+  "uniE20B": {
+   "slot": 79,
+   "pos": 80,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">O</mfont>",
+   "base": "O",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uni2119.bi": {
+   "slot": 80,
+   "pos": 81,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">P</mfont>",
+   "base": "P",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "name",
+    "weight": "name"
+   }
+  },
+  "uni211A.bi": {
+   "slot": 81,
+   "pos": 82,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">Q</mfont>",
+   "base": "Q",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "name",
+    "weight": "name"
+   }
+  },
+  "uni211D.bi": {
+   "slot": 82,
+   "pos": 83,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">R</mfont>",
+   "base": "R",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "name",
+    "weight": "name"
+   }
+  },
+  "uniE20C": {
+   "slot": 83,
+   "pos": 84,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">S</mfont>",
+   "base": "S",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE20D": {
+   "slot": 84,
+   "pos": 85,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">T</mfont>",
+   "base": "T",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE20E": {
+   "slot": 85,
+   "pos": 86,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">U</mfont>",
+   "base": "U",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE20F": {
+   "slot": 86,
+   "pos": 87,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">V</mfont>",
+   "base": "V",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE210": {
+   "slot": 87,
+   "pos": 88,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">W</mfont>",
+   "base": "W",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE211": {
+   "slot": 88,
+   "pos": 89,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">X</mfont>",
+   "base": "X",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE212": {
+   "slot": 89,
+   "pos": 90,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">Y</mfont>",
+   "base": "Y",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uni2124.bi": {
+   "slot": 90,
+   "pos": 91,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">Z</mfont>",
+   "base": "Z",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "name",
+    "weight": "name"
+   }
+  },
+  "uniE213": {
+   "slot": 97,
+   "pos": 98,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">a</mfont>",
+   "base": "a",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE214": {
+   "slot": 98,
+   "pos": 99,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">b</mfont>",
+   "base": "b",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE215": {
+   "slot": 99,
+   "pos": 100,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">c</mfont>",
+   "base": "c",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uni2146": {
+   "slot": 100,
+   "pos": 101,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">d</mfont>",
+   "base": "d",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2147": {
+   "slot": 101,
+   "pos": 102,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">e</mfont>",
+   "base": "e",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uniE218": {
+   "slot": 102,
+   "pos": 103,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">f</mfont>",
+   "base": "f",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE219": {
+   "slot": 103,
+   "pos": 104,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">g</mfont>",
+   "base": "g",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE21A": {
+   "slot": 104,
+   "pos": 105,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">h</mfont>",
+   "base": "h",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uni2148": {
+   "slot": 105,
+   "pos": 106,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">i</mfont>",
+   "base": "i",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2149": {
+   "slot": 106,
+   "pos": 107,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">j</mfont>",
+   "base": "j",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode",
+    "style": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uniE21D": {
+   "slot": 107,
+   "pos": 108,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">k</mfont>",
+   "base": "k",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE21E": {
+   "slot": 108,
+   "pos": 109,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">l</mfont>",
+   "base": "l",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE21F": {
+   "slot": 109,
+   "pos": 110,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">m</mfont>",
+   "base": "m",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE220": {
+   "slot": 110,
+   "pos": 111,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">n</mfont>",
+   "base": "n",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE221": {
+   "slot": 111,
+   "pos": 112,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">o</mfont>",
+   "base": "o",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE222": {
+   "slot": 112,
+   "pos": 113,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">p</mfont>",
+   "base": "p",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE223": {
+   "slot": 113,
+   "pos": 114,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">q</mfont>",
+   "base": "q",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE224": {
+   "slot": 114,
+   "pos": 115,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">r</mfont>",
+   "base": "r",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE225": {
+   "slot": 115,
+   "pos": 116,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">s</mfont>",
+   "base": "s",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE226": {
+   "slot": 116,
+   "pos": 117,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">t</mfont>",
+   "base": "t",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE227": {
+   "slot": 117,
+   "pos": 118,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">u</mfont>",
+   "base": "u",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE228": {
+   "slot": 118,
+   "pos": 119,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">v</mfont>",
+   "base": "v",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE229": {
+   "slot": 119,
+   "pos": 120,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">w</mfont>",
+   "base": "w",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE22A": {
+   "slot": 120,
+   "pos": 121,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">x</mfont>",
+   "base": "x",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE22B": {
+   "slot": 121,
+   "pos": 122,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">y</mfont>",
+   "base": "y",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uniE22C": {
+   "slot": 122,
+   "pos": 123,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">z</mfont>",
+   "base": "z",
+   "props": {
+    "family": "double-struck",
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "lua",
+    "family": "lua",
+    "weight": "cmp",
+    "style": "manual"
+   }
+  },
+  "uni2148.dtls": {
+   "slot": 123,
+   "pos": 124,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">&#x0131;</mfont>",
+   "base": "ı",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "name",
+    "family": "unicode",
+    "style": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2149.dtls": {
+   "slot": 124,
+   "pos": 125,
+   "htf_value": "<mfont mathvariant=\"bold-double-struck-italic\">&#x0237;</mfont>",
+   "base": "ȷ",
+   "props": {
+    "family": "double-struck",
+    "style": "italic",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "name",
+    "family": "unicode",
+    "style": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "sterling": {
+   "slot": 125,
+   "pos": 126,
+   "htf_value": "<mfont mathvariant=\"bold-italic\">&#x00A3;</mfont>",
+   "base": "£",
+   "props": {
+    "weight": "bold",
+    "style": "italic"
+   },
+   "status": {
+    "base": "unicode",
+    "style": "manual",
+    "weight": "cmp"
+   }
+  },
+  "uni2040": {
+   "slot": 127,
+   "pos": 128,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2040;</mfont>",
+   "base": "⁀",
+   "props": {
+    "style": "normal",
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "style": "manual",
+    "weight": "cmp"
+   }
+  },
+  "uni0300": {
+   "slot": 128,
+   "pos": 129,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0300;</mfont>",
+   "base": "̀",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0301": {
+   "slot": 129,
+   "pos": 130,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0301;</mfont>",
+   "base": "́",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0302": {
+   "slot": 130,
+   "pos": 131,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0302;</mfont>",
+   "base": "̂",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0303": {
+   "slot": 131,
+   "pos": 132,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0303;</mfont>",
+   "base": "̃",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0304": {
+   "slot": 132,
+   "pos": 133,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0304;</mfont>",
+   "base": "̄",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0306": {
+   "slot": 133,
+   "pos": 134,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0306;</mfont>",
+   "base": "̆",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0307": {
+   "slot": 134,
+   "pos": 135,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0307;</mfont>",
+   "base": "̇",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0308": {
+   "slot": 135,
+   "pos": 136,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0308;</mfont>",
+   "base": "̈",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0309": {
+   "slot": 136,
+   "pos": 137,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0309;</mfont>",
+   "base": "̉",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni030A": {
+   "slot": 137,
+   "pos": 138,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x030A;</mfont>",
+   "base": "̊",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni030C": {
+   "slot": 138,
+   "pos": 139,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x030C;</mfont>",
+   "base": "̌",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0310": {
+   "slot": 139,
+   "pos": 140,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0310;</mfont>",
+   "base": "̐",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0312": {
+   "slot": 140,
+   "pos": 141,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0312;</mfont>",
+   "base": "̒",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0315": {
+   "slot": 141,
+   "pos": 142,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0315;</mfont>",
+   "base": "̕",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni031A": {
+   "slot": 142,
+   "pos": 143,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x031A;</mfont>",
+   "base": "̚",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20D0": {
+   "slot": 143,
+   "pos": 144,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D0;</mfont>",
+   "base": "⃐",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20D1": {
+   "slot": 144,
+   "pos": 145,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D1;</mfont>",
+   "base": "⃑",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20D6": {
+   "slot": 145,
+   "pos": 146,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D6;</mfont>",
+   "base": "⃖",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20D7": {
+   "slot": 146,
+   "pos": 147,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D7;</mfont>",
+   "base": "⃗",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20DB": {
+   "slot": 147,
+   "pos": 148,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20DB;</mfont>",
+   "base": "⃛",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20DC": {
+   "slot": 148,
+   "pos": 149,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20DC;</mfont>",
+   "base": "⃜",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20E1": {
+   "slot": 149,
+   "pos": 150,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20E1;</mfont>",
+   "base": "⃡",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20E7": {
+   "slot": 150,
+   "pos": 151,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20E7;</mfont>",
+   "base": "⃧",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20E9": {
+   "slot": 151,
+   "pos": 152,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20E9;</mfont>",
+   "base": "⃩",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20F0": {
+   "slot": 152,
+   "pos": 153,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20F0;</mfont>",
+   "base": "⃰",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ACB": {
+   "slot": 153,
+   "pos": 154,
+   "htf_value": "&#x2ACB;",
+   "base": "⫋",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ACC": {
+   "slot": 154,
+   "pos": 155,
+   "htf_value": "&#x2ACC;",
+   "base": "⫌",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ACD": {
+   "slot": 155,
+   "pos": 156,
+   "htf_value": "&#x2ACD;",
+   "base": "⫍",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ACE": {
+   "slot": 156,
+   "pos": 157,
+   "htf_value": "&#x2ACE;",
+   "base": "⫎",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ACF": {
+   "slot": 157,
+   "pos": 158,
+   "htf_value": "&#x2ACF;",
+   "base": "⫏",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD0": {
+   "slot": 158,
+   "pos": 159,
+   "htf_value": "&#x2AD0;",
+   "base": "⫐",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD1": {
+   "slot": 159,
+   "pos": 160,
+   "htf_value": "&#x2AD1;",
+   "base": "⫑",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD2": {
+   "slot": 160,
+   "pos": 161,
+   "htf_value": "&#x2AD2;",
+   "base": "⫒",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD3": {
+   "slot": 161,
+   "pos": 162,
+   "htf_value": "&#x2AD3;",
+   "base": "⫓",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD4": {
+   "slot": 162,
+   "pos": 163,
+   "htf_value": "&#x2AD4;",
+   "base": "⫔",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD5": {
+   "slot": 163,
+   "pos": 164,
+   "htf_value": "&#x2AD5;",
+   "base": "⫕",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD6": {
+   "slot": 164,
+   "pos": 165,
+   "htf_value": "&#x2AD6;",
+   "base": "⫖",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD7": {
+   "slot": 165,
+   "pos": 166,
+   "htf_value": "&#x2AD7;",
+   "base": "⫗",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD8": {
+   "slot": 166,
+   "pos": 167,
+   "htf_value": "&#x2AD8;",
+   "base": "⫘",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AD9": {
+   "slot": 167,
+   "pos": 168,
+   "htf_value": "&#x2AD9;",
+   "base": "⫙",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ADA": {
+   "slot": 168,
+   "pos": 169,
+   "htf_value": "&#x2ADA;",
+   "base": "⫚",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ADB": {
+   "slot": 169,
+   "pos": 170,
+   "htf_value": "&#x2ADB;",
+   "base": "⫛",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ADC": {
+   "slot": 170,
+   "pos": 171,
+   "htf_value": "&#x2ADC;",
+   "base": "⫝̸",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ADD": {
+   "slot": 171,
+   "pos": 172,
+   "htf_value": "&#x2ADD;",
+   "base": "⫝",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ADE": {
+   "slot": 172,
+   "pos": 173,
+   "htf_value": "&#x2ADE;",
+   "base": "⫞",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2ADF": {
+   "slot": 173,
+   "pos": 174,
+   "htf_value": "&#x2ADF;",
+   "base": "⫟",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE0": {
+   "slot": 174,
+   "pos": 175,
+   "htf_value": "&#x2AE0;",
+   "base": "⫠",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE1": {
+   "slot": 175,
+   "pos": 176,
+   "htf_value": "&#x2AE1;",
+   "base": "⫡",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE2": {
+   "slot": 176,
+   "pos": 177,
+   "htf_value": "&#x2AE2;",
+   "base": "⫢",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE3": {
+   "slot": 177,
+   "pos": 178,
+   "htf_value": "&#x2AE3;",
+   "base": "⫣",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE4": {
+   "slot": 178,
+   "pos": 179,
+   "htf_value": "&#x2AE4;",
+   "base": "⫤",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE5": {
+   "slot": 179,
+   "pos": 180,
+   "htf_value": "&#x2AE5;",
+   "base": "⫥",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE6": {
+   "slot": 180,
+   "pos": 181,
+   "htf_value": "&#x2AE6;",
+   "base": "⫦",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE7": {
+   "slot": 181,
+   "pos": 182,
+   "htf_value": "&#x2AE7;",
+   "base": "⫧",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE8": {
+   "slot": 182,
+   "pos": 183,
+   "htf_value": "&#x2AE8;",
+   "base": "⫨",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AE9": {
+   "slot": 183,
+   "pos": 184,
+   "htf_value": "&#x2AE9;",
+   "base": "⫩",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AEA": {
+   "slot": 184,
+   "pos": 185,
+   "htf_value": "&#x2AEA;",
+   "base": "⫪",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AEB": {
+   "slot": 185,
+   "pos": 186,
+   "htf_value": "&#x2AEB;",
+   "base": "⫫",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AEC": {
+   "slot": 186,
+   "pos": 187,
+   "htf_value": "&#x2AEC;",
+   "base": "⫬",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AED": {
+   "slot": 187,
+   "pos": 188,
+   "htf_value": "&#x2AED;",
+   "base": "⫭",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AEE": {
+   "slot": 188,
+   "pos": 189,
+   "htf_value": "&#x2AEE;",
+   "base": "⫮",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AEF": {
+   "slot": 189,
+   "pos": 190,
+   "htf_value": "&#x2AEF;",
+   "base": "⫯",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF0": {
+   "slot": 190,
+   "pos": 191,
+   "htf_value": "&#x2AF0;",
+   "base": "⫰",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF1": {
+   "slot": 191,
+   "pos": 192,
+   "htf_value": "&#x2AF1;",
+   "base": "⫱",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF2": {
+   "slot": 192,
+   "pos": 193,
+   "htf_value": "&#x2AF2;",
+   "base": "⫲",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF3": {
+   "slot": 193,
+   "pos": 194,
+   "htf_value": "&#x2AF3;",
+   "base": "⫳",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF4": {
+   "slot": 194,
+   "pos": 195,
+   "htf_value": "&#x2AF4;",
+   "base": "⫴",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF5": {
+   "slot": 195,
+   "pos": 196,
+   "htf_value": "&#x2AF5;",
+   "base": "⫵",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF6": {
+   "slot": 196,
+   "pos": 197,
+   "htf_value": "&#x2AF6;",
+   "base": "⫶",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF7": {
+   "slot": 197,
+   "pos": 198,
+   "htf_value": "&#x2AF7;",
+   "base": "⫷",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF8": {
+   "slot": 198,
+   "pos": 199,
+   "htf_value": "&#x2AF8;",
+   "base": "⫸",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AF9": {
+   "slot": 199,
+   "pos": 200,
+   "htf_value": "&#x2AF9;",
+   "base": "⫹",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AFA": {
+   "slot": 200,
+   "pos": 201,
+   "htf_value": "&#x2AFA;",
+   "base": "⫺",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AFB": {
+   "slot": 201,
+   "pos": 202,
+   "htf_value": "&#x2AFB;",
+   "base": "⫻",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AFC": {
+   "slot": 202,
+   "pos": 203,
+   "htf_value": "&#x2AFC;",
+   "base": "⫼",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AFD": {
+   "slot": 203,
+   "pos": 204,
+   "htf_value": "&#x2AFD;",
+   "base": "⫽",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2AFE": {
+   "slot": 204,
+   "pos": 205,
+   "htf_value": "&#x2AFE;",
+   "base": "⫾",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B12": {
+   "slot": 205,
+   "pos": 206,
+   "htf_value": "&#x2B12;",
+   "base": "⬒",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B13": {
+   "slot": 206,
+   "pos": 207,
+   "htf_value": "&#x2B13;",
+   "base": "⬓",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B14": {
+   "slot": 207,
+   "pos": 208,
+   "htf_value": "&#x2B14;",
+   "base": "⬔",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B15": {
+   "slot": 208,
+   "pos": 209,
+   "htf_value": "&#x2B15;",
+   "base": "⬕",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B16": {
+   "slot": 209,
+   "pos": 210,
+   "htf_value": "&#x2B16;",
+   "base": "⬖",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B17": {
+   "slot": 210,
+   "pos": 211,
+   "htf_value": "&#x2B17;",
+   "base": "⬗",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B18": {
+   "slot": 211,
+   "pos": 212,
+   "htf_value": "&#x2B18;",
+   "base": "⬘",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B19": {
+   "slot": 212,
+   "pos": 213,
+   "htf_value": "&#x2B19;",
+   "base": "⬙",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B1A": {
+   "slot": 213,
+   "pos": 214,
+   "htf_value": "&#x2B1A;",
+   "base": "⬚",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B1B": {
+   "slot": 214,
+   "pos": 215,
+   "htf_value": "&#x2B1B;",
+   "base": "⬛",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B1C": {
+   "slot": 215,
+   "pos": 216,
+   "htf_value": "&#x2B1C;",
+   "base": "⬜",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B1D": {
+   "slot": 216,
+   "pos": 217,
+   "htf_value": "&#x2B1D;",
+   "base": "⬝",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B1E": {
+   "slot": 217,
+   "pos": 218,
+   "htf_value": "&#x2B1E;",
+   "base": "⬞",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B1F": {
+   "slot": 218,
+   "pos": 219,
+   "htf_value": "&#x2B1F;",
+   "base": "⬟",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B20": {
+   "slot": 219,
+   "pos": 220,
+   "htf_value": "&#x2B20;",
+   "base": "⬠",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B21": {
+   "slot": 220,
+   "pos": 221,
+   "htf_value": "&#x2B21;",
+   "base": "⬡",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B22": {
+   "slot": 221,
+   "pos": 222,
+   "htf_value": "&#x2B22;",
+   "base": "⬢",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B23": {
+   "slot": 222,
+   "pos": 223,
+   "htf_value": "&#x2B23;",
+   "base": "⬣",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B24": {
+   "slot": 223,
+   "pos": 224,
+   "htf_value": "&#x2B24;",
+   "base": "⬤",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B25": {
+   "slot": 224,
+   "pos": 225,
+   "htf_value": "&#x2B25;",
+   "base": "⬥",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B26": {
+   "slot": 225,
+   "pos": 226,
+   "htf_value": "&#x2B26;",
+   "base": "⬦",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B27": {
+   "slot": 226,
+   "pos": 227,
+   "htf_value": "&#x2B27;",
+   "base": "⬧",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B28": {
+   "slot": 227,
+   "pos": 228,
+   "htf_value": "&#x2B28;",
+   "base": "⬨",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B29": {
+   "slot": 228,
+   "pos": 229,
+   "htf_value": "&#x2B29;",
+   "base": "⬩",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B2A": {
+   "slot": 229,
+   "pos": 230,
+   "htf_value": "&#x2B2A;",
+   "base": "⬪",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B2B": {
+   "slot": 230,
+   "pos": 231,
+   "htf_value": "&#x2B2B;",
+   "base": "⬫",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B2C": {
+   "slot": 231,
+   "pos": 232,
+   "htf_value": "&#x2B2C;",
+   "base": "⬬",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B2D": {
+   "slot": 232,
+   "pos": 233,
+   "htf_value": "&#x2B2D;",
+   "base": "⬭",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B2E": {
+   "slot": 233,
+   "pos": 234,
+   "htf_value": "&#x2B2E;",
+   "base": "⬮",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B2F": {
+   "slot": 234,
+   "pos": 235,
+   "htf_value": "&#x2B2F;",
+   "base": "⬯",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B50": {
+   "slot": 235,
+   "pos": 236,
+   "htf_value": "&#x2B50;",
+   "base": "⭐",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B51": {
+   "slot": 236,
+   "pos": 237,
+   "htf_value": "&#x2B51;",
+   "base": "⭑",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B52": {
+   "slot": 237,
+   "pos": 238,
+   "htf_value": "&#x2B52;",
+   "base": "⭒",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B53": {
+   "slot": 238,
+   "pos": 239,
+   "htf_value": "&#x2B53;",
+   "base": "⭓",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2B54": {
+   "slot": 239,
+   "pos": 240,
+   "htf_value": "&#x2B54;",
+   "base": "⭔",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni3012": {
+   "slot": 240,
+   "pos": 241,
+   "htf_value": "&#x3012;",
+   "base": "〒",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni3030": {
+   "slot": 241,
+   "pos": 242,
+   "htf_value": "&#x3030;",
+   "base": "〰",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni23B6": {
+   "slot": 242,
+   "pos": 243,
+   "htf_value": "&#x23B6;",
+   "base": "⎶",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni23E0": {
+   "slot": 243,
+   "pos": 244,
+   "htf_value": "&#x23E0;",
+   "base": "⏠",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni23E1": {
+   "slot": 244,
+   "pos": 245,
+   "htf_value": "&#x23E1;",
+   "base": "⏡",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2609": {
+   "slot": 245,
+   "pos": 246,
+   "htf_value": "&#x2609;",
+   "base": "☉",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2621": {
+   "slot": 246,
+   "pos": 247,
+   "htf_value": "&#x2621;",
+   "base": "☡",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni263B": {
+   "slot": 247,
+   "pos": 248,
+   "htf_value": "&#x263B;",
+   "base": "☻",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni263C": {
+   "slot": 248,
+   "pos": 249,
+   "htf_value": "&#x263C;",
+   "base": "☼",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni263D": {
+   "slot": 249,
+   "pos": 250,
+   "htf_value": "&#x263D;",
+   "base": "☽",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni263E": {
+   "slot": 250,
+   "pos": 251,
+   "htf_value": "&#x263E;",
+   "base": "☾",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2640": {
+   "slot": 251,
+   "pos": 252,
+   "htf_value": "&#x2640;",
+   "base": "♀",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2642": {
+   "slot": 252,
+   "pos": 253,
+   "htf_value": "&#x2642;",
+   "base": "♂",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2664": {
+   "slot": 253,
+   "pos": 254,
+   "htf_value": "&#x2664;",
+   "base": "♤",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2665": {
+   "slot": 254,
+   "pos": 255,
+   "htf_value": "&#x2665;",
+   "base": "♥",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2666": {
+   "slot": 255,
+   "pos": 256,
+   "htf_value": "&#x2666;",
+   "base": "♦",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  }
+ }
+}

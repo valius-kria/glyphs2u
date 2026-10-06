@@ -1,0 +1,1106 @@
+Character	Glyph	Name	form	priority	lspace	rspace	Properties
+&#x2018;	‘	left single quotation mark	prefix	10	0	0	fence
+&#x2019;	’	right single quotation mark	postfix	10	0	0	fence
+&#x201C;	“	left double quotation mark	prefix	10	0	0	fence
+&#x201D;	”	right double quotation mark	postfix	10	0	0	fence
+(	(	left parenthesis	prefix	20	0	0	fence, stretchy, symmetric
+)	)	right parenthesis	postfix	20	0	0	fence, stretchy, symmetric
+[	[	left square bracket	prefix	20	0	0	fence, stretchy, symmetric
+]	]	right square bracket	postfix	20	0	0	fence, stretchy, symmetric
+{	{	left curly bracket	prefix	20	0	0	fence, stretchy, symmetric
+|	|	vertical line	prefix	20	0	0	fence, stretchy, symmetric
+|	|	vertical line	postfix	20	0	0	fence, stretchy, symmetric
+||	||	multiple character operator: ||	prefix	20	0	0	fence, stretchy, symmetric
+||	||	multiple character operator: ||	postfix	20	0	0	fence, stretchy, symmetric
+|||	|||	multiple character operator: |||	prefix	20	0	0	fence, stretchy, symmetric
+|||	|||	multiple character operator: |||	postfix	20	0	0	fence, stretchy, symmetric
+}	}	right curly bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x2016;	‖	double vertical line	prefix	20	0	0	fence, stretchy
+&#x2016;	‖	double vertical line	postfix	20	0	0	fence, stretchy
+&#x2308;	⌈	left ceiling	prefix	20	0	0	fence, stretchy, symmetric
+&#x2309;	⌉	right ceiling	postfix	20	0	0	fence, stretchy, symmetric
+&#x230A;	⌊	left floor	prefix	20	0	0	fence, stretchy, symmetric
+&#x230B;	⌋	right floor	postfix	20	0	0	fence, stretchy, symmetric
+&#x2329;	〈	left-pointing angle bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x232A;	〉	right-pointing angle bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x2772;	❲	light left tortoise shell bracket ornament	prefix	20	0	0	fence, stretchy, symmetric
+&#x2773;	❳	light right tortoise shell bracket ornament	postfix	20	0	0	fence, stretchy, symmetric
+&#x27E6;	⟦	mathematical left white square bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x27E7;	⟧	mathematical right white square bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x27E8;	⟨	mathematical left angle bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x27E9;	⟩	mathematical right angle bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x27EA;	⟪	mathematical left double angle bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x27EB;	⟫	mathematical right double angle bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x27EC;	⟬	mathematical left white tortoise shell bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x27ED;	⟭	mathematical right white tortoise shell bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x27EE;	⟮	mathematical left flattened parenthesis	prefix	20	0	0	fence, stretchy, symmetric
+&#x27EF;	⟯	mathematical right flattened parenthesis	postfix	20	0	0	fence, stretchy, symmetric
+&#x2980;	⦀	triple vertical bar delimiter	prefix	20	0	0	fence, stretchy
+&#x2980;	⦀	triple vertical bar delimiter	postfix	20	0	0	fence, stretchy
+&#x2983;	⦃	left white curly bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x2984;	⦄	right white curly bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x2985;	⦅	left white parenthesis	prefix	20	0	0	fence, stretchy, symmetric
+&#x2986;	⦆	right white parenthesis	postfix	20	0	0	fence, stretchy, symmetric
+&#x2987;	⦇	z notation left image bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x2988;	⦈	z notation right image bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x2989;	⦉	z notation left binding bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x298A;	⦊	z notation right binding bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x298B;	⦋	left square bracket with underbar	prefix	20	0	0	fence, stretchy, symmetric
+&#x298C;	⦌	right square bracket with underbar	postfix	20	0	0	fence, stretchy, symmetric
+&#x298D;	⦍	left square bracket with tick in top corner	prefix	20	0	0	fence, stretchy, symmetric
+&#x298E;	⦎	right square bracket with tick in bottom corner	postfix	20	0	0	fence, stretchy, symmetric
+&#x298F;	⦏	left square bracket with tick in bottom corner	prefix	20	0	0	fence, stretchy, symmetric
+&#x2990;	⦐	right square bracket with tick in top corner	postfix	20	0	0	fence, stretchy, symmetric
+&#x2991;	⦑	left angle bracket with dot	prefix	20	0	0	fence, stretchy, symmetric
+&#x2992;	⦒	right angle bracket with dot	postfix	20	0	0	fence, stretchy, symmetric
+&#x2993;	⦓	left arc less-than bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x2994;	⦔	right arc greater-than bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x2995;	⦕	double left arc greater-than bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x2996;	⦖	double right arc less-than bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x2997;	⦗	left black tortoise shell bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x2998;	⦘	right black tortoise shell bracket	postfix	20	0	0	fence, stretchy, symmetric
+&#x29FC;	⧼	left-pointing curved angle bracket	prefix	20	0	0	fence, stretchy, symmetric
+&#x29FD;	⧽	right-pointing curved angle bracket	postfix	20	0	0	fence, stretchy, symmetric
+;	;	semicolon	infix	30	0	3	separator, linebreakstyle=after
+,	,	comma	infix	40	0	3	separator, linebreakstyle=after
+&#x2063;	⁣	invisible separator	infix	40	0	0	separator, linebreakstyle=after
+&#x2234;	∴	therefore	infix	70	5	5	
+&#x2235;	∵	because	infix	70	5	5	
+->	->	multiple character operator: ->	infix	90	5	5	
+..	..	multiple character operator: ..	postfix	100	0	0	
+...	...	multiple character operator: ...	postfix	100	0	0	
+:	:	colon	infix	100	1	2	
+&#x3F6;	϶	greek reversed lunate epsilon symbol	infix	110	5	5	
+&#x2026;	…	horizontal ellipsis	infix	150	0	0	
+&#x22EE;	⋮	vertical ellipsis	infix	150	5	5	
+&#x22EF;	⋯	midline horizontal ellipsis	infix	150	0	0	
+&#x22F1;	⋱	down right diagonal ellipsis	infix	150	5	5	
+&#x220B;	∋	contains as member	infix	160	5	5	
+&#x22A2;	⊢	right tack	infix	170	5	5	
+&#x22A3;	⊣	left tack	infix	170	5	5	
+&#x22A4;	⊤	down tack	infix	170	5	5	
+&#x22A8;	⊨	true	infix	170	5	5	
+&#x22A9;	⊩	forces	infix	170	5	5	
+&#x22AC;	⊬	does not prove	infix	170	5	5	
+&#x22AD;	⊭	not true	infix	170	5	5	
+&#x22AE;	⊮	does not force	infix	170	5	5	
+&#x22AF;	⊯	negated double vertical bar double right turnstile	infix	170	5	5	
+&#x2228;	∨	logical or	infix	190	4	4	
+&amp;&amp;	&&	multiple character operator: &&	infix	200	4	4	
+&#x2227;	∧	logical and	infix	200	4	4	
+&#x2200;	∀	for all	prefix	230	2	1	
+&#x2203;	∃	there exists	prefix	230	2	1	
+&#x2204;	∄	there does not exist	prefix	230	2	1	
+&#x2201;	∁	complement	infix	240	1	2	
+&#x2208;	∈	element of	infix	240	5	5	
+&#x2209;	∉	not an element of	infix	240	5	5	
+&#x220C;	∌	does not contain as member	infix	240	5	5	
+&#x2282;	⊂	subset of	infix	240	5	5	
+&#x2282;&#x20D2;	⊂⃒	subset of with vertical line	infix	240	5	5	
+&#x2283;	⊃	superset of	infix	240	5	5	
+&#x2283;&#x20D2;	⊃⃒	superset of with vertical line	infix	240	5	5	
+&#x2284;	⊄	not a subset of	infix	240	5	5	
+&#x2285;	⊅	not a superset of	infix	240	5	5	
+&#x2286;	⊆	subset of or equal to	infix	240	5	5	
+&#x2287;	⊇	superset of or equal to	infix	240	5	5	
+&#x2288;	⊈	neither a subset of nor equal to	infix	240	5	5	
+&#x2289;	⊉	neither a superset of nor equal to	infix	240	5	5	
+&#x228A;	⊊	subset of with not equal to	infix	240	5	5	
+&#x228B;	⊋	superset of with not equal to	infix	240	5	5	
+&lt;=	<=	multiple character operator: <=	infix	241	5	5	
+&#x2264;	≤	less-than or equal to	infix	241	5	5	
+&#x2265;	≥	greater-than or equal to	infix	242	5	5	
+>	>	greater-than sign	infix	243	5	5	
+>=	>=	multiple character operator: >=	infix	243	5	5	
+&#x226F;	≯	not greater-than	infix	244	5	5	
+&lt;	<	less-than sign	infix	245	5	5	
+&#x226E;	≮	not less-than	infix	246	5	5	
+&#x2248;	≈	almost equal to	infix	247	5	5	
+&#x223C;	∼	tilde operator	infix	250	5	5	
+&#x2249;	≉	not almost equal to	infix	250	5	5	
+&#x2262;	≢	not identical to	infix	252	5	5	
+&#x2260;	≠	not equal to	infix	255	5	5	
+!=	!=	multiple character operator: !=	infix	260	4	4	
+*=	*=	multiple character operator: *=	infix	260	4	4	
++=	+=	multiple character operator: +=	infix	260	4	4	
+-=	-=	multiple character operator: -=	infix	260	4	4	
+/=	/=	multiple character operator: /=	infix	260	4	4	
+:=	:=	multiple character operator: :=	infix	260	4	4	
+=	=	equals sign	infix	260	5	5	
+==	==	multiple character operator: ==	infix	260	4	4	
+&#x221D;	∝	proportional to	infix	260	5	5	
+&#x2224;	∤	does not divide	infix	260	5	5	
+&#x2225;	∥	parallel to	infix	260	5	5	
+&#x2226;	∦	not parallel to	infix	260	5	5	
+&#x2241;	≁	not tilde	infix	260	5	5	
+&#x2243;	≃	asymptotically equal to	infix	260	5	5	
+&#x2244;	≄	not asymptotically equal to	infix	260	5	5	
+&#x2245;	≅	approximately equal to	infix	260	5	5	
+&#x2246;	≆	approximately but not actually equal to	infix	260	5	5	
+&#x2247;	≇	neither approximately nor actually equal to	infix	260	5	5	
+&#x224D;	≍	equivalent to	infix	260	5	5	
+&#x2254;	≔	colon equals	infix	260	5	5	
+&#x2257;	≗	ring equal to	infix	260	5	5	
+&#x2259;	≙	estimates	infix	260	5	5	
+&#x225A;	≚	equiangular to	infix	260	5	5	
+&#x225B;	≛	star equals	infix	260	5	5	
+&#x225C;	≜	delta equal to	infix	260	5	5	
+&#x225F;	≟	questioned equal to	infix	260	5	5	
+&#x2261;	≡	identical to	infix	260	5	5	
+&#x2268;	≨	less-than but not equal to	infix	260	5	5	
+&#x2269;	≩	greater-than but not equal to	infix	260	5	5	
+&#x226A;	≪	much less-than	infix	260	5	5	
+&#x226A;&#x338;	≪̸	much less than with slash	infix	260	5	5	
+&#x226B;	≫	much greater-than	infix	260	5	5	
+&#x226B;&#x338;	≫̸	much greater than with slash	infix	260	5	5	
+&#x226D;	≭	not equivalent to	infix	260	5	5	
+&#x2270;	≰	neither less-than nor equal to	infix	260	5	5	
+&#x2271;	≱	neither greater-than nor equal to	infix	260	5	5	
+&#x227A;	≺	precedes	infix	260	5	5	
+&#x227B;	≻	succeeds	infix	260	5	5	
+&#x227C;	≼	precedes or equal to	infix	260	5	5	
+&#x227D;	≽	succeeds or equal to	infix	260	5	5	
+&#x2280;	⊀	does not precede	infix	260	5	5	
+&#x2281;	⊁	does not succeed	infix	260	5	5	
+&#x22A5;	⊥	up tack	infix	260	5	5	
+&#x22B4;	⊴	normal subgroup of or equal to	infix	260	5	5	
+&#x22B5;	⊵	contains as normal subgroup or equal to	infix	260	5	5	
+&#x22C9;	⋉	left normal factor semidirect product	infix	260	4	4	
+&#x22CA;	⋊	right normal factor semidirect product	infix	260	4	4	
+&#x22CB;	⋋	left semidirect product	infix	260	4	4	
+&#x22CC;	⋌	right semidirect product	infix	260	4	4	
+&#x22D4;	⋔	pitchfork	infix	260	5	5	
+&#x22D6;	⋖	less-than with dot	infix	260	5	5	
+&#x22D7;	⋗	greater-than with dot	infix	260	5	5	
+&#x22D8;	⋘	very much less-than	infix	260	5	5	
+&#x22D9;	⋙	very much greater-than	infix	260	5	5	
+&#x22EA;	⋪	not normal subgroup of	infix	260	5	5	
+&#x22EB;	⋫	does not contain as normal subgroup	infix	260	5	5	
+&#x22EC;	⋬	not normal subgroup of or equal to	infix	260	5	5	
+&#x22ED;	⋭	does not contain as normal subgroup or equal	infix	260	5	5	
+&#x25A0;	■	black square	infix	260	3	3	
+&#x25A1;	□	white square	infix	260	3	3	
+&#x25AA;	▪	black small square	infix	260	3	3	
+&#x25AB;	▫	white small square	infix	260	3	3	
+&#x25AD;	▭	white rectangle	infix	260	3	3	
+&#x25AE;	▮	black vertical rectangle	infix	260	3	3	
+&#x25AF;	▯	white vertical rectangle	infix	260	3	3	
+&#x25B0;	▰	black parallelogram	infix	260	3	3	
+&#x25B1;	▱	white parallelogram	infix	260	3	3	
+&#x25B3;	△	white up-pointing triangle	infix	260	4	4	
+&#x25B4;	▴	black up-pointing small triangle	infix	260	4	4	
+&#x25B5;	▵	white up-pointing small triangle	infix	260	4	4	
+&#x25B6;	▶	black right-pointing triangle	infix	260	4	4	
+&#x25B7;	▷	white right-pointing triangle	infix	260	4	4	
+&#x25B8;	▸	black right-pointing small triangle	infix	260	4	4	
+&#x25B9;	▹	white right-pointing small triangle	infix	260	4	4	
+&#x25BC;	▼	black down-pointing triangle	infix	260	4	4	
+&#x25BD;	▽	white down-pointing triangle	infix	260	4	4	
+&#x25BE;	▾	black down-pointing small triangle	infix	260	4	4	
+&#x25BF;	▿	white down-pointing small triangle	infix	260	4	4	
+&#x25C0;	◀	black left-pointing triangle	infix	260	4	4	
+&#x25C1;	◁	white left-pointing triangle	infix	260	4	4	
+&#x25C2;	◂	black left-pointing small triangle	infix	260	4	4	
+&#x25C3;	◃	white left-pointing small triangle	infix	260	4	4	
+&#x25C4;	◄	black left-pointing pointer	infix	260	4	4	
+&#x25C5;	◅	white left-pointing pointer	infix	260	4	4	
+&#x25C6;	◆	black diamond	infix	260	4	4	
+&#x25C7;	◇	white diamond	infix	260	4	4	
+&#x25C8;	◈	white diamond containing black small diamond	infix	260	4	4	
+&#x25C9;	◉	fisheye	infix	260	4	4	
+&#x25CC;	◌	dotted circle	infix	260	4	4	
+&#x25CD;	◍	circle with vertical fill	infix	260	4	4	
+&#x25CE;	◎	bullseye	infix	260	4	4	
+&#x25CF;	●	black circle	infix	260	4	4	
+&#x25D6;	◖	left half black circle	infix	260	4	4	
+&#x25D7;	◗	right half black circle	infix	260	4	4	
+&#x25E6;	◦	white bullet	infix	260	4	4	
+&#x29C0;	⧀	circled less-than	infix	260	5	5	
+&#x29C1;	⧁	circled greater-than	infix	260	5	5	
+&#x29E3;	⧣	equals sign and slanted parallel	infix	260	5	5	
+&#x29E4;	⧤	equals sign and slanted parallel with tilde above	infix	260	5	5	
+&#x29E5;	⧥	identical to and slanted parallel	infix	260	5	5	
+&#x29E6;	⧦	gleich stark	infix	260	5	5	
+&#x29F3;	⧳	error-barred black circle	infix	260	3	3	
+&#x2A87;	⪇	less-than and single-line not equal to	infix	260	5	5	
+&#x2A88;	⪈	greater-than and single-line not equal to	infix	260	5	5	
+&#x2AAF;	⪯	precedes above single-line equals sign	infix	260	5	5	
+&#x2AAF;&#x338;	⪯̸	precedes above single-line equals sign with slash	infix	260	5	5	
+&#x2AB0;	⪰	succeeds above single-line equals sign	infix	260	5	5	
+&#x2AB0;&#x338;	⪰̸	succeeds above single-line equals sign with slash	infix	260	5	5	
+&#x2044;	⁄	fraction slash	infix	265	4	4	stretchy
+&#x2206;	∆	increment	infix	265	3	3	
+&#x220A;	∊	small element of	infix	265	5	5	
+&#x220D;	∍	small contains as member	infix	265	5	5	
+&#x220E;	∎	end of proof	infix	265	3	3	
+&#x2215;	∕	division slash	infix	265	4	4	stretchy
+&#x2217;	∗	asterisk operator	infix	265	4	4	
+&#x2218;	∘	ring operator	infix	265	4	4	
+&#x2219;	∙	bullet operator	infix	265	4	4	
+&#x221F;	∟	right angle	infix	265	5	5	
+&#x2223;	∣	divides	infix	265	5	5	
+&#x2236;	∶	ratio	infix	265	5	5	
+&#x2237;	∷	proportion	infix	265	5	5	
+&#x2238;	∸	dot minus	infix	265	4	4	
+&#x2239;	∹	excess	infix	265	5	5	
+&#x223A;	∺	geometric proportion	infix	265	4	4	
+&#x223B;	∻	homothetic	infix	265	5	5	
+&#x223D;	∽	reversed tilde	infix	265	5	5	
+&#x223D;&#x331;	∽̱	reversed tilde with underline	infix	265	3	3	
+&#x223E;	∾	inverted lazy s	infix	265	5	5	
+&#x223F;	∿	sine wave	infix	265	3	3	
+&#x2242;	≂	minus tilde	infix	265	5	5	
+&#x2242;&#x338;	≂̸	minus tilde with slash	infix	265	5	5	
+&#x224A;	≊	almost equal or equal to	infix	265	5	5	
+&#x224B;	≋	triple tilde	infix	265	5	5	
+&#x224C;	≌	all equal to	infix	265	5	5	
+&#x224E;	≎	geometrically equivalent to	infix	265	5	5	
+&#x224E;&#x338;	≎̸	geometrically equivalent to with slash	infix	265	5	5	
+&#x224F;	≏	difference between	infix	265	5	5	
+&#x224F;&#x338;	≏̸	difference between with slash	infix	265	5	5	
+&#x2250;	≐	approaches the limit	infix	265	5	5	
+&#x2251;	≑	geometrically equal to	infix	265	5	5	
+&#x2252;	≒	approximately equal to or the image of	infix	265	5	5	
+&#x2253;	≓	image of or approximately equal to	infix	265	5	5	
+&#x2255;	≕	equals colon	infix	265	5	5	
+&#x2256;	≖	ring in equal to	infix	265	5	5	
+&#x2258;	≘	corresponds to	infix	265	5	5	
+&#x225D;	≝	equal to by definition	infix	265	5	5	
+&#x225E;	≞	measured by	infix	265	5	5	
+&#x2263;	≣	strictly equivalent to	infix	265	5	5	
+&#x2266;	≦	less-than over equal to	infix	265	5	5	
+&#x2266;&#x338;	≦̸	less-than over equal to with slash	infix	265	5	5	
+&#x2267;	≧	greater-than over equal to	infix	265	5	5	
+&#x226C;	≬	between	infix	265	5	5	
+&#x2272;	≲	less-than or equivalent to	infix	265	5	5	
+&#x2273;	≳	greater-than or equivalent to	infix	265	5	5	
+&#x2274;	≴	neither less-than nor equivalent to	infix	265	5	5	
+&#x2275;	≵	neither greater-than nor equivalent to	infix	265	5	5	
+&#x2276;	≶	less-than or greater-than	infix	265	5	5	
+&#x2277;	≷	greater-than or less-than	infix	265	5	5	
+&#x2278;	≸	neither less-than nor greater-than	infix	265	5	5	
+&#x2279;	≹	neither greater-than nor less-than	infix	265	5	5	
+&#x227E;	≾	precedes or equivalent to	infix	265	5	5	
+&#x227F;	≿	succeeds or equivalent to	infix	265	5	5	
+&#x227F;&#x338;	≿̸	succeeds or equivalent to with slash	infix	265	5	5	
+&#x228C;	⊌	multiset	infix	265	4	4	
+&#x228D;	⊍	multiset multiplication	infix	265	4	4	
+&#x228E;	⊎	multiset union	infix	265	4	4	
+&#x228F;	⊏	square image of	infix	265	5	5	
+&#x228F;&#x338;	⊏̸	square image of with slash	infix	265	5	5	
+&#x2290;	⊐	square original of	infix	265	5	5	
+&#x2290;&#x338;	⊐̸	square original of with slash	infix	265	5	5	
+&#x2291;	⊑	square image of or equal to	infix	265	5	5	
+&#x2292;	⊒	square original of or equal to	infix	265	5	5	
+&#x2293;	⊓	square cap	infix	265	4	4	
+&#x2294;	⊔	square cup	infix	265	4	4	
+&#x229A;	⊚	circled ring operator	infix	265	4	4	
+&#x229B;	⊛	circled asterisk operator	infix	265	4	4	
+&#x229C;	⊜	circled equals	infix	265	4	4	
+&#x229D;	⊝	circled dash	infix	265	4	4	
+&#x22A6;	⊦	assertion	infix	265	5	5	
+&#x22A7;	⊧	models	infix	265	5	5	
+&#x22AA;	⊪	triple vertical bar right turnstile	infix	265	5	5	
+&#x22AB;	⊫	double vertical bar double right turnstile	infix	265	5	5	
+&#x22B0;	⊰	precedes under relation	infix	265	5	5	
+&#x22B1;	⊱	succeeds under relation	infix	265	5	5	
+&#x22B2;	⊲	normal subgroup of	infix	265	5	5	
+&#x22B3;	⊳	contains as normal subgroup	infix	265	5	5	
+&#x22B6;	⊶	original of	infix	265	5	5	
+&#x22B7;	⊷	image of	infix	265	5	5	
+&#x22B9;	⊹	hermitian conjugate matrix	infix	265	5	5	
+&#x22BA;	⊺	intercalate	infix	265	4	4	
+&#x22BB;	⊻	xor	infix	265	4	4	
+&#x22BC;	⊼	nand	infix	265	4	4	
+&#x22BD;	⊽	nor	infix	265	4	4	
+&#x22BE;	⊾	right angle with arc	infix	265	3	3	
+&#x22BF;	⊿	right triangle	infix	265	3	3	
+&#x22C4;	⋄	diamond operator	infix	265	4	4	
+&#x22C6;	⋆	star operator	infix	265	4	4	
+&#x22C7;	⋇	division times	infix	265	4	4	
+&#x22C8;	⋈	bowtie	infix	265	5	5	
+&#x22CD;	⋍	reversed tilde equals	infix	265	5	5	
+&#x22CE;	⋎	curly logical or	infix	265	4	4	
+&#x22CF;	⋏	curly logical and	infix	265	4	4	
+&#x22D0;	⋐	double subset	infix	265	5	5	
+&#x22D1;	⋑	double superset	infix	265	5	5	
+&#x22D2;	⋒	double intersection	infix	265	4	4	
+&#x22D3;	⋓	double union	infix	265	4	4	
+&#x22D5;	⋕	equal and parallel to	infix	265	5	5	
+&#x22DA;	⋚	less-than equal to or greater-than	infix	265	5	5	
+&#x22DB;	⋛	greater-than equal to or less-than	infix	265	5	5	
+&#x22DC;	⋜	equal to or less-than	infix	265	5	5	
+&#x22DD;	⋝	equal to or greater-than	infix	265	5	5	
+&#x22DE;	⋞	equal to or precedes	infix	265	5	5	
+&#x22DF;	⋟	equal to or succeeds	infix	265	5	5	
+&#x22E0;	⋠	does not precede or equal	infix	265	5	5	
+&#x22E1;	⋡	does not succeed or equal	infix	265	5	5	
+&#x22E2;	⋢	not square image of or equal to	infix	265	5	5	
+&#x22E3;	⋣	not square original of or equal to	infix	265	5	5	
+&#x22E4;	⋤	square image of or not equal to	infix	265	5	5	
+&#x22E5;	⋥	square original of or not equal to	infix	265	5	5	
+&#x22E6;	⋦	less-than but not equivalent to	infix	265	5	5	
+&#x22E7;	⋧	greater-than but not equivalent to	infix	265	5	5	
+&#x22E8;	⋨	precedes but not equivalent to	infix	265	5	5	
+&#x22E9;	⋩	succeeds but not equivalent to	infix	265	5	5	
+&#x22F0;	⋰	up right diagonal ellipsis	infix	265	5	5	
+&#x22F2;	⋲	element of with long horizontal stroke	infix	265	5	5	
+&#x22F3;	⋳	element of with vertical bar at end of horizontal stroke	infix	265	5	5	
+&#x22F4;	⋴	small element of with vertical bar at end of horizontal stroke	infix	265	5	5	
+&#x22F5;	⋵	element of with dot above	infix	265	5	5	
+&#x22F6;	⋶	element of with overbar	infix	265	5	5	
+&#x22F7;	⋷	small element of with overbar	infix	265	5	5	
+&#x22F8;	⋸	element of with underbar	infix	265	5	5	
+&#x22F9;	⋹	element of with two horizontal strokes	infix	265	5	5	
+&#x22FA;	⋺	contains with long horizontal stroke	infix	265	5	5	
+&#x22FB;	⋻	contains with vertical bar at end of horizontal stroke	infix	265	5	5	
+&#x22FC;	⋼	small contains with vertical bar at end of horizontal stroke	infix	265	5	5	
+&#x22FD;	⋽	contains with overbar	infix	265	5	5	
+&#x22FE;	⋾	small contains with overbar	infix	265	5	5	
+&#x22FF;	⋿	z notation bag membership	infix	265	5	5	
+&#x25B2;	▲	black up-pointing triangle	infix	265	4	4	
+&#x2758;	❘	light vertical bar	infix	265	5	5	
+&#x2981;	⦁	z notation spot	infix	265	3	3	
+&#x2982;	⦂	z notation type colon	infix	265	3	3	
+&#x29A0;	⦠	spherical angle opening left	infix	265	3	3	
+&#x29A1;	⦡	spherical angle opening up	infix	265	3	3	
+&#x29A2;	⦢	turned angle	infix	265	3	3	
+&#x29A3;	⦣	reversed angle	infix	265	3	3	
+&#x29A4;	⦤	angle with underbar	infix	265	3	3	
+&#x29A5;	⦥	reversed angle with underbar	infix	265	3	3	
+&#x29A6;	⦦	oblique angle opening up	infix	265	3	3	
+&#x29A7;	⦧	oblique angle opening down	infix	265	3	3	
+&#x29A8;	⦨	measured angle with open arm ending in arrow pointing up and right	infix	265	3	3	
+&#x29A9;	⦩	measured angle with open arm ending in arrow pointing up and left	infix	265	3	3	
+&#x29AA;	⦪	measured angle with open arm ending in arrow pointing down and right	infix	265	3	3	
+&#x29AB;	⦫	measured angle with open arm ending in arrow pointing down and left	infix	265	3	3	
+&#x29AC;	⦬	measured angle with open arm ending in arrow pointing right and up	infix	265	3	3	
+&#x29AD;	⦭	measured angle with open arm ending in arrow pointing left and up	infix	265	3	3	
+&#x29AE;	⦮	measured angle with open arm ending in arrow pointing right and down	infix	265	3	3	
+&#x29AF;	⦯	measured angle with open arm ending in arrow pointing left and down	infix	265	3	3	
+&#x29B0;	⦰	reversed empty set	infix	265	3	3	
+&#x29B1;	⦱	empty set with overbar	infix	265	3	3	
+&#x29B2;	⦲	empty set with small circle above	infix	265	3	3	
+&#x29B3;	⦳	empty set with right arrow above	infix	265	3	3	
+&#x29B4;	⦴	empty set with left arrow above	infix	265	3	3	
+&#x29B5;	⦵	circle with horizontal bar	infix	265	3	3	
+&#x29B6;	⦶	circled vertical bar	infix	265	4	4	
+&#x29B7;	⦷	circled parallel	infix	265	4	4	
+&#x29B8;	⦸	circled reverse solidus	infix	265	4	4	
+&#x29B9;	⦹	circled perpendicular	infix	265	4	4	
+&#x29BA;	⦺	circle divided by horizontal bar and top half divided by vertical bar	infix	265	4	4	
+&#x29BB;	⦻	circle with superimposed x	infix	265	4	4	
+&#x29BC;	⦼	circled anticlockwise-rotated division sign	infix	265	4	4	
+&#x29BD;	⦽	up arrow through circle	infix	265	4	4	
+&#x29BE;	⦾	circled white bullet	infix	265	4	4	
+&#x29BF;	⦿	circled bullet	infix	265	4	4	
+&#x29C2;	⧂	circle with small circle to the right	infix	265	3	3	
+&#x29C3;	⧃	circle with two horizontal strokes to the right	infix	265	3	3	
+&#x29C4;	⧄	squared rising diagonal slash	infix	265	4	4	
+&#x29C5;	⧅	squared falling diagonal slash	infix	265	4	4	
+&#x29C6;	⧆	squared asterisk	infix	265	4	4	
+&#x29C7;	⧇	squared small circle	infix	265	4	4	
+&#x29C8;	⧈	squared square	infix	265	4	4	
+&#x29C9;	⧉	two joined squares	infix	265	3	3	
+&#x29CA;	⧊	triangle with dot above	infix	265	3	3	
+&#x29CB;	⧋	triangle with underbar	infix	265	3	3	
+&#x29CC;	⧌	s in triangle	infix	265	3	3	
+&#x29CD;	⧍	triangle with serifs at bottom	infix	265	3	3	
+&#x29CE;	⧎	right triangle above left triangle	infix	265	5	5	
+&#x29CF;	⧏	left triangle beside vertical bar	infix	265	5	5	
+&#x29CF;&#x338;	⧏̸	left triangle beside vertical bar with slash	infix	265	5	5	
+&#x29D0;	⧐	vertical bar beside right triangle	infix	265	5	5	
+&#x29D0;&#x338;	⧐̸	vertical bar beside right triangle with slash	infix	265	5	5	
+&#x29D1;	⧑	bowtie with left half black	infix	265	5	5	
+&#x29D2;	⧒	bowtie with right half black	infix	265	5	5	
+&#x29D3;	⧓	black bowtie	infix	265	5	5	
+&#x29D4;	⧔	times with left half black	infix	265	5	5	
+&#x29D5;	⧕	times with right half black	infix	265	5	5	
+&#x29D6;	⧖	white hourglass	infix	265	4	4	
+&#x29D7;	⧗	black hourglass	infix	265	4	4	
+&#x29D8;	⧘	left wiggly fence	infix	265	3	3	
+&#x29D9;	⧙	right wiggly fence	infix	265	3	3	
+&#x29DB;	⧛	right double wiggly fence	infix	265	3	3	
+&#x29DC;	⧜	incomplete infinity	infix	265	3	3	
+&#x29DD;	⧝	tie over infinity	infix	265	3	3	
+&#x29DE;	⧞	infinity negated with vertical bar	infix	265	5	5	
+&#x29E0;	⧠	square with contoured outline	infix	265	3	3	
+&#x29E1;	⧡	increases as	infix	265	5	5	
+&#x29E2;	⧢	shuffle product	infix	265	4	4	
+&#x29E7;	⧧	thermodynamic	infix	265	3	3	
+&#x29E8;	⧨	down-pointing triangle with left half black	infix	265	3	3	
+&#x29E9;	⧩	down-pointing triangle with right half black	infix	265	3	3	
+&#x29EA;	⧪	black diamond with down arrow	infix	265	3	3	
+&#x29EB;	⧫	black lozenge	infix	265	3	3	
+&#x29EC;	⧬	white circle with down arrow	infix	265	3	3	
+&#x29ED;	⧭	black circle with down arrow	infix	265	3	3	
+&#x29EE;	⧮	error-barred white square	infix	265	3	3	
+&#x29F0;	⧰	error-barred white diamond	infix	265	3	3	
+&#x29F1;	⧱	error-barred black diamond	infix	265	3	3	
+&#x29F2;	⧲	error-barred white circle	infix	265	3	3	
+&#x29F5;	⧵	reverse solidus operator	infix	265	4	4	
+&#x29F6;	⧶	solidus with overbar	infix	265	4	4	
+&#x29F7;	⧷	reverse solidus with horizontal stroke	infix	265	4	4	
+&#x29F8;	⧸	big solidus	infix	265	3	3	
+&#x29F9;	⧹	big reverse solidus	infix	265	3	3	
+&#x29FA;	⧺	double plus	infix	265	3	3	
+&#x29FB;	⧻	triple plus	infix	265	3	3	
+&#x29FE;	⧾	tiny	infix	265	4	4	
+&#x29FF;	⧿	miny	infix	265	4	4	
+&#x2A1D;	⨝	join	infix	265	3	3	
+&#x2A1E;	⨞	large left triangle operator	infix	265	3	3	
+&#x2A1F;	⨟	z notation schema composition	infix	265	3	3	
+&#x2A20;	⨠	z notation schema piping	infix	265	3	3	
+&#x2A21;	⨡	z notation schema projection	infix	265	3	3	
+&#x2A22;	⨢	plus sign with small circle above	infix	265	4	4	
+&#x2A23;	⨣	plus sign with circumflex accent above	infix	265	4	4	
+&#x2A24;	⨤	plus sign with tilde above	infix	265	4	4	
+&#x2A25;	⨥	plus sign with dot below	infix	265	4	4	
+&#x2A26;	⨦	plus sign with tilde below	infix	265	4	4	
+&#x2A27;	⨧	plus sign with subscript two	infix	265	4	4	
+&#x2A28;	⨨	plus sign with black triangle	infix	265	4	4	
+&#x2A29;	⨩	minus sign with comma above	infix	265	4	4	
+&#x2A2A;	⨪	minus sign with dot below	infix	265	4	4	
+&#x2A2B;	⨫	minus sign with falling dots	infix	265	4	4	
+&#x2A2C;	⨬	minus sign with rising dots	infix	265	4	4	
+&#x2A2D;	⨭	plus sign in left half circle	infix	265	4	4	
+&#x2A2E;	⨮	plus sign in right half circle	infix	265	4	4	
+&#x2A30;	⨰	multiplication sign with dot above	infix	265	4	4	
+&#x2A31;	⨱	multiplication sign with underbar	infix	265	4	4	
+&#x2A32;	⨲	semidirect product with bottom closed	infix	265	4	4	
+&#x2A33;	⨳	smash product	infix	265	4	4	
+&#x2A34;	⨴	multiplication sign in left half circle	infix	265	4	4	
+&#x2A35;	⨵	multiplication sign in right half circle	infix	265	4	4	
+&#x2A36;	⨶	circled multiplication sign with circumflex accent	infix	265	4	4	
+&#x2A37;	⨷	multiplication sign in double circle	infix	265	4	4	
+&#x2A38;	⨸	circled division sign	infix	265	4	4	
+&#x2A39;	⨹	plus sign in triangle	infix	265	4	4	
+&#x2A3A;	⨺	minus sign in triangle	infix	265	4	4	
+&#x2A3B;	⨻	multiplication sign in triangle	infix	265	4	4	
+&#x2A3C;	⨼	interior product	infix	265	4	4	
+&#x2A3D;	⨽	righthand interior product	infix	265	4	4	
+&#x2A3E;	⨾	z notation relational composition	infix	265	4	4	
+&#x2A40;	⩀	intersection with dot	infix	265	4	4	
+&#x2A41;	⩁	union with minus sign	infix	265	4	4	
+&#x2A42;	⩂	union with overbar	infix	265	4	4	
+&#x2A43;	⩃	intersection with overbar	infix	265	4	4	
+&#x2A44;	⩄	intersection with logical and	infix	265	4	4	
+&#x2A45;	⩅	union with logical or	infix	265	4	4	
+&#x2A46;	⩆	union above intersection	infix	265	4	4	
+&#x2A47;	⩇	intersection above union	infix	265	4	4	
+&#x2A48;	⩈	union above bar above intersection	infix	265	4	4	
+&#x2A49;	⩉	intersection above bar above union	infix	265	4	4	
+&#x2A4A;	⩊	union beside and joined with union	infix	265	4	4	
+&#x2A4B;	⩋	intersection beside and joined with intersection	infix	265	4	4	
+&#x2A4C;	⩌	closed union with serifs	infix	265	4	4	
+&#x2A4D;	⩍	closed intersection with serifs	infix	265	4	4	
+&#x2A4E;	⩎	double square intersection	infix	265	4	4	
+&#x2A4F;	⩏	double square union	infix	265	4	4	
+&#x2A50;	⩐	closed union with serifs and smash product	infix	265	4	4	
+&#x2A51;	⩑	logical and with dot above	infix	265	4	4	
+&#x2A52;	⩒	logical or with dot above	infix	265	4	4	
+&#x2A53;	⩓	double logical and	infix	265	4	4	
+&#x2A54;	⩔	double logical or	infix	265	4	4	
+&#x2A55;	⩕	two intersecting logical and	infix	265	4	4	
+&#x2A56;	⩖	two intersecting logical or	infix	265	4	4	
+&#x2A57;	⩗	sloping large or	infix	265	4	4	
+&#x2A58;	⩘	sloping large and	infix	265	4	4	
+&#x2A59;	⩙	logical or overlapping logical and	infix	265	5	5	
+&#x2A5A;	⩚	logical and with middle stem	infix	265	4	4	
+&#x2A5B;	⩛	logical or with middle stem	infix	265	4	4	
+&#x2A5C;	⩜	logical and with horizontal dash	infix	265	4	4	
+&#x2A5D;	⩝	logical or with horizontal dash	infix	265	4	4	
+&#x2A5E;	⩞	logical and with double overbar	infix	265	4	4	
+&#x2A5F;	⩟	logical and with underbar	infix	265	4	4	
+&#x2A60;	⩠	logical and with double underbar	infix	265	4	4	
+&#x2A61;	⩡	small vee with underbar	infix	265	4	4	
+&#x2A62;	⩢	logical or with double overbar	infix	265	4	4	
+&#x2A63;	⩣	logical or with double underbar	infix	265	4	4	
+&#x2A64;	⩤	z notation domain antirestriction	infix	265	4	4	
+&#x2A65;	⩥	z notation range antirestriction	infix	265	4	4	
+&#x2A66;	⩦	equals sign with dot below	infix	265	5	5	
+&#x2A67;	⩧	identical with dot above	infix	265	5	5	
+&#x2A68;	⩨	triple horizontal bar with double vertical stroke	infix	265	5	5	
+&#x2A69;	⩩	triple horizontal bar with triple vertical stroke	infix	265	5	5	
+&#x2A6A;	⩪	tilde operator with dot above	infix	265	5	5	
+&#x2A6B;	⩫	tilde operator with rising dots	infix	265	5	5	
+&#x2A6C;	⩬	similar minus similar	infix	265	5	5	
+&#x2A6D;	⩭	congruent with dot above	infix	265	5	5	
+&#x2A6E;	⩮	equals with asterisk	infix	265	5	5	
+&#x2A6F;	⩯	almost equal to with circumflex accent	infix	265	5	5	
+&#x2A70;	⩰	approximately equal or equal to	infix	265	5	5	
+&#x2A71;	⩱	equals sign above plus sign	infix	265	4	4	
+&#x2A72;	⩲	plus sign above equals sign	infix	265	4	4	
+&#x2A73;	⩳	equals sign above tilde operator	infix	265	5	5	
+&#x2A74;	⩴	double colon equal	infix	265	5	5	
+&#x2A75;	⩵	two consecutive equals signs	infix	265	5	5	
+&#x2A76;	⩶	three consecutive equals signs	infix	265	5	5	
+&#x2A77;	⩷	equals sign with two dots above and two dots below	infix	265	5	5	
+&#x2A78;	⩸	equivalent with four dots above	infix	265	5	5	
+&#x2A79;	⩹	less-than with circle inside	infix	265	5	5	
+&#x2A7A;	⩺	greater-than with circle inside	infix	265	5	5	
+&#x2A7B;	⩻	less-than with question mark above	infix	265	5	5	
+&#x2A7C;	⩼	greater-than with question mark above	infix	265	5	5	
+&#x2A7D;	⩽	less-than or slanted equal to	infix	265	5	5	
+&#x2A7D;&#x338;	⩽̸	less-than or slanted equal to with slash	infix	265	5	5	
+&#x2A7E;	⩾	greater-than or slanted equal to	infix	265	5	5	
+&#x2A7E;&#x338;	⩾̸	greater-than or slanted equal to with slash	infix	265	5	5	
+&#x2A7F;	⩿	less-than or slanted equal to with dot inside	infix	265	5	5	
+&#x2A80;	⪀	greater-than or slanted equal to with dot inside	infix	265	5	5	
+&#x2A81;	⪁	less-than or slanted equal to with dot above	infix	265	5	5	
+&#x2A82;	⪂	greater-than or slanted equal to with dot above	infix	265	5	5	
+&#x2A83;	⪃	less-than or slanted equal to with dot above right	infix	265	5	5	
+&#x2A84;	⪄	greater-than or slanted equal to with dot above left	infix	265	5	5	
+&#x2A85;	⪅	less-than or approximate	infix	265	5	5	
+&#x2A86;	⪆	greater-than or approximate	infix	265	5	5	
+&#x2A89;	⪉	less-than and not approximate	infix	265	5	5	
+&#x2A8A;	⪊	greater-than and not approximate	infix	265	5	5	
+&#x2A8B;	⪋	less-than above double-line equal above greater-than	infix	265	5	5	
+&#x2A8C;	⪌	greater-than above double-line equal above less-than	infix	265	5	5	
+&#x2A8D;	⪍	less-than above similar or equal	infix	265	5	5	
+&#x2A8E;	⪎	greater-than above similar or equal	infix	265	5	5	
+&#x2A8F;	⪏	less-than above similar above greater-than	infix	265	5	5	
+&#x2A90;	⪐	greater-than above similar above less-than	infix	265	5	5	
+&#x2A91;	⪑	less-than above greater-than above double-line equal	infix	265	5	5	
+&#x2A92;	⪒	greater-than above less-than above double-line equal	infix	265	5	5	
+&#x2A93;	⪓	less-than above slanted equal above greater-than above slanted equal	infix	265	5	5	
+&#x2A94;	⪔	greater-than above slanted equal above less-than above slanted equal	infix	265	5	5	
+&#x2A95;	⪕	slanted equal to or less-than	infix	265	5	5	
+&#x2A96;	⪖	slanted equal to or greater-than	infix	265	5	5	
+&#x2A97;	⪗	slanted equal to or less-than with dot inside	infix	265	5	5	
+&#x2A98;	⪘	slanted equal to or greater-than with dot inside	infix	265	5	5	
+&#x2A99;	⪙	double-line equal to or less-than	infix	265	5	5	
+&#x2A9A;	⪚	double-line equal to or greater-than	infix	265	5	5	
+&#x2A9B;	⪛	double-line slanted equal to or less-than	infix	265	5	5	
+&#x2A9C;	⪜	double-line slanted equal to or greater-than	infix	265	5	5	
+&#x2A9D;	⪝	similar or less-than	infix	265	5	5	
+&#x2A9E;	⪞	similar or greater-than	infix	265	5	5	
+&#x2A9F;	⪟	similar above less-than above equals sign	infix	265	5	5	
+&#x2AA0;	⪠	similar above greater-than above equals sign	infix	265	5	5	
+&#x2AA1;	⪡	double nested less-than	infix	265	5	5	
+&#x2AA1;&#x338;	⪡̸	double nested less-than with slash	infix	265	5	5	
+&#x2AA2;	⪢	double nested greater-than	infix	265	5	5	
+&#x2AA2;&#x338;	⪢̸	double nested greater-than with slash	infix	265	5	5	
+&#x2AA3;	⪣	double nested less-than with underbar	infix	265	5	5	
+&#x2AA4;	⪤	greater-than overlapping less-than	infix	265	5	5	
+&#x2AA5;	⪥	greater-than beside less-than	infix	265	5	5	
+&#x2AA6;	⪦	less-than closed by curve	infix	265	5	5	
+&#x2AA7;	⪧	greater-than closed by curve	infix	265	5	5	
+&#x2AA8;	⪨	less-than closed by curve above slanted equal	infix	265	5	5	
+&#x2AA9;	⪩	greater-than closed by curve above slanted equal	infix	265	5	5	
+&#x2AAA;	⪪	smaller than	infix	265	5	5	
+&#x2AAB;	⪫	larger than	infix	265	5	5	
+&#x2AAC;	⪬	smaller than or equal to	infix	265	5	5	
+&#x2AAD;	⪭	larger than or equal to	infix	265	5	5	
+&#x2AAE;	⪮	equals sign with bumpy above	infix	265	5	5	
+&#x2AB1;	⪱	precedes above single-line not equal to	infix	265	5	5	
+&#x2AB2;	⪲	succeeds above single-line not equal to	infix	265	5	5	
+&#x2AB3;	⪳	precedes above equals sign	infix	265	5	5	
+&#x2AB4;	⪴	succeeds above equals sign	infix	265	5	5	
+&#x2AB5;	⪵	precedes above not equal to	infix	265	5	5	
+&#x2AB6;	⪶	succeeds above not equal to	infix	265	5	5	
+&#x2AB7;	⪷	precedes above almost equal to	infix	265	5	5	
+&#x2AB8;	⪸	succeeds above almost equal to	infix	265	5	5	
+&#x2AB9;	⪹	precedes above not almost equal to	infix	265	5	5	
+&#x2ABA;	⪺	succeeds above not almost equal to	infix	265	5	5	
+&#x2ABB;	⪻	double precedes	infix	265	5	5	
+&#x2ABC;	⪼	double succeeds	infix	265	5	5	
+&#x2ABD;	⪽	subset with dot	infix	265	5	5	
+&#x2ABE;	⪾	superset with dot	infix	265	5	5	
+&#x2ABF;	⪿	subset with plus sign below	infix	265	5	5	
+&#x2AC0;	⫀	superset with plus sign below	infix	265	5	5	
+&#x2AC1;	⫁	subset with multiplication sign below	infix	265	5	5	
+&#x2AC2;	⫂	superset with multiplication sign below	infix	265	5	5	
+&#x2AC3;	⫃	subset of or equal to with dot above	infix	265	5	5	
+&#x2AC4;	⫄	superset of or equal to with dot above	infix	265	5	5	
+&#x2AC5;	⫅	subset of above equals sign	infix	265	5	5	
+&#x2AC6;	⫆	superset of above equals sign	infix	265	5	5	
+&#x2AC7;	⫇	subset of above tilde operator	infix	265	5	5	
+&#x2AC8;	⫈	superset of above tilde operator	infix	265	5	5	
+&#x2AC9;	⫉	subset of above almost equal to	infix	265	5	5	
+&#x2ACA;	⫊	superset of above almost equal to	infix	265	5	5	
+&#x2ACB;	⫋	subset of above not equal to	infix	265	5	5	
+&#x2ACC;	⫌	superset of above not equal to	infix	265	5	5	
+&#x2ACD;	⫍	square left open box operator	infix	265	5	5	
+&#x2ACE;	⫎	square right open box operator	infix	265	5	5	
+&#x2ACF;	⫏	closed subset	infix	265	5	5	
+&#x2AD0;	⫐	closed superset	infix	265	5	5	
+&#x2AD1;	⫑	closed subset or equal to	infix	265	5	5	
+&#x2AD2;	⫒	closed superset or equal to	infix	265	5	5	
+&#x2AD3;	⫓	subset above superset	infix	265	5	5	
+&#x2AD4;	⫔	superset above subset	infix	265	5	5	
+&#x2AD5;	⫕	subset above subset	infix	265	5	5	
+&#x2AD6;	⫖	superset above superset	infix	265	5	5	
+&#x2AD7;	⫗	superset beside subset	infix	265	5	5	
+&#x2AD8;	⫘	superset beside and joined by dash with subset	infix	265	5	5	
+&#x2AD9;	⫙	element of opening downwards	infix	265	5	5	
+&#x2ADA;	⫚	pitchfork with tee top	infix	265	5	5	
+&#x2ADB;	⫛	transversal intersection	infix	265	5	5	
+&#x2ADD;	⫝	nonforking	infix	265	5	5	
+&#x2ADD;&#x338;	⫝̸	nonforking with slash	infix	265	5	5	
+&#x2ADE;	⫞	short left tack	infix	265	5	5	
+&#x2ADF;	⫟	short down tack	infix	265	5	5	
+&#x2AE0;	⫠	short up tack	infix	265	5	5	
+&#x2AE1;	⫡	perpendicular with s	infix	265	5	5	
+&#x2AE2;	⫢	vertical bar triple right turnstile	infix	265	5	5	
+&#x2AE3;	⫣	double vertical bar left turnstile	infix	265	5	5	
+&#x2AE4;	⫤	vertical bar double left turnstile	infix	265	5	5	
+&#x2AE5;	⫥	double vertical bar double left turnstile	infix	265	5	5	
+&#x2AE6;	⫦	long dash from left member of double vertical	infix	265	5	5	
+&#x2AE7;	⫧	short down tack with overbar	infix	265	5	5	
+&#x2AE8;	⫨	short up tack with underbar	infix	265	5	5	
+&#x2AE9;	⫩	short up tack above short down tack	infix	265	5	5	
+&#x2AEA;	⫪	double down tack	infix	265	5	5	
+&#x2AEB;	⫫	double up tack	infix	265	5	5	
+&#x2AEC;	⫬	double stroke not sign	infix	265	5	5	
+&#x2AED;	⫭	reversed double stroke not sign	infix	265	5	5	
+&#x2AEE;	⫮	does not divide with reversed negation slash	infix	265	5	5	
+&#x2AEF;	⫯	vertical line with circle above	infix	265	5	5	
+&#x2AF0;	⫰	vertical line with circle below	infix	265	5	5	
+&#x2AF1;	⫱	down tack with circle below	infix	265	5	5	
+&#x2AF2;	⫲	parallel with horizontal stroke	infix	265	5	5	
+&#x2AF3;	⫳	parallel with tilde operator	infix	265	5	5	
+&#x2AF4;	⫴	triple vertical bar binary relation	infix	265	4	4	
+&#x2AF5;	⫵	triple vertical bar with horizontal stroke	infix	265	4	4	
+&#x2AF6;	⫶	triple colon operator	infix	265	4	4	
+&#x2AF7;	⫷	triple nested less-than	infix	265	5	5	
+&#x2AF8;	⫸	triple nested greater-than	infix	265	5	5	
+&#x2AF9;	⫹	double-line slanted less-than or equal to	infix	265	5	5	
+&#x2AFA;	⫺	double-line slanted greater-than or equal to	infix	265	5	5	
+&#x2AFB;	⫻	triple solidus binary relation	infix	265	4	4	
+&#x2AFD;	⫽	double solidus operator	infix	265	4	4	
+&#x2AFE;	⫾	white vertical bar	infix	265	3	3	
+|	|	vertical line	infix	270	2	2	fence, stretchy, symmetric
+||	||	multiple character operator: ||	infix	270	2	2	fence, stretchy, symmetric
+|||	|||	multiple character operator: |||	infix	270	2	2	fence, stretchy, symmetric
+&#x2190;	←	leftwards arrow	infix	270	5	5	stretchy, accent
+&#x2191;	↑	upwards arrow	infix	270	5	5	stretchy
+&#x2192;	→	rightwards arrow	infix	270	5	5	stretchy, accent
+&#x2193;	↓	downwards arrow	infix	270	5	5	stretchy
+&#x2194;	↔	left right arrow	infix	270	5	5	stretchy, accent
+&#x2195;	↕	up down arrow	infix	270	5	5	stretchy
+&#x2196;	↖	north west arrow	infix	270	5	5	stretchy
+&#x2197;	↗	north east arrow	infix	270	5	5	stretchy
+&#x2198;	↘	south east arrow	infix	270	5	5	stretchy
+&#x2199;	↙	south west arrow	infix	270	5	5	stretchy
+&#x219A;	↚	leftwards arrow with stroke	infix	270	5	5	accent
+&#x219B;	↛	rightwards arrow with stroke	infix	270	5	5	accent
+&#x219C;	↜	leftwards wave arrow	infix	270	5	5	stretchy, accent
+&#x219D;	↝	rightwards wave arrow	infix	270	5	5	stretchy, accent
+&#x219E;	↞	leftwards two headed arrow	infix	270	5	5	stretchy, accent
+&#x219F;	↟	upwards two headed arrow	infix	270	5	5	stretchy, accent
+&#x21A0;	↠	rightwards two headed arrow	infix	270	5	5	stretchy, accent
+&#x21A1;	↡	downwards two headed arrow	infix	270	5	5	stretchy
+&#x21A2;	↢	leftwards arrow with tail	infix	270	5	5	stretchy, accent
+&#x21A3;	↣	rightwards arrow with tail	infix	270	5	5	stretchy, accent
+&#x21A4;	↤	leftwards arrow from bar	infix	270	5	5	stretchy, accent
+&#x21A5;	↥	upwards arrow from bar	infix	270	5	5	stretchy
+&#x21A6;	↦	rightwards arrow from bar	infix	270	5	5	stretchy, accent
+&#x21A7;	↧	downwards arrow from bar	infix	270	5	5	stretchy
+&#x21A8;	↨	up down arrow with base	infix	270	5	5	stretchy
+&#x21A9;	↩	leftwards arrow with hook	infix	270	5	5	stretchy, accent
+&#x21AA;	↪	rightwards arrow with hook	infix	270	5	5	stretchy, accent
+&#x21AB;	↫	leftwards arrow with loop	infix	270	5	5	stretchy, accent
+&#x21AC;	↬	rightwards arrow with loop	infix	270	5	5	stretchy, accent
+&#x21AD;	↭	left right wave arrow	infix	270	5	5	stretchy, accent
+&#x21AE;	↮	left right arrow with stroke	infix	270	5	5	accent
+&#x21AF;	↯	downwards zigzag arrow	infix	270	5	5	stretchy
+&#x21B0;	↰	upwards arrow with tip leftwards	infix	270	5	5	stretchy
+&#x21B1;	↱	upwards arrow with tip rightwards	infix	270	5	5	stretchy
+&#x21B2;	↲	downwards arrow with tip leftwards	infix	270	5	5	stretchy
+&#x21B3;	↳	downwards arrow with tip rightwards	infix	270	5	5	stretchy
+&#x21B4;	↴	rightwards arrow with corner downwards	infix	270	5	5	stretchy
+&#x21B5;	↵	downwards arrow with corner leftwards	infix	270	5	5	stretchy
+&#x21B6;	↶	anticlockwise top semicircle arrow	infix	270	5	5	accent
+&#x21B7;	↷	clockwise top semicircle arrow	infix	270	5	5	accent
+&#x21B8;	↸	north west arrow to long bar	infix	270	5	5	
+&#x21B9;	↹	leftwards arrow to bar over rightwards arrow to bar	infix	270	5	5	stretchy, accent
+&#x21BA;	↺	anticlockwise open circle arrow	infix	270	5	5	
+&#x21BB;	↻	clockwise open circle arrow	infix	270	5	5	
+&#x21BC;	↼	leftwards harpoon with barb upwards	infix	270	5	5	stretchy, accent
+&#x21BD;	↽	leftwards harpoon with barb downwards	infix	270	5	5	stretchy, accent
+&#x21BE;	↾	upwards harpoon with barb rightwards	infix	270	5	5	stretchy
+&#x21BF;	↿	upwards harpoon with barb leftwards	infix	270	5	5	stretchy
+&#x21C0;	⇀	rightwards harpoon with barb upwards	infix	270	5	5	stretchy, accent
+&#x21C1;	⇁	rightwards harpoon with barb downwards	infix	270	5	5	stretchy, accent
+&#x21C2;	⇂	downwards harpoon with barb rightwards	infix	270	5	5	stretchy
+&#x21C3;	⇃	downwards harpoon with barb leftwards	infix	270	5	5	stretchy
+&#x21C4;	⇄	rightwards arrow over leftwards arrow	infix	270	5	5	stretchy, accent
+&#x21C5;	⇅	upwards arrow leftwards of downwards arrow	infix	270	5	5	stretchy
+&#x21C6;	⇆	leftwards arrow over rightwards arrow	infix	270	5	5	stretchy, accent
+&#x21C7;	⇇	leftwards paired arrows	infix	270	5	5	stretchy, accent
+&#x21C8;	⇈	upwards paired arrows	infix	270	5	5	stretchy
+&#x21C9;	⇉	rightwards paired arrows	infix	270	5	5	stretchy, accent
+&#x21CA;	⇊	downwards paired arrows	infix	270	5	5	stretchy
+&#x21CB;	⇋	leftwards harpoon over rightwards harpoon	infix	270	5	5	stretchy, accent
+&#x21CC;	⇌	rightwards harpoon over leftwards harpoon	infix	270	5	5	stretchy, accent
+&#x21CD;	⇍	leftwards double arrow with stroke	infix	270	5	5	accent
+&#x21CE;	⇎	left right double arrow with stroke	infix	270	5	5	accent
+&#x21CF;	⇏	rightwards double arrow with stroke	infix	270	5	5	accent
+&#x21D0;	⇐	leftwards double arrow	infix	270	5	5	stretchy, accent
+&#x21D1;	⇑	upwards double arrow	infix	270	5	5	stretchy
+&#x21D2;	⇒	rightwards double arrow	infix	270	5	5	stretchy, accent
+&#x21D3;	⇓	downwards double arrow	infix	270	5	5	stretchy
+&#x21D4;	⇔	left right double arrow	infix	270	5	5	stretchy, accent
+&#x21D5;	⇕	up down double arrow	infix	270	5	5	stretchy
+&#x21D6;	⇖	north west double arrow	infix	270	5	5	stretchy
+&#x21D7;	⇗	north east double arrow	infix	270	5	5	stretchy
+&#x21D8;	⇘	south east double arrow	infix	270	5	5	stretchy
+&#x21D9;	⇙	south west double arrow	infix	270	5	5	stretchy
+&#x21DA;	⇚	leftwards triple arrow	infix	270	5	5	stretchy, accent
+&#x21DB;	⇛	rightwards triple arrow	infix	270	5	5	stretchy, accent
+&#x21DC;	⇜	leftwards squiggle arrow	infix	270	5	5	stretchy, accent
+&#x21DD;	⇝	rightwards squiggle arrow	infix	270	5	5	stretchy, accent
+&#x21DE;	⇞	upwards arrow with double stroke	infix	270	5	5	
+&#x21DF;	⇟	downwards arrow with double stroke	infix	270	5	5	
+&#x21E0;	⇠	leftwards dashed arrow	infix	270	5	5	stretchy, accent
+&#x21E1;	⇡	upwards dashed arrow	infix	270	5	5	stretchy
+&#x21E2;	⇢	rightwards dashed arrow	infix	270	5	5	stretchy, accent
+&#x21E3;	⇣	downwards dashed arrow	infix	270	5	5	stretchy
+&#x21E4;	⇤	leftwards arrow to bar	infix	270	5	5	stretchy, accent
+&#x21E5;	⇥	rightwards arrow to bar	infix	270	5	5	stretchy, accent
+&#x21E6;	⇦	leftwards white arrow	infix	270	5	5	stretchy, accent
+&#x21E7;	⇧	upwards white arrow	infix	270	5	5	stretchy
+&#x21E8;	⇨	rightwards white arrow	infix	270	5	5	stretchy, accent
+&#x21E9;	⇩	downwards white arrow	infix	270	5	5	stretchy
+&#x21EA;	⇪	upwards white arrow from bar	infix	270	5	5	stretchy
+&#x21EB;	⇫	upwards white arrow on pedestal	infix	270	5	5	stretchy
+&#x21EC;	⇬	upwards white arrow on pedestal with horizontal bar	infix	270	5	5	stretchy
+&#x21ED;	⇭	upwards white arrow on pedestal with vertical bar	infix	270	5	5	stretchy
+&#x21EE;	⇮	upwards white double arrow	infix	270	5	5	stretchy
+&#x21EF;	⇯	upwards white double arrow on pedestal	infix	270	5	5	stretchy
+&#x21F0;	⇰	rightwards white arrow from wall	infix	270	5	5	stretchy, accent
+&#x21F1;	⇱	north west arrow to corner	infix	270	5	5	
+&#x21F2;	⇲	south east arrow to corner	infix	270	5	5	
+&#x21F3;	⇳	up down white arrow	infix	270	5	5	stretchy
+&#x21F4;	⇴	right arrow with small circle	infix	270	5	5	accent
+&#x21F5;	⇵	downwards arrow leftwards of upwards arrow	infix	270	5	5	stretchy
+&#x21F6;	⇶	three rightwards arrows	infix	270	5	5	stretchy, accent
+&#x21F7;	⇷	leftwards arrow with vertical stroke	infix	270	5	5	accent
+&#x21F8;	⇸	rightwards arrow with vertical stroke	infix	270	5	5	accent
+&#x21F9;	⇹	left right arrow with vertical stroke	infix	270	5	5	accent
+&#x21FA;	⇺	leftwards arrow with double vertical stroke	infix	270	5	5	accent
+&#x21FB;	⇻	rightwards arrow with double vertical stroke	infix	270	5	5	accent
+&#x21FC;	⇼	left right arrow with double vertical stroke	infix	270	5	5	accent
+&#x21FD;	⇽	leftwards open-headed arrow	infix	270	5	5	stretchy, accent
+&#x21FE;	⇾	rightwards open-headed arrow	infix	270	5	5	stretchy, accent
+&#x21FF;	⇿	left right open-headed arrow	infix	270	5	5	stretchy, accent
+&#x22B8;	⊸	multimap	infix	270	5	5	
+&#x27F0;	⟰	upwards quadruple arrow	infix	270	5	5	stretchy
+&#x27F1;	⟱	downwards quadruple arrow	infix	270	5	5	stretchy
+&#x27F5;	⟵	long leftwards arrow	infix	270	5	5	stretchy, accent
+&#x27F6;	⟶	long rightwards arrow	infix	270	5	5	stretchy, accent
+&#x27F7;	⟷	long left right arrow	infix	270	5	5	stretchy, accent
+&#x27F8;	⟸	long leftwards double arrow	infix	270	5	5	stretchy, accent
+&#x27F9;	⟹	long rightwards double arrow	infix	270	5	5	stretchy, accent
+&#x27FA;	⟺	long left right double arrow	infix	270	5	5	stretchy, accent
+&#x27FB;	⟻	long leftwards arrow from bar	infix	270	5	5	stretchy, accent
+&#x27FC;	⟼	long rightwards arrow from bar	infix	270	5	5	stretchy, accent
+&#x27FD;	⟽	long leftwards double arrow from bar	infix	270	5	5	stretchy, accent
+&#x27FE;	⟾	long rightwards double arrow from bar	infix	270	5	5	stretchy, accent
+&#x27FF;	⟿	long rightwards squiggle arrow	infix	270	5	5	stretchy, accent
+&#x2900;	⤀	rightwards two-headed arrow with vertical stroke	infix	270	5	5	accent
+&#x2901;	⤁	rightwards two-headed arrow with double vertical stroke	infix	270	5	5	accent
+&#x2902;	⤂	leftwards double arrow with vertical stroke	infix	270	5	5	accent
+&#x2903;	⤃	rightwards double arrow with vertical stroke	infix	270	5	5	accent
+&#x2904;	⤄	left right double arrow with vertical stroke	infix	270	5	5	accent
+&#x2905;	⤅	rightwards two-headed arrow from bar	infix	270	5	5	accent
+&#x2906;	⤆	leftwards double arrow from bar	infix	270	5	5	accent
+&#x2907;	⤇	rightwards double arrow from bar	infix	270	5	5	accent
+&#x2908;	⤈	downwards arrow with horizontal stroke	infix	270	5	5	
+&#x2909;	⤉	upwards arrow with horizontal stroke	infix	270	5	5	
+&#x290A;	⤊	upwards triple arrow	infix	270	5	5	stretchy
+&#x290B;	⤋	downwards triple arrow	infix	270	5	5	stretchy
+&#x290C;	⤌	leftwards double dash arrow	infix	270	5	5	stretchy, accent
+&#x290D;	⤍	rightwards double dash arrow	infix	270	5	5	stretchy, accent
+&#x290E;	⤎	leftwards triple dash arrow	infix	270	5	5	stretchy, accent
+&#x290F;	⤏	rightwards triple dash arrow	infix	270	5	5	stretchy, accent
+&#x2910;	⤐	rightwards two-headed triple dash arrow	infix	270	5	5	stretchy, accent
+&#x2911;	⤑	rightwards arrow with dotted stem	infix	270	5	5	accent
+&#x2912;	⤒	upwards arrow to bar	infix	270	5	5	stretchy
+&#x2913;	⤓	downwards arrow to bar	infix	270	5	5	stretchy
+&#x2914;	⤔	rightwards arrow with tail with vertical stroke	infix	270	5	5	accent
+&#x2915;	⤕	rightwards arrow with tail with double vertical stroke	infix	270	5	5	accent
+&#x2916;	⤖	rightwards two-headed arrow with tail	infix	270	5	5	accent
+&#x2917;	⤗	rightwards two-headed arrow with tail with vertical stroke	infix	270	5	5	accent
+&#x2918;	⤘	rightwards two-headed arrow with tail with double vertical stroke	infix	270	5	5	accent
+&#x2919;	⤙	leftwards arrow-tail	infix	270	5	5	accent
+&#x291A;	⤚	rightwards arrow-tail	infix	270	5	5	accent
+&#x291B;	⤛	leftwards double arrow-tail	infix	270	5	5	accent
+&#x291C;	⤜	rightwards double arrow-tail	infix	270	5	5	accent
+&#x291D;	⤝	leftwards arrow to black diamond	infix	270	5	5	accent
+&#x291E;	⤞	rightwards arrow to black diamond	infix	270	5	5	accent
+&#x291F;	⤟	leftwards arrow from bar to black diamond	infix	270	5	5	accent
+&#x2920;	⤠	rightwards arrow from bar to black diamond	infix	270	5	5	accent
+&#x2921;	⤡	north west and south east arrow	infix	270	5	5	stretchy
+&#x2922;	⤢	north east and south west arrow	infix	270	5	5	stretchy
+&#x2923;	⤣	north west arrow with hook	infix	270	5	5	
+&#x2924;	⤤	north east arrow with hook	infix	270	5	5	
+&#x2925;	⤥	south east arrow with hook	infix	270	5	5	
+&#x2926;	⤦	south west arrow with hook	infix	270	5	5	
+&#x2927;	⤧	north west arrow and north east arrow	infix	270	5	5	
+&#x2928;	⤨	north east arrow and south east arrow	infix	270	5	5	
+&#x2929;	⤩	south east arrow and south west arrow	infix	270	5	5	
+&#x292A;	⤪	south west arrow and north west arrow	infix	270	5	5	
+&#x292B;	⤫	rising diagonal crossing falling diagonal	infix	270	5	5	
+&#x292C;	⤬	falling diagonal crossing rising diagonal	infix	270	5	5	
+&#x292D;	⤭	south east arrow crossing north east arrow	infix	270	5	5	
+&#x292E;	⤮	north east arrow crossing south east arrow	infix	270	5	5	
+&#x292F;	⤯	falling diagonal crossing north east arrow	infix	270	5	5	
+&#x2930;	⤰	rising diagonal crossing south east arrow	infix	270	5	5	
+&#x2931;	⤱	north east arrow crossing north west arrow	infix	270	5	5	
+&#x2932;	⤲	north west arrow crossing north east arrow	infix	270	5	5	
+&#x2933;	⤳	wave arrow pointing directly right	infix	270	5	5	accent
+&#x2934;	⤴	arrow pointing rightwards then curving upwards	infix	270	5	5	
+&#x2935;	⤵	arrow pointing rightwards then curving downwards	infix	270	5	5	
+&#x2936;	⤶	arrow pointing downwards then curving leftwards	infix	270	5	5	
+&#x2937;	⤷	arrow pointing downwards then curving rightwards	infix	270	5	5	
+&#x2938;	⤸	right-side arc clockwise arrow	infix	270	5	5	
+&#x2939;	⤹	left-side arc anticlockwise arrow	infix	270	5	5	
+&#x293A;	⤺	top arc anticlockwise arrow	infix	270	5	5	accent
+&#x293B;	⤻	bottom arc anticlockwise arrow	infix	270	5	5	accent
+&#x293C;	⤼	top arc clockwise arrow with minus	infix	270	5	5	accent
+&#x293D;	⤽	top arc anticlockwise arrow with plus	infix	270	5	5	accent
+&#x293E;	⤾	lower right semicircular clockwise arrow	infix	270	5	5	
+&#x293F;	⤿	lower left semicircular anticlockwise arrow	infix	270	5	5	
+&#x2940;	⥀	anticlockwise closed circle arrow	infix	270	5	5	
+&#x2941;	⥁	clockwise closed circle arrow	infix	270	5	5	
+&#x2942;	⥂	rightwards arrow above short leftwards arrow	infix	270	5	5	accent
+&#x2943;	⥃	leftwards arrow above short rightwards arrow	infix	270	5	5	accent
+&#x2944;	⥄	short rightwards arrow above leftwards arrow	infix	270	5	5	accent
+&#x2945;	⥅	rightwards arrow with plus below	infix	270	5	5	accent
+&#x2946;	⥆	leftwards arrow with plus below	infix	270	5	5	accent
+&#x2947;	⥇	rightwards arrow through x	infix	270	5	5	accent
+&#x2948;	⥈	left right arrow through small circle	infix	270	5	5	accent
+&#x2949;	⥉	upwards two-headed arrow from small circle	infix	270	5	5	
+&#x294A;	⥊	left barb up right barb down harpoon	infix	270	5	5	accent
+&#x294B;	⥋	left barb down right barb up harpoon	infix	270	5	5	accent
+&#x294C;	⥌	up barb right down barb left harpoon	infix	270	5	5	
+&#x294D;	⥍	up barb left down barb right harpoon	infix	270	5	5	
+&#x294E;	⥎	left barb up right barb up harpoon	infix	270	5	5	stretchy, accent
+&#x294F;	⥏	up barb right down barb right harpoon	infix	270	5	5	stretchy
+&#x2950;	⥐	left barb down right barb down harpoon	infix	270	5	5	stretchy, accent
+&#x2951;	⥑	up barb left down barb left harpoon	infix	270	5	5	stretchy
+&#x2952;	⥒	leftwards harpoon with barb up to bar	infix	270	5	5	stretchy, accent
+&#x2953;	⥓	rightwards harpoon with barb up to bar	infix	270	5	5	stretchy, accent
+&#x2954;	⥔	upwards harpoon with barb right to bar	infix	270	5	5	stretchy
+&#x2955;	⥕	downwards harpoon with barb right to bar	infix	270	5	5	stretchy
+&#x2956;	⥖	leftwards harpoon with barb down to bar	infix	270	5	5	stretchy
+&#x2957;	⥗	rightwards harpoon with barb down to bar	infix	270	5	5	stretchy
+&#x2958;	⥘	upwards harpoon with barb left to bar	infix	270	5	5	stretchy
+&#x2959;	⥙	downwards harpoon with barb left to bar	infix	270	5	5	stretchy
+&#x295A;	⥚	leftwards harpoon with barb up from bar	infix	270	5	5	stretchy, accent
+&#x295B;	⥛	rightwards harpoon with barb up from bar	infix	270	5	5	stretchy, accent
+&#x295C;	⥜	upwards harpoon with barb right from bar	infix	270	5	5	stretchy
+&#x295D;	⥝	downwards harpoon with barb right from bar	infix	270	5	5	stretchy
+&#x295E;	⥞	leftwards harpoon with barb down from bar	infix	270	5	5	stretchy, accent
+&#x295F;	⥟	rightwards harpoon with barb down from bar	infix	270	5	5	stretchy, accent
+&#x2960;	⥠	upwards harpoon with barb left from bar	infix	270	5	5	stretchy
+&#x2961;	⥡	downwards harpoon with barb left from bar	infix	270	5	5	stretchy
+&#x2962;	⥢	leftwards harpoon with barb up above leftwards harpoon with barb down	infix	270	5	5	accent
+&#x2963;	⥣	upwards harpoon with barb left beside upwards harpoon with barb right	infix	270	5	5	
+&#x2964;	⥤	rightwards harpoon with barb up above rightwards harpoon with barb down	infix	270	5	5	accent
+&#x2965;	⥥	downwards harpoon with barb left beside downwards harpoon with barb right	infix	270	5	5	
+&#x2966;	⥦	leftwards harpoon with barb up above rightwards harpoon with barb up	infix	270	5	5	accent
+&#x2967;	⥧	leftwards harpoon with barb down above rightwards harpoon with barb down	infix	270	5	5	accent
+&#x2968;	⥨	rightwards harpoon with barb up above leftwards harpoon with barb up	infix	270	5	5	accent
+&#x2969;	⥩	rightwards harpoon with barb down above leftwards harpoon with barb down	infix	270	5	5	accent
+&#x296A;	⥪	leftwards harpoon with barb up above long dash	infix	270	5	5	accent
+&#x296B;	⥫	leftwards harpoon with barb down below long dash	infix	270	5	5	accent
+&#x296C;	⥬	rightwards harpoon with barb up above long dash	infix	270	5	5	accent
+&#x296D;	⥭	rightwards harpoon with barb down below long dash	infix	270	5	5	accent
+&#x296E;	⥮	upwards harpoon with barb left beside downwards harpoon with barb right	infix	270	5	5	stretchy
+&#x296F;	⥯	downwards harpoon with barb left beside upwards harpoon with barb right	infix	270	5	5	stretchy
+&#x2970;	⥰	right double arrow with rounded head	infix	270	5	5	accent
+&#x2971;	⥱	equals sign above rightwards arrow	infix	270	5	5	accent
+&#x2972;	⥲	tilde operator above rightwards arrow	infix	270	5	5	accent
+&#x2973;	⥳	leftwards arrow above tilde operator	infix	270	5	5	accent
+&#x2974;	⥴	rightwards arrow above tilde operator	infix	270	5	5	accent
+&#x2975;	⥵	rightwards arrow above almost equal to	infix	270	5	5	accent
+&#x2976;	⥶	less-than above leftwards arrow	infix	270	5	5	accent
+&#x2977;	⥷	leftwards arrow through less-than	infix	270	5	5	accent
+&#x2978;	⥸	greater-than above rightwards arrow	infix	270	5	5	accent
+&#x2979;	⥹	subset above rightwards arrow	infix	270	5	5	accent
+&#x297A;	⥺	leftwards arrow through subset	infix	270	5	5	accent
+&#x297B;	⥻	superset above leftwards arrow	infix	270	5	5	accent
+&#x297C;	⥼	left fish tail	infix	270	5	5	accent
+&#x297D;	⥽	right fish tail	infix	270	5	5	accent
+&#x297E;	⥾	up fish tail	infix	270	5	5	
+&#x297F;	⥿	down fish tail	infix	270	5	5	
+&#x2999;	⦙	dotted fence	infix	270	3	3	
+&#x299A;	⦚	vertical zigzag line	infix	270	3	3	
+&#x299B;	⦛	measured angle opening left	infix	270	3	3	
+&#x299C;	⦜	right angle variant with square	infix	270	3	3	
+&#x299D;	⦝	measured right angle with dot	infix	270	3	3	
+&#x299E;	⦞	angle with s inside	infix	270	3	3	
+&#x299F;	⦟	acute angle	infix	270	3	3	
+&#x29DF;	⧟	double-ended multimap	infix	270	3	3	
+&#x29EF;	⧯	error-barred black square	infix	270	3	3	
+&#x29F4;	⧴	rule-delayed	infix	270	5	5	
+&#x2B45;	⭅	leftwards quadruple arrow	infix	270	5	5	stretchy
+&#x2B46;	⭆	rightwards quadruple arrow	infix	270	5	5	stretchy
++	+	plus sign	infix	275	4	4	
++	+	plus sign	prefix	275	0	1	
+-	-	hyphen-minus	infix	275	4	4	
+-	-	hyphen-minus	prefix	275	0	1	
+&#xB1;	±	plus-minus sign	infix	275	4	4	
+&#xB1;	±	plus-minus sign	prefix	275	0	1	
+&#x2212;	−	minus sign	infix	275	4	4	
+&#x2212;	−	minus sign	prefix	275	0	1	
+&#x2213;	∓	minus-or-plus sign	infix	275	4	4	
+&#x2213;	∓	minus-or-plus sign	prefix	275	0	1	
+&#x2214;	∔	dot plus	infix	275	4	4	
+&#x229E;	⊞	squared plus	infix	275	4	4	
+&#x229F;	⊟	squared minus	infix	275	4	4	
+&#x2211;	∑	n-ary summation	prefix	290	1	2	largeop, movablelimits, symmetric
+&#x2A0A;	⨊	modulo two sum	prefix	290	1	2	largeop, movablelimits, symmetric
+&#x2A0B;	⨋	summation with integral	prefix	290	1	2	largeop, symmetric
+&#x222C;	∬	double integral	prefix	300	0	1	largeop, symmetric
+&#x222D;	∭	triple integral	prefix	300	0	1	largeop, symmetric
+&#x2295;	⊕	circled plus	infix	300	4	4	
+&#x2296;	⊖	circled minus	infix	300	4	4	
+&#x2298;	⊘	circled division slash	infix	300	4	4	
+&#x2A01;	⨁	n-ary circled plus operator	prefix	300	1	2	largeop, movablelimits, symmetric
+&#x222B;	∫	integral	prefix	310	0	1	largeop, symmetric
+&#x222E;	∮	contour integral	prefix	310	0	1	largeop, symmetric
+&#x222F;	∯	surface integral	prefix	310	0	1	largeop, symmetric
+&#x2230;	∰	volume integral	prefix	310	0	1	largeop, symmetric
+&#x2231;	∱	clockwise integral	prefix	310	0	1	largeop, symmetric
+&#x2232;	∲	clockwise contour integral	prefix	310	0	1	largeop, symmetric
+&#x2233;	∳	anticlockwise contour integral	prefix	310	0	1	largeop, symmetric
+&#x2A0C;	⨌	quadruple integral operator	prefix	310	0	1	largeop, symmetric
+&#x2A0D;	⨍	finite part integral	prefix	310	1	2	largeop, symmetric
+&#x2A0E;	⨎	integral with double stroke	prefix	310	1	2	largeop, symmetric
+&#x2A0F;	⨏	integral average with slash	prefix	310	1	2	largeop, symmetric
+&#x2A10;	⨐	circulation function	prefix	310	1	2	largeop, movablelimits, symmetric
+&#x2A11;	⨑	anticlockwise integration	prefix	310	1	2	largeop, movablelimits, symmetric
+&#x2A12;	⨒	line integration with rectangular path around pole	prefix	310	1	2	largeop, movablelimits, symmetric
+&#x2A13;	⨓	line integration with semicircular path around pole	prefix	310	1	2	largeop, movablelimits, symmetric
+&#x2A14;	⨔	line integration not including the pole	prefix	310	1	2	largeop, movablelimits, symmetric
+&#x2A15;	⨕	integral around a point operator	prefix	310	1	2	largeop, symmetric
+&#x2A16;	⨖	quaternion integral operator	prefix	310	1	2	largeop, symmetric
+&#x2A17;	⨗	integral with leftwards arrow with hook	prefix	310	1	2	largeop, symmetric
+&#x2A18;	⨘	integral with times sign	prefix	310	1	2	largeop, symmetric
+&#x2A19;	⨙	integral with intersection	prefix	310	1	2	largeop, symmetric
+&#x2A1A;	⨚	integral with union	prefix	310	1	2	largeop, symmetric
+&#x2A1B;	⨛	integral with overbar	prefix	310	1	2	largeop, symmetric
+&#x2A1C;	⨜	integral with underbar	prefix	310	1	2	largeop, symmetric
+&#x22C3;	⋃	n-ary union	prefix	320	1	2	largeop, movablelimits, symmetric
+&#x2A03;	⨃	n-ary union operator with dot	prefix	320	1	2	largeop, movablelimits, symmetric
+&#x2A04;	⨄	n-ary union operator with plus	prefix	320	1	2	largeop, movablelimits, symmetric
+&#x22C0;	⋀	n-ary logical and	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x22C1;	⋁	n-ary logical or	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x22C2;	⋂	n-ary intersection	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2A00;	⨀	n-ary circled dot operator	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2A02;	⨂	n-ary circled times operator	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2A05;	⨅	n-ary square intersection operator	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2A06;	⨆	n-ary square union operator	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2A07;	⨇	two logical and operator	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2A08;	⨈	two logical or operator	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2A09;	⨉	n-ary times operator	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2AFC;	⫼	large triple vertical bar operator	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2AFF;	⫿	n-ary white vertical bar	prefix	330	1	2	largeop, movablelimits, symmetric
+&#x2240;	≀	wreath product	infix	340	4	4	
+&#x220F;	∏	n-ary product	prefix	350	1	2	largeop, movablelimits, symmetric
+&#x2210;	∐	n-ary coproduct	prefix	350	1	2	largeop, movablelimits, symmetric
+&#x2229;	∩	intersection	infix	350	4	4	
+&#x222A;	∪	union	infix	350	4	4	
+*	*	asterisk	infix	390	3	3	
+.	.	full stop	infix	390	3	3	
+&#xD7;	×	multiplication sign	infix	390	4	4	
+&#x2022;	•	bullet	infix	390	4	4	
+&#x2043;	⁃	hyphen bullet	infix	390	4	4	
+&#x2062;	⁢	invisible times	infix	390	0	0	
+&#x22A0;	⊠	squared times	infix	390	4	4	
+&#x22A1;	⊡	squared dot operator	infix	390	4	4	
+&#x22C5;	⋅	dot operator	infix	390	4	4	
+&#x2A2F;	⨯	vector or cross product	infix	390	4	4	
+&#x2A3F;	⨿	amalgamation or coproduct	infix	390	4	4	
+&#xB7;	·	middle dot	infix	400	4	4	
+&#x2297;	⊗	circled times	infix	410	4	4	
+%	%	percent sign	infix	640	3	3	
+\	\	reverse solidus	infix	650	0	0	
+&#x2216;	∖	set minus	infix	650	4	4	
+/	/	solidus	infix	660	1	1	
+&#xF7;	÷	division sign	infix	660	4	4	
+&#x2220;	∠	angle	prefix	670	0	0	
+&#x2221;	∡	measured angle	prefix	670	0	0	
+&#x2222;	∢	spherical angle	prefix	670	0	0	
+&#xAC;	¬	not sign	prefix	680	2	1	
+&#x2299;	⊙	circled dot operator	infix	710	4	4	
+&#x2202;	∂	partial differential	prefix	740	2	1	
+&#x2207;	∇	nabla	prefix	740	2	1	
+**	**	multiple character operator: **	infix	780	1	1	
+&lt;>	<>	multiple character operator: <>	infix	780	1	1	
+^	^	circumflex accent	infix	780	1	1	
+&#x2032;	′	prime	postfix	800	0	0	
+&#x266D;	♭	music flat sign	postfix	800	0	2	
+&#x266E;	♮	music natural sign	postfix	800	0	2	
+&#x266F;	♯	music sharp sign	postfix	800	0	2	
+!	!	exclamation mark	postfix	810	1	0	
+!!	!!	multiple character operator: !!	postfix	810	1	0	
+//	//	multiple character operator: //	infix	820	1	1	
+@	@	commercial at	infix	825	1	1	
+?	?	question mark	infix	835	1	1	
+&#x2145;	ⅅ	double-struck italic capital d	prefix	845	2	1	
+&#x2146;	ⅆ	double-struck italic small d	prefix	845	2	0	
+&#x221A;	√	square root	prefix	845	1	1	stretchy
+&#x221B;	∛	cube root	prefix	845	1	1	
+&#x221C;	∜	fourth root	prefix	845	1	1	
+&#x2061;	⁡	function application	infix	850	0	0	
+"	"	quotation mark	postfix	880	0	0	accent
+&amp;	&	ampersand	postfix	880	0	0	
+'	'	apostrophe	postfix	880	0	0	accent
+++	++	multiple character operator: ++	postfix	880	0	0	
+--	--	multiple character operator: --	postfix	880	0	0	
+^	^	circumflex accent	postfix	880	0	0	stretchy, accent
+_	_	low line	postfix	880	0	0	stretchy, accent
+`	`	grave accent	postfix	880	0	0	accent
+~	~	tilde	postfix	880	0	0	stretchy, accent
+&#xA8;	¨	diaeresis	postfix	880	0	0	accent
+&#xAA;	ª	feminine ordinal indicator	postfix	880	0	0	accent
+&#xAF;	¯	macron	postfix	880	0	0	stretchy, accent
+&#xB0;	°	degree sign	postfix	880	0	0	
+&#xB2;	²	superscript two	postfix	880	0	0	accent
+&#xB3;	³	superscript three	postfix	880	0	0	accent
+&#xB4;	´	acute accent	postfix	880	0	0	accent
+&#xB8;	¸	cedilla	postfix	880	0	0	accent
+&#xB9;	¹	superscript one	postfix	880	0	0	accent
+&#xBA;	º	masculine ordinal indicator	postfix	880	0	0	accent
+&#x2C6;	ˆ	modifier letter circumflex accent	postfix	880	0	0	stretchy, accent
+&#x2C7;	ˇ	caron	postfix	880	0	0	stretchy, accent
+&#x2C9;	ˉ	modifier letter macron	postfix	880	0	0	stretchy, accent
+&#x2CA;	ˊ	modifier letter acute accent	postfix	880	0	0	accent
+&#x2CB;	ˋ	modifier letter grave accent	postfix	880	0	0	accent
+&#x2CD;	ˍ	modifier letter low macron	postfix	880	0	0	stretchy, accent
+&#x2D8;	˘	breve	postfix	880	0	0	accent
+&#x2D9;	˙	dot above	postfix	880	0	0	accent
+&#x2DA;	˚	ring above	postfix	880	0	0	accent
+&#x2DC;	˜	small tilde	postfix	880	0	0	stretchy, accent
+&#x2DD;	˝	double acute accent	postfix	880	0	0	accent
+&#x2F7;	˷	modifier letter low tilde	postfix	880	0	0	stretchy, accent
+&#x302;	̂	combining circumflex accent	postfix	880	0	0	stretchy, accent
+&#x311;	̑	combining inverted breve	postfix	880	0	0	accent
+&#x201A;	‚	single low-9 quotation mark	postfix	880	0	0	accent
+&#x201B;	‛	single high-reversed-9 quotation mark	postfix	880	0	0	accent
+&#x201E;	„	double low-9 quotation mark	postfix	880	0	0	accent
+&#x201F;	‟	double high-reversed-9 quotation mark	postfix	880	0	0	accent
+&#x2033;	″	double prime	postfix	880	0	0	accent
+&#x2034;	‴	triple prime	postfix	880	0	0	accent
+&#x2035;	‵	reversed prime	postfix	880	0	0	accent
+&#x2036;	‶	reversed double prime	postfix	880	0	0	accent
+&#x2037;	‷	reversed triple prime	postfix	880	0	0	accent
+&#x203E;	‾	overline	postfix	880	0	0	stretchy, accent
+&#x2057;	⁗	quadruple prime	postfix	880	0	0	accent
+&#x2064;	⁤	invisible plus	infix	880	0	0	
+&#x20DB;	⃛	combining three dots above	postfix	880	0	0	accent
+&#x20DC;	⃜	combining four dots above	postfix	880	0	0	accent
+&#x23B4;	⎴	top square bracket	postfix	880	0	0	stretchy, accent
+&#x23B5;	⎵	bottom square bracket	postfix	880	0	0	stretchy, accent
+&#x23DC;	⏜	top parenthesis	postfix	880	0	0	stretchy, accent
+&#x23DD;	⏝	bottom parenthesis	postfix	880	0	0	stretchy, accent
+&#x23DE;	⏞	top curly bracket	postfix	880	0	0	stretchy, accent
+&#x23DF;	⏟	bottom curly bracket	postfix	880	0	0	stretchy, accent
+&#x23E0;	⏠	top tortoise shell bracket	postfix	880	0	0	stretchy, accent
+&#x23E1;	⏡	bottom tortoise shell bracket	postfix	880	0	0	stretchy, accent
+_	_	low line	infix	900	1	1

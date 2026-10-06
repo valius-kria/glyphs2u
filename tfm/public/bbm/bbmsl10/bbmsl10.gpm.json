@@ -1,0 +1,612 @@
+{
+ "font": "bbmsl10",
+ "pfb": "bbmsl10.pfb",
+ "enc": "bbmsl10.pfb.enc.json",
+ "htf": "bbmsl",
+ "htf_entry": "bbmsl",
+ "htf_decl": {},
+ "props": {
+  "style": "oblique",
+  "variant": "double-struck"
+ },
+ "status": {
+  "family": "?",
+  "weight": "?",
+  "variant": "decl",
+  "style": "decl"
+ },
+ "glyphs": {
+  "parenleft": {
+   "slot": 40,
+   "pos": 41,
+   "htf_value": "<mfont mathvariant=\"italic\">⦅</mfont>",
+   "base": "⦅",
+   "props": {
+    "variant": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "variant": "sibling"
+   }
+  },
+  "parenright": {
+   "slot": 41,
+   "pos": 42,
+   "htf_value": "<mfont mathvariant=\"italic\">⦆</mfont>",
+   "base": "⦆",
+   "props": {
+    "variant": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "variant": "sibling"
+   }
+  },
+  "one": {
+   "slot": 49,
+   "pos": 50,
+   "htf_value": "<mfont mathvariant=\"italic\">𝟙</mfont>",
+   "base": "1",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "two": {
+   "slot": 50,
+   "pos": 51,
+   "htf_value": "<mfont mathvariant=\"italic\">𝟚</mfont>",
+   "base": "2",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "A": {
+   "slot": 65,
+   "pos": 66,
+   "htf_value": "<mfont mathvariant=\"italic\">𝔸</mfont>",
+   "base": "A",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "B": {
+   "slot": 66,
+   "pos": 67,
+   "htf_value": "<mfont mathvariant=\"italic\">𝔹</mfont>",
+   "base": "B",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "C": {
+   "slot": 67,
+   "pos": 68,
+   "htf_value": "<mfont mathvariant=\"italic\">ℂ</mfont>",
+   "base": "C",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "D": {
+   "slot": 68,
+   "pos": 69,
+   "htf_value": "ⅅ",
+   "base": "D",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "E": {
+   "slot": 69,
+   "pos": 70,
+   "htf_value": "<mfont mathvariant=\"italic\">𝔼</mfont>",
+   "base": "E",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "F": {
+   "slot": 70,
+   "pos": 71,
+   "htf_value": "<mfont mathvariant=\"italic\">𝔽</mfont>",
+   "base": "F",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "G": {
+   "slot": 71,
+   "pos": 72,
+   "htf_value": "<mfont mathvariant=\"italic\">𝔾</mfont>",
+   "base": "G",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "H": {
+   "slot": 72,
+   "pos": 73,
+   "htf_value": "<mfont mathvariant=\"italic\">ℍ</mfont>",
+   "base": "H",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "I": {
+   "slot": 73,
+   "pos": 74,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕀</mfont>",
+   "base": "I",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "J": {
+   "slot": 74,
+   "pos": 75,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕁</mfont>",
+   "base": "J",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "K": {
+   "slot": 75,
+   "pos": 76,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕂</mfont>",
+   "base": "K",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "L": {
+   "slot": 76,
+   "pos": 77,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕃</mfont>",
+   "base": "L",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "M": {
+   "slot": 77,
+   "pos": 78,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕄</mfont>",
+   "base": "M",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "N": {
+   "slot": 78,
+   "pos": 79,
+   "htf_value": "<mfont mathvariant=\"italic\">ℕ</mfont>",
+   "base": "N",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "O": {
+   "slot": 79,
+   "pos": 80,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕆</mfont>",
+   "base": "O",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "P": {
+   "slot": 80,
+   "pos": 81,
+   "htf_value": "<mfont mathvariant=\"italic\">ℙ</mfont>",
+   "base": "P",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "Q": {
+   "slot": 81,
+   "pos": 82,
+   "htf_value": "<mfont mathvariant=\"italic\">ℚ</mfont>",
+   "base": "Q",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "R": {
+   "slot": 82,
+   "pos": 83,
+   "htf_value": "<mfont mathvariant=\"italic\">ℝ</mfont>",
+   "base": "R",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "S": {
+   "slot": 83,
+   "pos": 84,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕊</mfont>",
+   "base": "S",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "T": {
+   "slot": 84,
+   "pos": 85,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕋</mfont>",
+   "base": "T",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "U": {
+   "slot": 85,
+   "pos": 86,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕌</mfont>",
+   "base": "U",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "V": {
+   "slot": 86,
+   "pos": 87,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕍</mfont>",
+   "base": "V",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "W": {
+   "slot": 87,
+   "pos": 88,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕎</mfont>",
+   "base": "W",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "X": {
+   "slot": 88,
+   "pos": 89,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕏</mfont>",
+   "base": "X",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "Y": {
+   "slot": 89,
+   "pos": 90,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕐</mfont>",
+   "base": "Y",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "Z": {
+   "slot": 90,
+   "pos": 91,
+   "htf_value": "<mfont mathvariant=\"italic\">ℤ</mfont>",
+   "base": "Z",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "bracketleft": {
+   "slot": 91,
+   "pos": 92,
+   "htf_value": "<mfont mathvariant=\"italic\">〚</mfont>",
+   "base": "〚",
+   "props": {
+    "variant": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "variant": "sibling"
+   }
+  },
+  "bracketright": {
+   "slot": 93,
+   "pos": 94,
+   "htf_value": "<mfont mathvariant=\"italic\">〛</mfont>",
+   "base": "〛",
+   "props": {
+    "variant": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "variant": "sibling"
+   }
+  },
+  "a": {
+   "slot": 97,
+   "pos": 98,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕒</mfont>",
+   "base": "a",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "b": {
+   "slot": 98,
+   "pos": 99,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕓</mfont>",
+   "base": "b",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "c": {
+   "slot": 99,
+   "pos": 100,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕔</mfont>",
+   "base": "c",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "d": {
+   "slot": 100,
+   "pos": 101,
+   "htf_value": "ⅆ",
+   "base": "d",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "e": {
+   "slot": 101,
+   "pos": 102,
+   "htf_value": "ⅇ",
+   "base": "e",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "f": {
+   "slot": 102,
+   "pos": 103,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕗</mfont>",
+   "base": "f",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "g": {
+   "slot": 103,
+   "pos": 104,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕘</mfont>",
+   "base": "g",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "h": {
+   "slot": 104,
+   "pos": 105,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕙</mfont>",
+   "base": "h",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "i": {
+   "slot": 105,
+   "pos": 106,
+   "htf_value": "ⅈ",
+   "base": "i",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "j": {
+   "slot": 106,
+   "pos": 107,
+   "htf_value": "ⅉ",
+   "base": "j",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "k": {
+   "slot": 107,
+   "pos": 108,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕜</mfont>",
+   "base": "k",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "l": {
+   "slot": 108,
+   "pos": 109,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕝</mfont>",
+   "base": "l",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "m": {
+   "slot": 109,
+   "pos": 110,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕞</mfont>",
+   "base": "m",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "n": {
+   "slot": 110,
+   "pos": 111,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕟</mfont>",
+   "base": "n",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "o": {
+   "slot": 111,
+   "pos": 112,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕠</mfont>",
+   "base": "o",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "p": {
+   "slot": 112,
+   "pos": 113,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕡</mfont>",
+   "base": "p",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "q": {
+   "slot": 113,
+   "pos": 114,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕢</mfont>",
+   "base": "q",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "r": {
+   "slot": 114,
+   "pos": 115,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕣</mfont>",
+   "base": "r",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "s": {
+   "slot": 115,
+   "pos": 116,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕤</mfont>",
+   "base": "s",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "t": {
+   "slot": 116,
+   "pos": 117,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕥</mfont>",
+   "base": "t",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "u": {
+   "slot": 117,
+   "pos": 118,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕦</mfont>",
+   "base": "u",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "v": {
+   "slot": 118,
+   "pos": 119,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕧</mfont>",
+   "base": "v",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "w": {
+   "slot": 119,
+   "pos": 120,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕨</mfont>",
+   "base": "w",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "x": {
+   "slot": 120,
+   "pos": 121,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕩</mfont>",
+   "base": "x",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "y": {
+   "slot": 121,
+   "pos": 122,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕪</mfont>",
+   "base": "y",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "z": {
+   "slot": 122,
+   "pos": 123,
+   "htf_value": "<mfont mathvariant=\"italic\">𝕫</mfont>",
+   "base": "z",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  }
+ }
+}

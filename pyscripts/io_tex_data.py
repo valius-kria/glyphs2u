@@ -17,7 +17,9 @@ def apply_kpsewhich(fname):
     try:
         fpath = subprocess.check_output(shell_command,
                                                shell=True, text=True)
-        return fpath
+        # First line only, newline stripped: callers write this straight into a
+        # <file>.path that fontforge and kpathsea then open by name.
+        return fpath.splitlines()[0] if fpath.strip() else None
     except subprocess.CalledProcessError as e:
         print(f"Error executing shell command: {e}")
 

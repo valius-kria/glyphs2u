@@ -339,6 +339,80 @@ Once the tables are settled and deployed, they are in use.  Sending them here
 as well lets them reach other people — see
 [Contributing a table](#contributing-a-table).
 
+## The glyph property maps
+
+A Unicode value is not everything a font says about a glyph.  `stix-mathcal`
+holds the usual slanted integral at `uni222B` and an upright one at
+`uni222B.up`, and Unicode has a single codepoint for both; a bold integral or a
+sans-serif *italic* digit has no codepoint at all.  Such things are properties
+of the glyph — family, weight, variant, style — and only some of them can be
+spelled as a codepoint.
+
+The analysis that records them came from the `htf-fonts` project, which arose
+for the `xmlforge` pipeline, and is kept here because it serves tex4ht's `.htf`
+tables too: those are where the Unicode values for a font are declared for HTML
+output, and the same analysis says what they ought to be.
+
+One record per font, `tfm/<supplier>/<family>/<font>/<font>.gpm.json`, holding
+for every glyph a base character, the properties as four independent axes, and
+a `status` saying *which method settled each value* — the position's codepoint,
+a glyphs2u table, the AGL list, the glyph's own name, a font-pair raster
+comparison, or the eye.  A step may refresh what it set itself but never
+overturn another method's, so the steps can be re-run in any order and the work
+can stop and resume.  Records exist for 42 fonts: Computer Modern, STIX and
+bbm.
+
+Both sides derive from the record — `gpm_to_lua` writes this project's
+`<font>.lua`, `gpm_to_htf` the htf side — which is why the axes are kept apart
+rather than collapsed into a codepoint.  `<font>.gpm.dropped` lists the
+property combinations Unicode cannot express.
+
+### Where the htf values come from
+
+`htf_data.lua` and `user_htf.lua`, which the htf-fonts workflow reads, are not
+part of a TeX Live installation: they belong to the vtex tree and are the
+*worked* copies.  The `.htf` files they were first derived from are in the
+distribution, so this project reads those instead:
+
+```sh
+make htf-data        # $TEXMFDIST/tex4ht/ht-fonts -> 2026/htf_data.json
+```
+
+Maps derived from the tree are kept per release, in a directory named for it,
+the same arrangement as `glyphlists/sources/`.
+
+The values differ, and the difference is the point.  Upstream `.htf` has a bare
+`&#x222B;` where the worked file has `<mfont mathvariant="italic">&#x222B;</mfont>`,
+and no font-level declaration where the worked file carries one.  The `.htf`
+files are what the analysis is meant to correct, so a record has to start from
+what they actually say.
+
+### Working on a font
+
+```sh
+make <font>.tfmdir              # scaffold tfm/<supplier>/<family>/<font>
+cd tfm/<supplier>/<family>/<font>
+make <font>.gpm.json            # skeleton: encoding + htf values + declaration
+make <font>.gpm.uni             # base and axes implied by the codepoint
+make <font>.gpm.names           # what the glyph names say (gpm_name_rules.json)
+make <font>.pos.dvi             # one glyph per page -> rasters, for comparison
+make <font>.cmp.map.json        # compare against the `plain' sibling
+make <font>.gpm.cmp             # one axis, from that comparison
+make <font>.gpm.html            # review page
+make edit-<font>.gpm            # Tk editor for what only the eye can settle
+make <font>.gpm.lua             # this project's table; copy into its work dir
+```
+
+`make <font>.gpm.json` re-runs as a merge and never loses settled work: only
+the htf values and the declaration are refreshed.  Values can also be written
+without the editor, with `gpm_set.py`.
+
+### What did not come across
+
+The `xmlforge` pipeline, the vtex overlay tree, and the font-level →
+per-symbol `<mfont>` rewrite stayed in `htf-fonts`; so did the scripts that
+serve only those.
+
 ## When you do not have the fonts
 
 Most of what the project does needs the tables, not the font files: joining

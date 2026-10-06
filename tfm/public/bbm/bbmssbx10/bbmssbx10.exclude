@@ -1,0 +1,14 @@
+# Glyphs of bbmssbx10 that are NOT glyphs -- one name per line.
+# gpm_init skips these as it skips '.notdef'.
+# Seeded by gpm_exclude.py with candidates COMMENTED OUT:
+# uncomment the ones you have looked at and rejected.
+# Nothing here is overwritten by a re-seed.
+# Acircumflex	# x0=-538.6 adv=881 -- outline outside the advance width
+# Ecircumflex	# x0=-484.7 adv=789 -- outline outside the advance width
+# Icircumflex	# x0=-483.4 adv=478 -- outline outside the advance width
+# Ocircumflex	# x0=-513.5 adv=942 -- outline outside the advance width
+# Ucircumflex	# x0=-484.4 adv=911 -- outline outside the advance width
+# acircumflex	# x0=-544.4 adv=672 -- outline outside the advance width
+# ecircumflex	# x0=-544.1 adv=658 -- outline outside the advance width
+# ocircumflex	# x0=-544.2 adv=697 -- outline outside the advance width
+# ucircumflex	# x0=-515.7 adv=708 -- outline outside the advance width

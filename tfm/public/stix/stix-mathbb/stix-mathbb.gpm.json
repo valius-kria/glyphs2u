@@ -1,0 +1,2441 @@
+{
+ "font": "stix-mathbb",
+ "pfb": "stix-mathbb.pfb",
+ "enc": "stix-mathbb.pfb.enc.json",
+ "htf": "stix-mathbb",
+ "htf_entry": "stix-mathbb",
+ "htf_decl": {},
+ "props": {},
+ "status": {
+  "family": "?",
+  "weight": "?",
+  "variant": "?",
+  "style": "?"
+ },
+ "glyphs": {
+  "uni213E": {
+   "slot": 0,
+   "pos": 1,
+   "htf_value": "<mfont mathvariant=\"double-struck\">&#x0393;</mfont>",
+   "base": "Γ",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni213F": {
+   "slot": 5,
+   "pos": 6,
+   "htf_value": "<mfont mathvariant=\"double-struck\">&#x03A0;</mfont>",
+   "base": "Π",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni213D": {
+   "slot": 13,
+   "pos": 14,
+   "htf_value": "<mfont mathvariant=\"double-struck\">&#x03B3;</mfont>",
+   "base": "γ",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni213C": {
+   "slot": 25,
+   "pos": 26,
+   "htf_value": "<mfont mathvariant=\"double-struck\">&#x03C0;</mfont>",
+   "base": "π",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni2AB2": {
+   "slot": 38,
+   "pos": 39,
+   "htf_value": "&#x2AB2;",
+   "base": "⪲",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AB3": {
+   "slot": 39,
+   "pos": 40,
+   "htf_value": "&#x2AB3;",
+   "base": "⪳",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AB4": {
+   "slot": 40,
+   "pos": 41,
+   "htf_value": "&#x2AB4;",
+   "base": "⪴",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AB5": {
+   "slot": 41,
+   "pos": 42,
+   "htf_value": "&#x2AB5;",
+   "base": "⪵",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AB6": {
+   "slot": 42,
+   "pos": 43,
+   "htf_value": "&#x2AB6;",
+   "base": "⪶",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AB7": {
+   "slot": 43,
+   "pos": 44,
+   "htf_value": "&#x2AB7;",
+   "base": "⪷",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AB8": {
+   "slot": 44,
+   "pos": 45,
+   "htf_value": "&#x2AB8;",
+   "base": "⪸",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AB9": {
+   "slot": 45,
+   "pos": 46,
+   "htf_value": "&#x2AB9;",
+   "base": "⪹",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2ABA": {
+   "slot": 46,
+   "pos": 47,
+   "htf_value": "&#x2ABA;",
+   "base": "⪺",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2ABB": {
+   "slot": 47,
+   "pos": 48,
+   "htf_value": "&#x2ABB;",
+   "base": "⪻",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "u1D7D8": {
+   "slot": 48,
+   "pos": 49,
+   "htf_value": "<mfont mathvariant=\"double-struck\">0</mfont>",
+   "base": "0",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7D9": {
+   "slot": 49,
+   "pos": 50,
+   "htf_value": "<mfont mathvariant=\"double-struck\">1</mfont>",
+   "base": "1",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DA": {
+   "slot": 50,
+   "pos": 51,
+   "htf_value": "<mfont mathvariant=\"double-struck\">2</mfont>",
+   "base": "2",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DB": {
+   "slot": 51,
+   "pos": 52,
+   "htf_value": "<mfont mathvariant=\"double-struck\">3</mfont>",
+   "base": "3",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DC": {
+   "slot": 52,
+   "pos": 53,
+   "htf_value": "<mfont mathvariant=\"double-struck\">4</mfont>",
+   "base": "4",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DD": {
+   "slot": 53,
+   "pos": 54,
+   "htf_value": "<mfont mathvariant=\"double-struck\">5</mfont>",
+   "base": "5",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DE": {
+   "slot": 54,
+   "pos": 55,
+   "htf_value": "<mfont mathvariant=\"double-struck\">6</mfont>",
+   "base": "6",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7DF": {
+   "slot": 55,
+   "pos": 56,
+   "htf_value": "<mfont mathvariant=\"double-struck\">7</mfont>",
+   "base": "7",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7E0": {
+   "slot": 56,
+   "pos": 57,
+   "htf_value": "<mfont mathvariant=\"double-struck\">8</mfont>",
+   "base": "8",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D7E1": {
+   "slot": 57,
+   "pos": 58,
+   "htf_value": "<mfont mathvariant=\"double-struck\">9</mfont>",
+   "base": "9",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni2ABC": {
+   "slot": 58,
+   "pos": 59,
+   "htf_value": "&#x2ABC;",
+   "base": "⪼",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2ABD": {
+   "slot": 59,
+   "pos": 60,
+   "htf_value": "&#x2ABD;",
+   "base": "⪽",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2ABE": {
+   "slot": 60,
+   "pos": 61,
+   "htf_value": "&#x2ABE;",
+   "base": "⪾",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2ABF": {
+   "slot": 61,
+   "pos": 62,
+   "htf_value": "&#x2ABF;",
+   "base": "⪿",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AC0": {
+   "slot": 62,
+   "pos": 63,
+   "htf_value": "&#x2AC0;",
+   "base": "⫀",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AC1": {
+   "slot": 63,
+   "pos": 64,
+   "htf_value": "&#x2AC1;",
+   "base": "⫁",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AC2": {
+   "slot": 64,
+   "pos": 65,
+   "htf_value": "&#x2AC2;",
+   "base": "⫂",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "u1D538": {
+   "slot": 65,
+   "pos": 66,
+   "htf_value": "<mfont mathvariant=\"double-struck\">A</mfont>",
+   "base": "A",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D539": {
+   "slot": 66,
+   "pos": 67,
+   "htf_value": "<mfont mathvariant=\"double-struck\">B</mfont>",
+   "base": "B",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni2102": {
+   "slot": 67,
+   "pos": 68,
+   "htf_value": "<mfont mathvariant=\"double-struck\">C</mfont>",
+   "base": "C",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D53B": {
+   "slot": 68,
+   "pos": 69,
+   "htf_value": "<mfont mathvariant=\"double-struck\">D</mfont>",
+   "base": "D",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D53C": {
+   "slot": 69,
+   "pos": 70,
+   "htf_value": "<mfont mathvariant=\"double-struck\">E</mfont>",
+   "base": "E",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D53D": {
+   "slot": 70,
+   "pos": 71,
+   "htf_value": "<mfont mathvariant=\"double-struck\">F</mfont>",
+   "base": "F",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D53E": {
+   "slot": 71,
+   "pos": 72,
+   "htf_value": "<mfont mathvariant=\"double-struck\">G</mfont>",
+   "base": "G",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni210D": {
+   "slot": 72,
+   "pos": 73,
+   "htf_value": "<mfont mathvariant=\"double-struck\">H</mfont>",
+   "base": "H",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D540": {
+   "slot": 73,
+   "pos": 74,
+   "htf_value": "<mfont mathvariant=\"double-struck\">I</mfont>",
+   "base": "I",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D541": {
+   "slot": 74,
+   "pos": 75,
+   "htf_value": "<mfont mathvariant=\"double-struck\">J</mfont>",
+   "base": "J",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D542": {
+   "slot": 75,
+   "pos": 76,
+   "htf_value": "<mfont mathvariant=\"double-struck\">K</mfont>",
+   "base": "K",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D543": {
+   "slot": 76,
+   "pos": 77,
+   "htf_value": "<mfont mathvariant=\"double-struck\">L</mfont>",
+   "base": "L",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D544": {
+   "slot": 77,
+   "pos": 78,
+   "htf_value": "<mfont mathvariant=\"double-struck\">M</mfont>",
+   "base": "M",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni2115": {
+   "slot": 78,
+   "pos": 79,
+   "htf_value": "<mfont mathvariant=\"double-struck\">N</mfont>",
+   "base": "N",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D546": {
+   "slot": 79,
+   "pos": 80,
+   "htf_value": "<mfont mathvariant=\"double-struck\">O</mfont>",
+   "base": "O",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni2119": {
+   "slot": 80,
+   "pos": 81,
+   "htf_value": "<mfont mathvariant=\"double-struck\">P</mfont>",
+   "base": "P",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni211A": {
+   "slot": 81,
+   "pos": 82,
+   "htf_value": "<mfont mathvariant=\"double-struck\">Q</mfont>",
+   "base": "Q",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni211D": {
+   "slot": 82,
+   "pos": 83,
+   "htf_value": "<mfont mathvariant=\"double-struck\">R</mfont>",
+   "base": "R",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D54A": {
+   "slot": 83,
+   "pos": 84,
+   "htf_value": "<mfont mathvariant=\"double-struck\">S</mfont>",
+   "base": "S",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D54B": {
+   "slot": 84,
+   "pos": 85,
+   "htf_value": "<mfont mathvariant=\"double-struck\">T</mfont>",
+   "base": "T",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D54C": {
+   "slot": 85,
+   "pos": 86,
+   "htf_value": "<mfont mathvariant=\"double-struck\">U</mfont>",
+   "base": "U",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D54D": {
+   "slot": 86,
+   "pos": 87,
+   "htf_value": "<mfont mathvariant=\"double-struck\">V</mfont>",
+   "base": "V",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D54E": {
+   "slot": 87,
+   "pos": 88,
+   "htf_value": "<mfont mathvariant=\"double-struck\">W</mfont>",
+   "base": "W",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D54F": {
+   "slot": 88,
+   "pos": 89,
+   "htf_value": "<mfont mathvariant=\"double-struck\">X</mfont>",
+   "base": "X",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D550": {
+   "slot": 89,
+   "pos": 90,
+   "htf_value": "<mfont mathvariant=\"double-struck\">Y</mfont>",
+   "base": "Y",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni2124": {
+   "slot": 90,
+   "pos": 91,
+   "htf_value": "<mfont mathvariant=\"double-struck\">Z</mfont>",
+   "base": "Z",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni2AC3": {
+   "slot": 91,
+   "pos": 92,
+   "htf_value": "&#x2AC3;",
+   "base": "⫃",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AC4": {
+   "slot": 92,
+   "pos": 93,
+   "htf_value": "&#x2AC4;",
+   "base": "⫄",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AC5": {
+   "slot": 93,
+   "pos": 94,
+   "htf_value": "&#x2AC5;",
+   "base": "⫅",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AC6": {
+   "slot": 94,
+   "pos": 95,
+   "htf_value": "&#x2AC6;",
+   "base": "⫆",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AC7": {
+   "slot": 95,
+   "pos": 96,
+   "htf_value": "&#x2AC7;",
+   "base": "⫇",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AC8": {
+   "slot": 96,
+   "pos": 97,
+   "htf_value": "&#x2AC8;",
+   "base": "⫈",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "u1D552": {
+   "slot": 97,
+   "pos": 98,
+   "htf_value": "<mfont mathvariant=\"double-struck\">a</mfont>",
+   "base": "a",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D553": {
+   "slot": 98,
+   "pos": 99,
+   "htf_value": "<mfont mathvariant=\"double-struck\">b</mfont>",
+   "base": "b",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D554": {
+   "slot": 99,
+   "pos": 100,
+   "htf_value": "<mfont mathvariant=\"double-struck\">c</mfont>",
+   "base": "c",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D555": {
+   "slot": 100,
+   "pos": 101,
+   "htf_value": "<mfont mathvariant=\"double-struck\">d</mfont>",
+   "base": "d",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D556": {
+   "slot": 101,
+   "pos": 102,
+   "htf_value": "<mfont mathvariant=\"double-struck\">e</mfont>",
+   "base": "e",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D557": {
+   "slot": 102,
+   "pos": 103,
+   "htf_value": "<mfont mathvariant=\"double-struck\">f</mfont>",
+   "base": "f",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D558": {
+   "slot": 103,
+   "pos": 104,
+   "htf_value": "<mfont mathvariant=\"double-struck\">g</mfont>",
+   "base": "g",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D559": {
+   "slot": 104,
+   "pos": 105,
+   "htf_value": "<mfont mathvariant=\"double-struck\">h</mfont>",
+   "base": "h",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D55A": {
+   "slot": 105,
+   "pos": 106,
+   "htf_value": "<mfont mathvariant=\"double-struck\">i</mfont>",
+   "base": "i",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D55B": {
+   "slot": 106,
+   "pos": 107,
+   "htf_value": "<mfont mathvariant=\"double-struck\">j</mfont>",
+   "base": "j",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D55C": {
+   "slot": 107,
+   "pos": 108,
+   "htf_value": "<mfont mathvariant=\"double-struck\">k</mfont>",
+   "base": "k",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D55D": {
+   "slot": 108,
+   "pos": 109,
+   "htf_value": "<mfont mathvariant=\"double-struck\">l</mfont>",
+   "base": "l",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D55E": {
+   "slot": 109,
+   "pos": 110,
+   "htf_value": "<mfont mathvariant=\"double-struck\">m</mfont>",
+   "base": "m",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D55F": {
+   "slot": 110,
+   "pos": 111,
+   "htf_value": "<mfont mathvariant=\"double-struck\">n</mfont>",
+   "base": "n",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D560": {
+   "slot": 111,
+   "pos": 112,
+   "htf_value": "<mfont mathvariant=\"double-struck\">o</mfont>",
+   "base": "o",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D561": {
+   "slot": 112,
+   "pos": 113,
+   "htf_value": "<mfont mathvariant=\"double-struck\">p</mfont>",
+   "base": "p",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D562": {
+   "slot": 113,
+   "pos": 114,
+   "htf_value": "<mfont mathvariant=\"double-struck\">q</mfont>",
+   "base": "q",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D563": {
+   "slot": 114,
+   "pos": 115,
+   "htf_value": "<mfont mathvariant=\"double-struck\">r</mfont>",
+   "base": "r",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D564": {
+   "slot": 115,
+   "pos": 116,
+   "htf_value": "<mfont mathvariant=\"double-struck\">s</mfont>",
+   "base": "s",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D565": {
+   "slot": 116,
+   "pos": 117,
+   "htf_value": "<mfont mathvariant=\"double-struck\">t</mfont>",
+   "base": "t",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D566": {
+   "slot": 117,
+   "pos": 118,
+   "htf_value": "<mfont mathvariant=\"double-struck\">u</mfont>",
+   "base": "u",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D567": {
+   "slot": 118,
+   "pos": 119,
+   "htf_value": "<mfont mathvariant=\"double-struck\">v</mfont>",
+   "base": "v",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D568": {
+   "slot": 119,
+   "pos": 120,
+   "htf_value": "<mfont mathvariant=\"double-struck\">w</mfont>",
+   "base": "w",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D569": {
+   "slot": 120,
+   "pos": 121,
+   "htf_value": "<mfont mathvariant=\"double-struck\">x</mfont>",
+   "base": "x",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D56A": {
+   "slot": 121,
+   "pos": 122,
+   "htf_value": "<mfont mathvariant=\"double-struck\">y</mfont>",
+   "base": "y",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D56B": {
+   "slot": 122,
+   "pos": 123,
+   "htf_value": "<mfont mathvariant=\"double-struck\">z</mfont>",
+   "base": "z",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D55A.dtls": {
+   "slot": 123,
+   "pos": 124,
+   "htf_value": "<mfont mathvariant=\"double-struck\">&#x0131;</mfont>",
+   "base": "ı",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "name",
+    "family": "unicode"
+   }
+  },
+  "u1D55B.dtls": {
+   "slot": 124,
+   "pos": 125,
+   "htf_value": "<mfont mathvariant=\"double-struck\">&#x0237;</mfont>",
+   "base": "ȷ",
+   "props": {
+    "family": "double-struck"
+   },
+   "status": {
+    "base": "name",
+    "family": "unicode"
+   }
+  },
+  "uni2AC9": {
+   "slot": 125,
+   "pos": 126,
+   "htf_value": "&#x2AC9;",
+   "base": "⫉",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2ACA": {
+   "slot": 126,
+   "pos": 127,
+   "htf_value": "&#x2ACA;",
+   "base": "⫊",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2040": {
+   "slot": 127,
+   "pos": 128,
+   "htf_value": "&#x2040;",
+   "base": "⁀",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0300": {
+   "slot": 128,
+   "pos": 129,
+   "htf_value": "&#x0300;",
+   "base": "̀",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0301": {
+   "slot": 129,
+   "pos": 130,
+   "htf_value": "&#x0301;",
+   "base": "́",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0302": {
+   "slot": 130,
+   "pos": 131,
+   "htf_value": "&#x0302;",
+   "base": "̂",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0303": {
+   "slot": 131,
+   "pos": 132,
+   "htf_value": "&#x0303;",
+   "base": "̃",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0304": {
+   "slot": 132,
+   "pos": 133,
+   "htf_value": "&#x0304;",
+   "base": "̄",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0306": {
+   "slot": 133,
+   "pos": 134,
+   "htf_value": "&#x0306;",
+   "base": "̆",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0307": {
+   "slot": 134,
+   "pos": 135,
+   "htf_value": "&#x0307;",
+   "base": "̇",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0308": {
+   "slot": 135,
+   "pos": 136,
+   "htf_value": "&#x0308;",
+   "base": "̈",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0309": {
+   "slot": 136,
+   "pos": 137,
+   "htf_value": "&#x0309;",
+   "base": "̉",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni030A": {
+   "slot": 137,
+   "pos": 138,
+   "htf_value": "&#x030A;",
+   "base": "̊",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni030C": {
+   "slot": 138,
+   "pos": 139,
+   "htf_value": "&#x030C;",
+   "base": "̌",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0310": {
+   "slot": 139,
+   "pos": 140,
+   "htf_value": "&#x0310;",
+   "base": "̐",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0312": {
+   "slot": 140,
+   "pos": 141,
+   "htf_value": "&#x0312;",
+   "base": "̒",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni0315": {
+   "slot": 141,
+   "pos": 142,
+   "htf_value": "&#x0315;",
+   "base": "̕",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni031A": {
+   "slot": 142,
+   "pos": 143,
+   "htf_value": "&#x031A;",
+   "base": "̚",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20D0": {
+   "slot": 143,
+   "pos": 144,
+   "htf_value": "&#x20D0;",
+   "base": "⃐",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20D1": {
+   "slot": 144,
+   "pos": 145,
+   "htf_value": "&#x20D1;",
+   "base": "⃑",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20D6": {
+   "slot": 145,
+   "pos": 146,
+   "htf_value": "&#x20D6;",
+   "base": "⃖",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20D7": {
+   "slot": 146,
+   "pos": 147,
+   "htf_value": "&#x20D7;",
+   "base": "⃗",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20DB": {
+   "slot": 147,
+   "pos": 148,
+   "htf_value": "&#x20DB;",
+   "base": "⃛",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20DC": {
+   "slot": 148,
+   "pos": 149,
+   "htf_value": "&#x20DC;",
+   "base": "⃜",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20E1": {
+   "slot": 149,
+   "pos": 150,
+   "htf_value": "&#x20E1;",
+   "base": "⃡",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20E7": {
+   "slot": 150,
+   "pos": 151,
+   "htf_value": "&#x20E7;",
+   "base": "⃧",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20E9": {
+   "slot": 151,
+   "pos": 152,
+   "htf_value": "&#x20E9;",
+   "base": "⃩",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni20F0": {
+   "slot": 152,
+   "pos": 153,
+   "htf_value": "&#x20F0;",
+   "base": "⃰",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A49": {
+   "slot": 153,
+   "pos": 154,
+   "htf_value": "&#x2A49;",
+   "base": "⩉",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A4A": {
+   "slot": 154,
+   "pos": 155,
+   "htf_value": "&#x2A4A;",
+   "base": "⩊",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A4B": {
+   "slot": 155,
+   "pos": 156,
+   "htf_value": "&#x2A4B;",
+   "base": "⩋",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A4C": {
+   "slot": 156,
+   "pos": 157,
+   "htf_value": "&#x2A4C;",
+   "base": "⩌",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A4D": {
+   "slot": 157,
+   "pos": 158,
+   "htf_value": "&#x2A4D;",
+   "base": "⩍",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A4E": {
+   "slot": 158,
+   "pos": 159,
+   "htf_value": "&#x2A4E;",
+   "base": "⩎",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A4F": {
+   "slot": 159,
+   "pos": 160,
+   "htf_value": "&#x2A4F;",
+   "base": "⩏",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A50": {
+   "slot": 160,
+   "pos": 161,
+   "htf_value": "&#x2A50;",
+   "base": "⩐",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A51": {
+   "slot": 161,
+   "pos": 162,
+   "htf_value": "&#x2A51;",
+   "base": "⩑",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A52": {
+   "slot": 162,
+   "pos": 163,
+   "htf_value": "&#x2A52;",
+   "base": "⩒",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A53": {
+   "slot": 163,
+   "pos": 164,
+   "htf_value": "&#x2A53;",
+   "base": "⩓",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A54": {
+   "slot": 164,
+   "pos": 165,
+   "htf_value": "&#x2A54;",
+   "base": "⩔",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A55": {
+   "slot": 165,
+   "pos": 166,
+   "htf_value": "&#x2A55;",
+   "base": "⩕",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A56": {
+   "slot": 166,
+   "pos": 167,
+   "htf_value": "&#x2A56;",
+   "base": "⩖",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A57": {
+   "slot": 167,
+   "pos": 168,
+   "htf_value": "&#x2A57;",
+   "base": "⩗",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A58": {
+   "slot": 168,
+   "pos": 169,
+   "htf_value": "&#x2A58;",
+   "base": "⩘",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A59": {
+   "slot": 169,
+   "pos": 170,
+   "htf_value": "&#x2A59;",
+   "base": "⩙",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A5A": {
+   "slot": 170,
+   "pos": 171,
+   "htf_value": "&#x2A5A;",
+   "base": "⩚",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A5B": {
+   "slot": 171,
+   "pos": 172,
+   "htf_value": "&#x2A5B;",
+   "base": "⩛",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A5C": {
+   "slot": 172,
+   "pos": 173,
+   "htf_value": "&#x2A5C;",
+   "base": "⩜",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A5D": {
+   "slot": 173,
+   "pos": 174,
+   "htf_value": "&#x2A5D;",
+   "base": "⩝",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A5E": {
+   "slot": 174,
+   "pos": 175,
+   "htf_value": "&#x2A5E;",
+   "base": "⩞",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A5F": {
+   "slot": 175,
+   "pos": 176,
+   "htf_value": "&#x2A5F;",
+   "base": "⩟",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A60": {
+   "slot": 176,
+   "pos": 177,
+   "htf_value": "&#x2A60;",
+   "base": "⩠",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A61": {
+   "slot": 177,
+   "pos": 178,
+   "htf_value": "&#x2A61;",
+   "base": "⩡",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A62": {
+   "slot": 178,
+   "pos": 179,
+   "htf_value": "&#x2A62;",
+   "base": "⩢",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A63": {
+   "slot": 179,
+   "pos": 180,
+   "htf_value": "&#x2A63;",
+   "base": "⩣",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A64": {
+   "slot": 180,
+   "pos": 181,
+   "htf_value": "&#x2A64;",
+   "base": "⩤",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A65": {
+   "slot": 181,
+   "pos": 182,
+   "htf_value": "&#x2A65;",
+   "base": "⩥",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A66": {
+   "slot": 182,
+   "pos": 183,
+   "htf_value": "&#x2A66;",
+   "base": "⩦",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A67": {
+   "slot": 183,
+   "pos": 184,
+   "htf_value": "&#x2A67;",
+   "base": "⩧",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A68": {
+   "slot": 184,
+   "pos": 185,
+   "htf_value": "&#x2A68;",
+   "base": "⩨",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A69": {
+   "slot": 185,
+   "pos": 186,
+   "htf_value": "&#x2A69;",
+   "base": "⩩",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A6A": {
+   "slot": 186,
+   "pos": 187,
+   "htf_value": "&#x2A6A;",
+   "base": "⩪",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A6B": {
+   "slot": 187,
+   "pos": 188,
+   "htf_value": "&#x2A6B;",
+   "base": "⩫",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A6C": {
+   "slot": 188,
+   "pos": 189,
+   "htf_value": "&#x2A6C;",
+   "base": "⩬",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A6D": {
+   "slot": 189,
+   "pos": 190,
+   "htf_value": "&#x2A6D;",
+   "base": "⩭",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A6E": {
+   "slot": 190,
+   "pos": 191,
+   "htf_value": "&#x2A6E;",
+   "base": "⩮",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A6F": {
+   "slot": 191,
+   "pos": 192,
+   "htf_value": "&#x2A6F;",
+   "base": "⩯",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A70": {
+   "slot": 192,
+   "pos": 193,
+   "htf_value": "&#x2A70;",
+   "base": "⩰",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A71": {
+   "slot": 193,
+   "pos": 194,
+   "htf_value": "&#x2A71;",
+   "base": "⩱",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A72": {
+   "slot": 194,
+   "pos": 195,
+   "htf_value": "&#x2A72;",
+   "base": "⩲",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A73": {
+   "slot": 195,
+   "pos": 196,
+   "htf_value": "&#x2A73;",
+   "base": "⩳",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A74": {
+   "slot": 196,
+   "pos": 197,
+   "htf_value": "&#x2A74;",
+   "base": "⩴",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A75": {
+   "slot": 197,
+   "pos": 198,
+   "htf_value": "&#x2A75;",
+   "base": "⩵",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A76": {
+   "slot": 198,
+   "pos": 199,
+   "htf_value": "&#x2A76;",
+   "base": "⩶",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A77": {
+   "slot": 199,
+   "pos": 200,
+   "htf_value": "&#x2A77;",
+   "base": "⩷",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A78": {
+   "slot": 200,
+   "pos": 201,
+   "htf_value": "&#x2A78;",
+   "base": "⩸",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A79": {
+   "slot": 201,
+   "pos": 202,
+   "htf_value": "&#x2A79;",
+   "base": "⩹",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A7A": {
+   "slot": 202,
+   "pos": 203,
+   "htf_value": "&#x2A7A;",
+   "base": "⩺",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A7B": {
+   "slot": 203,
+   "pos": 204,
+   "htf_value": "&#x2A7B;",
+   "base": "⩻",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A7C": {
+   "slot": 204,
+   "pos": 205,
+   "htf_value": "&#x2A7C;",
+   "base": "⩼",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A7D": {
+   "slot": 205,
+   "pos": 206,
+   "htf_value": "&#x2A7D;",
+   "base": "⩽",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A7E": {
+   "slot": 206,
+   "pos": 207,
+   "htf_value": "&#x2A7E;",
+   "base": "⩾",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A7F": {
+   "slot": 207,
+   "pos": 208,
+   "htf_value": "&#x2A7F;",
+   "base": "⩿",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A80": {
+   "slot": 208,
+   "pos": 209,
+   "htf_value": "&#x2A80;",
+   "base": "⪀",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A81": {
+   "slot": 209,
+   "pos": 210,
+   "htf_value": "&#x2A81;",
+   "base": "⪁",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A82": {
+   "slot": 210,
+   "pos": 211,
+   "htf_value": "&#x2A82;",
+   "base": "⪂",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A83": {
+   "slot": 211,
+   "pos": 212,
+   "htf_value": "&#x2A83;",
+   "base": "⪃",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A84": {
+   "slot": 212,
+   "pos": 213,
+   "htf_value": "&#x2A84;",
+   "base": "⪄",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A85": {
+   "slot": 213,
+   "pos": 214,
+   "htf_value": "&#x2A85;",
+   "base": "⪅",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A86": {
+   "slot": 214,
+   "pos": 215,
+   "htf_value": "&#x2A86;",
+   "base": "⪆",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A87": {
+   "slot": 215,
+   "pos": 216,
+   "htf_value": "&#x2A87;",
+   "base": "⪇",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A88": {
+   "slot": 216,
+   "pos": 217,
+   "htf_value": "&#x2A88;",
+   "base": "⪈",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A89": {
+   "slot": 217,
+   "pos": 218,
+   "htf_value": "&#x2A89;",
+   "base": "⪉",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A8A": {
+   "slot": 218,
+   "pos": 219,
+   "htf_value": "&#x2A8A;",
+   "base": "⪊",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A8B": {
+   "slot": 219,
+   "pos": 220,
+   "htf_value": "&#x2A8B;",
+   "base": "⪋",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A8C": {
+   "slot": 220,
+   "pos": 221,
+   "htf_value": "&#x2A8C;",
+   "base": "⪌",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A8D": {
+   "slot": 221,
+   "pos": 222,
+   "htf_value": "&#x2A8D;",
+   "base": "⪍",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A8E": {
+   "slot": 222,
+   "pos": 223,
+   "htf_value": "&#x2A8E;",
+   "base": "⪎",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A8F": {
+   "slot": 223,
+   "pos": 224,
+   "htf_value": "&#x2A8F;",
+   "base": "⪏",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A90": {
+   "slot": 224,
+   "pos": 225,
+   "htf_value": "&#x2A90;",
+   "base": "⪐",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A91": {
+   "slot": 225,
+   "pos": 226,
+   "htf_value": "&#x2A91;",
+   "base": "⪑",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A92": {
+   "slot": 226,
+   "pos": 227,
+   "htf_value": "&#x2A92;",
+   "base": "⪒",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A93": {
+   "slot": 227,
+   "pos": 228,
+   "htf_value": "&#x2A93;",
+   "base": "⪓",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A94": {
+   "slot": 228,
+   "pos": 229,
+   "htf_value": "&#x2A94;",
+   "base": "⪔",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A95": {
+   "slot": 229,
+   "pos": 230,
+   "htf_value": "&#x2A95;",
+   "base": "⪕",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A96": {
+   "slot": 230,
+   "pos": 231,
+   "htf_value": "&#x2A96;",
+   "base": "⪖",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A97": {
+   "slot": 231,
+   "pos": 232,
+   "htf_value": "&#x2A97;",
+   "base": "⪗",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A98": {
+   "slot": 232,
+   "pos": 233,
+   "htf_value": "&#x2A98;",
+   "base": "⪘",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A99": {
+   "slot": 233,
+   "pos": 234,
+   "htf_value": "&#x2A99;",
+   "base": "⪙",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A9A": {
+   "slot": 234,
+   "pos": 235,
+   "htf_value": "&#x2A9A;",
+   "base": "⪚",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A9B": {
+   "slot": 235,
+   "pos": 236,
+   "htf_value": "&#x2A9B;",
+   "base": "⪛",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A9C": {
+   "slot": 236,
+   "pos": 237,
+   "htf_value": "&#x2A9C;",
+   "base": "⪜",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A9D": {
+   "slot": 237,
+   "pos": 238,
+   "htf_value": "&#x2A9D;",
+   "base": "⪝",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A9E": {
+   "slot": 238,
+   "pos": 239,
+   "htf_value": "&#x2A9E;",
+   "base": "⪞",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2A9F": {
+   "slot": 239,
+   "pos": 240,
+   "htf_value": "&#x2A9F;",
+   "base": "⪟",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA0": {
+   "slot": 240,
+   "pos": 241,
+   "htf_value": "&#x2AA0;",
+   "base": "⪠",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA1": {
+   "slot": 241,
+   "pos": 242,
+   "htf_value": "&#x2AA1;",
+   "base": "⪡",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA2": {
+   "slot": 242,
+   "pos": 243,
+   "htf_value": "&#x2AA2;",
+   "base": "⪢",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA3": {
+   "slot": 243,
+   "pos": 244,
+   "htf_value": "&#x2AA3;",
+   "base": "⪣",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA4": {
+   "slot": 244,
+   "pos": 245,
+   "htf_value": "&#x2AA4;",
+   "base": "⪤",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA5": {
+   "slot": 245,
+   "pos": 246,
+   "htf_value": "&#x2AA5;",
+   "base": "⪥",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA6": {
+   "slot": 246,
+   "pos": 247,
+   "htf_value": "&#x2AA6;",
+   "base": "⪦",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA7": {
+   "slot": 247,
+   "pos": 248,
+   "htf_value": "&#x2AA7;",
+   "base": "⪧",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA8": {
+   "slot": 248,
+   "pos": 249,
+   "htf_value": "&#x2AA8;",
+   "base": "⪨",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AA9": {
+   "slot": 249,
+   "pos": 250,
+   "htf_value": "&#x2AA9;",
+   "base": "⪩",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AAA": {
+   "slot": 250,
+   "pos": 251,
+   "htf_value": "&#x2AAA;",
+   "base": "⪪",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AAB": {
+   "slot": 251,
+   "pos": 252,
+   "htf_value": "&#x2AAB;",
+   "base": "⪫",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AAC": {
+   "slot": 252,
+   "pos": 253,
+   "htf_value": "&#x2AAC;",
+   "base": "⪬",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AAD": {
+   "slot": 253,
+   "pos": 254,
+   "htf_value": "&#x2AAD;",
+   "base": "⪭",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AAE": {
+   "slot": 254,
+   "pos": 255,
+   "htf_value": "&#x2AAE;",
+   "base": "⪮",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2AB1": {
+   "slot": 255,
+   "pos": 256,
+   "htf_value": "&#x2AB1;",
+   "base": "⪱",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  }
+ }
+}

@@ -1,0 +1,3449 @@
+{
+ "font": "stix-mathfrak-bold",
+ "pfb": "stix-mathfrak-bold.pfb",
+ "enc": "stix-mathfrak-bold.pfb.enc.json",
+ "htf": "stix-mathfrak-bold",
+ "htf_entry": "stix-mathfrak-bold",
+ "htf_decl": {},
+ "props": {
+  "weight": "bold"
+ },
+ "status": {
+  "family": "?",
+  "weight": "decl",
+  "variant": "?",
+  "style": "?"
+ },
+ "glyphs": {
+  "uni267E": {
+   "slot": 0,
+   "pos": 1,
+   "htf_value": "&#x267E;",
+   "base": "♾",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni279B": {
+   "slot": 1,
+   "pos": 2,
+   "htf_value": "&#x279B;",
+   "base": "➛",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C0": {
+   "slot": 2,
+   "pos": 3,
+   "htf_value": "&#x27C0;",
+   "base": "⟀",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C1": {
+   "slot": 3,
+   "pos": 4,
+   "htf_value": "&#x27C1;",
+   "base": "⟁",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C2": {
+   "slot": 4,
+   "pos": 5,
+   "htf_value": "&#x27C2;",
+   "base": "⟂",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C3": {
+   "slot": 5,
+   "pos": 6,
+   "htf_value": "&#x27C3;",
+   "base": "⟃",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C4": {
+   "slot": 6,
+   "pos": 7,
+   "htf_value": "&#x27C4;",
+   "base": "⟄",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C5": {
+   "slot": 7,
+   "pos": 8,
+   "htf_value": "&#x27C5;",
+   "base": "⟅",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C6": {
+   "slot": 8,
+   "pos": 9,
+   "htf_value": "&#x27C6;",
+   "base": "⟆",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C7": {
+   "slot": 9,
+   "pos": 10,
+   "htf_value": "&#x27C7;",
+   "base": "⟇",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C8": {
+   "slot": 10,
+   "pos": 11,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x27C8;</mfont>",
+   "base": "⟈",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27C9": {
+   "slot": 11,
+   "pos": 12,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x27C9;</mfont>",
+   "base": "⟉",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D0": {
+   "slot": 12,
+   "pos": 13,
+   "htf_value": "&#x27D0;",
+   "base": "⟐",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D1": {
+   "slot": 13,
+   "pos": 14,
+   "htf_value": "&#x27D1;",
+   "base": "⟑",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D2": {
+   "slot": 14,
+   "pos": 15,
+   "htf_value": "&#x27D2;",
+   "base": "⟒",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D3": {
+   "slot": 15,
+   "pos": 16,
+   "htf_value": "&#x27D3;",
+   "base": "⟓",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D4": {
+   "slot": 16,
+   "pos": 17,
+   "htf_value": "&#x27D4;",
+   "base": "⟔",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D5": {
+   "slot": 17,
+   "pos": 18,
+   "htf_value": "&#x27D5;",
+   "base": "⟕",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D6": {
+   "slot": 18,
+   "pos": 19,
+   "htf_value": "&#x27D6;",
+   "base": "⟖",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D7": {
+   "slot": 19,
+   "pos": 20,
+   "htf_value": "&#x27D7;",
+   "base": "⟗",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D8": {
+   "slot": 20,
+   "pos": 21,
+   "htf_value": "&#x27D8;",
+   "base": "⟘",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27D9": {
+   "slot": 21,
+   "pos": 22,
+   "htf_value": "&#x27D9;",
+   "base": "⟙",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27DA": {
+   "slot": 22,
+   "pos": 23,
+   "htf_value": "&#x27DA;",
+   "base": "⟚",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27DB": {
+   "slot": 23,
+   "pos": 24,
+   "htf_value": "&#x27DB;",
+   "base": "⟛",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27DC": {
+   "slot": 24,
+   "pos": 25,
+   "htf_value": "&#x27DC;",
+   "base": "⟜",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27DD": {
+   "slot": 25,
+   "pos": 26,
+   "htf_value": "&#x27DD;",
+   "base": "⟝",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27DE": {
+   "slot": 26,
+   "pos": 27,
+   "htf_value": "&#x27DE;",
+   "base": "⟞",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27DF": {
+   "slot": 27,
+   "pos": 28,
+   "htf_value": "&#x27DF;",
+   "base": "⟟",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27E0": {
+   "slot": 28,
+   "pos": 29,
+   "htf_value": "&#x27E0;",
+   "base": "⟠",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27E1": {
+   "slot": 29,
+   "pos": 30,
+   "htf_value": "&#x27E1;",
+   "base": "⟡",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27E2": {
+   "slot": 30,
+   "pos": 31,
+   "htf_value": "&#x27E2;",
+   "base": "⟢",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27E3": {
+   "slot": 31,
+   "pos": 32,
+   "htf_value": "&#x27E3;",
+   "base": "⟣",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27E4": {
+   "slot": 32,
+   "pos": 33,
+   "htf_value": "&#x27E4;",
+   "base": "⟤",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27E5": {
+   "slot": 33,
+   "pos": 34,
+   "htf_value": "&#x27E5;",
+   "base": "⟥",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni27EC": {
+   "slot": 34,
+   "pos": 35,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x27EC;</mfont>",
+   "base": "⟬",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni27ED": {
+   "slot": 35,
+   "pos": 36,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x27ED;</mfont>",
+   "base": "⟭",
+   "props": {},
+   "status": {
+    "base": "unicode"
+   }
+  },
+  "uni2981": {
+   "slot": 36,
+   "pos": 37,
+   "htf_value": "&#x2981;",
+   "base": "⦁",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2982": {
+   "slot": 37,
+   "pos": 38,
+   "htf_value": "&#x2982;",
+   "base": "⦂",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2987": {
+   "slot": 38,
+   "pos": 39,
+   "htf_value": "&#x2987;",
+   "base": "⦇",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2988": {
+   "slot": 39,
+   "pos": 40,
+   "htf_value": "&#x2988;",
+   "base": "⦈",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2989": {
+   "slot": 40,
+   "pos": 41,
+   "htf_value": "&#x2989;",
+   "base": "⦉",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni298A": {
+   "slot": 41,
+   "pos": 42,
+   "htf_value": "&#x298A;",
+   "base": "⦊",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni298B": {
+   "slot": 42,
+   "pos": 43,
+   "htf_value": "&#x298B;",
+   "base": "⦋",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni298C": {
+   "slot": 43,
+   "pos": 44,
+   "htf_value": "&#x298C;",
+   "base": "⦌",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni298D": {
+   "slot": 44,
+   "pos": 45,
+   "htf_value": "&#x298D;",
+   "base": "⦍",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni298E": {
+   "slot": 45,
+   "pos": 46,
+   "htf_value": "&#x298E;",
+   "base": "⦎",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni298F": {
+   "slot": 46,
+   "pos": 47,
+   "htf_value": "&#x298F;",
+   "base": "⦏",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2990": {
+   "slot": 47,
+   "pos": 48,
+   "htf_value": "&#x2990;",
+   "base": "⦐",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2991": {
+   "slot": 48,
+   "pos": 49,
+   "htf_value": "&#x2991;",
+   "base": "⦑",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2992": {
+   "slot": 49,
+   "pos": 50,
+   "htf_value": "&#x2992;",
+   "base": "⦒",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2993": {
+   "slot": 50,
+   "pos": 51,
+   "htf_value": "&#x2993;",
+   "base": "⦓",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2994": {
+   "slot": 51,
+   "pos": 52,
+   "htf_value": "&#x2994;",
+   "base": "⦔",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2995": {
+   "slot": 52,
+   "pos": 53,
+   "htf_value": "&#x2995;",
+   "base": "⦕",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2996": {
+   "slot": 53,
+   "pos": 54,
+   "htf_value": "&#x2996;",
+   "base": "⦖",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2997": {
+   "slot": 54,
+   "pos": 55,
+   "htf_value": "&#x2997;",
+   "base": "⦗",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2998": {
+   "slot": 55,
+   "pos": 56,
+   "htf_value": "&#x2998;",
+   "base": "⦘",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2999": {
+   "slot": 56,
+   "pos": 57,
+   "htf_value": "&#x2999;",
+   "base": "⦙",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni299A": {
+   "slot": 57,
+   "pos": 58,
+   "htf_value": "&#x299A;",
+   "base": "⦚",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni299B": {
+   "slot": 58,
+   "pos": 59,
+   "htf_value": "&#x299B;",
+   "base": "⦛",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni299C": {
+   "slot": 59,
+   "pos": 60,
+   "htf_value": "&#x299C;",
+   "base": "⦜",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni299D": {
+   "slot": 60,
+   "pos": 61,
+   "htf_value": "&#x299D;",
+   "base": "⦝",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni299E": {
+   "slot": 61,
+   "pos": 62,
+   "htf_value": "&#x299E;",
+   "base": "⦞",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni299F": {
+   "slot": 62,
+   "pos": 63,
+   "htf_value": "&#x299F;",
+   "base": "⦟",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29A0": {
+   "slot": 63,
+   "pos": 64,
+   "htf_value": "&#x29A0;",
+   "base": "⦠",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29A1": {
+   "slot": 64,
+   "pos": 65,
+   "htf_value": "&#x29A1;",
+   "base": "⦡",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "u1D56C": {
+   "slot": 65,
+   "pos": 66,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">A</mfont>",
+   "base": "A",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D56D": {
+   "slot": 66,
+   "pos": 67,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">B</mfont>",
+   "base": "B",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D56E": {
+   "slot": 67,
+   "pos": 68,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">C</mfont>",
+   "base": "C",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D56F": {
+   "slot": 68,
+   "pos": 69,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">D</mfont>",
+   "base": "D",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D570": {
+   "slot": 69,
+   "pos": 70,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">E</mfont>",
+   "base": "E",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D571": {
+   "slot": 70,
+   "pos": 71,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">F</mfont>",
+   "base": "F",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D572": {
+   "slot": 71,
+   "pos": 72,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">G</mfont>",
+   "base": "G",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D573": {
+   "slot": 72,
+   "pos": 73,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">H</mfont>",
+   "base": "H",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D574": {
+   "slot": 73,
+   "pos": 74,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">I</mfont>",
+   "base": "I",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D575": {
+   "slot": 74,
+   "pos": 75,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">J</mfont>",
+   "base": "J",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D576": {
+   "slot": 75,
+   "pos": 76,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">K</mfont>",
+   "base": "K",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D577": {
+   "slot": 76,
+   "pos": 77,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">L</mfont>",
+   "base": "L",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D578": {
+   "slot": 77,
+   "pos": 78,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">M</mfont>",
+   "base": "M",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D579": {
+   "slot": 78,
+   "pos": 79,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">N</mfont>",
+   "base": "N",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D57A": {
+   "slot": 79,
+   "pos": 80,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">O</mfont>",
+   "base": "O",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D57B": {
+   "slot": 80,
+   "pos": 81,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">P</mfont>",
+   "base": "P",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D57C": {
+   "slot": 81,
+   "pos": 82,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">Q</mfont>",
+   "base": "Q",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D57D": {
+   "slot": 82,
+   "pos": 83,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">R</mfont>",
+   "base": "R",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D57E": {
+   "slot": 83,
+   "pos": 84,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">S</mfont>",
+   "base": "S",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D57F": {
+   "slot": 84,
+   "pos": 85,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">T</mfont>",
+   "base": "T",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D580": {
+   "slot": 85,
+   "pos": 86,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">U</mfont>",
+   "base": "U",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D581": {
+   "slot": 86,
+   "pos": 87,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">V</mfont>",
+   "base": "V",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D582": {
+   "slot": 87,
+   "pos": 88,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">W</mfont>",
+   "base": "W",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D583": {
+   "slot": 88,
+   "pos": 89,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">X</mfont>",
+   "base": "X",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D584": {
+   "slot": 89,
+   "pos": 90,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">Y</mfont>",
+   "base": "Y",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D585": {
+   "slot": 90,
+   "pos": 91,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">Z</mfont>",
+   "base": "Z",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni29A2": {
+   "slot": 91,
+   "pos": 92,
+   "htf_value": "&#x29A2;",
+   "base": "⦢",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29A3": {
+   "slot": 92,
+   "pos": 93,
+   "htf_value": "&#x29A3;",
+   "base": "⦣",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29A4": {
+   "slot": 93,
+   "pos": 94,
+   "htf_value": "&#x29A4;",
+   "base": "⦤",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29A5": {
+   "slot": 94,
+   "pos": 95,
+   "htf_value": "&#x29A5;",
+   "base": "⦥",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29A6": {
+   "slot": 95,
+   "pos": 96,
+   "htf_value": "&#x29A6;",
+   "base": "⦦",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29A7": {
+   "slot": 96,
+   "pos": 97,
+   "htf_value": "&#x29A7;",
+   "base": "⦧",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "u1D586": {
+   "slot": 97,
+   "pos": 98,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">a</mfont>",
+   "base": "a",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D587": {
+   "slot": 98,
+   "pos": 99,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">b</mfont>",
+   "base": "b",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D588": {
+   "slot": 99,
+   "pos": 100,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">c</mfont>",
+   "base": "c",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D589": {
+   "slot": 100,
+   "pos": 101,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">d</mfont>",
+   "base": "d",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D58A": {
+   "slot": 101,
+   "pos": 102,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">e</mfont>",
+   "base": "e",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D58B": {
+   "slot": 102,
+   "pos": 103,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">f</mfont>",
+   "base": "f",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D58C": {
+   "slot": 103,
+   "pos": 104,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">g</mfont>",
+   "base": "g",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D58D": {
+   "slot": 104,
+   "pos": 105,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">h</mfont>",
+   "base": "h",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D58E": {
+   "slot": 105,
+   "pos": 106,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">i</mfont>",
+   "base": "i",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D58F": {
+   "slot": 106,
+   "pos": 107,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">j</mfont>",
+   "base": "j",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D590": {
+   "slot": 107,
+   "pos": 108,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">k</mfont>",
+   "base": "k",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D591": {
+   "slot": 108,
+   "pos": 109,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">l</mfont>",
+   "base": "l",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D592": {
+   "slot": 109,
+   "pos": 110,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">m</mfont>",
+   "base": "m",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D593": {
+   "slot": 110,
+   "pos": 111,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">n</mfont>",
+   "base": "n",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D594": {
+   "slot": 111,
+   "pos": 112,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">o</mfont>",
+   "base": "o",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D595": {
+   "slot": 112,
+   "pos": 113,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">p</mfont>",
+   "base": "p",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D596": {
+   "slot": 113,
+   "pos": 114,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">q</mfont>",
+   "base": "q",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D597": {
+   "slot": 114,
+   "pos": 115,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">r</mfont>",
+   "base": "r",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D598": {
+   "slot": 115,
+   "pos": 116,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">s</mfont>",
+   "base": "s",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D599": {
+   "slot": 116,
+   "pos": 117,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">t</mfont>",
+   "base": "t",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D59A": {
+   "slot": 117,
+   "pos": 118,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">u</mfont>",
+   "base": "u",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D59B": {
+   "slot": 118,
+   "pos": 119,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">v</mfont>",
+   "base": "v",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D59C": {
+   "slot": 119,
+   "pos": 120,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">w</mfont>",
+   "base": "w",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D59D": {
+   "slot": 120,
+   "pos": 121,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">x</mfont>",
+   "base": "x",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D59E": {
+   "slot": 121,
+   "pos": 122,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">y</mfont>",
+   "base": "y",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D59F": {
+   "slot": 122,
+   "pos": 123,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">z</mfont>",
+   "base": "z",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D58E.dtls": {
+   "slot": 123,
+   "pos": 124,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">&#x0131;</mfont>",
+   "base": "ı",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "name",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "u1D58F.dtls": {
+   "slot": 124,
+   "pos": 125,
+   "htf_value": "<mfont mathvariant=\"bold-fraktur\">&#x0237;</mfont>",
+   "base": "ȷ",
+   "props": {
+    "weight": "bold",
+    "family": "fraktur"
+   },
+   "status": {
+    "base": "name",
+    "weight": "unicode",
+    "family": "unicode"
+   }
+  },
+  "uni29A8": {
+   "slot": 125,
+   "pos": 126,
+   "htf_value": "&#x29A8;",
+   "base": "⦨",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29A9": {
+   "slot": 126,
+   "pos": 127,
+   "htf_value": "&#x29A9;",
+   "base": "⦩",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2040": {
+   "slot": 127,
+   "pos": 128,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2040;</mfont>",
+   "base": "⁀",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0300": {
+   "slot": 128,
+   "pos": 129,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0300;</mfont>",
+   "base": "̀",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0301": {
+   "slot": 129,
+   "pos": 130,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0301;</mfont>",
+   "base": "́",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0302": {
+   "slot": 130,
+   "pos": 131,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0302;</mfont>",
+   "base": "̂",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0303": {
+   "slot": 131,
+   "pos": 132,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0303;</mfont>",
+   "base": "̃",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0304": {
+   "slot": 132,
+   "pos": 133,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0304;</mfont>",
+   "base": "̄",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0306": {
+   "slot": 133,
+   "pos": 134,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0306;</mfont>",
+   "base": "̆",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0307": {
+   "slot": 134,
+   "pos": 135,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0307;</mfont>",
+   "base": "̇",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0308": {
+   "slot": 135,
+   "pos": 136,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0308;</mfont>",
+   "base": "̈",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0309": {
+   "slot": 136,
+   "pos": 137,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0309;</mfont>",
+   "base": "̉",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni030A": {
+   "slot": 137,
+   "pos": 138,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x030A;</mfont>",
+   "base": "̊",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni030C": {
+   "slot": 138,
+   "pos": 139,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x030C;</mfont>",
+   "base": "̌",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0310": {
+   "slot": 139,
+   "pos": 140,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0310;</mfont>",
+   "base": "̐",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0312": {
+   "slot": 140,
+   "pos": 141,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0312;</mfont>",
+   "base": "̒",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni0315": {
+   "slot": 141,
+   "pos": 142,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x0315;</mfont>",
+   "base": "̕",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni031A": {
+   "slot": 142,
+   "pos": 143,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x031A;</mfont>",
+   "base": "̚",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20D0": {
+   "slot": 143,
+   "pos": 144,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D0;</mfont>",
+   "base": "⃐",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20D1": {
+   "slot": 144,
+   "pos": 145,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D1;</mfont>",
+   "base": "⃑",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20D6": {
+   "slot": 145,
+   "pos": 146,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D6;</mfont>",
+   "base": "⃖",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20D7": {
+   "slot": 146,
+   "pos": 147,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20D7;</mfont>",
+   "base": "⃗",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20DB": {
+   "slot": 147,
+   "pos": 148,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20DB;</mfont>",
+   "base": "⃛",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20DC": {
+   "slot": 148,
+   "pos": 149,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20DC;</mfont>",
+   "base": "⃜",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20E1": {
+   "slot": 149,
+   "pos": 150,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20E1;</mfont>",
+   "base": "⃡",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20E7": {
+   "slot": 150,
+   "pos": 151,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20E7;</mfont>",
+   "base": "⃧",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20E9": {
+   "slot": 151,
+   "pos": 152,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20E9;</mfont>",
+   "base": "⃩",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni20F0": {
+   "slot": 152,
+   "pos": 153,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x20F0;</mfont>",
+   "base": "⃰",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29AA": {
+   "slot": 153,
+   "pos": 154,
+   "htf_value": "&#x29AA;",
+   "base": "⦪",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29AB": {
+   "slot": 154,
+   "pos": 155,
+   "htf_value": "&#x29AB;",
+   "base": "⦫",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29AC": {
+   "slot": 155,
+   "pos": 156,
+   "htf_value": "&#x29AC;",
+   "base": "⦬",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29AD": {
+   "slot": 156,
+   "pos": 157,
+   "htf_value": "&#x29AD;",
+   "base": "⦭",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29AE": {
+   "slot": 157,
+   "pos": 158,
+   "htf_value": "&#x29AE;",
+   "base": "⦮",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29AF": {
+   "slot": 158,
+   "pos": 159,
+   "htf_value": "&#x29AF;",
+   "base": "⦯",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B0": {
+   "slot": 159,
+   "pos": 160,
+   "htf_value": "&#x29B0;",
+   "base": "⦰",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B1": {
+   "slot": 160,
+   "pos": 161,
+   "htf_value": "&#x29B1;",
+   "base": "⦱",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B2": {
+   "slot": 161,
+   "pos": 162,
+   "htf_value": "&#x29B2;",
+   "base": "⦲",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B3": {
+   "slot": 162,
+   "pos": 163,
+   "htf_value": "&#x29B3;",
+   "base": "⦳",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B4": {
+   "slot": 163,
+   "pos": 164,
+   "htf_value": "&#x29B4;",
+   "base": "⦴",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B5": {
+   "slot": 164,
+   "pos": 165,
+   "htf_value": "&#x29B5;",
+   "base": "⦵",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B6": {
+   "slot": 165,
+   "pos": 166,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x29B6;</mfont>",
+   "base": "⦶",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B7": {
+   "slot": 166,
+   "pos": 167,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x29B7;</mfont>",
+   "base": "⦷",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B8": {
+   "slot": 167,
+   "pos": 168,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x29B8;</mfont>",
+   "base": "⦸",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29B9": {
+   "slot": 168,
+   "pos": 169,
+   "htf_value": "&#x29B9;",
+   "base": "⦹",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29BA": {
+   "slot": 169,
+   "pos": 170,
+   "htf_value": "&#x29BA;",
+   "base": "⦺",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29BB": {
+   "slot": 170,
+   "pos": 171,
+   "htf_value": "&#x29BB;",
+   "base": "⦻",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29BC": {
+   "slot": 171,
+   "pos": 172,
+   "htf_value": "&#x29BC;",
+   "base": "⦼",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29BD": {
+   "slot": 172,
+   "pos": 173,
+   "htf_value": "&#x29BD;",
+   "base": "⦽",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29BE": {
+   "slot": 173,
+   "pos": 174,
+   "htf_value": "&#x29BE;",
+   "base": "⦾",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29BF": {
+   "slot": 174,
+   "pos": 175,
+   "htf_value": "&#x29BF;",
+   "base": "⦿",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C0": {
+   "slot": 175,
+   "pos": 176,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x29C0;</mfont>",
+   "base": "⧀",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C1": {
+   "slot": 176,
+   "pos": 177,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x29C1;</mfont>",
+   "base": "⧁",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C2": {
+   "slot": 177,
+   "pos": 178,
+   "htf_value": "&#x29C2;",
+   "base": "⧂",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C3": {
+   "slot": 178,
+   "pos": 179,
+   "htf_value": "&#x29C3;",
+   "base": "⧃",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C4": {
+   "slot": 179,
+   "pos": 180,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x29C4;</mfont>",
+   "base": "⧄",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C5": {
+   "slot": 180,
+   "pos": 181,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x29C5;</mfont>",
+   "base": "⧅",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C6": {
+   "slot": 181,
+   "pos": 182,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x29C6;</mfont>",
+   "base": "⧆",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C7": {
+   "slot": 182,
+   "pos": 183,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x29C7;</mfont>",
+   "base": "⧇",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C8": {
+   "slot": 183,
+   "pos": 184,
+   "htf_value": "&#x29C8;",
+   "base": "⧈",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29C9": {
+   "slot": 184,
+   "pos": 185,
+   "htf_value": "&#x29C9;",
+   "base": "⧉",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29CA": {
+   "slot": 185,
+   "pos": 186,
+   "htf_value": "&#x29CA;",
+   "base": "⧊",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29CB": {
+   "slot": 186,
+   "pos": 187,
+   "htf_value": "&#x29CB;",
+   "base": "⧋",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29CC": {
+   "slot": 187,
+   "pos": 188,
+   "htf_value": "&#x29CC;",
+   "base": "⧌",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29CD": {
+   "slot": 188,
+   "pos": 189,
+   "htf_value": "&#x29CD;",
+   "base": "⧍",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29CE": {
+   "slot": 189,
+   "pos": 190,
+   "htf_value": "&#x29CE;",
+   "base": "⧎",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29CF": {
+   "slot": 190,
+   "pos": 191,
+   "htf_value": "&#x29CF;",
+   "base": "⧏",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D0": {
+   "slot": 191,
+   "pos": 192,
+   "htf_value": "&#x29D0;",
+   "base": "⧐",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D1": {
+   "slot": 192,
+   "pos": 193,
+   "htf_value": "&#x29D1;",
+   "base": "⧑",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D2": {
+   "slot": 193,
+   "pos": 194,
+   "htf_value": "&#x29D2;",
+   "base": "⧒",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D3": {
+   "slot": 194,
+   "pos": 195,
+   "htf_value": "&#x29D3;",
+   "base": "⧓",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D4": {
+   "slot": 195,
+   "pos": 196,
+   "htf_value": "&#x29D4;",
+   "base": "⧔",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D5": {
+   "slot": 196,
+   "pos": 197,
+   "htf_value": "&#x29D5;",
+   "base": "⧕",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D6": {
+   "slot": 197,
+   "pos": 198,
+   "htf_value": "&#x29D6;",
+   "base": "⧖",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D7": {
+   "slot": 198,
+   "pos": 199,
+   "htf_value": "&#x29D7;",
+   "base": "⧗",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D8": {
+   "slot": 199,
+   "pos": 200,
+   "htf_value": "&#x29D8;",
+   "base": "⧘",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29D9": {
+   "slot": 200,
+   "pos": 201,
+   "htf_value": "&#x29D9;",
+   "base": "⧙",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29DA": {
+   "slot": 201,
+   "pos": 202,
+   "htf_value": "&#x29DA;",
+   "base": "⧚",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29DB": {
+   "slot": 202,
+   "pos": 203,
+   "htf_value": "&#x29DB;",
+   "base": "⧛",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29DC": {
+   "slot": 203,
+   "pos": 204,
+   "htf_value": "&#x29DC;",
+   "base": "⧜",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29DD": {
+   "slot": 204,
+   "pos": 205,
+   "htf_value": "&#x29DD;",
+   "base": "⧝",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29DE": {
+   "slot": 205,
+   "pos": 206,
+   "htf_value": "&#x29DE;",
+   "base": "⧞",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29DF": {
+   "slot": 206,
+   "pos": 207,
+   "htf_value": "&#x29DF;",
+   "base": "⧟",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E0": {
+   "slot": 207,
+   "pos": 208,
+   "htf_value": "&#x29E0;",
+   "base": "⧠",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E1": {
+   "slot": 208,
+   "pos": 209,
+   "htf_value": "&#x29E1;",
+   "base": "⧡",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E2": {
+   "slot": 209,
+   "pos": 210,
+   "htf_value": "&#x29E2;",
+   "base": "⧢",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E3": {
+   "slot": 210,
+   "pos": 211,
+   "htf_value": "&#x29E3;",
+   "base": "⧣",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E4": {
+   "slot": 211,
+   "pos": 212,
+   "htf_value": "&#x29E4;",
+   "base": "⧤",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E5": {
+   "slot": 212,
+   "pos": 213,
+   "htf_value": "&#x29E5;",
+   "base": "⧥",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E6": {
+   "slot": 213,
+   "pos": 214,
+   "htf_value": "&#x29E6;",
+   "base": "⧦",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E7": {
+   "slot": 214,
+   "pos": 215,
+   "htf_value": "&#x29E7;",
+   "base": "⧧",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E8": {
+   "slot": 215,
+   "pos": 216,
+   "htf_value": "&#x29E8;",
+   "base": "⧨",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29E9": {
+   "slot": 216,
+   "pos": 217,
+   "htf_value": "&#x29E9;",
+   "base": "⧩",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29EA": {
+   "slot": 217,
+   "pos": 218,
+   "htf_value": "&#x29EA;",
+   "base": "⧪",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29EB": {
+   "slot": 218,
+   "pos": 219,
+   "htf_value": "&#x29EB;",
+   "base": "⧫",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29EC": {
+   "slot": 219,
+   "pos": 220,
+   "htf_value": "&#x29EC;",
+   "base": "⧬",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29ED": {
+   "slot": 220,
+   "pos": 221,
+   "htf_value": "&#x29ED;",
+   "base": "⧭",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29EE": {
+   "slot": 221,
+   "pos": 222,
+   "htf_value": "&#x29EE;",
+   "base": "⧮",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29EF": {
+   "slot": 222,
+   "pos": 223,
+   "htf_value": "&#x29EF;",
+   "base": "⧯",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29F0": {
+   "slot": 223,
+   "pos": 224,
+   "htf_value": "&#x29F0;",
+   "base": "⧰",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29F1": {
+   "slot": 224,
+   "pos": 225,
+   "htf_value": "&#x29F1;",
+   "base": "⧱",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29F2": {
+   "slot": 225,
+   "pos": 226,
+   "htf_value": "&#x29F2;",
+   "base": "⧲",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29F3": {
+   "slot": 226,
+   "pos": 227,
+   "htf_value": "&#x29F3;",
+   "base": "⧳",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29F4": {
+   "slot": 227,
+   "pos": 228,
+   "htf_value": "&#x29F4;",
+   "base": "⧴",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29F5": {
+   "slot": 228,
+   "pos": 229,
+   "htf_value": "&#x29F5;",
+   "base": "⧵",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29F6": {
+   "slot": 229,
+   "pos": 230,
+   "htf_value": "&#x29F6;",
+   "base": "⧶",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29F7": {
+   "slot": 230,
+   "pos": 231,
+   "htf_value": "&#x29F7;",
+   "base": "⧷",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29FA": {
+   "slot": 231,
+   "pos": 232,
+   "htf_value": "&#x29FA;",
+   "base": "⧺",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29FB": {
+   "slot": 232,
+   "pos": 233,
+   "htf_value": "&#x29FB;",
+   "base": "⧻",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29FC": {
+   "slot": 233,
+   "pos": 234,
+   "htf_value": "&#x29FC;",
+   "base": "⧼",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29FD": {
+   "slot": 234,
+   "pos": 235,
+   "htf_value": "&#x29FD;",
+   "base": "⧽",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29FE": {
+   "slot": 235,
+   "pos": 236,
+   "htf_value": "&#x29FE;",
+   "base": "⧾",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni29FF": {
+   "slot": 236,
+   "pos": 237,
+   "htf_value": "&#x29FF;",
+   "base": "⧿",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A1D": {
+   "slot": 237,
+   "pos": 238,
+   "htf_value": "&#x2A1D;",
+   "base": "⨝",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A1E": {
+   "slot": 238,
+   "pos": 239,
+   "htf_value": "&#x2A1E;",
+   "base": "⨞",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A1F": {
+   "slot": 239,
+   "pos": 240,
+   "htf_value": "&#x2A1F;",
+   "base": "⨟",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A20": {
+   "slot": 240,
+   "pos": 241,
+   "htf_value": "&#x2A20;",
+   "base": "⨠",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A21": {
+   "slot": 241,
+   "pos": 242,
+   "htf_value": "&#x2A21;",
+   "base": "⨡",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A22": {
+   "slot": 242,
+   "pos": 243,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A22;</mfont>",
+   "base": "⨢",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A23": {
+   "slot": 243,
+   "pos": 244,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A23;</mfont>",
+   "base": "⨣",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A24": {
+   "slot": 244,
+   "pos": 245,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A24;</mfont>",
+   "base": "⨤",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A25": {
+   "slot": 245,
+   "pos": 246,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A25;</mfont>",
+   "base": "⨥",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A26": {
+   "slot": 246,
+   "pos": 247,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A26;</mfont>",
+   "base": "⨦",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A27": {
+   "slot": 247,
+   "pos": 248,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A27;</mfont>",
+   "base": "⨧",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A28": {
+   "slot": 248,
+   "pos": 249,
+   "htf_value": "&#x2A28;",
+   "base": "⨨",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A29": {
+   "slot": 249,
+   "pos": 250,
+   "htf_value": "&#x2A29;",
+   "base": "⨩",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A2A": {
+   "slot": 250,
+   "pos": 251,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A2A;</mfont>",
+   "base": "⨪",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A2B": {
+   "slot": 251,
+   "pos": 252,
+   "htf_value": "<mfont mathvariant=\"bold\">&#x2A2B;</mfont>",
+   "base": "⨫",
+   "props": {
+    "weight": "bold"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A2C": {
+   "slot": 252,
+   "pos": 253,
+   "htf_value": "&#x2A2C;",
+   "base": "⨬",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A2D": {
+   "slot": 253,
+   "pos": 254,
+   "htf_value": "&#x2A2D;",
+   "base": "⨭",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A2E": {
+   "slot": 254,
+   "pos": 255,
+   "htf_value": "&#x2A2E;",
+   "base": "⨮",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  },
+  "uni2A2F": {
+   "slot": 255,
+   "pos": 256,
+   "htf_value": "&#x2A2F;",
+   "base": "⨯",
+   "props": {
+    "weight": "normal"
+   },
+   "status": {
+    "base": "unicode",
+    "weight": "cmp"
+   }
+  }
+ }
+}

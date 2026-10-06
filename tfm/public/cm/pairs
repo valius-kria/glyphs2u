@@ -1,0 +1,50 @@
+# Pairing map for cm -- hand-editable.
+# A '-' in the plain column means 'do not compare this font'.
+# A '?' means undecided, and gpm_sibling will say so rather than guess.
+#
+# The comparison is per POSITION, not per name: cmp_classify renders both fonts
+# and diffs page n against page n.  So a pair is only meaningful when the two
+# fonts SHARE AN ENCODING, and that is the rule for adding a row here.
+#
+# cmmi10 has no row for this reason.  Pairing it with cmr10 was tried and was
+# wrong: of the 164 slots the two encodings share, 89 hold a different glyph --
+# the agreement stops after the Greek capitals, and from slot 11 on cmmi's
+# lowercase Greek sits where cmr keeps ligatures and accents (alpha vs ff, beta
+# vs fi, gamma vs fl).  The diff was comparing alpha with ff and would have
+# labelled the difference 'style=italic'.  It reported differ=128 identical=0,
+# which looks like a result and is an artefact twice over: mismatched pairs on
+# 89 slots, and on the 75 that do align, exact pixel equality that two separate
+# font files cannot satisfy anyway.
+#
+# There is no upright OML font in Computer Modern, so no choice of plain
+# sibling fixes this and no tolerance would either.  cmmi's italic set has to be
+# settled another way -- from glyph names and Unicode categories, where Latin
+# letters and lowercase Greek are slanted and uppercase Greek is not.
+#
+# variant                plain                  differs
+cmss10                 cmr10                  family=sans-serif
+# Bold math italic against math italic, NOT against cmr10: the pair has to
+# isolate ONE axis or the column is a lie.  Against cmr10 these glyphs differ
+# by italic AND weight together, and the record would have to carry both from a
+# single diff.
+cmmib10                cmmi10                 weight=bold
+cmbsy10                cmsy10                 weight=bold
+#
+# cmsy10 is NOT compared, and this is a judgement rather than an omission.
+# It is a symbol font with no plain counterpart, and its slots 65..90 are the
+# CALLIGRAPHIC capitals -- plain TeX's \mathcal comes from here.  Diffing those
+# against cmr10's upright Latin capitals would report 'differs' for every one of
+# them and then label the difference with whatever this column said, when what
+# is actually true of them is family=script.  Nothing about a raster diff can
+# discover that word.  So the 26 letters want deciding by eye (they are the
+# families the SLANTED_FAMILIES rule was written for), and the ~100 symbols
+# around them want nothing at all.
+# cmsy10                 -                      ?
+#
+# cmex10: the large operators and the pieces stretchy symbols are built from.
+# No plain counterpart, and no font property to find -- its open question is
+# sizes and variation selectors, which is a different thread entirely.
+# cmex10                 -                      -
+#
+# cmr10 is the plain reference the others are measured against.
+# cmr10                  -                      -

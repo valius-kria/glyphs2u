@@ -1,0 +1,60 @@
+{
+ "_comment": [
+  "What a glyph-name component says about the glyph's font properties.",
+  "There is no general convention -- each family names its variant cuts its",
+  "own way -- so these are keyed by a regular expression matched against the",
+  "font name, and hold only what has actually been observed in that family.",
+  "Add a family by surveying it first:  gpm_names.py <font> --list",
+  "",
+  "Components that are size or shape variants (.sm .dsp .var .s1 .dtls .x .l",
+  ".r .m .t) are deliberately absent: they are not font properties."
+ ],
+ "^stix-": {
+  "_comment": [
+   "stix keeps an upright cut of the integrals beside the usual slanted one",
+   "in the same font (uni222B vs uni222B.up), which no codepoint distinguishes",
+   "and no comparison against another font can settle.",
+   "",
+   "A 'base' rule substitutes the base character rather than a property, and",
+   "only where it already reads one of the keys.  .dtls is the dotless cut:",
+   "the codepoint at that position is the ordinary letter's (u1D55A decomposes",
+   "to 'i'), so only the name says the glyph has no dot.  Unicode has just two",
+   "dotless forms, plain and italic, so every other font falls back to the",
+   "plain one -- which gpm_to_lua reports rather than hides.",
+   "",
+   "There is no 'selector' rule any more.  A size cut's sequence is MEASURED (gpm_ladder, from <font>.metrics.json) rather than read off the suffix: the measurement covers the plain cut too, which no suffix can name, and it knows the rung depends on the kind of character -- an n-ary operator's plain cut is its text cut and takes FE01, a delimiter's plain character takes none.  A hardcoded selector here was a second source for the same fact and drifted from it: .dsp said FE01 while the operator convention wants FE02."
+  ],
+  "up": {
+   "style": "normal"
+  },
+  "upsm": {
+   "style": "normal"
+  },
+  "updsp": {
+   "style": "normal"
+  },
+  "it": {
+   "style": "italic"
+  },
+  "ital": {
+   "style": "italic"
+  },
+  "bi": {
+   "style": "italic",
+   "weight": "bold"
+  },
+  "sf": {
+   "family": "sans-serif"
+  },
+  "sfi": {
+   "family": "sans-serif",
+   "style": "italic"
+  },
+  "dtls": {
+   "base": {
+    "i": "ı",
+    "j": "ȷ"
+   }
+  }
+ }
+}
