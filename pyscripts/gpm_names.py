@@ -54,7 +54,10 @@ rec = G.load(gpm)
 
 rules, matched = {}, []
 if not a.no_defaults:
-    path = os.path.join(a.data, a.rules)
+    # gpm_name_rules.json is hand-maintained and lives at the project root,
+    # not with the tree-derived maps, so resolve it the way every other map
+    # is resolved: data_dir first, then the root.
+    path = G.map_path(a.rules, a.data)
     if os.path.exists(path):
         for pattern, table in G.load(path).items():
             if pattern.startswith("_") or not re.search(pattern, a.font):
