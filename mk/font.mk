@@ -1,7 +1,9 @@
 # Per-tfm font-investigation rules: glyph exports, encodings, dvipng rasters,
 # and font-variant comparison.  Include this from a local Makefile in a tfm
 # work directory (under tfm/).  Written with the help of Claude Opus model.
-include $(dir $(lastword $(MAKEFILE_LIST)))shared.mk
+# shared.mk belonged to the document pipeline and is not part of this project;
+# what these rules needed from it was config.mk and a clean rule, both below.
+include $(dir $(lastword $(MAKEFILE_LIST)))config.mk
 
 # --- which font this work directory is for -----------------------------------
 # Every pattern rule below matches ANY <font>.* stem, and nothing ties the stem
@@ -387,6 +389,12 @@ edit-%.gpm: $$(call own,$$*) %.gpm.json %.metrics.json %-glyphs.json $(script_di
 # Final cleanup of the glyph-investigation workflow (glyph dirs + all .json).
 # <font>.gpm.json is the one file here that holds hand-made decisions, so it
 # survives; remove it by hand to start the investigation over.
+# Build products of a font work dir.  clean-fonts (below) goes further and
+# drops the exports too; neither touches <font>.gpm.json.
+clean:
+	rm -f *.log *.aux *.fls *.synctex.gz *.out *.ps *.pdf *.dvi
+	rm -rf *.pos
+
 clean-fonts:
 	@for j in *-glyphs.json; do [ -e "$$j" ] || continue; \
 		dir=$${j%-glyphs.json}; \

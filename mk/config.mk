@@ -41,7 +41,20 @@ builtin_glyph_map ?= $(project_dir)/builtin-glyph-map.json
 # name.
 glyphs2u_dir ?= $(project_dir)
 
-# Standard TeX Live tools.  dvilualatex renders the one-glyph-per-page specimen
-# whose pages dvipng turns into rasters for the font-pair comparison.
-texdvi      ?= dvilualatex
-dvipng      ?= dvipng
+# TeX Live resolves its tree from the directory the binary sits in: the
+# executable finds its own texmf.cnf through SELFAUTO*, and that sets
+# everything else.  So taking every TeX tool from the same bin directory as
+# KPSEWHICH selects one installation, the way a wrapper script used to:
+#
+#   make <target> KPSEWHICH=/usr/local/texlive/2026/bin/x86_64-linux/kpsewhich
+#
+# When KPSEWHICH is a bare name the tools stay bare too, and PATH decides --
+# which is what a distribution-packaged TeX Live wants, its binaries being in
+# /usr/bin with the tree configured elsewhere.
+tex_bindir := $(patsubst %/,%,$(dir $(KPSEWHICH)))
+tex_bin    := $(if $(filter .,$(tex_bindir)),,$(tex_bindir)/)
+
+# dvilualatex renders the one-glyph-per-page specimen whose pages dvipng turns
+# into rasters for the font-pair comparison.
+texdvi      ?= $(tex_bin)dvilualatex
+dvipng      ?= $(tex_bin)dvipng

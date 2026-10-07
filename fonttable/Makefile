@@ -2,15 +2,30 @@
 # It is supposed to be called from font directories.
 
 export TEXINPUTS := ./;$(working_dir);
-# Standard TeX Live tools.  xdvipsk ships with TeX Live 2026 and later;
-# override any of these to use a different build.
-texdvi ?= dvilualatex
-dvips  ?= xdvipsk
+KPSEWHICH ?= kpsewhich
+# TeX Live resolves its tree from the directory the binary sits in: the
+# executable finds its own texmf.cnf through SELFAUTO*, and that sets
+# everything else.  So taking every TeX tool from the same bin directory as
+# KPSEWHICH selects one installation, the way a wrapper script used to:
+#
+#   make <target> KPSEWHICH=/usr/local/texlive/2026/bin/x86_64-linux/kpsewhich
+#
+# When KPSEWHICH is a bare name the tools stay bare too, and PATH decides --
+# which is what a distribution-packaged TeX Live wants, its binaries being in
+# /usr/bin with the tree configured elsewhere.
+tex_bindir := $(patsubst %/,%,$(dir $(KPSEWHICH)))
+tex_bin    := $(if $(filter .,$(tex_bindir)),,$(tex_bindir)/)
+
+# xdvipsk ships with TeX Live 2026 and later.  ps2pdf is Ghostscript, not TeX
+# Live, so it is left to PATH.  Override any of these to use another build --
+# a locally built xdvipsk, say.
+texdvi ?= $(tex_bin)dvilualatex
+dvips  ?= $(tex_bin)xdvipsk
+plaindvips ?= $(tex_bin)dvips
 ps2pdf ?= ps2pdf
 export project_dir := $(patsubst %/,%,$(dir $(abspath $(lastword $(MAKEFILE_LIST)))))/..
 export PYTHONPATH = ${CURDIR}
 export script_dir = $(project_dir)/pyscripts
-KPSEWHICH ?= kpsewhich
 # Define the Python interpreter (good practice)
 PYTHON = python3 $(script_dir)
 
@@ -33,7 +48,7 @@ clean:
 
 # Files to compare pdf outputs to discover side effects of using lua tables
 %-dvips.ps: %.dvi
-	dvips -o $@ $*
+	$(plaindvips) -o $@ $*
 
 %-dvips.pdf: %-dvips.ps
 	$(ps2pdf) $< $@
