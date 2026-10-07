@@ -135,6 +135,35 @@ $(data_dir)/psfonts-map-tfm-data.json: $(script_dir)/psfonts-tfm-data.py
 
 htf-data: $(data_dir)/htf_data.json $(data_dir)/psfonts-map-tfm-data.json
 
+# Which characters a size cut can apply to, from the MathML operator
+# dictionary.  gpm_ladder and gpm_sizes read the result.
+stretchy-chars.json: $(script_dir)/mathml_stretchy.py mathml-ops.csv
+	$(PYTHON)/mathml_stretchy.py
+
+# tfm -> encoding, and the .htf files of a tree.  Helpers for the maps above;
+# both write into $(data_dir).
+$(data_dir)/htf-enc-map.json: $(script_dir)/htf-enc-map.py
+	@mkdir -p $(data_dir)
+	cd $(data_dir) && $(PYTHON)/htf-enc-map.py
+
+$(data_dir)/htf-files.json: $(script_dir)/list-htf-files.py
+	@mkdir -p $(data_dir)
+	cd $(data_dir) && $(PYTHON)/list-htf-files.py $(HTF_DIRS)
+
+# Which fonts could share an htf table: a prefix tree over the ['chars']
+# vectors, so identical tables land on one leaf (alias candidates) and a
+# shorter table that agrees throughout is a prefix of a fuller one.
+#   make htf-trie [MIN_PREFIX=200]
+MIN_PREFIX ?= 64
+htf-trie:
+	@$(PYTHON)/htf_chars_trie.py --min-prefix $(MIN_PREFIX)
+
+# The fonts of a family worth a glyph property record.  Usage:
+#   make gpm-family FAMILY='^stix-math'
+gpm-family:
+	@test -n "$(FAMILY)" || { echo "usage: make gpm-family FAMILY=<regex>" >&2; exit 1; }
+	@$(PYTHON)/gpm_family.py '$(FAMILY)' --why $(if $(ALL),--all)
+
 # Scaffold a font's work dir: locate its tfm, mirror the distribution's
 # supplier/family path under tfm/, drop a Makefile including mk/font.mk, and
 # record the `plain' sibling the raster comparison needs.
@@ -220,6 +249,6 @@ dataset-math-otf:
 	done
 
 .PHONY: print-%-dir dataset dataset-all dataset-otf dataset-math-otf \
-        inspect-math-otf index list-fonts clean-pua htf-data
+        inspect-math-otf index list-fonts clean-pua htf-data gpm-family htf-trie
 
 .FORCE:

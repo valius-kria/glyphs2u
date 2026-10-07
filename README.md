@@ -349,8 +349,8 @@ of the glyph — family, weight, variant, style — and only some of them can be
 spelled as a codepoint.
 
 The analysis that records them came from the `htf-fonts` project, which arose
-for the `xmlforge` pipeline, and is kept here because it serves tex4ht's `.htf`
-tables too: those are where the Unicode values for a font are declared for HTML
+for a document-processing pipeline, and is kept here because it serves
+tex4ht's `.htf` tables too: those are where the Unicode values for a font are declared for HTML
 output, and the same analysis says what they ought to be.
 
 One record per font, `tfm/<supplier>/<family>/<font>/<font>.gpm.json`, holding
@@ -409,9 +409,9 @@ without the editor, with `gpm_set.py`.
 
 ### What did not come across
 
-The `xmlforge` pipeline, the vtex overlay tree, and the font-level →
-per-symbol `<mfont>` rewrite stayed in `htf-fonts`; so did the scripts that
-serve only those.
+The document-processing pipeline it was first written for, the overlay tree,
+and the font-level → per-symbol `<mfont>` rewrite stayed in `htf-fonts`; so
+did the scripts that serve only those.
 
 ## When you do not have the fonts
 

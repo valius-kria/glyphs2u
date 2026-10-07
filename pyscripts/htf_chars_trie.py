@@ -83,12 +83,21 @@ def parse(path):
     return out
 
 fonts = {}
-for path in a.lua:
-    if not os.path.exists(path):
-        print(f"  (no {os.path.basename(path)})", file=sys.stderr)
-        continue
-    for k, v in parse(path).items():
-        fonts[k] = v                    # later file wins, as the loader does
+present = [p for p in a.lua if os.path.exists(p)]
+if present:
+    for path in present:
+        for k, v in parse(path).items():
+            fonts[k] = v                # later file wins, as the loader does
+else:
+    # No lua files here -- a plain TeX Live has the .htf files instead, read
+    # through htf_data.json.  Positions come back as strings there; this parser
+    # keys them by int, and vector() counts from 1.
+    print("  (no htf lua files; reading the .htf-derived data)", file=sys.stderr)
+    for k, v in G.read_htf().items():
+        chars = {int(pos): val for pos, val in (v.get("chars") or {}).items()
+                 if str(pos).lstrip("-").isdigit()}
+        fonts[k] = {"chars": chars, "alias": v.get("alias"),
+                    "font": v.get("font") or {}}
 
 MAXPOS = 256
 HOLE = None

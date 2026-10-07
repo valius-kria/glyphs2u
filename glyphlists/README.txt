@@ -225,7 +225,7 @@ not call stretchy (117 of 166 are fine; the 3 to reconsider are exactly these
 tilde4-6, and the 46 'unlisted' are backslash* and arc*, which MathML does not
 cover in any spelling).  Regenerate it with
 
-  python3 <htf-fonts>/pyscripts/nonstretchy_variants.py --out FILE <table.lua>
+  python3 ../pyscripts/nonstretchy_variants.py --out FILE <table.lua>
 
 WHICH BASE: COMBINING, NOT MODIFIER LETTERS
 --------------------------------------------
@@ -240,7 +240,7 @@ uni0302.s1 = 0302 FE01, commented 'hatwide'), and that is the policy to follow:
   in Unicode, only a combining sequence can express the result.  Accents rarely
   appear in a font for standalone single-glyph use; they are there to be put on
   something.  MathML names several candidate bases and does not make the choice
-  clear, and stretchable accents tested under MathJax (in the xmlforge test
+  clear, and stretchable accents tested under MathJax (in a separate test
   project) did not all behave as the documentation says -- the result depends on
   the MathJax font set and engine, so the documentation is not decisive here.
 
@@ -265,7 +265,7 @@ the combining spelling regardless, for the reason above, so the per-font tables
 on this point and are not meant to.  They are consistent in themselves: each
 keeps the codepoint its glyph name states.  Nor would conforming help in
 practice -- neither spelling of the caron is stretched by the MathJax setting
-used in the xmlforge test project.
+that the testing used.
 
 
 THESE SEQUENCES ARE NOT STANDARDIZED BY UNICODE

@@ -1,9 +1,9 @@
 # Paths and tools for the font-investigation rules in mk/font.mk.
 #
 # This file came from the htf-fonts project, where it also configured an
-# overlay texmf tree and the xmlforge test pipeline.  Neither of those is part
-# of this project, so what is left is the font side: where the work dirs are,
-# where the generated maps go, and which TeX Live tree to read.
+# overlay texmf tree and a document-processing pipeline.  Neither of those is
+# part of this project, so what is left is the font side: where the work dirs
+# are, where the generated maps go, and which TeX Live tree to read.
 
 this_cfg    := $(lastword $(MAKEFILE_LIST))
 project_dir := $(abspath $(dir $(this_cfg))/..)

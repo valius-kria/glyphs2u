@@ -10,10 +10,11 @@ htf_name = os.sys.argv[1]
 path_fname = htf_name + '.htf.path'
 
 # Read htf_db.  'tests_dir' was the variable back when these scripts lived in
-# xmlforge/tests; nothing has exported it since they moved here, so this raised
-# KeyError however it was called.  htf_db.json is derived from a TeX tree, so it
-# is only true of one branch and now lives under it -- map_path knows both that
-# and how to find the branch when data_dir is not exported (run by hand).
+# another project's tests; nothing has exported it since they moved here, so
+# this raised KeyError however it was called.  htf_db.json is derived from a TeX
+# tree, so it is only true of one branch and now lives under it -- map_path knows
+# both that and how to find the branch when data_dir is not exported (run by
+# hand).
 from gpm_io import map_path
 
 htf_db_fname = map_path('htf_db.json')

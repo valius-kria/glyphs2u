@@ -85,7 +85,7 @@ ap.add_argument("--drop-decl", action="store_true", help="force dropping it")
 # carrying position then CANCELS it with a char-level ['font'] = {axis = false}.
 # luarealchar reads that (luarealchar.lua:671-679, added in vtex-dist d4bcc17cd)
 # and no entry has ever used it; what the resulting properties then do downstream
-# depends on changes living on xmlforge's 'comp-chars' branch, one of them still
+# depends on changes that live outside this project, one of them still
 # unconfirmed.  So the flag measures the gap and nothing writes it.
 ap.add_argument("--no-dedup", action="store_true",
                 help="MEASUREMENT ONLY: let the declaration state axes the "

@@ -144,12 +144,6 @@ $(std_dir)/%.json:
 $(std_dir)/%.csv:
 	$(MAKE) -C $(project_dir) $(@F)
 
-# --- fonttable specimen: \vtxmlDebugFont \fonttable{<font>} ------------------
-# <font>.fonttable.tex flows through the shared chain to .fonttable.uni,
-# .fonttable.unipp and .fonttable.uni.html (distinct stem from .pos.tex).
-%.fonttable.tex: $(script_dir)/gen_fonttable_tex.py
-	$(PYTHON) $(script_dir)/gen_fonttable_tex.py $* > $@
-
 # --- fontforge glyph exports / encodings ------------------------------------
 %.pfb.enc.json: $$(call own,$$*) %.pfb.path
 	@if [ -f $@ ]; then echo "File $@ exists."; \
