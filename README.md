@@ -102,7 +102,6 @@ use that workflow:
 | Glyph image dataset (`make dataset`, `make index`) | `numpy`, `Pillow`, `scikit-image`, `scikit-learn`, `joblib` |
 | The visual editors (`make edit-<font>.lua`, `make edit-<font>.gpm`) | the above, plus `tkinter` |
 | Glyph property maps (`tfm/`, `mk/font.mk`) | `dvipng` for the rasters, `Pillow` for the comparison |
-| `get_unicode.py`, reading a codepoint off an image | `pix2tex`, `pylatexenc` |
 
 ```sh
 apt install dvipng ghostscript diff-pdf python3-tk
@@ -359,6 +358,26 @@ For fonts whose glyph names are meaningless, the tables can be built by
 recognising the glyph images instead.  `make sentinels-<font>` maps every
 glyph to U+FFFD, and `make edit-<font>.lua` opens an editor offering the
 nearest matches from a k-NN index built over the whole dataset.
+
+That index can only propose what it has already seen.  When a glyph defeats
+it, there is a second and quite different way to ask:
+
+```sh
+make <glyph>-unicode        # on a .png of the glyph
+```
+
+`pyscripts/get_unicode.py` puts the image to a pretrained LaTeX OCR model,
+which answers with a LaTeX string — `\Omega` for a picture of Ω — and that is
+turned into the character and its codepoint.  So it brings knowledge from
+outside this project, where the k-NN index only recalls fonts already
+tabulated here.
+
+It needs `pix2tex` and `pylatexenc`, which are deliberately not in the
+requirements above: `pix2tex` pulls in PyTorch and fetches model weights on
+first use, a large installation for one standalone helper that nothing else
+calls.  Install them when you want it (`pip install pix2tex pylatexenc`); the
+script says as much if they are missing.  It prints its answer for you to
+copy — it writes into no table.
 
 Once the tables are settled and deployed, they are in use.  Sending them here
 as well lets them reach other people — see
