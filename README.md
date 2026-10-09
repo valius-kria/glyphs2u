@@ -77,15 +77,40 @@ they belong to.
 
 ## Requirements
 
-- TeX Live (2026 or later for `xdvipsk`; the tables themselves are built
-  against any tree that has the fonts)
-- Python 3.10 or later
-- [FontForge](https://fontforge.org/) with Python scripting, for extracting
-  glyph names and images
-- GNU Make
+To build, check and deploy tables — the core of the project — you need only:
 
-The k-NN glyph classifier (`make index`, `make edit-<font>.lua`) additionally
-needs `scikit-learn`, `joblib`, `Pillow` and `tkinter`.
+- GNU Make
+- Python 3.10 or later; the scripts on this path use the standard library only
+- [FontForge](https://fontforge.org/) with Python scripting, which reads the
+  glyph names and encodings out of the fonts
+- TeX Live (2026 or later for `xdvipsk`; the tables themselves build against
+  any tree that has the fonts)
+
+On Debian and its derivatives, FontForge's Python module is a separate package
+from the application:
+
+```sh
+apt install make python3 fontforge python3-fontforge texlive
+```
+
+The other workflows each add something, and nothing below is needed until you
+use that workflow:
+
+| Workflow | Also needs |
+| --- | --- |
+| Proofing a table as a PDF (`fonttable/`) | `xdvipsk`, `dvilualatex` (TeX Live), Ghostscript for `ps2pdf`, `PyMuPDF` for `make <font>-unimis.txt`, and `diff-pdf` for `%-diff.pdf` |
+| Glyph image dataset (`make dataset`, `make index`) | `numpy`, `Pillow`, `scikit-image`, `scikit-learn`, `joblib` |
+| The visual editors (`make edit-<font>.lua`, `make edit-<font>.gpm`) | the above, plus `tkinter` |
+| Glyph property maps (`tfm/`, `mk/font.mk`) | `dvipng` for the rasters, `Pillow` for the comparison |
+| `get_unicode.py`, reading a codepoint off an image | `pix2tex`, `pylatexenc` |
+
+```sh
+apt install dvipng ghostscript diff-pdf python3-tk
+pip install numpy Pillow scikit-image scikit-learn joblib PyMuPDF
+```
+
+`tkinter` is in the Python standard library but is packaged separately on
+Debian, as `python3-tk`; the editors are the only thing that wants it.
 
 ## Choosing a TeX Live installation
 
