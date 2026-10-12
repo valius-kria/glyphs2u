@@ -452,10 +452,28 @@ class App:
             lab.config(text=f"{ax}: {eff[ax]} ({src})")
             btn.config(text="inherit" if own else "normal")
 
+    def _size_widgets(self):
+        """The size panel, built once.  Rebuilt per selection it cost as much
+        as the proposals did; re-packing costs nothing."""
+        if not hasattr(self, "_size_built"):
+            self._size_rungs = tk.Label(self.size_frame, font=("TkFixedFont", 10),
+                                        fg="#333")
+            self._size_why = tk.Label(self.size_frame, fg="#888")
+            self._size_row = tk.Frame(self.size_frame)
+            self._size_seq = tk.Label(self._size_row, font=("TkFixedFont", 11),
+                                      fg="#c41a16")
+            self._size_state = tk.Label(self._size_row)
+            self._size_btn = tk.Button(self._size_row, text="accept")
+            self._size_seq.pack(side=tk.LEFT)
+            self._size_built = True
+        for w in (self._size_rungs, self._size_why, self._size_row):
+            w.pack_forget()
+        for w in (self._size_state, self._size_btn):
+            w.pack_forget()
+
     def _render_size(self, gname):
         """The ladder this glyph sits in, and the sequence that follows."""
-        for w in self.size_frame.winfo_children():
-            w.destroy()
+        self._size_widgets()
         g = rec["glyphs"][gname]
         p = ladder.proposal(gname, g)
         if p is None:
@@ -469,32 +487,31 @@ class App:
                     ("[%s %.2f]" if n == gname else "%s %.2f")
                     % (n.split(".")[-1] if "." in n else "(plain)", sz)
                     for sz, n in cuts)
-                tk.Label(self.size_frame, text=rungs, font=("TkFixedFont", 10),
-                         fg="#333").pack(anchor="w")
-            tk.Label(self.size_frame, text=self._size_reason(gname, g),
-                     fg="#888").pack(anchor="w")
+                self._size_rungs.config(text=rungs)
+                self._size_rungs.pack(anchor="w")
+            self._size_why.config(text=self._size_reason(gname, g))
+            self._size_why.pack(anchor="w")
             return
         rungs = "   ".join(
             ("[%s %.2f]" if n == gname else "%s %.2f")
             % (n.split(".")[-1] if "." in n else "(plain)", sz)
             for sz, n in p["ladder"])
-        tk.Label(self.size_frame, text=rungs, font=("TkFixedFont", 10),
-                 fg="#333").pack(anchor="w")
+        self._size_rungs.config(text=rungs)
+        self._size_rungs.pack(anchor="w")
         seq = " ".join(p["codes"])
-        row = tk.Frame(self.size_frame)
-        row.pack(fill=tk.X, pady=(4, 0))
-        tk.Label(row, text=f"cut {p['rank']} of {p['of']}  ->  {seq}",
-                 font=("TkFixedFont", 11), fg="#c41a16").pack(side=tk.LEFT)
+        self._size_row.pack(fill=tk.X, pady=(4, 0))
+        self._size_seq.config(text=f"cut {p['rank']} of {p['of']}  ->  {seq}")
         cur = g.get("uni")
         if cur == p["codes"]:
-            tk.Label(row, text="  already recorded", fg="#2a7").pack(side=tk.LEFT)
+            self._size_state.config(text="  already recorded", fg="#2a7")
+            self._size_state.pack(side=tk.LEFT)
         else:
             if cur:
-                tk.Label(row, text=f"  (now {' '.join(cur)})",
-                         fg="#888").pack(side=tk.LEFT)
-            tk.Button(row, text="accept",
-                      command=lambda c=p["codes"]: self._accept_uni(c)
-                      ).pack(side=tk.LEFT, padx=8)
+                self._size_state.config(text=f"  (now {' '.join(cur)})", fg="#888")
+                self._size_state.pack(side=tk.LEFT)
+            self._size_btn.config(
+                command=lambda c=p["codes"]: self._accept_uni(c))
+            self._size_btn.pack(side=tk.LEFT, padx=8)
 
     def _size_reason(self, gname, g):
         """Why this glyph has no size proposal -- the cases differ a lot."""
@@ -528,39 +545,72 @@ class App:
         self._render_size(gname)
         self._status(f"{gname} uni = {' '.join(codes)} (visual)")
 
+    # The proposal cells are built once and reconfigured, never destroyed and
+    # rebuilt.  Creating a widget is what costs: measured on this dataset,
+    # tearing down and recreating the five cells was 127 ms per selection --
+    # felt on every arrow key -- against 4 ms to set new text on the cells
+    # already there.  Caching the images does not help, because the cost was
+    # never in the pictures; it is in the widgets.
+    def _cand_cells(self, n):
+        """The first n proposal cells, built on first use, surplus ones hidden."""
+        if not hasattr(self, "_cands_built"):
+            self._cands_none = tk.Label(
+                self.cands_frame, fg="#888",
+                text="no proposals — set the base and axes by hand")
+            self._cands_head = tk.Label(
+                self.cands_frame, fg="#333",
+                text="k-NN proposals (click to accept base and the properties "
+                     "it implies):")
+            self._cands_row = tk.Frame(self.cands_frame)
+            self._cands_built = []
+        while len(self._cands_built) < n:
+            cell = tk.Frame(self._cands_row, relief=tk.RIDGE, bd=1,
+                            padx=6, pady=6, bg="#fafafa")
+            ch = tk.Label(cell, font=("TkDefaultFont", 26), bg="#fafafa")
+            hexes = tk.Label(cell, font=("TkFixedFont", 9), fg="#c41a16",
+                             bg="#fafafa")
+            base = tk.Label(cell, bg="#fafafa", font=("TkDefaultFont", 10))
+            props = tk.Label(cell, bg="#fafafa", fg="#555",
+                             font=("TkDefaultFont", 8), wraplength=140)
+            btn = tk.Button(cell)
+            for w in (ch, hexes, base, props):
+                w.pack()
+            btn.pack(pady=2)
+            self._cands_built.append((cell, ch, hexes, base, props, btn))
+        return self._cands_built[:n]
+
     def _render_candidates(self, gname):
-        for w in self.cands_frame.winfo_children():
-            w.destroy()
         cands = self.cands.get(gname) or []
+        cells = self._cand_cells(len(cands))
         if not cands:
-            tk.Label(self.cands_frame, fg="#888",
-                     text="no proposals — set the base and axes by hand"
-                     ).pack(anchor="w")
+            self._cands_head.pack_forget()
+            self._cands_row.pack_forget()
+            self._cands_none.pack(anchor="w")
+            for cell, *_ in self._cands_built:
+                cell.grid_remove()
             return
-        tk.Label(self.cands_frame, text="k-NN proposals (click to accept base "
-                 "and the properties it implies):", fg="#333").pack(anchor="w")
-        row = tk.Frame(self.cands_frame)
-        row.pack(fill=tk.X, pady=4)
-        for col, (seq, v) in enumerate(cands):
+        self._cands_none.pack_forget()
+        self._cands_head.pack(anchor="w")
+        self._cands_row.pack(fill=tk.X, pady=4)
+        for col, ((seq, v), (cell, ch_l, hex_l, base_l, props_l, btn)) in \
+                enumerate(zip(cands, cells)):
             ch = "".join(chr(int(c)) for c in seq)
             # a k-NN label may carry a size selector (parenleftbig = 0028 FE01);
             # that belongs in ['uni'], never in the base, which stays the plain
             # character the htf side emits
             core, _had = G.split_selectors(ch)
             base, props = (var.decompose(core) if len(core) == 1 else (core, {}))
-            cell = tk.Frame(row, relief=tk.RIDGE, bd=1, padx=6, pady=6, bg="#fafafa")
+            ch_l.config(text=ch)
+            hex_l.config(text="+".join(f"{int(c):04X}" for c in seq))
+            base_l.config(text=f"base {base}")
+            props_l.config(
+                text=", ".join(f"{k}={w}" for k, w in props.items()) or "—")
+            btn.config(text=f"accept ({v:.1f})",
+                       command=lambda b=base, p=props, s=seq:
+                           self._accept(b, p, s))
             cell.grid(row=0, column=col, padx=4, sticky="n")
-            tk.Label(cell, text=ch, font=("TkDefaultFont", 26), bg="#fafafa").pack()
-            tk.Label(cell, text="+".join(f"{int(c):04X}" for c in seq),
-                     font=("TkFixedFont", 9), fg="#c41a16", bg="#fafafa").pack()
-            tk.Label(cell, text=f"base {base}", bg="#fafafa",
-                     font=("TkDefaultFont", 10)).pack()
-            tk.Label(cell, text=", ".join(f"{k}={w}" for k, w in props.items()) or "—",
-                     bg="#fafafa", fg="#555", font=("TkDefaultFont", 8),
-                     wraplength=140).pack()
-            tk.Button(cell, text=f"accept ({v:.1f})",
-                      command=lambda b=base, p=props, s=seq:
-                          self._accept(b, p, s)).pack(pady=2)
+        for cell, *_ in self._cands_built[len(cands):]:
+            cell.grid_remove()
 
     # ----- edits -----------------------------------------------------------
     def _set_font_axis(self, ax):
