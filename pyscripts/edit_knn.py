@@ -32,8 +32,14 @@ import numpy as np
 from PIL import Image, ImageTk
 from skimage.feature import hog
 
-PROJECT_DIR = Path(os.environ.get("project_dir"))
-sys.path.insert(0, os.environ.get("script_dir"))
+# The makefiles export project_dir and script_dir, but the script is also run
+# by hand.  Taken from the environment unchecked, an unset script_dir put None
+# into sys.path, and the failure surfaced much later and nowhere near the
+# cause: importlib stat()ing None while joblib unpickled the index.
+PROJECT_DIR = Path(os.environ.get("project_dir")
+                   or Path(__file__).resolve().parent.parent)
+SCRIPT_DIR = os.environ.get("script_dir") or str(Path(__file__).resolve().parent)
+sys.path.insert(0, SCRIPT_DIR)
 from font_helpers import (rasterize, resolve_font, is_pfb,
                           iter_labelled_glyphs, query_feature)
 from config import font_dir
@@ -129,7 +135,6 @@ class EditorApp:
         self.by_gid = False
         self.font_path = None
         self.lua_path = None
-        self.photo_refs = []       # PhotoImage lifetime anchors
         self.current_key = None
         self.dataset_root = Path(args.dataset)
 
@@ -363,81 +368,103 @@ class EditorApp:
         self.current_key = key
         self._render_detail(entry)
 
+    # Built once, then reconfigured.  Rebuilding this panel on every
+    # selection cost 36.5 ms, which is felt on each arrow key; creating Tk
+    # widgets is what costs, not the pictures -- caching the thumbnails alone
+    # changed nothing.  See gpm_edit, which had the same fault.
+    def _detail_widgets(self, n_cells):
+        if not hasattr(self, "_cells"):
+            self._cells = []
+            self._thumbs = {}          # path -> PhotoImage, also the GC anchor
+            cf = self.cands_frame
+            self._custom_row = tk.Frame(cf)
+            tk.Label(self._custom_row, text="Custom codepoints (hex):"
+                     ).pack(side=tk.LEFT)
+            self.custom_var = tk.StringVar()
+            self._custom_entry = tk.Entry(self._custom_row,
+                                          textvariable=self.custom_var,
+                                          width=32, font=self._custom_font)
+            self._custom_entry.pack(side=tk.LEFT, padx=4)
+            self._custom_btn = tk.Button(self._custom_row, text="Apply custom")
+            self._custom_btn.pack(side=tk.LEFT)
+            self._custom_row.grid(row=1, column=0, columnspan=99,
+                                  pady=(12, 4), sticky="ew")
+            self._btn_unknown = tk.Button(
+                cf, text=f"Mark unknown ({UNKNOWN_UNICODE})", fg="#7a1fa2")
+            self._btn_unknown.grid(row=2, column=0, columnspan=99, pady=4)
+            self._btn_clear = tk.Button(cf, text="Clear current")
+            self._btn_clear.grid(row=3, column=0, columnspan=99, pady=4)
+            self._btn_skip = tk.Button(cf, text="Skip (next)",
+                                       command=self._advance)
+            self._btn_skip.grid(row=4, column=0, columnspan=99, pady=4)
+        while len(self._cells) < n_cells:
+            cell = tk.Frame(self.cands_frame, relief=tk.RIDGE, bd=1,
+                            padx=8, pady=8, bg="#fafafa")
+            hexes = tk.Label(cell, font=("TkFixedFont", 11), fg="#c41a16",
+                             bg="#fafafa")
+            vote = tk.Label(cell, font=("TkDefaultFont", 9), fg="#666",
+                            bg="#fafafa")
+            ch = tk.Label(cell, font=(self.symbol_font, 32), bg="#fafafa")
+            name = tk.Label(cell, wraplength=170, font=("TkDefaultFont", 9),
+                            fg="#333", bg="#fafafa", justify="center")
+            hexes.pack(); vote.pack(); ch.pack(pady=2); name.pack()
+            refs_row = tk.Frame(cell, bg="#fafafa")
+            refs_row.pack(pady=4)
+            refs = [tk.Label(refs_row, bg="#fafafa") for _ in range(3)]
+            btn = tk.Button(cell, text="Apply")
+            btn.pack(pady=(6, 0))
+            self._cells.append((cell, hexes, vote, ch, name, refs, btn))
+        return self._cells[:n_cells]
+
+    def _thumb(self, rel):
+        """The reference picture at `rel`, decoded once and kept."""
+        if rel not in self._thumbs:
+            try:
+                img = Image.open(self.dataset_root / rel).resize(
+                    (40, 40), Image.NEAREST)
+            except (FileNotFoundError, OSError):
+                self._thumbs[rel] = None
+            else:
+                self._thumbs[rel] = ImageTk.PhotoImage(img)
+        return self._thumbs[rel]
+
     def _render_detail(self, entry):
-        for w in self.cands_frame.winfo_children():
-            w.destroy()
-        self.photo_refs.clear()
+        cells = self._detail_widgets(len(entry["candidates"]))
 
         self.detail_header.config(text=str(entry["key"]))
         arr_u8 = (entry["image"] * 255).astype("uint8")
         big = Image.fromarray(arr_u8).resize((128, 128), Image.NEAREST)
-        photo = ImageTk.PhotoImage(big)
-        self.photo_refs.append(photo)
-        self.glyph_img_label.config(image=photo)
+        self._glyph_photo = ImageTk.PhotoImage(big)      # anchors the image
+        self.glyph_img_label.config(image=self._glyph_photo)
         self.current_value_label.config(
             text=f"current Lua value: {self._format_current(entry['key'])}")
 
-        for col, (seq, vote, ref_paths) in enumerate(entry["candidates"]):
-            cell = tk.Frame(self.cands_frame, relief=tk.RIDGE, bd=1,
-                            padx=8, pady=8, bg="#fafafa")
+        key = entry["key"]
+        for col, ((seq, vote, ref_paths),
+                  (cell, hex_l, vote_l, ch_l, name_l, refs, btn)) in \
+                enumerate(zip(entry["candidates"], cells)):
+            hex_l.config(text=f"0x{cp_seq_hex(seq)}")
+            vote_l.config(text=f"vote {vote:.2f}")
+            ch_l.config(text=cp_seq_chars(seq) or "?")
+            name_l.config(text=primary_name(seq))
+            for lab, rp in zip(refs, list(ref_paths[:3]) + [None] * 3):
+                photo = self._thumb(rp) if rp else None
+                if photo is None:
+                    lab.pack_forget()
+                else:
+                    lab.config(image=photo)
+                    lab.pack(side=tk.LEFT, padx=1)
+            btn.config(command=lambda k=key, s=seq: self._apply(k, s))
             cell.grid(row=0, column=col, padx=4, pady=4, sticky="n")
-            tk.Label(cell, text=f"0x{cp_seq_hex(seq)}",
-                     font=("TkFixedFont", 11), fg="#c41a16",
-                     bg="#fafafa").pack()
-            tk.Label(cell, text=f"vote {vote:.2f}",
-                     font=("TkDefaultFont", 9),
-                     fg="#666", bg="#fafafa").pack()
-            ch = cp_seq_chars(seq) or "?"
-            tk.Label(cell, text=ch,
-                     font=(self.symbol_font, 32),
-                     bg="#fafafa").pack(pady=2)
-            tk.Label(cell, text=primary_name(seq),
-                     wraplength=170, font=("TkDefaultFont", 9),
-                     fg="#333", bg="#fafafa", justify="center").pack()
-            refs_row = tk.Frame(cell, bg="#fafafa")
-            refs_row.pack(pady=4)
-            for rp in ref_paths[:3]:
-                try:
-                    rimg = Image.open(self.dataset_root / rp).resize(
-                        (40, 40), Image.NEAREST)
-                    rphoto = ImageTk.PhotoImage(rimg)
-                    self.photo_refs.append(rphoto)
-                    tk.Label(refs_row, image=rphoto, bg="#fafafa"
-                             ).pack(side=tk.LEFT, padx=1)
-                except FileNotFoundError:
-                    pass
-            tk.Button(cell, text="Apply",
-                      command=lambda k=entry["key"], s=seq: self._apply(k, s)
-                      ).pack(pady=(6, 0))
+        for cell, *_ in self._cells[len(entry["candidates"]):]:
+            cell.grid_remove()
 
-        # --- Manual override row ---
-        custom_row = tk.Frame(self.cands_frame)
-        custom_row.grid(row=1, column=0, columnspan=99, pady=(12, 4),
-                        sticky="ew")
-        tk.Label(custom_row, text="Custom codepoints (hex):"
-                 ).pack(side=tk.LEFT)
-        self.custom_var = tk.StringVar(
-            value=", ".join(self.lua_dict.get(entry["key"], [])))
-        custom_entry = tk.Entry(custom_row, textvariable=self.custom_var,
-                                width=32, font=self._custom_font)
-        custom_entry.pack(side=tk.LEFT, padx=4)
-        tk.Button(custom_row, text="Apply custom",
-                  command=lambda k=entry["key"]: self._apply_custom(k)
-                  ).pack(side=tk.LEFT)
-        custom_entry.bind(
-            "<Return>", lambda _e, k=entry["key"]: self._apply_custom(k))
-
-        tk.Button(self.cands_frame,
-                  text=f"Mark unknown ({UNKNOWN_UNICODE})",
-                  fg="#7a1fa2",
-                  command=lambda k=entry["key"]: self._mark_unknown(k)
-                  ).grid(row=2, column=0, columnspan=99, pady=4)
-        tk.Button(self.cands_frame, text="Clear current",
-                  command=lambda k=entry["key"]: self._apply(k, None)
-                  ).grid(row=3, column=0, columnspan=99, pady=4)
-        tk.Button(self.cands_frame, text="Skip (next)",
-                  command=self._advance
-                  ).grid(row=4, column=0, columnspan=99, pady=4)
+        self.custom_var.set(", ".join(self.lua_dict.get(key, [])))
+        self._custom_btn.config(command=lambda k=key: self._apply_custom(k))
+        self._custom_entry.bind(
+            "<Return>", lambda _e, k=key: self._apply_custom(k))
+        self._btn_unknown.config(command=lambda k=key: self._mark_unknown(k))
+        self._btn_clear.config(command=lambda k=key: self._apply(k, None))
 
     # ----- mutation -------------------------------------------------------
 
