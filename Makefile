@@ -215,6 +215,18 @@ list-fonts:
 clean-pua:
 	$(PYTHON)/clean_pua.py $(if $(DRY_RUN),--dry-run)
 
+# Thin the dataset by dropping samples too close to one already kept for the
+# same codepoint -- the size cuts and near-duplicates that cost a brute-force
+# query time without telling it anything new.  TAU is the distance below which
+# two samples count as the same shape (default 0.75, which roughly halves the
+# dataset; same-codepoint samples sit a median 1.97 apart, different-codepoint
+# ones 5.02, so anything under 3 merges only like with like).
+# Needs a current index to take its vectors from, and leaves it stale:
+#   make index && make dedup && make index
+# Pass DRY_RUN=1 to preview.
+dedup:
+	$(PYTHON)/dedup_dataset.py $(if $(TAU),--tau $(TAU)) $(if $(DRY_RUN),--dry-run)
+
 ## Curated math-OTF directories from TeX Live.  Overridable on the command
 ## line: `make dataset-math-otf TLROOT=/path/to/texmf-dist/fonts/opentype/public`
 ## Latin Modern Math (lm-math) is intentionally omitted — its shapes already
@@ -249,6 +261,6 @@ dataset-math-otf:
 	done
 
 .PHONY: print-%-dir dataset dataset-all dataset-otf dataset-math-otf \
-        inspect-math-otf index list-fonts clean-pua htf-data gpm-family htf-trie
+        inspect-math-otf index list-fonts clean-pua dedup htf-data gpm-family htf-trie
 
 .FORCE:

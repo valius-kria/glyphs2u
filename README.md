@@ -521,18 +521,61 @@ The same property makes the dataset a usable copy of the tables, should one
 ever be wanted.  It does not hold for the OpenType samples, which are keyed by
 glyph index rather than name.
 
+### Thinning it
+
+Every query scans the whole dataset: the features are 328-dimensional, where
+no tree helps, so the index is brute force and query time falls in step with
+the sample count.  At 188,956 samples that is felt.
+
+Most of the bulk is repetition.  The dataset carries every size cut of every
+font -- eight of `lmr`, seven of `MnSymbol` -- and a size cut is a real
+design, `cmr5` is not `cmr10` scaled or there would be no second font.  But
+the question for recognition is not whether two glyphs differ, it is whether
+they differ enough to be worth searching separately, and mostly they do not.
+
+So the test is on the vectors, not on the font names:
+
+```sh
+make index                      # the vectors to compare
+make dedup DRY_RUN=1            # what would go
+make dedup                      # or: make dedup TAU=0.5
+make index                      # rebuild over what is left
+```
+
+Within one codepoint, a sample is kept only when it is farther than `TAU` from
+every sample already kept, choosing farthest-first so what survives spans the
+spread of shapes rather than clustering where the scan began.  That keeps the
+cuts that really look different and drops the ones that do not — which going
+by name could not do.
+
+`TAU` is a distance in the feature space the index searches.  Measured on the
+dataset as it stands, two samples of the **same** codepoint sit a median 1.97
+apart (10th percentile 0.77), two of **different** codepoints a median 5.02
+(10th percentile 3.47) — so anything below about 3 merges only like with like:
+
+| `TAU` | kept | dropped |
+| --- | --- | --- |
+| 0.25 | 173,845 (92%) | 15,111 |
+| 0.5 | 148,627 (79%) | 40,329 |
+| 0.75 *(default)* | 95,744 (51%) | 93,212 |
+| 1.0 | 63,159 (33%) | 125,797 |
+
+The em dash thins hardest — 380 samples to 58, a dash being much the same
+everywhere — while arrows keep about half, having more shape to vary.
+
+`make clean-pua` is the other pruning, dropping samples labelled with a
+Private Use Area codepoint, which say nothing about a character.  It has
+already been run on the current dataset: no such samples remain.
+
 ### Known state, for whenever it is next touched
 
-Nothing here is urgent; the dataset works as it is.
-
 - **STIX is not in it.** It was the last family worked on, and its tables
-  arrived after the dataset was last rebuilt.
+  arrived after the dataset was last rebuilt.  Its 17 tables hold about 1,600
+  glyph entries, so `make dataset DIR=public/stix` adds roughly one percent —
+  worth doing before a thinning pass, so the new material is thinned with the
+  rest.
 - **Ingesting OTF made the script slow.** Worth looking at before a full
   rebuild rather than during one.
-- **Every size of a font is included separately**, which is largely
-  redundant: the shapes of `cmr5` and `cmr17` differ by design but not by
-  much, and carrying all of them inflates the dataset for little gain in
-  recognition.  Thinning that out is the obvious first cleaning.
 
 ## Provenance of included data
 
